@@ -1,0 +1,59 @@
+{
+  "_fixture": true,
+  "schema_version": 1,
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T07:00:00Z",
+  "tldr": [
+    "New ransomware group 'Nebula' claims attack on European power grid.",
+    "OpenAI previews GPT-5, highlighting specialized reasoning for security auditing.",
+    "NIST releases updated Cybersecurity Framework (CSF) 3.0 draft for public comment."
+  ],
+  "sections": {
+    "ai": {
+      "prose": "The AI community is abuzz with OpenAI's preview of GPT-5. Early benchmarks suggest a significant leap in 'system 2' thinking, where the model can verify its own steps before presenting an answer. This is particularly relevant for vulnerability research, where false positives have historically plagued AI assistants. Concurrently, Google DeepMind announced a partnership with several UK hospitals to deploy real-time anomaly detection models for internal clinical systems. The focus here is on ensuring patient data privacy while maintaining high diagnostic accuracy. Critics, however, point to the potential for 'alert fatigue' if these systems are not carefully calibrated against existing clinical workflows.",
+      "items": [
+        {
+          "headline": "OpenAI GPT-5: Focus on Verifiable Reasoning",
+          "url": "https://example.com/gpt-5-preview",
+          "source": "OpenAI"
+        },
+        {
+          "headline": "Google DeepMind Medical AI Anomaly Detection",
+          "url": "https://example.com/deepmind-medical-ai",
+          "source": "DeepMind"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "vulnerabilities": [
+        {
+          "cve": "CVE-2026-9999",
+          "cvss": 10.0,
+          "product": "Schneider Electric EcoStruxure",
+          "status": "exploited",
+          "url": "https://example.com/cve-2026-9999"
+        }
+      ],
+      "breaches": [
+        {
+          "org": "EuroPower Grid",
+          "scale": "Operational shutdown in 3 regions",
+          "url": "https://example.com/europower-attack"
+        }
+      ],
+      "policy_prose": "NIST's CSF 3.0 draft introduces a dedicated 'AI Safety & Security' function, moving it from a peripheral consideration to a core component of organizational risk management. This reflects the reality that AI assets are now critical infrastructure for many enterprises. In Washington, the latest hearing on the 'Right to Repair' legislation has seen unexpected support from cybersecurity advocates who argue that repairability promotes device longevity and reduces the e-waste that often becomes a vector for data leakage when improperly disposed of."
+    }
+  },
+  "worth_a_click": [
+    {
+      "title": "Understanding NIST CSF 3.0: What's Changed?",
+      "url": "https://example.com/nist-csf-3-changes",
+      "framing": "A concise summary for compliance officers."
+    },
+    {
+      "title": "Nebula Ransomware: A Profile of a New Threat Actor",
+      "url": "https://example.com/nebula-ransomware-profile",
+      "framing": "Analysis of the group's tactics, techniques, and procedures."
+    }
+  ]
+}
