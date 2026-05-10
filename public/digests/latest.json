@@ -1,0 +1,93 @@
+{
+  "_fixture": true,
+  "schema_version": 1,
+  "date": "2026-05-10",
+  "generated_at": "2026-05-10T07:00:00Z",
+  "tldr": [
+    "CISA adds major Ivanti Connect Secure vulnerability to KEV catalog with immediate federal patching mandate.",
+    "Anthropic releases Claude 4.5, demonstrating significant improvements in multi-step reasoning and cybersecurity research capabilities.",
+    "Major retail breach affects over 2 million records; data allegedly exfiltrated via compromised third-party vendor credentials."
+  ],
+  "sections": {
+    "ai": {
+      "prose": "The AI landscape shifted significantly this week with the release of Claude 4.5. The new model exhibits a marked decrease in hallucination rates when processing technical documentation, a critical metric for security analysts using LLMs for code review. Meanwhile, the EU AI Act's technical standards committee has begun drafting specific requirements for general-purpose AI models with systemic risk, focusing on transparency in training data. This move signal a transition from broad policy to enforceable technical controls. We are also seeing a rise in 'agentic' security tools that leverage these models to automate initial triage, though reliability in high-stakes environments remains a topic of intense debate among practitioners.",
+      "items": [
+        {
+          "headline": "Anthropic Claude 4.5 Released with Enhanced Reasoning",
+          "url": "https://example.com/claude-4-5",
+          "source": "Anthropic Blog"
+        },
+        {
+          "headline": "EU AI Act: Technical Standards Drafting Begins",
+          "url": "https://example.com/eu-ai-act-standards",
+          "source": "EU Commission"
+        },
+        {
+          "headline": "Study: LLM Effectiveness in Zero-Day Detection",
+          "url": "https://example.com/llm-zero-day-study",
+          "source": "arXiv"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "vulnerabilities": [
+        {
+          "cve": "CVE-2026-12345",
+          "cvss": 9.8,
+          "product": "Ivanti Connect Secure",
+          "status": "exploited",
+          "url": "https://example.com/cve-2026-12345"
+        },
+        {
+          "cve": "CVE-2026-67890",
+          "cvss": 7.5,
+          "product": "Microsoft Exchange Server",
+          "status": "patched",
+          "url": "https://example.com/cve-2026-67890"
+        },
+        {
+          "cve": "CVE-2026-11223",
+          "cvss": 8.1,
+          "product": "Linux Kernel eBPF",
+          "status": "PoC available",
+          "url": "https://example.com/cve-2026-11223"
+        }
+      ],
+      "breaches": [
+        {
+          "org": "MegaRetail Corp",
+          "scale": "2.1M records",
+          "url": "https://example.com/megaretail-breach"
+        },
+        {
+          "org": "State Health Services",
+          "scale": "Unknown (ongoing)",
+          "url": "https://example.com/state-health-incident"
+        }
+      ],
+      "policy_prose": "CISA has issued a rare Emergency Directive (ED 26-01) following the widespread exploitation of the Ivanti vulnerability. Federal agencies are required to disconnect affected instances within 24 hours. This follows a similar move by the Australian Cyber Security Centre (ACSC), indicating a coordinated Five Eyes response. At the industry level, the Open Source Security Foundation (OpenSSF) has announced new funding for critical infrastructure projects to implement memory-safe languages, specifically targeting legacy networking equipment."
+    }
+  },
+  "worth_a_click": [
+    {
+      "title": "Deep Dive: How the Ivanti Exploit Bypasses MFA",
+      "url": "https://example.com/ivanti-mfa-bypass",
+      "framing": "A technical breakdown of the session token theft mechanism."
+    },
+    {
+      "title": "The State of Software Supply Chain Security in 2026",
+      "url": "https://example.com/supply-chain-report",
+      "framing": "Annual report showing a 40% increase in repo-jacking attempts."
+    },
+    {
+      "title": "Guide: Hardening Linux for Security+ Candidates",
+      "url": "https://example.com/linux-hardening-guide",
+      "framing": "Practical steps for securing common distributions."
+    },
+    {
+      "title": "Interview: The Future of AI in Offensive Cyber",
+      "url": "https://example.com/ai-offensive-cyber",
+      "framing": "Exploring how threat actors are automating spear-phishing at scale."
+    }
+  ]
+}
