@@ -8,6 +8,6 @@ export default {
     extend: {},
   },
   plugins: [
-    require("tailwindcss-animate"),
+    require("tailwindcss-animate"), // eslint-disable-line no-undef
   ],
 }
