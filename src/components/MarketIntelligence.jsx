@@ -4,7 +4,7 @@ import MarketCard from './MarketCard';
 import FearGreedGauge from './FearGreedGauge';
 import liveFinanceService from '../api/liveFinanceService';
 
-const MarketIntelligence = ({ pulse }) => {
+const MarketIntelligence = ({ pulse, onSelectItem }) => {
   const [fearGreed, setFearGreed] = useState({ value: 78, label: pulse?.fear_greed || '78 (Extreme Greed)' });
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const MarketIntelligence = ({ pulse }) => {
         </div>
         <div className="lg:col-span-3 grid grid-cols-1 md:grid-cols-3 gap-4">
           {pulse.tickers.map((ticker) => (
-            <MarketCard key={ticker.symbol} ticker={ticker} />
+            <MarketCard key={ticker.symbol} ticker={ticker} onSelectItem={onSelectItem} />
           ))}
         </div>
       </div>

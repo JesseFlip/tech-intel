@@ -43,8 +43,8 @@ const AiTechFeed = ({ prose, items, onSelectItem, selectedTag, setSelectedTag })
             <p className="text-sm text-slate-500 line-clamp-2 leading-relaxed group-hover:text-slate-400 transition-colors">
               {item.summary}
             </p>
-            <div className="flex items-center gap-1 mt-3 text-xs text-indigo-500 font-bold opacity-0 group-hover:opacity-100 transition-opacity">
-              Analyze Signal <ArrowRight size={12} />
+            <div className="flex items-center gap-1 mt-3 text-xs text-indigo-400 font-bold hover:text-indigo-300 transition-colors">
+              Analyze Signal Vector <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
             </div>
           </motion.div>
         ))}

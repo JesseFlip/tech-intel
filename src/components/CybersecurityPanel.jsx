@@ -52,6 +52,9 @@ const CybersecurityPanel = ({ vulnerabilities, breaches, policy, onSelectItem, s
                     <span className="text-[8px] px-1.5 py-0.5 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20 font-bold uppercase tracking-tighter">Affected: Enterprise Infrastructure</span>
                     <span className="text-[8px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-500 font-bold uppercase tracking-tighter">Patch Available</span>
                   </div>
+                  <div className="flex items-center gap-1 mt-3.5 text-[9px] text-rose-400 font-bold hover:text-rose-300 transition-colors">
+                    Read Details & Scan Vector →
+                  </div>
                 </motion.div>
               ))}
             </div>
@@ -80,6 +83,9 @@ const CybersecurityPanel = ({ vulnerabilities, breaches, policy, onSelectItem, s
                     <div className="font-bold text-slate-200 group-hover:text-white transition-colors">{b.target}</div>
                     <div className="text-[10px] text-rose-400 font-black uppercase tracking-tighter mb-1">Scale: {b.scope}</div>
                     <p className="text-xs text-slate-500 leading-relaxed group-hover:text-slate-400 transition-colors">{b.detail}</p>
+                    <div className="flex items-center gap-1 mt-2.5 text-[9px] text-rose-400/80 font-bold hover:text-rose-300 transition-colors">
+                      Read Incident Report →
+                    </div>
                   </div>
                 </motion.div>
               ))}

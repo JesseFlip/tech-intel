@@ -4,7 +4,7 @@ import SentimentIcon from './SentimentIcon';
 import { motion } from 'framer-motion';
 import liveFinanceService from '../api/liveFinanceService';
 
-const MarketCard = ({ ticker }) => {
+const MarketCard = ({ ticker, onSelectItem }) => {
   const [price, setPrice] = useState(ticker?.price || 150.00);
   const [changePct, setChangePct] = useState(ticker?.change_pct || 0.0);
   const [direction, setDirection] = useState('neutral'); // up, down, neutral
@@ -59,7 +59,8 @@ const MarketCard = ({ ticker }) => {
   return (
     <motion.div 
       whileHover={{ scale: 1.02, translateY: -2 }}
-      className={`bg-slate-900/50 border border-slate-800 p-4 rounded-xl backdrop-blur-sm relative overflow-hidden group transition-all duration-300 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:border-slate-700 ${
+      onClick={() => onSelectItem && onSelectItem({ headline: `${ticker.symbol} Market Signal Analysis`, summary: ticker.price_context, source: 'MARKET', impact: ticker.sentiment === 'BULLISH' ? 'HIGH' : 'MEDIUM' })}
+      className={`bg-slate-900/50 border border-slate-800 p-4 rounded-xl backdrop-blur-sm relative overflow-hidden group transition-all duration-300 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] hover:border-slate-700 cursor-pointer ${
         flash
           ? direction === 'up'
             ? 'ring-1 ring-emerald-500/50 bg-emerald-500/5'
@@ -97,6 +98,11 @@ const MarketCard = ({ ticker }) => {
           </div>
           <div className="text-[10px] text-slate-500 font-medium">
             {ticker.price_context}
+            {onSelectItem && (
+              <span className="text-[9px] font-bold text-indigo-400 mt-2 hover:underline group-hover:text-indigo-300 transition-colors flex items-center gap-0.5 cursor-pointer">
+                Analyze Signal Vector →
+              </span>
+            )}
           </div>
         </div>
         <SentimentIcon sentiment={ticker.sentiment} />

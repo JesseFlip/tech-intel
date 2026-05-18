@@ -14,6 +14,7 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
+  const [activeTab, setActiveTab] = useState('ai');
 
   const fetchDigest = useCallback(async () => {
     setLoading(true);
@@ -96,9 +97,9 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="pb-24"
+      className="pb-24 animate-in fade-in duration-500"
     >
-      <header className="mb-12">
+      <header className="mb-10">
         <div className="flex items-center gap-3 text-slate-500 text-xs font-bold uppercase tracking-[0.2em] mb-2">
           <Clock size={14} />
           <span>{isLatest ? "Live Intelligence Report" : `Archive: ${digest.date}`}</span>
@@ -108,41 +109,92 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
         </h1>
       </header>
 
-      <motion.div 
-        initial={{ opacity: 0 }} 
-        animate={{ opacity: 1 }} 
-        transition={{ delay: 0.2 }}
-        id="markets"
-      >
-        <MarketIntelligence pulse={digest.sentiment_pulse} />
-      </motion.div>
-      
-      <motion.div 
-        initial={{ opacity: 0 }} 
-        animate={{ opacity: 1 }} 
-        transition={{ delay: 0.3 }}
-        id="financial"
-      >
-        <FinancialCard data={digest.sections.financial} />
-      </motion.div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-        <AiTechFeed 
-          prose={digest.sections.ai.prose}
-          items={filteredAIItems}
-          onSelectItem={setSelectedItem}
-          selectedTag={selectedTag}
-          setSelectedTag={setSelectedTag}
-        />
-        <CybersecurityPanel 
-          vulnerabilities={filteredVulns}
-          breaches={filteredBreaches}
-          policy={digest.sections.cybersecurity.policy}
-          onSelectItem={setSelectedItem}
-          selectedTag={selectedTag}
-          setSelectedTag={setSelectedTag}
-        />
+      {/* Bloomberg-Style Tab Navigation */}
+      <div className="flex border-b border-slate-850 mb-8 gap-2 font-mono text-[11px] overflow-x-auto pb-px scrollbar-none">
+        <button 
+          onClick={() => setActiveTab('ai')}
+          className={`px-5 py-3 border-b-2 font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer ${
+            activeTab === 'ai' 
+              ? 'border-indigo-500 text-white bg-indigo-500/5' 
+              : 'border-transparent text-slate-550 hover:text-slate-300 hover:bg-slate-900/30'
+          }`}
+        >
+          AI & Emerging Tech
+        </button>
+        <button 
+          onClick={() => setActiveTab('cybersecurity')}
+          className={`px-5 py-3 border-b-2 font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer ${
+            activeTab === 'cybersecurity' 
+              ? 'border-rose-500 text-white bg-rose-500/5' 
+              : 'border-transparent text-slate-555 hover:text-slate-300 hover:bg-slate-900/30'
+          }`}
+        >
+          Cybersecurity CVEs
+        </button>
+        <button 
+          onClick={() => setActiveTab('financial')}
+          className={`px-5 py-3 border-b-2 font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer ${
+            activeTab === 'financial' 
+              ? 'border-emerald-500 text-white bg-emerald-500/5' 
+              : 'border-transparent text-slate-555 hover:text-slate-300 hover:bg-slate-900/30'
+          }`}
+        >
+          Financial Signals
+        </button>
       </div>
+
+      <AnimatePresence mode="wait">
+        {activeTab === 'ai' && (
+          <motion.div
+            key="ai"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+          >
+            <AiTechFeed 
+              prose={digest.sections.ai.prose}
+              items={filteredAIItems}
+              onSelectItem={setSelectedItem}
+              selectedTag={selectedTag}
+              setSelectedTag={setSelectedTag}
+            />
+          </motion.div>
+        )}
+
+        {activeTab === 'cybersecurity' && (
+          <motion.div
+            key="cyber"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+          >
+            <CybersecurityPanel 
+              vulnerabilities={filteredVulns}
+              breaches={filteredBreaches}
+              policy={digest.sections.cybersecurity.policy}
+              onSelectItem={setSelectedItem}
+              selectedTag={selectedTag}
+              setSelectedTag={setSelectedTag}
+            />
+          </motion.div>
+        )}
+
+        {activeTab === 'financial' && (
+          <motion.div
+            key="financial"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.2 }}
+            className="space-y-10"
+          >
+            <MarketIntelligence pulse={digest.sentiment_pulse} onSelectItem={setSelectedItem} />
+            <FinancialCard data={digest.sections.financial} />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <AnimatePresence>
         {selectedItem && (
