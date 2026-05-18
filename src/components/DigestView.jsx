@@ -14,7 +14,7 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
-  const [activeTab, setActiveTab] = useState('ai');
+  const [activeTab, setActiveTab] = useState('financial');
 
   const fetchDigest = useCallback(async () => {
     setLoading(true);
@@ -99,15 +99,7 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
       transition={{ duration: 0.5 }}
       className="pb-24 animate-in fade-in duration-500"
     >
-      <header className="mb-10">
-        <div className="flex items-center gap-3 text-slate-500 text-xs font-bold uppercase tracking-[0.2em] mb-2">
-          <Clock size={14} />
-          <span>{isLatest ? "Live Intelligence Report" : `Archive: ${digest.date}`}</span>
-        </div>
-        <h1 className="text-4xl md:text-5xl font-black text-white tracking-tighter">
-          {isLatest ? "The Daily Pulse" : digest.date}
-        </h1>
-      </header>
+      {/* Header titles removed */}
 
       {/* Bloomberg-Style Tab Navigation */}
       <div className="flex border-b border-slate-850 mb-8 gap-2 font-mono text-[11px] overflow-x-auto pb-px scrollbar-none">

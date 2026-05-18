@@ -22,10 +22,7 @@ const Layout = ({ children, searchQuery, setSearchQuery, selectedTag, setSelecte
               </div>
               <span className="text-2xl font-black tracking-tighter text-text-primary hidden sm:block">TECH INTEL</span>
             </Link>
-            <nav className="hidden md:flex items-center gap-1 p-1 bg-bg-secondary/50 rounded-lg border border-border-accent">
-              <Link to="/" className="px-4 py-1.5 text-sm font-semibold rounded-md hover:text-text-primary transition-all text-text-secondary hover:bg-bg-secondary">Today</Link>
-              <Link to="/archive" className="px-4 py-1.5 text-sm font-semibold rounded-md hover:text-text-primary transition-all text-text-secondary hover:bg-bg-secondary">Archive</Link>
-            </nav>
+            {/* Navigation links removed */}
           </div>
 
           <div className="flex-1 max-w-xl relative group">
@@ -83,9 +80,8 @@ const Layout = ({ children, searchQuery, setSearchQuery, selectedTag, setSelecte
         </div>
       </header>
 
-      <div className="max-w-6xl mx-auto px-6 py-12 flex flex-col lg:flex-row gap-12">
-        <SidebarTOC />
-        <main className="flex-1 min-w-0" role="main">
+      <div className="max-w-6xl mx-auto px-6 py-12">
+        <main className="w-full min-w-0" role="main">
           {children}
           <NewsletterForm />
         </main>
