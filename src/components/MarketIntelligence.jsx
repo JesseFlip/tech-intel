@@ -37,6 +37,12 @@ const MarketIntelligence = ({ pulse, onSelectItem }) => {
     if (!newSymbol.trim()) return;
     const symbol = newSymbol.trim().toUpperCase();
 
+    const tickerRegex = /^[A-Z0-9]{1,6}$/;
+    if (!tickerRegex.test(symbol)) {
+      setAddError(`Coordinate format error: ${symbol}. Use 1-6 alphanumeric characters (e.g. AAPL, BTC).`);
+      return;
+    }
+
     if (tickers.some(t => t.symbol === symbol)) {
       setAddError(`${symbol} is already active.`);
       return;

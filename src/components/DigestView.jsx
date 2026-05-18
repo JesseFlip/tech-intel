@@ -14,7 +14,6 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
-  const [activeTab, setActiveTab] = useState('financial');
 
   const fetchDigest = useCallback(async () => {
     setLoading(true);
@@ -99,94 +98,53 @@ const DigestView = ({ isLatest = false, searchQuery, selectedTag, setSelectedTag
       transition={{ duration: 0.5 }}
       className="pb-24 animate-in fade-in duration-500"
     >
-      {/* Header titles removed */}
+      {/* 1. Top Section: Market Indicators & Fear/Greed */}
+      <MarketIntelligence pulse={digest.sentiment_pulse} onSelectItem={setSelectedItem} />
 
-      {/* Bloomberg-Style Tab Navigation */}
-      <div className="flex border-b border-slate-850 mb-8 gap-2 font-mono text-[11px] overflow-x-auto pb-px scrollbar-none">
-        <button 
-          onClick={() => setActiveTab('ai')}
-          className={`px-5 py-3 border-b-2 font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer ${
-            activeTab === 'ai' 
-              ? 'border-indigo-500 text-white bg-indigo-500/5' 
-              : 'border-transparent text-slate-550 hover:text-slate-300 hover:bg-slate-900/30'
-          }`}
-        >
-          AI & Emerging Tech
-        </button>
-        <button 
-          onClick={() => setActiveTab('cybersecurity')}
-          className={`px-5 py-3 border-b-2 font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer ${
-            activeTab === 'cybersecurity' 
-              ? 'border-rose-500 text-white bg-rose-500/5' 
-              : 'border-transparent text-slate-555 hover:text-slate-300 hover:bg-slate-900/30'
-          }`}
-        >
-          Cybersecurity CVEs
-        </button>
-        <button 
-          onClick={() => setActiveTab('financial')}
-          className={`px-5 py-3 border-b-2 font-bold tracking-widest uppercase transition-all duration-300 cursor-pointer ${
-            activeTab === 'financial' 
-              ? 'border-emerald-500 text-white bg-emerald-500/5' 
-              : 'border-transparent text-slate-555 hover:text-slate-300 hover:bg-slate-900/30'
-          }`}
-        >
-          Financial Signals
-        </button>
+      {/* 2. Lower Grid: Economic Drivers & Curated Tech Feeds */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start mt-8">
+        
+        {/* Left Column: Economic Signals & Macro Insights */}
+        <div className="space-y-6">
+          <div className="border-b border-slate-800/80 pb-2 mb-4">
+            <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest font-mono">Telemetry Section 01</span>
+            <h3 className="text-sm font-black text-white uppercase tracking-wider font-mono">Economic Signals</h3>
+          </div>
+          <FinancialCard data={digest.sections.financial} />
+        </div>
+
+        {/* Center Column: AI & Emerging Tech Intelligence */}
+        <div className="space-y-6">
+          <div className="border-b border-slate-800/80 pb-2 mb-4">
+            <span className="text-[10px] font-bold text-indigo-400 uppercase tracking-widest font-mono">Telemetry Section 02</span>
+            <h3 className="text-sm font-black text-white uppercase tracking-wider font-mono">AI & Emerging Tech</h3>
+          </div>
+          <AiTechFeed 
+            prose={digest.sections.ai.prose}
+            items={filteredAIItems}
+            onSelectItem={setSelectedItem}
+            selectedTag={selectedTag}
+            setSelectedTag={setSelectedTag}
+          />
+        </div>
+
+        {/* Right Column: Cybersecurity Threat Vectors */}
+        <div className="space-y-6">
+          <div className="border-b border-slate-800/80 pb-2 mb-4">
+            <span className="text-[10px] font-bold text-rose-500 uppercase tracking-widest font-mono">Telemetry Section 03</span>
+            <h3 className="text-sm font-black text-white uppercase tracking-wider font-mono">Threat Intelligence</h3>
+          </div>
+          <CybersecurityPanel 
+            vulnerabilities={filteredVulns}
+            breaches={filteredBreaches}
+            policy={digest.sections.cybersecurity.policy}
+            onSelectItem={setSelectedItem}
+            selectedTag={selectedTag}
+            setSelectedTag={setSelectedTag}
+          />
+        </div>
+
       </div>
-
-      <AnimatePresence mode="wait">
-        {activeTab === 'ai' && (
-          <motion.div
-            key="ai"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-          >
-            <AiTechFeed 
-              prose={digest.sections.ai.prose}
-              items={filteredAIItems}
-              onSelectItem={setSelectedItem}
-              selectedTag={selectedTag}
-              setSelectedTag={setSelectedTag}
-            />
-          </motion.div>
-        )}
-
-        {activeTab === 'cybersecurity' && (
-          <motion.div
-            key="cyber"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-          >
-            <CybersecurityPanel 
-              vulnerabilities={filteredVulns}
-              breaches={filteredBreaches}
-              policy={digest.sections.cybersecurity.policy}
-              onSelectItem={setSelectedItem}
-              selectedTag={selectedTag}
-              setSelectedTag={setSelectedTag}
-            />
-          </motion.div>
-        )}
-
-        {activeTab === 'financial' && (
-          <motion.div
-            key="financial"
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -10 }}
-            transition={{ duration: 0.2 }}
-            className="space-y-10"
-          >
-            <MarketIntelligence pulse={digest.sentiment_pulse} onSelectItem={setSelectedItem} />
-            <FinancialCard data={digest.sections.financial} />
-          </motion.div>
-        )}
-      </AnimatePresence>
 
       <AnimatePresence>
         {selectedItem && (

@@ -40,7 +40,12 @@ class WebhookService {
         throw new Error(`Webhook transmission failed: ${response.status}`);
       }
 
-      return await response.json();
+      const text = await response.text();
+      try {
+        return text ? JSON.parse(text) : { success: true, message: 'Success' };
+      } catch (err) {
+        return { success: true, message: 'Response received', raw: text };
+      }
     } catch (error) {
       console.warn(`[WebhookService] Live server transmission failed for ${endpoint}. Initiating mock fallback...`, error);
       // Recruiter Standard: Secure failover to keep dashboard functional
