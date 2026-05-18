@@ -9,17 +9,23 @@
       {
         "symbol": "NVDA",
         "sentiment": "BULLISH",
-        "price_context": "Trading near ATH ahead of earnings; Blackwell demand remains 'insane'."
+        "price_context": "Trading near ATH ahead of earnings; Blackwell demand remains 'insane'.",
+        "price": 128.45,
+        "change_pct": 1.82
       },
       {
         "symbol": "SPY",
         "sentiment": "NEUTRAL",
-        "price_context": "Consolidating at resistance; macro data pending."
+        "price_context": "Consolidating at resistance; macro data pending.",
+        "price": 512.30,
+        "change_pct": -0.12
       },
       {
         "symbol": "BTC",
         "sentiment": "BULLISH",
-        "price_context": "Testing $90k range as institutional inflows accelerate."
+        "price_context": "Testing $90k range as institutional inflows accelerate.",
+        "price": 93425.50,
+        "change_pct": 2.45
       }
     ]
   },

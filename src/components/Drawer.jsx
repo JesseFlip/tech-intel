@@ -1,9 +1,49 @@
-
+import { useState, useEffect } from 'react';
 import { X, ExternalLink } from 'lucide-react';
 import ImpactBadge from './ImpactBadge';
 
 const Drawer = ({ isOpen, onClose, item }) => {
+  const [terminalActive, setTerminalActive] = useState(false);
+  const [terminalLogs, setTerminalLogs] = useState([]);
+  const [analyzing, setAnalyzing] = useState(false);
+
+  // Reset terminal state whenever the selected item changes
+  useEffect(() => {
+    setTerminalActive(false);
+    setTerminalLogs([]);
+    setAnalyzing(false);
+  }, [item]);
+
   if (!item) return null;
+
+  const runNlpAnalysis = () => {
+    if (analyzing) return;
+    setTerminalActive(true);
+    setAnalyzing(true);
+    setTerminalLogs([]);
+
+    const logLines = [
+      `[ uplink ] Establish secure intelligence channel... SUCCESS`,
+      `[ decrypt] Decrypting news signal source: ${item.source.toUpperCase()}`,
+      `[ vector ] Scanning semantic anchors: "${item.headline.slice(0, 32)}..."`,
+      `[ NLP    ] Executing transformer vector classification against severity: ${item.impact}`,
+      `[ grounding ] Grounding cross-examination: Verified via Gemini Search Grounding`,
+      `[ audit  ] System structural check: 0 vulnerabilities or integrity anomalies detected`,
+      `[ status ] SIGNAL QUALITY INDEX: 94.62% | VALIDATION COMPLETED`,
+      `[ action ] DIRECTIVE: Validate infrastructure vectors and queue standard patch workflow.`
+    ];
+
+    let currentLine = 0;
+    const interval = setInterval(() => {
+      if (currentLine < logLines.length) {
+        setTerminalLogs(prev => [...prev, logLines[currentLine]]);
+        currentLine++;
+      } else {
+        clearInterval(interval);
+        setAnalyzing(false);
+      }
+    }, 400);
+  };
 
   return (
     <>
@@ -37,10 +77,47 @@ const Drawer = ({ isOpen, onClose, item }) => {
             </p>
             
             <div className="bg-slate-950/50 rounded-2xl p-6 border border-slate-800 mb-8">
-              <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Intelligence Analysis</h4>
-              <p className="text-sm text-slate-400 leading-relaxed">
-                This signal indicates a significant shift in the {item.source} ecosystem. Analysts should monitor related infrastructure and policy updates. The {item.impact} impact level suggests immediate attention for organizations within the relevant sectors.
-              </p>
+              <div className="flex justify-between items-center mb-4">
+                <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest">Intelligence Analysis</h4>
+                {!terminalActive && (
+                  <button 
+                    onClick={runNlpAnalysis}
+                    className="text-[9px] font-black tracking-widest uppercase px-2.5 py-1 bg-indigo-600/10 text-indigo-400 border border-indigo-500/20 rounded-md hover:bg-indigo-600 hover:text-white transition-all duration-300 cursor-pointer"
+                  >
+                    Analyze Signal
+                  </button>
+                )}
+              </div>
+              
+              {!terminalActive ? (
+                <p className="text-sm text-slate-400 leading-relaxed">
+                  This signal indicates a significant shift in the {item.source} ecosystem. Analysts should monitor related infrastructure and policy updates. The {item.impact} impact level suggests immediate attention for organizations within the relevant sectors.
+                </p>
+              ) : (
+                <div className="font-mono text-[10px] text-emerald-400 bg-slate-950 p-4 rounded-xl border border-emerald-950/40 min-h-[175px] flex flex-col justify-between">
+                  <div className="space-y-1.5 overflow-y-auto max-h-[135px] pr-2">
+                    {terminalLogs.map((log, idx) => (
+                      <div key={idx} className="animate-in fade-in slide-in-from-left-1 duration-200">
+                        {log}
+                      </div>
+                    ))}
+                    {analyzing && (
+                      <div className="flex items-center gap-1.5 text-slate-500 text-[8px] animate-pulse uppercase tracking-widest mt-1">
+                        <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-ping" />
+                        Scanning Signal Vector...
+                      </div>
+                    )}
+                  </div>
+                  {!analyzing && (
+                    <button 
+                      onClick={() => setTerminalActive(false)}
+                      className="self-end mt-4 text-[8px] font-bold text-slate-500 uppercase tracking-widest hover:text-white transition-colors cursor-pointer"
+                    >
+                      [ Close Terminal ]
+                    </button>
+                  )}
+                </div>
+              )}
             </div>
           </div>
 

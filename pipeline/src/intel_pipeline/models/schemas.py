@@ -7,6 +7,8 @@ class TickerSentiment(BaseModel):
     symbol: str
     sentiment: str  # BULLISH | BEARISH | NEUTRAL
     price_context: str
+    price: float = 0.0
+    change_pct: float = 0.0
 
 class SentimentPulse(BaseModel):
     fear_greed: str

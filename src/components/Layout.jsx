@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Zap, Search, X, Sun, Moon, Bell, BellOff, ExternalLink, Filter } from 'lucide-react';
 import { useTheme } from '../hooks/useTheme';
 import SidebarTOC from './SidebarTOC';
+import MarketTicker from './MarketTicker';
 
 import NewsletterForm from './NewsletterForm';
 
@@ -11,6 +12,7 @@ const Layout = ({ children, searchQuery, setSearchQuery, selectedTag, setSelecte
   
   return (
     <div className="min-h-screen bg-bg-primary text-text-primary selection:bg-indigo-500/30 transition-colors duration-300">
+      <MarketTicker />
       <header className="sticky top-0 z-50 bg-bg-primary/80 backdrop-blur-md border-b border-border-accent/50">
         <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between gap-8">
           <div className="flex items-center gap-8 shrink-0">

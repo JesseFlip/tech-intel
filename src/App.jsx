@@ -39,11 +39,16 @@ function App() {
         setRealtimeAlert(true);
         setTimeout(() => setRealtimeAlert(false), 5000);
         
-        if (notificationsEnabled && Notification.permission === "granted") {
-          new Notification("CRITICAL INTEL: New Vulnerability Detected", {
-            body: "A high-impact CVE has just been published. View details in the dashboard.",
-            icon: "/favicon.ico"
-          });
+        const hasNotifications = typeof window !== 'undefined' && 'Notification' in window;
+        if (notificationsEnabled && hasNotifications && window.Notification.permission === "granted") {
+          try {
+            new window.Notification("CRITICAL INTEL: New Vulnerability Detected", {
+              body: "A high-impact CVE has just been published. View details in the dashboard.",
+              icon: "/favicon.ico"
+            });
+          } catch (err) {
+            console.warn('[App] Failed triggering native push notification:', err);
+          }
         }
       }
     }, 15000);
@@ -54,10 +59,20 @@ function App() {
   const toggleTheme = () => setTheme(prev => prev === 'dark' ? 'light' : 'dark');
 
   const toggleNotifications = async () => {
+    const hasNotifications = typeof window !== 'undefined' && 'Notification' in window;
+    if (!hasNotifications) {
+      alert("Push notifications are not supported or blocked by your current browser profile.");
+      return;
+    }
+
     if (!notificationsEnabled) {
-      const permission = await Notification.requestPermission();
-      if (permission === "granted") {
-        setNotificationsEnabled(true);
+      try {
+        const permission = await window.Notification.requestPermission();
+        if (permission === "granted") {
+          setNotificationsEnabled(true);
+        }
+      } catch (err) {
+        console.warn('[App] Error requesting notification permissions:', err);
       }
     } else {
       setNotificationsEnabled(false);
