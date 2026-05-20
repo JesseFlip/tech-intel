@@ -14,6 +14,7 @@ import {
 import liveFinanceService from '../api/liveFinanceService';
 
 const Tooltip = ({ children, text, align = 'center' }) => {
+  const [visible, setVisible] = useState(false);
   const alignClasses = {
     center: 'left-1/2 -translate-x-1/2',
     left: 'left-0',
@@ -21,9 +22,21 @@ const Tooltip = ({ children, text, align = 'center' }) => {
   }[align];
   
   return (
-    <span className="relative group cursor-help border-b border-dotted border-indigo-500/40 hover:border-indigo-400 transition-colors inline-block">
+    <span 
+      className="relative cursor-help border-b border-dotted border-indigo-500/40 hover:border-indigo-400 transition-colors inline-block"
+      onMouseEnter={() => setVisible(true)}
+      onMouseLeave={() => setVisible(false)}
+      onFocus={() => setVisible(true)}
+      onBlur={() => setVisible(false)}
+    >
       {children}
-      <span className={`absolute bottom-full mb-2 w-72 bg-slate-950/98 border border-slate-800 p-3.5 rounded-xl text-xs font-normal text-slate-300 opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-200 z-50 shadow-2xl backdrop-blur-md font-sans normal-case tracking-normal leading-relaxed invisible group-hover:visible ${alignClasses}`}>
+      <span 
+        className={`absolute bottom-full mb-2.5 w-72 bg-slate-950/98 border border-slate-800 p-3.5 rounded-xl text-xs font-normal text-slate-300 shadow-2xl backdrop-blur-md font-sans normal-case tracking-normal leading-relaxed z-50 transition-all duration-200 ${alignClasses} ${
+          visible 
+            ? 'opacity-100 scale-100 translate-y-0 visible pointer-events-auto' 
+            : 'opacity-0 scale-95 translate-y-1 invisible pointer-events-none'
+        }`}
+      >
         {text}
       </span>
     </span>
