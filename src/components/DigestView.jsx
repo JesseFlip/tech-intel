@@ -13,6 +13,23 @@ import {
 } from 'lucide-react';
 import liveFinanceService from '../api/liveFinanceService';
 
+const Tooltip = ({ children, text, align = 'center' }) => {
+  const alignClasses = {
+    center: 'left-1/2 -translate-x-1/2',
+    left: 'left-0',
+    right: 'right-0'
+  }[align];
+  
+  return (
+    <span className="relative group cursor-help border-b border-dotted border-indigo-500/40 hover:border-indigo-400 transition-colors inline-block">
+      {children}
+      <span className={`absolute bottom-full mb-2 w-72 bg-slate-950/98 border border-slate-800 p-3.5 rounded-xl text-xs font-normal text-slate-300 opacity-0 group-hover:opacity-100 pointer-events-none transition-all duration-200 z-50 shadow-2xl backdrop-blur-md font-sans normal-case tracking-normal leading-relaxed invisible group-hover:visible ${alignClasses}`}>
+        {text}
+      </span>
+    </span>
+  );
+};
+
 const DigestView = () => {
   const [tickerData, setTickerData] = useState([
     { symbol: 'US10Y', name: 'The Risk-Free Rate', desc: 'Prices every other asset globally', price: 4.42, change_pct: 0.0 },
@@ -71,6 +88,85 @@ const DigestView = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
+  const macroStackItems = [
+    {
+      title: 'The 10-Year Treasury Yield',
+      desc: 'The single most important number in finance. It prices every other asset.',
+      tooltip: 'This is the benchmark rate for the global financial system. Think of it as the gravitational pull on all other assets; as it rises, it pulls stock valuations down.',
+      icon: <Activity size={18} />,
+      ref: 'US10Y'
+    },
+    {
+      title: 'Fed Policy Expectations',
+      desc: 'Not what the Fed did, but what the market expects. Watch implied probabilities.',
+      tooltip: 'The Federal Reserve controls interest rates. The market tries to predict whether they will cut rates (bullish) or raise rates (bearish) in the future.',
+      icon: <Compass size={18} />,
+      ref: 'Fed Probabilities'
+    },
+    {
+      title: 'Inflation Prints',
+      desc: 'CPI (mid-month) and PCE (end of month).',
+      tooltip: "CPI measures consumer price changes, while PCE is the Fed's preferred index. Lower inflation means the Fed can lower rates, while high inflation forces rates to stay high.",
+      icon: <FileText size={18} />,
+      ref: 'CPI & PCE'
+    },
+    {
+      title: 'Jobs Report',
+      desc: 'First Friday of the month. Non-farm payrolls, unemployment, hourly earnings.',
+      tooltip: 'Non-Farm Payrolls (NFP) and unemployment. A hot job market can mean more inflation (bearish for rates), while a weak job market might force the Fed to cut rates to support the economy.',
+      icon: <Sliders size={18} />,
+      ref: 'NFP / Wages'
+    },
+    {
+      title: 'The VIX',
+      desc: 'Below 15 (Complacency) | 15–20 (Normal) | >25 (Anxiety) | >35 (Panic/Buy Signal).',
+      tooltip: 'Standard volatility ranges: Below 15 is complacent (low fear), 15-20 is normal, above 25 is anxious, and above 35 is extreme panic.',
+      icon: <ShieldAlert size={18} />,
+      ref: 'VIX Bounds'
+    },
+    {
+      title: 'DXY & Credit Spreads',
+      desc: 'A spiking US Dollar or widening high-yield spreads precedes equity weakness.',
+      tooltip: 'DXY is the value of the US Dollar. A rising dollar makes US exports expensive. Credit Spreads measure risk premium on corporate debt; widening spreads mean banks are afraid to lend.',
+      icon: <Shield size={18} />,
+      ref: 'Spreads / USD'
+    }
+  ];
+
+  const redFlags = [
+    { title: 'Yield Curve Inverted (2yr > 10yr)', desc: 'Classic bond market warning of macroeconomic structural friction.', tooltip: 'When short-term debt pays more interest than long-term debt. This is historically one of the most reliable predictors of an upcoming recession.' },
+    { title: 'Widening Credit Spreads', desc: 'Indicates stress in the commercial debt pipeline and potential defaults.', tooltip: 'The gap in interest rates between risky corporate debt and safe government bonds is increasing, indicating corporate stress.' },
+    { title: 'Hawkish Fed Surprises', desc: 'Unexpectedly aggressive rate hikes or hawkish FOMC narrative pivot.', tooltip: 'When the Federal Reserve speaks or acts in a way that suggests they will keep interest rates higher for longer than the market anticipated.' },
+    { title: 'Broad Guidance Cuts', desc: 'Multi-industry corporate downgrades indicating declining aggregate demand.', tooltip: 'When many corporations warn that their future earnings and revenues will be lower than originally forecast.' },
+    { title: '"This Time is Different" narratives', desc: 'Excessive valuation handwaving bypassing traditional pricing matrices.', tooltip: 'A psychological trap where investors justify extremely high valuations by claiming historical rules no longer apply due to some new technology or event.' },
+    { title: 'Insider Selling Clusters', desc: 'Concentrated C-suite liquidations indicating local valuations have peaked.', tooltip: "When multiple corporate executives and founders sell large amounts of their own company's stock within a short time window." }
+  ];
+
+  const greenLights = [
+    { title: 'Fed Pivoting Dovish', desc: 'Lower borrowing costs, expanding credit pipeline, capital injection support.', tooltip: 'When the Federal Reserve begins to suggest they will cut interest rates or stop raising them, easing conditions.' },
+    { title: 'Tightening Credit Spreads & Falling VIX', desc: 'Underlying stress resolving, indicating healthy institutional risk tolerance.', tooltip: 'Interest rate spreads are narrowing and market volatility is decreasing, indicating healthy lending and high risk appetite.' },
+    { title: 'Earnings Beats + Raised Guidance', desc: 'Direct fundamental proof of microeconomic operating strength.', tooltip: 'When companies report profits that exceed expectations and raise their future performance forecasts.' },
+    { title: 'Improving Market Breadth', desc: 'Equity indices advance supported by a wide cross-section of equities rather than few mega-caps.', tooltip: 'When the majority of stocks are rising, rather than just a few mega-cap stocks dragging the entire index up.' },
+    { title: 'Insider Buying Clusters', desc: 'Company founders and executives purchasing shares using their own capital.', tooltip: 'When multiple corporate executives buy their own company stock with their own money, indicating internal confidence.' }
+  ];
+
+  const protocols = [
+    { num: '01', title: 'Write the Thesis First', text: '"I think X will happen by Y date because Z."', tooltip: 'Write down exactly why you are entering a trade. This stops you from changing your story later when the trade goes against you.' },
+    { num: '02', title: 'Strict Position Sizing', text: 'Single stocks 1–5% of portfolio max.', tooltip: "Limit single-stock exposure to 1–5% of your total capital. A single catastrophic event won't blow up your portfolio." },
+    { num: '03', title: 'Define Your Time Horizon', text: 'Day trade, swing trade, or investment.', tooltip: 'Determine if you are trading for hours (day trade), days/weeks (swing trade), or years (investment). Never turn a bad short-term trade into a long-term investment.' },
+    { num: '04', title: 'Limit Orders Only', text: 'Never use market orders on anything less liquid than SPY.', tooltip: 'Specify the exact price you want to buy or sell at. Market orders can cause you to buy at a much higher price during sudden moves.' },
+    { num: '05', title: 'Never Average Down', text: 'Never average down on a broken thesis.', tooltip: 'Do not buy more shares of a falling stock just to lower your average price if the reason you bought it is no longer true.' },
+    { num: '06', title: 'Seek Asymmetric Bets', text: 'Skewed risk/reward (-20% downside / +100% upside).', tooltip: 'Only take trades where the potential reward is significantly larger than the maximum amount you are risking.' }
+  ];
+
+  const biases = [
+    { tag: 'The Entertainment Trap', desc: 'Cramer, morning anchors—do not trade their talking points.', tooltip: 'Anchors and personalities are paid to generate excitement and views, not to make you money. Do not treat entertainment as serious financial advice.' },
+    { tag: 'Recency Bias', desc: 'Assuming what just happened will keep happening.', tooltip: 'The tendency to believe that whatever just happened will continue forever. Markets move in cycles; trends eventually reverse.' },
+    { tag: 'Confirmation Bias', desc: 'Only seeking bullish news when long.', tooltip: 'The bad habit of only reading bullish articles when you own a stock, while ignoring warning signs and bearish arguments.' },
+    { tag: 'Anchoring', desc: 'Believing a $150 stock is "cheap" just because it used to be $200.', tooltip: 'Fixating on a past price (e.g. buying a $150 stock because it used to be $200) without realizing its actual value has changed due to interest rates or competition.' },
+    { tag: 'FOMO', desc: 'If you are chasing a ripped chart, you are already late.', tooltip: 'Chasing a stock that has already gone up 50% in a few days. You are likely buying at the peak from early investors who are taking profits.' }
+  ];
+
   return (
     <motion.article 
       initial={{ opacity: 0, y: 15 }}
@@ -106,12 +202,18 @@ const DigestView = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {tickerData.map((t) => {
+          {tickerData.map((t, idx) => {
             const isUp = t.change_pct >= 0;
             const formattedPrice = t.symbol === 'US10Y' 
               ? `${t.price.toFixed(2)}%` 
               : t.price.toLocaleString(undefined, { minimumFractionDigits: 2 });
               
+            const tooltipText = t.symbol === 'US10Y' 
+              ? 'The yield on the 10-Year U.S. Treasury bond. When this goes up, borrowing costs rise, putting downward pressure on stock prices, especially high-growth tech companies.'
+              : t.symbol === 'VIX'
+                ? 'Measures expected stock market volatility. When it is low, investors are complacent. When it spikes high, it indicates panic, which can represent a great buying opportunity.'
+                : 'Contracts to buy or sell the S&P 500 at a future date. They trade almost 24/7 and show how the stock market is expected to open.';
+
             return (
               <div 
                 key={t.symbol} 
@@ -120,7 +222,11 @@ const DigestView = () => {
                 <div className="flex justify-between items-start mb-2">
                   <div>
                     <span className="text-xs font-black text-slate-500 font-mono uppercase">{t.symbol}</span>
-                    <h3 className="text-sm font-bold text-slate-200 leading-tight">{t.name}</h3>
+                    <h3 className="text-sm font-bold text-slate-200 leading-tight">
+                      <Tooltip text={tooltipText} align={idx === 0 ? 'left' : idx === 2 ? 'right' : 'center'}>
+                        {t.name}
+                      </Tooltip>
+                    </h3>
                   </div>
                   <span className={`flex items-center text-xs font-black px-2 py-0.5 rounded font-mono ${
                     isUp ? 'bg-emerald-500/10 text-emerald-400' : 'bg-rose-500/10 text-rose-400'
@@ -151,101 +257,29 @@ const DigestView = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* Card 1 */}
-          <div className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between">
-            <div className="space-y-2">
-              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
-                <Activity size={18} />
+          {macroStackItems.map((item, idx) => (
+            <div 
+              key={idx}
+              className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between"
+            >
+              <div className="space-y-2">
+                <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
+                  {item.icon}
+                </div>
+                <h3 className="font-bold text-white text-base">
+                  <Tooltip text={item.tooltip} align={idx % 3 === 0 ? 'left' : idx % 3 === 2 ? 'right' : 'center'}>
+                    {item.title}
+                  </Tooltip>
+                </h3>
+                <p className="text-xs text-slate-400 leading-relaxed">
+                  {item.desc}
+                </p>
               </div>
-              <h3 className="font-bold text-white text-base">The 10-Year Treasury Yield</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                The single most important number in finance. It prices every other asset. It represents the cost of capital, dictating mortgage rates, discount rates, and global debt pricing.
-              </p>
-            </div>
-            <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
-              Variable Reference: US10Y
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between">
-            <div className="space-y-2">
-              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
-                <Compass size={18} />
+              <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
+                Variable Reference: {item.ref}
               </div>
-              <h3 className="font-bold text-white text-base">Fed Policy Expectations</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Not what the Fed *did*, but what the market *expects*. Watch implied probability curves derived from Fed Funds Futures to preempt market repricings.
-              </p>
             </div>
-            <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
-              Variable Reference: Fed Probabilities
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between">
-            <div className="space-y-2">
-              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
-                <FileText size={18} />
-              </div>
-              <h3 className="font-bold text-white text-base">Inflation Prints</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                CPI (Consumer Price Index, mid-month) and PCE (Personal Consumption Expenditures, end of month). CPI forms narrative headlines; PCE is the Fed's preferred policy compass.
-              </p>
-            </div>
-            <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
-              Variable Reference: CPI & PCE
-            </div>
-          </div>
-
-          {/* Card 4 */}
-          <div className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between">
-            <div className="space-y-2">
-              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
-                <Sliders size={18} />
-              </div>
-              <h3 className="font-bold text-white text-base">Jobs Report</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                First Friday of the month. Non-farm payrolls, unemployment rates, and average hourly earnings. Key indicator of economic resilience and potential wage-push inflation.
-              </p>
-            </div>
-            <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
-              Variable Reference: NFP / Wages
-            </div>
-          </div>
-
-          {/* Card 5 */}
-          <div className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between">
-            <div className="space-y-2">
-              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
-                <ShieldAlert size={18} />
-              </div>
-              <h3 className="font-bold text-white text-base">The VIX</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Implied equity risk gauge. Below 15 indicates high Complacency; 15–20 represents Normal state; above 25 signifies Anxiety; above 35 signals extreme Panic and often constitutes a Buy Signal.
-              </p>
-            </div>
-            <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
-              Variable Reference: VIX Bounds
-            </div>
-          </div>
-
-          {/* Card 6 */}
-          <div className="bg-slate-900/30 border border-slate-800/80 rounded-xl p-5 hover:border-slate-700/60 hover:bg-slate-900/40 transition-all flex flex-col justify-between">
-            <div className="space-y-2">
-              <div className="w-8 h-8 rounded-lg bg-indigo-500/10 flex items-center justify-center text-indigo-400">
-                <Shield size={18} />
-              </div>
-              <h3 className="font-bold text-white text-base">DXY & Credit Spreads</h3>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                A spiking US Dollar (DXY index) or widening high-yield corporate credit spreads indicates underlying liquidity drains, typically preceding equity market corrections.
-              </p>
-            </div>
-            <div className="text-[10px] font-mono text-slate-500 uppercase tracking-wider mt-4">
-              Variable Reference: Spreads / USD
-            </div>
-          </div>
+          ))}
         </div>
       </section>
 
@@ -272,18 +306,15 @@ const DigestView = () => {
               </div>
             </div>
             <ul className="space-y-4">
-              {[
-                { title: 'Yield Curve Inverted (2yr > 10yr)', desc: 'Classic bond market warning of macroeconomic structural friction.' },
-                { title: 'Widening Credit Spreads', desc: 'Indicates stress in the commercial debt pipeline and potential defaults.' },
-                { title: 'Hawkish Fed Surprises', desc: 'Unexpectedly aggressive rate hikes or hawkish FOMC narrative pivot.' },
-                { title: 'Broad Guidance Cuts', desc: 'Multi-industry corporate downgrades indicating declining aggregate demand.' },
-                { title: '"This Time is Different" narratives', desc: 'Excessive valuation handwaving bypassing traditional pricing matrices.' },
-                { title: 'Insider Selling Clusters', desc: 'Concentrated C-suite liquidations indicating local valuations have peaked.' }
-              ].map((item, idx) => (
+              {redFlags.map((item, idx) => (
                 <li key={idx} className="flex gap-3 items-start">
                   <span className="w-1.5 h-1.5 rounded-full bg-rose-500 shrink-0 mt-2" />
                   <div>
-                    <h4 className="font-bold text-slate-200 text-sm">{item.title}</h4>
+                    <h4 className="font-bold text-slate-200 text-sm">
+                      <Tooltip text={item.tooltip} align="left">
+                        {item.title}
+                      </Tooltip>
+                    </h4>
                     <p className="text-xs text-slate-400 leading-snug">{item.desc}</p>
                   </div>
                 </li>
@@ -303,17 +334,15 @@ const DigestView = () => {
               </div>
             </div>
             <ul className="space-y-4">
-              {[
-                { title: 'Fed Pivoting Dovish', desc: 'Lower borrowing costs, expanding credit pipeline, capital injection support.' },
-                { title: 'Tightening Credit Spreads & Falling VIX', desc: 'Underlying stress resolving, indicating healthy institutional risk tolerance.' },
-                { title: 'Earnings Beats + Raised Guidance', desc: 'Direct fundamental proof of microeconomic operating strength.' },
-                { title: 'Improving Market Breadth', desc: 'Equity indices advance supported by a wide cross-section of equities rather than few mega-caps.' },
-                { title: 'Insider Buying Clusters', desc: 'Company founders and executives purchasing shares using their own capital.' }
-              ].map((item, idx) => (
+              {greenLights.map((item, idx) => (
                 <li key={idx} className="flex gap-3 items-start">
                   <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0 mt-2" />
                   <div>
-                    <h4 className="font-bold text-slate-200 text-sm">{item.title}</h4>
+                    <h4 className="font-bold text-slate-200 text-sm">
+                      <Tooltip text={item.tooltip} align="right">
+                        {item.title}
+                      </Tooltip>
+                    </h4>
                     <p className="text-xs text-slate-400 leading-snug">{item.desc}</p>
                   </div>
                 </li>
@@ -334,14 +363,7 @@ const DigestView = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {[
-            { num: '01', title: 'Write the Thesis First', text: '"I think X will happen by Y date because Z." Unwritten ideas are amorphous, inviting moving goalposts.' },
-            { num: '02', title: 'Strict Position Sizing', text: 'Single stocks 1–5% of portfolio maximum weight. Enforce systemic risk bounds so no outlier ruins the strategy.' },
-            { num: '03', title: 'Define Your Time Horizon', text: 'Strict categorizations: day trade, swing trade, or long-term investment. Rules for one cannot govern the other.' },
-            { num: '04', title: 'Limit Orders Only', text: 'Never use market orders on any security less liquid than SPY index funds. Safeguard pricing limits against slippage.' },
-            { num: '05', title: 'Never Average Down', text: 'Never buy more of a losing asset on a broken thesis. Accept the error, take the loss, and reallocate capital.' },
-            { num: '06', title: 'Seek Asymmetric Bets', text: 'Focus on highly skewed risk/reward matrices (e.g. -20% downside / +100% upside to ensure favorable long-term expectancy).' }
-          ].map((item) => (
+          {protocols.map((item, idx) => (
             <div 
               key={item.num}
               className="bg-slate-900/20 border border-slate-800/60 rounded-xl p-5 hover:border-indigo-500/20 hover:bg-slate-900/30 transition-all flex gap-4 items-start"
@@ -350,7 +372,11 @@ const DigestView = () => {
                 {item.num}
               </div>
               <div className="space-y-1">
-                <h3 className="font-bold text-slate-200 text-sm uppercase tracking-wide font-sans">{item.title}</h3>
+                <h3 className="font-bold text-slate-200 text-sm uppercase tracking-wide font-sans">
+                  <Tooltip text={item.tooltip} align={idx % 2 === 0 ? 'left' : 'right'}>
+                    {item.title}
+                  </Tooltip>
+                </h3>
                 <p className="text-xs text-slate-400 leading-relaxed">{item.text}</p>
               </div>
             </div>
@@ -369,13 +395,7 @@ const DigestView = () => {
         </div>
 
         <div className="space-y-4">
-          {[
-            { tag: 'The Entertainment Trap', desc: 'Cramer, morning television anchors, hyperactive Twitter feeds—do not trade their talking points. Their business model is views, not performance.' },
-            { tag: 'Recency Bias', desc: 'Assuming what just transpired will keep transpiring. Extrapolating the immediate past into an indefinite future disregards cyclical reversions.' },
-            { tag: 'Confirmation Bias', desc: 'Selectively seeking bullish news when long, or bearish news when short. Intentionally seek counter-arguments to stress test positions.' },
-            { tag: 'Anchoring', desc: 'Believing a $150 stock is "cheap" simply because it used to be $200. Value is determined by fundamentals and cost of capital, not historical price points.' },
-            { tag: 'FOMO (Fear of Missing Out)', desc: 'If you are chasing a ripped chart, you are already late. High momentum entry points are distribution phases for earlier capital.' }
-          ].map((item, idx) => (
+          {biases.map((item, idx) => (
             <div 
               key={idx}
               className="bg-slate-900/40 border border-slate-800/60 rounded-xl p-5 flex flex-col md:flex-row md:items-center justify-between gap-4 hover:border-slate-700 transition-colors"
@@ -386,7 +406,11 @@ const DigestView = () => {
                 </div>
                 <div>
                   <span className="text-[9px] font-bold text-amber-500 font-mono tracking-widest uppercase">Intel Threat Advisory</span>
-                  <h3 className="font-bold text-white text-sm uppercase tracking-wide mt-0.5">{item.tag}</h3>
+                  <h3 className="font-bold text-white text-sm uppercase tracking-wide mt-0.5">
+                    <Tooltip text={item.tooltip} align="left">
+                      {item.tag}
+                    </Tooltip>
+                  </h3>
                 </div>
               </div>
               <p className="text-xs text-slate-400 md:max-w-2xl leading-relaxed">
@@ -401,4 +425,5 @@ const DigestView = () => {
 };
 
 export default DigestView;
+
 
