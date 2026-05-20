@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Meta AI Unveils TRIBE v2: A Digital Twin of Human Neural Activity",
+    "content": "Meta AI has launched TRIBE v2, a groundbreaking predictive foundation model designed as a digital twin of human neural activity, capable of forecasting brain responses to complex stimuli including sights, sounds, and language. This model achieves a 70-fold increase in resolution compared to prior efforts and excels at zero-shot generalization for new subjects and tasks, poised to accelerate neuroscience discovery and inform future AI design.",
+    "linkText": "Read Professional Article →",
+    "url": "#"
+  },
+  {
+    "title": "Gartner Forecasts Worldwide AI Spending to Grow 47% in 2026",
+    "content": "Gartner predicts global AI spending will reach $2.59 trillion in 2026, marking a substantial 47% year-over-year increase, primarily fueled by vendors and hyperscalers investing heavily in AI infrastructure. This growth is largely driven by the expanding adoption of generative AI models and new AI agents within enterprise workflows, making AI-optimized infrastructure the dominant market segment.",
+    "linkText": "Read Professional Article →",
+    "url": "#"
+  },
+  {
+    "title": "OpenAI Launches $4 Billion Enterprise Deployment and Consulting Business",
+    "content: "OpenAI has established the OpenAI Deployment Company, backed by over $4 billion, to accelerate enterprise AI adoption through dedicated engineering teams and consulting services. This strategic initiative aims to assist organizations in identifying and implementing high-impact AI use cases, intensifying competition in the enterprise AI market and broadening OpenAI's reach beyond consumer-focused tools.",
+    "linkText": "Read Professional Article →",
+    "url": "#"
+  },
+  {
+    "title": "Penn Researchers Pioneer Light-Matter Particles for Ultra-Efficient AI Computing",
+    "content": "Researchers at the University of Pennsylvania have developed a novel hybrid light-matter particle that promises to dramatically accelerate AI computing while significantly reducing energy consumption. This breakthrough offers the potential to replace certain electronic computing processes with ultra-efficient light-based technology, addressing the limitations of electron-based hardware for increasingly demanding AI applications.",
+    "linkText": "Read Professional Article →",
+    "url": "#"
+  }
+]
