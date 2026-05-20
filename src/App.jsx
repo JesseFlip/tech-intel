@@ -62,6 +62,53 @@ export default function App() {
     "DXY DOLLAR INDEX CONSOLIDATES NEAR 6-MONTH HIGHS"
   ];
 
+  // Tech Intel Data
+  const cyberIntel = [
+    {
+      title: "Mini Shai-Hulud Campaign Compromises npm Packages",
+      content: "A new software supply chain attack campaign, dubbed Mini Shai-Hulud, has compromised numerous npm packages within the @antv ecosystem. Attackers leveraged a compromised maintainer account to push trojanized versions of widely used packages, embedding credential-stealing code that targets various token types, cloud credentials, and SSH keys.",
+      linkText: "Read Professional Analysis →"
+    },
+    {
+      title: "CISA Contractor Leaks Highly Privileged AWS GovCloud Keys on GitHub",
+      content: "A contractor for the Cybersecurity & Infrastructure Security Agency (CISA) publicly exposed credentials to several highly privileged AWS GovCloud accounts and internal CISA systems via a public GitHub repository. This significant lapse in security hygiene included cloud keys, plaintext passwords, and internal software deployment details, raising concerns about potential unauthorized access.",
+      linkText: "Read Professional Analysis →"
+    },
+    {
+      title: "Critical Vulnerability (CVE-2026-8153) Exposes Industrial Robot Fleets to Hacking",
+      content: "Universal Robots has patched a critical OS command injection vulnerability, CVE-2026-8153, affecting its PolyScope 5 operating system used in collaborative industrial robots (cobots). An unauthenticated attacker with network access to the Dashboard Server port can exploit this flaw to execute arbitrary commands, leading to remote code execution and compromise of the robot controller.",
+      linkText: "Read Professional Analysis →"
+    },
+    {
+      title: "Leading U.S. Communications Firms Form C2 ISAC to Enhance Cybersecurity",
+      content: "Eight major U.S. communications companies, including AT&T, Comcast, and Verizon, have established the Communications Cybersecurity Information Sharing and Analysis Center (C2 ISAC). This non-profit aims to strengthen cybersecurity across the sector by facilitating faster and more actionable threat intelligence sharing, especially in response to increasingly sophisticated and AI-driven cyber threats.",
+      linkText: "Read Professional Analysis →"
+    }
+  ];
+
+  const aiIntel = [
+    {
+      title: "Meta AI Unveils TRIBE v2: A Digital Twin of Human Neural Activity",
+      content: "Meta AI has launched TRIBE v2, a groundbreaking predictive foundation model designed as a digital twin of human neural activity, capable of forecasting brain responses to complex stimuli including sights, sounds, and language. This model achieves a 70-fold increase in resolution compared to prior efforts and excels at zero-shot generalization for new subjects and tasks, poised to accelerate neuroscience discovery and inform future AI design.",
+      linkText: "Read Professional Article →"
+    },
+    {
+      title: "Gartner Forecasts Worldwide AI Spending to Grow 47% in 2026",
+      content: "Gartner predicts global AI spending will reach $2.59 trillion in 2026, marking a substantial 47% year-over-year increase, primarily fueled by vendors and hyperscalers investing heavily in AI infrastructure. This growth is largely driven by the expanding adoption of generative AI models and new AI agents within enterprise workflows, making AI-optimized infrastructure the dominant market segment.",
+      linkText: "Read Professional Article →"
+    },
+    {
+      title: "OpenAI Launches $4 Billion Enterprise Deployment and Consulting Business",
+      content: "OpenAI has established the OpenAI Deployment Company, backed by over $4 billion, to accelerate enterprise AI adoption through dedicated engineering teams and consulting services. This strategic initiative aims to assist organizations in identifying and implementing high-impact AI use cases, intensifying competition in the enterprise AI market and broadening OpenAI's reach beyond consumer-focused tools.",
+      linkText: "Read Professional Article →"
+    },
+    {
+      title: "Penn Researchers Pioneer Light-Matter Particles for Ultra-Efficient AI Computing",
+      content: "Researchers at the University of Pennsylvania have developed a novel hybrid light-matter particle that promises to dramatically accelerate AI computing while significantly reducing energy consumption. This breakthrough offers the potential to replace certain electronic computing processes with ultra-efficient light-based technology, addressing the limitations of electron-based hardware for increasingly demanding AI applications.",
+      linkText: "Read Professional Article →"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white flex flex-col">
       <style>{styles}</style>
@@ -73,7 +120,6 @@ export default function App() {
         </div>
         <div className="overflow-hidden w-full relative">
           <div className="whitespace-nowrap animate-ticker flex text-[11px] text-indigo-200 font-mono tracking-wide">
-            {/* Render twice for seamless loop */}
             {[...headlines, ...headlines].map((headline, i) => (
               <span key={i} className="mx-8 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 bg-indigo-500 rounded-full animate-pulse"></span>
@@ -242,6 +288,49 @@ export default function App() {
 
           </div>
         </div>
+
+        {/* SECTION 4: TECH INTEL (CYBER & AI) */}
+        <div className="pt-4">
+          <h2 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-4">Tech Intel: Cyber & AI Formations</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            
+            {/* Cyber Intel Column */}
+            <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-5">
+              <h3 className="text-sm font-bold text-indigo-400 mb-4 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                Cyber Intelligence Brief: May 19, 2026
+              </h3>
+              <div className="space-y-6">
+                {cyberIntel.map((item, index) => (
+                  <div key={index} className="border-l-2 border-slate-700 pl-4 space-y-2">
+                    <h4 className="font-bold text-white text-sm leading-snug">{item.title}</h4>
+                    <p className="text-xs text-slate-400 leading-relaxed">{item.content}</p>
+                    <a href="#" className="inline-block text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition mt-1">{item.linkText}</a>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* AI Intel Column */}
+            <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-5">
+              <h3 className="text-sm font-bold text-emerald-400 mb-4 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                AI Intelligence Brief
+              </h3>
+              <div className="space-y-6">
+                {aiIntel.map((item, index) => (
+                  <div key={index} className="border-l-2 border-slate-700 pl-4 space-y-2">
+                    <h4 className="font-bold text-white text-sm leading-snug">{item.title}</h4>
+                    <p className="text-xs text-slate-400 leading-relaxed">{item.content}</p>
+                    <a href="#" className="inline-block text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition mt-1">{item.linkText}</a>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+          </div>
+        </div>
+
       </main>
     </div>
   );
