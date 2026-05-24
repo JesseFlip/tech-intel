@@ -2,25 +2,25 @@
   {
     "title": "Mini Shai-Hulud Campaign Compromises npm Packages",
     "content": "A new software supply chain attack campaign, dubbed Mini Shai-Hulud, has compromised numerous npm packages within the @antv ecosystem. Attackers leveraged a compromised maintainer account to push trojanized versions of widely used packages, embedding credential-stealing code that targets various token types, cloud credentials, and SSH keys.",
-    "linkText": "Read Professional Analysis →",
-    "url": "#"
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/browse/pulses?q=npm"
   },
   {
     "title": "CISA Contractor Leaks Highly Privileged AWS GovCloud Keys on GitHub",
     "content": "A contractor for the Cybersecurity & Infrastructure Security Agency (CISA) publicly exposed credentials to several highly privileged AWS GovCloud accounts and internal CISA systems via a public GitHub repository. This significant lapse in security hygiene included cloud keys, plaintext passwords, and internal software deployment details, raising concerns about potential unauthorized access.",
-    "linkText": "Read Professional Analysis →",
-    "url": "#"
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/browse/pulses?q=CISA"
   },
   {
     "title": "Critical Vulnerability (CVE-2026-8153) Exposes Industrial Robot Fleets to Hacking",
     "content": "Universal Robots has patched a critical OS command injection vulnerability, CVE-2026-8153, affecting its PolyScope 5 operating system used in collaborative industrial robots (cobots). An unauthenticated attacker with network access to the Dashboard Server port can exploit this flaw to execute arbitrary commands, leading to remote code execution and compromise of the robot controller.",
-    "linkText": "Read Professional Analysis →",
-    "url": "#"
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/browse/pulses?q=CVE-2026"
   },
   {
     "title": "Leading U.S. Communications Firms Form C2 ISAC to Enhance Cybersecurity",
     "content": "Eight major U.S. communications companies, including AT&T, Comcast, and Verizon, have established the Communications Cybersecurity Information Sharing and Analysis Center (C2 ISAC). This non-profit aims to strengthen cybersecurity across the sector by facilitating faster and more actionable threat intelligence sharing, especially in response to increasingly sophisticated and AI-driven cyber threats.",
-    "linkText": "Read Professional Analysis →",
-    "url": "#"
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/browse/pulses?q=ISAC"
   }
 ]

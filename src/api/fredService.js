@@ -50,9 +50,13 @@ const SERIES_IDS = {
  */
 async function fetchSeriesLatest(seriesId) {
   try {
-    const url = `${FRED_BASE_URL}/series/observations?series_id=${seriesId}&sort_order=desc&limit=1&file_type=json${FRED_API_KEY !== 'your_fred_api_key_here' ? `&api_key=${FRED_API_KEY}` : ''}`;
+    const fredUrl = `${FRED_BASE_URL}/series/observations?series_id=${seriesId}&sort_order=desc&limit=1&file_type=json${FRED_API_KEY !== 'your_fred_api_key_here' ? `&api_key=${FRED_API_KEY}` : ''}`;
 
-    const response = await fetch(url);
+    // Use CORS proxy to avoid browser CORS restrictions
+    const targetUrl = encodeURIComponent(fredUrl);
+    const proxyUrl = `https://api.allorigins.win/raw?url=${targetUrl}`;
+
+    const response = await fetch(proxyUrl);
 
     if (!response.ok) {
       throw new Error(`FRED API error: ${response.status}`);
@@ -84,9 +88,13 @@ async function fetchSeriesLatest(seriesId) {
  */
 async function fetchYoYChange(seriesId) {
   try {
-    const url = `${FRED_BASE_URL}/series/observations?series_id=${seriesId}&sort_order=desc&limit=13&file_type=json${FRED_API_KEY !== 'your_fred_api_key_here' ? `&api_key=${FRED_API_KEY}` : ''}`;
+    const fredUrl = `${FRED_BASE_URL}/series/observations?series_id=${seriesId}&sort_order=desc&limit=13&file_type=json${FRED_API_KEY !== 'your_fred_api_key_here' ? `&api_key=${FRED_API_KEY}` : ''}`;
 
-    const response = await fetch(url);
+    // Use CORS proxy
+    const targetUrl = encodeURIComponent(fredUrl);
+    const proxyUrl = `https://api.allorigins.win/raw?url=${targetUrl}`;
+
+    const response = await fetch(proxyUrl);
     const data = await response.json();
 
     if (!data.observations || data.observations.length < 13) {
