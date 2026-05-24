@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:otx.alienvault.com)",
+      "WebSearch",
+      "Bash(nul)",
+      "WebFetch(domain:github.com)",
+      "Bash(test:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import ArchiveViewer from './components/ArchiveViewer';
 
 // --- INLINE CSS FOR TICKER ANIMATION ---
 const styles = `
@@ -31,6 +32,8 @@ const Tooltip = ({ enabled, title, content, children }) => {
 
 export default function App() {
   const [tooltipsEnabled, setTooltipsEnabled] = useState(true);
+  const [showCyberArchive, setShowCyberArchive] = useState(false);
+  const [showAiArchive, setShowAiArchive] = useState(false);
   
   // Simulated Live Data State
   const [marketData, setMarketData] = useState({
@@ -331,10 +334,21 @@ export default function App() {
             
             {/* Cyber Intel Column */}
             <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-5">
-              <h3 className="text-sm font-bold text-indigo-400 mb-4 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
-                Cyber Intelligence Brief: May 19, 2026
-              </h3>
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-sm font-bold text-indigo-400 flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                  Cyber Intelligence Brief
+                </h3>
+                <button
+                  onClick={() => setShowCyberArchive(true)}
+                  className="text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition flex items-center gap-1"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                  </svg>
+                  Archive
+                </button>
+              </div>
               <div className="space-y-6">
                 {cyberIntel.map((item, index) => (
                   <div key={index} className="border-l-2 border-slate-700 pl-4 space-y-2">
@@ -348,10 +362,21 @@ export default function App() {
 
             {/* AI Intel Column */}
             <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-5">
-              <h3 className="text-sm font-bold text-emerald-400 mb-4 flex items-center gap-2">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                AI Intelligence Brief
-              </h3>
+              <div className="flex justify-between items-center mb-4">
+                <h3 className="text-sm font-bold text-emerald-400 flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                  AI Intelligence Brief
+                </h3>
+                <button
+                  onClick={() => setShowAiArchive(true)}
+                  className="text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition flex items-center gap-1"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
+                  </svg>
+                  Archive
+                </button>
+              </div>
               <div className="space-y-6">
                 {aiIntel.map((item, index) => (
                   <div key={index} className="border-l-2 border-slate-700 pl-4 space-y-2">
@@ -367,6 +392,20 @@ export default function App() {
         </div>
 
       </main>
+
+      {/* Archive Viewers */}
+      {showCyberArchive && (
+        <ArchiveViewer
+          category="cyber"
+          onClose={() => setShowCyberArchive(false)}
+        />
+      )}
+      {showAiArchive && (
+        <ArchiveViewer
+          category="ai"
+          onClose={() => setShowAiArchive(false)}
+        />
+      )}
     </div>
   );
 }

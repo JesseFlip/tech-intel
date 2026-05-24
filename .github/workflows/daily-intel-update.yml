@@ -1,0 +1,102 @@
+name: Daily Intelligence Update
+
+on:
+  # Run daily at 6 AM UTC (1 AM EST / 10 PM PST)
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      cyber_only:
+        description: 'Update only cyber intel'
+        required: false
+        type: boolean
+        default: false
+      ai_only:
+        description: 'Update only AI news'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  update-intelligence:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
+      - name: Install dependencies
+        run: |
+          cd pipeline
+          uv sync
+
+      - name: Update Intelligence Feeds
+        env:
+          OTX_API_KEY: ${{ secrets.OTX_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          cd pipeline
+
+          # Build command based on inputs
+          CMD="uv run python -m intel_pipeline.update_intel"
+
+          if [[ "${{ github.event.inputs.cyber_only }}" == "true" ]]; then
+            CMD="$CMD --cyber-only"
+          elif [[ "${{ github.event.inputs.ai_only }}" == "true" ]]; then
+            CMD="$CMD --ai-only"
+          fi
+
+          # Add output directory
+          CMD="$CMD --output-dir ../public"
+
+          # Run the update
+          echo "Running: $CMD"
+          eval $CMD
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add public/cyber-intel.json public/ai-intel.json public/archives/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: daily intelligence update $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Create update summary
+        if: always()
+        run: |
+          echo "## Intelligence Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date**: $(date -u +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Time**: $(date -u +%H:%M:%S) UTC" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f "public/cyber-intel.json" ]; then
+            CYBER_COUNT=$(jq '. | length' public/cyber-intel.json)
+            echo "- **Cyber Intel Items**: $CYBER_COUNT" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f "public/ai-intel.json" ]; then
+            AI_COUNT=$(jq '. | length' public/ai-intel.json)
+            echo "- **AI News Items**: $AI_COUNT" >> $GITHUB_STEP_SUMMARY
+          fi
