@@ -1,5 +1,10 @@
-import { useState, useEffect } from 'react';
-import ArchiveViewer from './components/ArchiveViewer';
+import { useState, useEffect, lazy, Suspense, useMemo } from 'react';
+import Tooltip from './components/Tooltip';
+import DataFreshnessIndicator from './components/DataFreshnessIndicator';
+import useMacroData from './hooks/useMacroData';
+import liveFinanceService from './api/liveFinanceService';
+
+const ArchiveViewer = lazy(() => import('./components/ArchiveViewer'));
 
 // --- INLINE CSS FOR TICKER ANIMATION ---
 const styles = `
@@ -15,44 +20,58 @@ const styles = `
   }
 `;
 
-// --- TOOLTIP COMPONENT ---
-const Tooltip = ({ enabled, title, content, children }) => {
-  return (
-    <div className="relative group inline-flex items-center cursor-help">
-      {children}
-      {enabled && (
-        <div className="absolute bottom-full mb-2 left-1/2 -translate-x-1/2 w-64 p-3 bg-slate-800 text-slate-200 text-xs rounded-lg shadow-xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50 border border-slate-700">
-          <strong className="text-indigo-400 block mb-1 uppercase tracking-wider">{title}</strong>
-          {content}
-        </div>
-      )}
-    </div>
-  );
-};
 
 export default function App() {
   const [tooltipsEnabled, setTooltipsEnabled] = useState(true);
   const [showCyberArchive, setShowCyberArchive] = useState(false);
   const [showAiArchive, setShowAiArchive] = useState(false);
-  
-  // Simulated Live Data State
+
+  // Real macro-economic data from FRED API
+  const { macroData, loading: macroLoading, lastUpdated: macroLastUpdated } = useMacroData();
+
+  // Market Data State (real-time from Yahoo Finance)
   const [marketData, setMarketData] = useState({
-    us10y: 4.425,
-    vix: 14.25,
-    es: 5310.50,
-    dxy: 104.80
+    us10y: null,
+    vix: null,
+    es: null,
+    dxy: null,
+    lastFetched: null
   });
 
-  // Tick Simulator
+  // Fetch real market data on mount
   useEffect(() => {
-    const interval = setInterval(() => {
-      setMarketData(prev => ({
-        us10y: prev.us10y + (Math.random() * 0.01 - 0.005),
-        vix: prev.vix + (Math.random() * 0.2 - 0.1),
-        es: prev.es + (Math.random() * 2 - 1),
-        dxy: prev.dxy + (Math.random() * 0.04 - 0.02)
-      }));
-    }, 3500);
+    const fetchMarketData = async () => {
+      try {
+        const [tnx, vix, es] = await Promise.all([
+          liveFinanceService.getTickerPrice('^TNX', 4.425, 0.0),  // 10Y Treasury
+          liveFinanceService.getTickerPrice('^VIX', 14.25, 0.0),  // VIX
+          liveFinanceService.getTickerPrice('ES=F', 5310.50, 0.0) // S&P Futures
+        ]);
+
+        setMarketData({
+          us10y: tnx.price,
+          vix: vix.price,
+          es: es.price,
+          dxy: 104.80, // DXY not available via Yahoo Finance API
+          lastFetched: new Date()
+        });
+      } catch (error) {
+        console.error('Error fetching market data:', error);
+        // Fallback to reasonable defaults
+        setMarketData({
+          us10y: 4.425,
+          vix: 14.25,
+          es: 5310.50,
+          dxy: 104.80,
+          lastFetched: null
+        });
+      }
+    };
+
+    fetchMarketData();
+
+    // Refresh every 5 minutes (not every 3.5 seconds - be honest about data freshness)
+    const interval = setInterval(fetchMarketData, 300000);
     return () => clearInterval(interval);
   }, []);
 
@@ -172,9 +191,14 @@ export default function App() {
       <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-40 px-4 py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div>
-            <h1 className="text-xl font-bold tracking-tight text-white flex items-center gap-2">
-              MACRO INTEL RECAP <span className="text-xs font-mono text-emerald-400 border border-emerald-900 bg-emerald-950 px-1.5 py-0.5 rounded">● LIVE</span>
-            </h1>
+            <div>
+              <h1 className="text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                MACRO INTEL RECAP
+              </h1>
+              {marketData.lastFetched && (
+                <DataFreshnessIndicator lastUpdated={marketData.lastFetched} label="Market data" />
+              )}
+            </div>
             <p className="text-xs text-slate-400">Tracking the variables that price the market.</p>
           </div>
           
@@ -202,8 +226,8 @@ export default function App() {
             <Tooltip enabled={tooltipsEnabled} title="10-Year Yield (US10Y)" content="The single most important number in finance. It's the 'risk-free rate'. When it rises sharply, growth stocks and long-duration assets get hit.">
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 w-full hover:border-indigo-500/50 transition">
                 <div className="text-xs text-slate-400 font-semibold mb-1">US10Y Yield</div>
-                <div className={`text-3xl font-mono ${marketData.us10y > 4.5 ? 'text-rose-400' : 'text-emerald-400'}`}>
-                  {marketData.us10y.toFixed(3)}%
+                <div className={`text-3xl font-mono ${marketData.us10y && marketData.us10y > 4.5 ? 'text-rose-400' : 'text-emerald-400'}`}>
+                  {marketData.us10y ? `${marketData.us10y.toFixed(3)}%` : '--'}
                 </div>
               </div>
             </Tooltip>
@@ -211,8 +235,8 @@ export default function App() {
             <Tooltip enabled={tooltipsEnabled} title="VIX Fear Index" content="Below 15 = Complacency. 15-20 = Normal. Above 25 = Anxiety. Above 35 = Panic (historical buy signal).">
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 w-full hover:border-indigo-500/50 transition">
                 <div className="text-xs text-slate-400 font-semibold mb-1">VIX Index</div>
-                <div className={`text-3xl font-mono ${marketData.vix > 20 ? 'text-rose-400' : 'text-emerald-400'}`}>
-                  {marketData.vix.toFixed(2)}
+                <div className={`text-3xl font-mono ${marketData.vix && marketData.vix > 20 ? 'text-rose-400' : 'text-emerald-400'}`}>
+                  {marketData.vix ? marketData.vix.toFixed(2) : '--'}
                 </div>
               </div>
             </Tooltip>
@@ -221,7 +245,7 @@ export default function App() {
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 w-full hover:border-indigo-500/50 transition">
                 <div className="text-xs text-slate-400 font-semibold mb-1">ES=F (S&P 500)</div>
                 <div className="text-3xl font-mono text-white">
-                  {marketData.es.toFixed(2)}
+                  {marketData.es ? marketData.es.toFixed(2) : '--'}
                 </div>
               </div>
             </Tooltip>
@@ -230,8 +254,9 @@ export default function App() {
               <div className="bg-slate-900 border border-slate-800 rounded-xl p-4 w-full hover:border-indigo-500/50 transition">
                 <div className="text-xs text-slate-400 font-semibold mb-1">DXY Index</div>
                 <div className="text-3xl font-mono text-white">
-                  {marketData.dxy.toFixed(2)}
+                  {marketData.dxy ? marketData.dxy.toFixed(2) : '--'}
                 </div>
+                <div className="text-[10px] text-slate-500 mt-1">Note: Simulated</div>
               </div>
             </Tooltip>
 
@@ -247,13 +272,22 @@ export default function App() {
               
               <div className="flex justify-between items-center border-b border-slate-800 pb-3">
                 <div>
-                  <Tooltip enabled={tooltipsEnabled} title="Fed Policy Expectations" content="Not what the Fed did, but what the market expects. Watch implied probabilities for rate cuts/hikes. Surprises move the market.">
-                    <h3 className="font-semibold text-white border-b border-dashed border-slate-600 cursor-help">Fed Rate Probabilities</h3>
+                  <Tooltip enabled={tooltipsEnabled} title="Federal Funds Rate" content="The current Federal Reserve interest rate. This is the actual rate, not market expectations.">
+                    <h3 className="font-semibold text-white border-b border-dashed border-slate-600 cursor-help">Fed Funds Rate</h3>
                   </Tooltip>
-                  <p className="text-xs text-slate-400 mt-1">Next FOMC Meeting Pricing</p>
+                  <p className="text-xs text-slate-400 mt-1">Current Policy Rate</p>
+                  {macroData?.fed_policy?.date && (
+                    <p className="text-[10px] text-slate-500 mt-0.5">As of: {macroData.fed_policy.date}</p>
+                  )}
                 </div>
                 <div className="text-right">
-                  <span className="text-xs font-mono bg-slate-950 border border-slate-800 px-2 py-1 rounded text-slate-300">NO CHANGE: 68%</span>
+                  {!macroLoading && macroData?.fed_policy?.funds_rate ? (
+                    <span className="text-xs font-mono bg-slate-950 border border-slate-800 px-2 py-1 rounded text-slate-300">
+                      {macroData.fed_policy.funds_rate.toFixed(2)}%
+                    </span>
+                  ) : (
+                    <span className="text-xs text-slate-500">Loading...</span>
+                  )}
                 </div>
               </div>
 
@@ -263,23 +297,56 @@ export default function App() {
                     <h3 className="font-semibold text-white border-b border-dashed border-slate-600 cursor-help">Inflation Trajectory</h3>
                   </Tooltip>
                   <p className="text-xs text-slate-400 mt-1">Core PCE (YoY)</p>
+                  {macroData?.inflation?.core_pce?.date && (
+                    <p className="text-[10px] text-slate-500 mt-0.5">As of: {macroData.inflation.core_pce.date}</p>
+                  )}
                 </div>
                 <div className="text-right">
-                  <span className="text-xs font-mono bg-slate-950 border border-slate-800 px-2 py-1 rounded text-slate-300">LATEST: 2.8%</span>
+                  {!macroLoading && macroData?.inflation?.core_pce?.yoy ? (
+                    <span className={`text-xs font-mono bg-slate-950 border border-slate-800 px-2 py-1 rounded ${
+                      macroData.inflation.core_pce.yoy > 3.0 ? 'text-red-400' :
+                      macroData.inflation.core_pce.yoy > 2.5 ? 'text-yellow-400' :
+                      'text-emerald-400'
+                    }`}>
+                      {macroData.inflation.core_pce.yoy.toFixed(2)}%
+                    </span>
+                  ) : (
+                    <span className="text-xs text-slate-500">Loading...</span>
+                  )}
                 </div>
               </div>
 
               <div className="flex justify-between items-center">
                 <div>
                   <Tooltip enabled={tooltipsEnabled} title="Jobs Report" content="Counterintuitively, 'too strong' jobs data can hurt markets because it keeps the Fed hawkish and rates high.">
-                    <h3 className="font-semibold text-white border-b border-dashed border-slate-600 cursor-help">Labor Market Heat</h3>
+                    <h3 className="font-semibold text-white border-b border-dashed border-slate-600 cursor-help">Labor Market</h3>
                   </Tooltip>
-                  <p className="text-xs text-slate-400 mt-1">Non-Farm Payrolls Trend</p>
+                  <p className="text-xs text-slate-400 mt-1">Unemployment Rate</p>
+                  {macroData?.labor?.date && (
+                    <p className="text-[10px] text-slate-500 mt-0.5">As of: {macroData.labor.date}</p>
+                  )}
                 </div>
                 <div className="text-right">
-                  <span className="text-xs font-mono bg-slate-950 border border-slate-800 px-2 py-1 rounded text-slate-300">STATUS: HOT</span>
+                  {!macroLoading && macroData?.labor?.unemployment_rate ? (
+                    <span className={`text-xs font-mono bg-slate-950 border border-slate-800 px-2 py-1 rounded ${
+                      macroData.labor.unemployment_rate > 5.0 ? 'text-red-400' :
+                      macroData.labor.unemployment_rate < 4.0 ? 'text-emerald-400' :
+                      'text-slate-300'
+                    }`}>
+                      {macroData.labor.unemployment_rate.toFixed(1)}%
+                    </span>
+                  ) : (
+                    <span className="text-xs text-slate-500">Loading...</span>
+                  )}
                 </div>
               </div>
+
+              {/* FRED Data Freshness Indicator */}
+              {macroLastUpdated && (
+                <div className="pt-3 border-t border-slate-800">
+                  <DataFreshnessIndicator lastUpdated={macroLastUpdated} label="Economic data" />
+                </div>
+              )}
 
             </div>
           </div>
@@ -295,7 +362,14 @@ export default function App() {
               <ul className="space-y-2 text-xs text-slate-300">
                 <li className="flex items-center justify-between">
                   <span>Yield Curve (2y/10y)</span>
-                  <span className="font-mono text-rose-400">INVERTED</span>
+                  {!macroLoading && macroData?.yield_curve ? (
+                    <span className={`font-mono ${macroData.yield_curve.inverted ? 'text-rose-400' : 'text-emerald-400'}`}>
+                      {macroData.yield_curve.inverted ? 'INVERTED' : 'NORMAL'}
+                      {macroData.yield_curve.spread && ` (${macroData.yield_curve.spread.toFixed(2)}%)`}
+                    </span>
+                  ) : (
+                    <span className="font-mono text-slate-500">Loading...</span>
+                  )}
                 </li>
                 <li className="flex items-center justify-between">
                   <span>High Yield Spreads</span>
@@ -393,19 +467,21 @@ export default function App() {
 
       </main>
 
-      {/* Archive Viewers */}
-      {showCyberArchive && (
-        <ArchiveViewer
-          category="cyber"
-          onClose={() => setShowCyberArchive(false)}
-        />
-      )}
-      {showAiArchive && (
-        <ArchiveViewer
-          category="ai"
-          onClose={() => setShowAiArchive(false)}
-        />
-      )}
+      {/* Archive Viewers - Lazy Loaded */}
+      <Suspense fallback={null}>
+        {showCyberArchive && (
+          <ArchiveViewer
+            category="cyber"
+            onClose={() => setShowCyberArchive(false)}
+          />
+        )}
+        {showAiArchive && (
+          <ArchiveViewer
+            category="ai"
+            onClose={() => setShowAiArchive(false)}
+          />
+        )}
+      </Suspense>
     </div>
   );
 }
