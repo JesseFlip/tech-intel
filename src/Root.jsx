@@ -41,7 +41,7 @@ export default function Root() {
             </div>
           }
         >
-          <Dashboard />
+          <Dashboard onOpenIdeaLab={() => setView('idealab')} />
         </Suspense>
       ) : (
         <IdeaEvaluatorApp onOpenIntel={() => setView('intelligence')} />

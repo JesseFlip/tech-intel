@@ -1,23 +1,27 @@
 """
 Unified Intelligence Update Script
 
-Orchestrates daily updates for both Cyber (OTX) and AI (Claude) intelligence feeds.
+Orchestrates the daily refresh of two SEPARATE feeds, each archived on its own:
+  - Cyber: newly disclosed/critical CVEs and major threat announcements.
+  - AI:    model releases, research, funding, policy and adoption news.
+
+Both feeds are produced by Claude + the web_search tool (see web_intel_fetcher),
+so every item links to a REAL source. Cyber can optionally be sourced from
+AlienVault OTX instead via --use-otx.
 """
 
 import sys
+import json
 import logging
 from pathlib import Path
-from datetime import datetime, timedelta
-from typing import Optional
+from typing import List, Dict, Optional
 
-from .otx_fetcher import OTXIntelFetcher
-from .ai_news_fetcher import AINewsFetcher
+from .web_intel_fetcher import WebIntelFetcher, TOPICS
 
-# Configure logging
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
-    handlers=[logging.StreamHandler(sys.stdout)]
+    handlers=[logging.StreamHandler(sys.stdout)],
 )
 logger = logging.getLogger(__name__)
 
@@ -27,272 +31,197 @@ class IntelUpdateOrchestrator:
 
     def __init__(
         self,
-        otx_api_key: Optional[str] = None,
         claude_api_key: Optional[str] = None,
         output_dir: Path = Path("public"),
-        archive_enabled: bool = True
+        archive_enabled: bool = True,
+        use_otx: bool = False,
+        otx_api_key: Optional[str] = None,
     ):
-        """
-        Initialize the orchestrator.
-
-        Args:
-            otx_api_key: AlienVault OTX API key
-            claude_api_key: Anthropic Claude API key
-            output_dir: Directory for output files
-            archive_enabled: Whether to archive updates
-        """
         self.output_dir = Path(output_dir)
         self.archive_enabled = archive_enabled
-
-        # Initialize fetchers
-        try:
-            self.otx_fetcher = OTXIntelFetcher(api_key=otx_api_key)
-            logger.info("OTX fetcher initialized successfully")
-        except Exception as e:
-            logger.error(f"Failed to initialize OTX fetcher: {e}")
-            self.otx_fetcher = None
+        self.use_otx = use_otx
+        self.otx_api_key = otx_api_key
 
         try:
-            self.ai_fetcher = AINewsFetcher(api_key=claude_api_key)
-            logger.info("AI news fetcher initialized successfully")
+            self.fetcher = WebIntelFetcher(api_key=claude_api_key)
+            logger.info("Web intel fetcher initialized successfully")
+        except SystemExit:
+            raise
         except Exception as e:
-            logger.error(f"Failed to initialize AI news fetcher: {e}")
-            self.ai_fetcher = None
+            logger.error("Failed to initialize web intel fetcher: %s", e)
+            self.fetcher = None
 
-    def update_cyber_intel(self, limit: int = 4, days: int = 7) -> bool:
-        """
-        Update cyber threat intelligence from OTX.
+    # -- feeds ----------------------------------------------------------------
+    def update_cyber_intel(self, limit: int = 4) -> bool:
+        """Refresh the cyber feed (CVEs + major threats) with real source links."""
+        logger.info("=" * 60)
+        logger.info("UPDATING CYBER THREAT INTELLIGENCE")
+        logger.info("=" * 60)
 
-        Args:
-            limit: Number of items to fetch
-            days: Fetch pulses from last N days
+        if self.use_otx:
+            return self._update_cyber_via_otx(limit)
 
-        Returns:
-            True if successful, False otherwise
-        """
-        if not self.otx_fetcher:
-            logger.error("OTX fetcher not initialized, skipping cyber intel update")
+        if not self.fetcher:
+            logger.error("Web fetcher unavailable; skipping cyber update")
             return False
-
         try:
-            logger.info("=" * 60)
-            logger.info("UPDATING CYBER THREAT INTELLIGENCE")
-            logger.info("=" * 60)
-
-            # Calculate time window
-            days_ago = datetime.now() - timedelta(days=days)
-            modified_since = days_ago.isoformat()
-
-            # Fetch and transform
-            intel_items = self.otx_fetcher.fetch_and_transform(
-                limit=limit,
-                modified_since=modified_since
-            )
-
-            if not intel_items:
-                logger.warning("No cyber intel items generated")
-                return False
-
-            # Save to public folder
-            output_file = self.output_dir / "cyber-intel.json"
-            self.otx_fetcher.save_to_file(intel_items, output_file)
-
-            # Archive if enabled
-            if self.archive_enabled:
-                archive_dir = self.output_dir / "archives" / "cyber-intel"
-                self._archive_items(intel_items, archive_dir, "cyber")
-
-            logger.info("Cyber intel update completed successfully")
-            return True
-
+            items = self.fetcher.fetch_topic("cyber", num_items=limit)
+            return self._write_feed("cyber", items)
         except Exception as e:
-            logger.error(f"Error updating cyber intel: {e}")
+            logger.error("Error updating cyber intel: %s", e)
             return False
 
     def update_ai_news(self, count: int = 4) -> bool:
-        """
-        Update AI news from Claude API.
+        """Refresh the AI feed with real source links."""
+        logger.info("=" * 60)
+        logger.info("UPDATING AI NEWS INTELLIGENCE")
+        logger.info("=" * 60)
 
-        Args:
-            count: Number of news items to fetch
-
-        Returns:
-            True if successful, False otherwise
-        """
-        if not self.ai_fetcher:
-            logger.error("AI news fetcher not initialized, skipping AI news update")
+        if not self.fetcher:
+            logger.error("Web fetcher unavailable; skipping AI update")
             return False
-
         try:
-            logger.info("=" * 60)
-            logger.info("UPDATING AI NEWS INTELLIGENCE")
-            logger.info("=" * 60)
-
-            # Fetch news
-            news_items = self.ai_fetcher.fetch_ai_news(num_items=count)
-
-            if not news_items:
-                logger.warning("No AI news items generated")
-                return False
-
-            # Save to public folder
-            output_file = self.output_dir / "ai-intel.json"
-            self.ai_fetcher.save_to_file(news_items, output_file)
-
-            # Archive if enabled
-            if self.archive_enabled:
-                archive_dir = self.output_dir / "archives" / "ai-news"
-                self.ai_fetcher.archive_news(news_items, archive_dir)
-
-            logger.info("AI news update completed successfully")
-            return True
-
+            items = self.fetcher.fetch_topic("ai", num_items=count)
+            return self._write_feed("ai", items)
         except Exception as e:
-            logger.error(f"Error updating AI news: {e}")
+            logger.error("Error updating AI news: %s", e)
             return False
+
+    def _update_cyber_via_otx(self, limit: int) -> bool:
+        """Optional: source cyber intel from AlienVault OTX instead of web search."""
+        try:
+            from .otx_fetcher import OTXIntelFetcher
+        except Exception as e:
+            logger.error("OTX fetcher unavailable: %s", e)
+            return False
+        try:
+            otx = OTXIntelFetcher(api_key=self.otx_api_key, max_pulses=limit * 2)
+            items = otx.fetch_and_transform(limit=limit)
+            return self._write_feed("cyber", items)
+        except Exception as e:
+            logger.error("Error updating cyber intel via OTX: %s", e)
+            return False
+
+    # -- output / archiving ---------------------------------------------------
+    def _write_feed(self, topic: str, items: List[Dict[str, str]]) -> bool:
+        if not items:
+            logger.warning("No %s items generated; leaving existing feed untouched", topic)
+            return False
+
+        cfg = TOPICS[topic]
+        output_file = self.output_dir / cfg["output"]
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        output_file.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
+        logger.info("Saved %d %s items to %s", len(items), topic, output_file)
+
+        if self.archive_enabled:
+            self._archive_items(items, self.output_dir / cfg["archive"], cfg["category"])
+        return True
 
     def _archive_items(self, items, archive_dir: Path, category: str):
-        """
-        Archive items with timestamp.
-
-        Args:
-            items: Items to archive
-            archive_dir: Archive directory
-            category: Category name for logging
-        """
+        from datetime import datetime
         try:
-            import json
             archive_dir.mkdir(parents=True, exist_ok=True)
-
             date_str = datetime.now().strftime("%Y-%m-%d")
             archive_file = archive_dir / f"{date_str}.json"
-
-            archive_entry = {
-                "date": date_str,
-                "timestamp": datetime.now().isoformat(),
-                "category": category,
-                "items": items
-            }
-
-            with open(archive_file, 'w', encoding='utf-8') as f:
-                json.dump(archive_entry, f, indent=2, ensure_ascii=False)
-
-            logger.info(f"Archived {len(items)} {category} items to {archive_file}")
-
-            # Update index
+            archive_file.write_text(
+                json.dumps(
+                    {
+                        "date": date_str,
+                        "timestamp": datetime.now().isoformat(),
+                        "category": category,
+                        "items": items,
+                    },
+                    indent=2,
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            logger.info("Archived %d %s items to %s", len(items), category, archive_file)
             self._update_archive_index(archive_dir)
-
         except Exception as e:
-            logger.error(f"Error archiving {category} items: {e}")
+            logger.error("Error archiving %s items: %s", category, e)
 
     def _update_archive_index(self, archive_dir: Path):
-        """Update archive index file."""
+        from datetime import datetime
         try:
-            import json
-
             archive_files = sorted(archive_dir.glob("????-??-??.json"), reverse=True)
-
             index = {
                 "last_updated": datetime.now().isoformat(),
                 "total_archives": len(archive_files),
-                "archives": []
+                "archives": [],
             }
-
             for archive_file in archive_files:
                 try:
-                    with open(archive_file, 'r', encoding='utf-8') as f:
-                        archive_data = json.load(f)
-
-                    index["archives"].append({
-                        "date": archive_data.get("date", archive_file.stem),
-                        "timestamp": archive_data.get("timestamp", ""),
-                        "category": archive_data.get("category", "unknown"),
-                        "item_count": len(archive_data.get("items", [])),
-                        "filename": archive_file.name
-                    })
+                    data = json.loads(archive_file.read_text(encoding="utf-8"))
+                    index["archives"].append(
+                        {
+                            "date": data.get("date", archive_file.stem),
+                            "timestamp": data.get("timestamp", ""),
+                            "category": data.get("category", "unknown"),
+                            "item_count": len(data.get("items", [])),
+                            "filename": archive_file.name,
+                        }
+                    )
                 except Exception as e:
-                    logger.warning(f"Error reading archive file {archive_file}: {e}")
-                    continue
-
-            index_file = archive_dir / "index.json"
-            with open(index_file, 'w', encoding='utf-8') as f:
-                json.dump(index, f, indent=2, ensure_ascii=False)
-
-            logger.info(f"Updated archive index at {index_file}")
-
+                    logger.warning("Error reading archive file %s: %s", archive_file, e)
+            (archive_dir / "index.json").write_text(
+                json.dumps(index, indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            logger.info("Updated archive index at %s", archive_dir / "index.json")
         except Exception as e:
-            logger.error(f"Error updating archive index: {e}")
+            logger.error("Error updating archive index: %s", e)
 
-    def run_full_update(self, cyber_limit: int = 4, ai_count: int = 4, cyber_days: int = 7) -> bool:
-        """
-        Run full intelligence update for both feeds.
-
-        Args:
-            cyber_limit: Number of cyber intel items
-            ai_count: Number of AI news items
-            cyber_days: Days to look back for cyber intel
-
-        Returns:
-            True if at least one update succeeded
-        """
+    # -- runner ---------------------------------------------------------------
+    def run_full_update(self, cyber_limit: int = 4, ai_count: int = 4) -> bool:
         logger.info("=" * 60)
         logger.info("STARTING FULL INTELLIGENCE UPDATE")
-        logger.info(f"Timestamp: {datetime.now().isoformat()}")
         logger.info("=" * 60)
 
         results = {
-            "cyber": self.update_cyber_intel(limit=cyber_limit, days=cyber_days),
-            "ai": self.update_ai_news(count=ai_count)
+            "cyber": self.update_cyber_intel(limit=cyber_limit),
+            "ai": self.update_ai_news(count=ai_count),
         }
 
         logger.info("=" * 60)
         logger.info("UPDATE SUMMARY")
-        logger.info("=" * 60)
-        logger.info(f"Cyber Intel: {'✓ SUCCESS' if results['cyber'] else '✗ FAILED'}")
-        logger.info(f"AI News: {'✓ SUCCESS' if results['ai'] else '✗ FAILED'}")
+        logger.info("Cyber Intel: %s", "✓ SUCCESS" if results["cyber"] else "✗ FAILED")
+        logger.info("AI News:     %s", "✓ SUCCESS" if results["ai"] else "✗ FAILED")
         logger.info("=" * 60)
 
-        # Return True if at least one succeeded
         return any(results.values())
 
 
 def main():
-    """Main entry point for unified intel update."""
     import argparse
 
-    parser = argparse.ArgumentParser(description='Update all intelligence feeds')
-    parser.add_argument('--cyber-only', action='store_true', help='Update only cyber intel')
-    parser.add_argument('--ai-only', action='store_true', help='Update only AI news')
-    parser.add_argument('--cyber-limit', type=int, default=4, help='Number of cyber items (default: 4)')
-    parser.add_argument('--ai-count', type=int, default=4, help='Number of AI items (default: 4)')
-    parser.add_argument('--cyber-days', type=int, default=7, help='Days to look back for cyber intel (default: 7)')
-    parser.add_argument('--output-dir', type=str, default='public', help='Output directory (default: public)')
-    parser.add_argument('--no-archive', action='store_true', help='Disable archiving')
-    parser.add_argument('--otx-key', type=str, help='OTX API key')
-    parser.add_argument('--claude-key', type=str, help='Claude API key')
+    parser = argparse.ArgumentParser(description="Update all intelligence feeds")
+    parser.add_argument("--cyber-only", action="store_true", help="Update only cyber intel")
+    parser.add_argument("--ai-only", action="store_true", help="Update only AI news")
+    parser.add_argument("--cyber-limit", type=int, default=4, help="Number of cyber items (default: 4)")
+    parser.add_argument("--ai-count", type=int, default=4, help="Number of AI items (default: 4)")
+    parser.add_argument("--output-dir", type=str, default="public", help="Output directory (default: public)")
+    parser.add_argument("--no-archive", action="store_true", help="Disable archiving")
+    parser.add_argument("--use-otx", action="store_true", help="Source cyber intel from AlienVault OTX instead of web search")
+    parser.add_argument("--claude-key", type=str, help="Anthropic API key")
+    parser.add_argument("--otx-key", type=str, help="OTX API key (only with --use-otx)")
 
     args = parser.parse_args()
 
-    # Initialize orchestrator
     orchestrator = IntelUpdateOrchestrator(
-        otx_api_key=args.otx_key,
         claude_api_key=args.claude_key,
         output_dir=Path(args.output_dir),
-        archive_enabled=not args.no_archive
+        archive_enabled=not args.no_archive,
+        use_otx=args.use_otx,
+        otx_api_key=args.otx_key,
     )
 
-    # Run updates based on flags
-    success = False
     if args.cyber_only:
-        success = orchestrator.update_cyber_intel(limit=args.cyber_limit, days=args.cyber_days)
+        success = orchestrator.update_cyber_intel(limit=args.cyber_limit)
     elif args.ai_only:
         success = orchestrator.update_ai_news(count=args.ai_count)
     else:
-        success = orchestrator.run_full_update(
-            cyber_limit=args.cyber_limit,
-            ai_count=args.ai_count,
-            cyber_days=args.cyber_days
-        )
+        success = orchestrator.run_full_update(cyber_limit=args.cyber_limit, ai_count=args.ai_count)
 
     if not success:
         logger.error("Intelligence update failed")
