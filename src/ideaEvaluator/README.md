@@ -49,5 +49,8 @@ will pay for, both fail honestly.
 | `IdeaEvaluatorApp.jsx` | Step orchestration, state, persistence |
 | `steps/*` | One component per step |
 
-The app is mounted by `src/Root.jsx`, which defaults to this evaluator and keeps
-the existing Tech Intel Dashboard reachable via a link in the footer.
+This is the **Idea Lab** workspace of the unified Tech Intel product. `src/Shell.jsx`
+provides the shared brand and the global nav that switches between **Intelligence**
+(the macro/cyber/AI dashboard in `src/App.jsx`) and **Idea Lab**; `src/Root.jsx`
+wires them together and remembers the active workspace. The product tells one
+story: market & tech *signal* → *ideas* worth building → *execution* with Cowork.

@@ -167,7 +167,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white flex flex-col">
+    <div className="flex-grow bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white flex flex-col">
       <style>{styles}</style>
       
       {/* SCROLLING TICKER */}
@@ -188,7 +188,7 @@ export default function App() {
       </div>
 
       {/* MAIN HEADER */}
-      <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-40 px-4 py-3">
+      <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-14 z-30 px-4 py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div>
             <div>
