@@ -1,30 +1,51 @@
 // Root.jsx
-// Top-level switch between the new Idea Evaluator app (default) and the existing
-// Tech Intel Dashboard. Keeps both reachable without either disturbing the other.
+// Mounts the unified Tech Intel product: one shell, two first-class workspaces.
+// Defaults to the Intelligence dashboard (restoring the original identity) with
+// the Idea Lab one click away. The active workspace is remembered across visits.
 
-import { useState, lazy, Suspense } from 'react';
+import { useEffect, useState, lazy, Suspense } from 'react';
+import Shell, { TABS } from './Shell.jsx';
 import IdeaEvaluatorApp from './ideaEvaluator/IdeaEvaluatorApp.jsx';
 
 const Dashboard = lazy(() => import('./App.jsx'));
 
-export default function Root() {
-  const [view, setView] = useState('evaluator');
+const VIEW_KEY = 'tech-intel:workspace';
 
-  if (view === 'dashboard') {
-    return (
-      <Suspense
-        fallback={<div className="min-h-screen flex items-center justify-center text-slate-400">Loading…</div>}
-      >
-        <button
-          onClick={() => setView('evaluator')}
-          className="fixed top-4 left-4 z-50 rounded-lg bg-slate-800/90 backdrop-blur px-3 py-1.5 text-xs font-semibold text-slate-100 border border-slate-700 hover:bg-slate-700 transition-colors"
-        >
-          ← Idea Evaluator
-        </button>
-        <Dashboard />
-      </Suspense>
-    );
+function loadView() {
+  try {
+    const v = localStorage.getItem(VIEW_KEY);
+    return TABS.some((t) => t.id === v) ? v : 'intelligence';
+  } catch {
+    return 'intelligence';
   }
+}
 
-  return <IdeaEvaluatorApp onOpenDashboard={() => setView('dashboard')} />;
+export default function Root() {
+  const [view, setView] = useState(loadView);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem(VIEW_KEY, view);
+    } catch {
+      /* ignore */
+    }
+  }, [view]);
+
+  return (
+    <Shell active={view} onChange={setView}>
+      {view === 'intelligence' ? (
+        <Suspense
+          fallback={
+            <div className="flex-grow flex items-center justify-center text-slate-400 text-sm">
+              Loading intelligence…
+            </div>
+          }
+        >
+          <Dashboard onOpenIdeaLab={() => setView('idealab')} />
+        </Suspense>
+      ) : (
+        <IdeaEvaluatorApp onOpenIntel={() => setView('intelligence')} />
+      )}
+    </Shell>
+  );
 }

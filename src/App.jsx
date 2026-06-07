@@ -1,4 +1,4 @@
-import { useState, useEffect, lazy, Suspense, useMemo } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import Tooltip from './components/Tooltip';
 import DataFreshnessIndicator from './components/DataFreshnessIndicator';
 import useMacroData from './hooks/useMacroData';
@@ -20,8 +20,31 @@ const styles = `
   }
 `;
 
+// Only treat http(s) links as real sources. Placeholder values like "#" or a
+// missing url must NOT render as a link — otherwise the browser opens the
+// dashboard itself in a new tab instead of the article.
+const isSourceUrl = (url) => typeof url === 'string' && /^https?:\/\//i.test(url.trim());
 
-export default function App() {
+// Renders the "read the source" affordance only when a genuine source URL
+// exists; otherwise shows a muted, non-clickable note.
+function SourceLink({ url, text, className = 'text-indigo-400 hover:text-indigo-300' }) {
+  if (!isSourceUrl(url)) {
+    return <span className="inline-block text-xs font-semibold text-slate-600 mt-1">Source pending</span>;
+  }
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`inline-block text-xs font-semibold transition mt-1 ${className}`}
+    >
+      {text || 'Read the source →'}
+    </a>
+  );
+}
+
+
+export default function App({ onOpenIdeaLab }) {
   const [tooltipsEnabled, setTooltipsEnabled] = useState(true);
   const [showCyberArchive, setShowCyberArchive] = useState(false);
   const [showAiArchive, setShowAiArchive] = useState(false);
@@ -141,7 +164,8 @@ export default function App() {
 
   // Fetch live operational data from automation bots
   useEffect(() => {
-    fetch('/cyber-intel.json')
+    const base = import.meta.env.BASE_URL;
+    fetch(`${base}cyber-intel.json`)
       .then(res => {
         if (!res.ok) throw new Error('Network response was not ok');
         return res.json();
@@ -153,7 +177,7 @@ export default function App() {
       })
       .catch(err => console.error('Error loading dynamic cyber-intel:', err));
 
-    fetch('/ai-intel.json')
+    fetch(`${base}ai-intel.json`)
       .then(res => {
         if (!res.ok) throw new Error('Network response was not ok');
         return res.json();
@@ -167,7 +191,7 @@ export default function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white flex flex-col">
+    <div className="flex-grow bg-slate-950 text-slate-100 font-sans antialiased selection:bg-indigo-500 selection:text-white flex flex-col">
       <style>{styles}</style>
       
       {/* SCROLLING TICKER */}
@@ -188,7 +212,7 @@ export default function App() {
       </div>
 
       {/* MAIN HEADER */}
-      <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-40 px-4 py-3">
+      <header className="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-14 z-30 px-4 py-3">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           <div>
             <div>
@@ -202,6 +226,18 @@ export default function App() {
             <p className="text-xs text-slate-400">Tracking the variables that price the market.</p>
           </div>
           
+          <div className="flex items-center gap-3">
+            {/* Cross-link: turn a spotted signal into an evaluated idea */}
+            {onOpenIdeaLab && (
+              <button
+                onClick={onOpenIdeaLab}
+                className="hidden sm:inline-flex items-center gap-1.5 rounded-lg bg-indigo-500/10 border border-indigo-500/30 px-3 py-2 text-xs font-semibold text-indigo-300 hover:bg-indigo-500/20 transition-colors"
+                title="Pressure-test a business idea sparked by this intel"
+              >
+                💡 Spotted an opportunity? Idea Lab →
+              </button>
+            )}
+
           {/* Tooltip Toggle */}
           <div className="flex items-center gap-3 bg-slate-950 p-2 rounded-lg border border-slate-800">
             <span className="text-xs font-semibold text-slate-400">Expert Mode (Hide Intel Tooltips)</span>
@@ -211,6 +247,7 @@ export default function App() {
             >
               <div className={`absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white transition-transform ${!tooltipsEnabled ? 'translate-x-5' : 'translate-x-0'}`} />
             </button>
+          </div>
           </div>
         </div>
       </header>
@@ -428,7 +465,7 @@ export default function App() {
                   <div key={index} className="border-l-2 border-slate-700 pl-4 space-y-2">
                     <h4 className="font-bold text-white text-sm leading-snug">{item.title}</h4>
                     <p className="text-xs text-slate-400 leading-relaxed">{item.content}</p>
-                    <a href={item.url || "#"} target="_blank" rel="noopener noreferrer" className="inline-block text-xs font-semibold text-indigo-400 hover:text-indigo-300 transition mt-1">{item.linkText}</a>
+                    <SourceLink url={item.url} text={item.linkText} className="text-indigo-400 hover:text-indigo-300" />
                   </div>
                 ))}
               </div>
@@ -456,7 +493,7 @@ export default function App() {
                   <div key={index} className="border-l-2 border-slate-700 pl-4 space-y-2">
                     <h4 className="font-bold text-white text-sm leading-snug">{item.title}</h4>
                     <p className="text-xs text-slate-400 leading-relaxed">{item.content}</p>
-                    <a href={item.url || "#"} target="_blank" rel="noopener noreferrer" className="inline-block text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition mt-1">{item.linkText}</a>
+                    <SourceLink url={item.url} text={item.linkText} className="text-emerald-400 hover:text-emerald-300" />
                   </div>
                 ))}
               </div>

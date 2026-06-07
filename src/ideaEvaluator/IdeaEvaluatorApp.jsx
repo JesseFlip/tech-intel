@@ -22,7 +22,7 @@ const STEPS = [
   { id: 'track', label: 'Accountability' },
 ];
 
-export default function IdeaEvaluatorApp({ onOpenDashboard }) {
+export default function IdeaEvaluatorApp({ onOpenIntel }) {
   const persisted = useMemo(() => loadState(), []);
   const [step, setStep] = useState(0);
   const [idea, setIdea] = useState(persisted.idea);
@@ -63,10 +63,10 @@ export default function IdeaEvaluatorApp({ onOpenDashboard }) {
   };
 
   return (
-    <div className="min-h-screen bg-bg-primary text-slate-100">
+    <div className="flex-grow text-slate-100">
       <BackgroundGlow />
       <div className="relative max-w-3xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
-        <Header onReset={reset} />
+        <Header onReset={reset} onOpenIntel={onOpenIntel} />
         <Stepper steps={STEPS} current={step} reachable={reachable} onGoto={goto} />
 
         <main className="mt-8">
@@ -105,29 +105,38 @@ export default function IdeaEvaluatorApp({ onOpenDashboard }) {
           )}
         </main>
 
-        <Footer onOpenDashboard={onOpenDashboard} />
+        <Footer onOpenIntel={onOpenIntel} />
       </div>
     </div>
   );
 }
 
-function Header({ onReset }) {
+function Header({ onReset, onOpenIntel }) {
   return (
-    <header className="flex items-start justify-between gap-4">
-      <div>
+    <header className="space-y-3">
+      <div className="flex items-start justify-between gap-4">
         <div className="flex items-center gap-2.5">
           <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-xl shadow-lg shadow-indigo-500/30">
             💡
           </span>
           <div>
-            <h1 className="text-lg sm:text-xl font-bold text-white leading-tight">Worth It?</h1>
-            <p className="text-xs text-slate-400">Idea evaluator & accountability coach</p>
+            <h1 className="text-lg sm:text-xl font-bold text-white leading-tight">Idea Lab</h1>
+            <p className="text-xs text-slate-400">Evaluate · plan · execute with Claude Cowork</p>
           </div>
         </div>
+        <Button variant="ghost" className="!px-3 !py-1.5 text-xs" onClick={onReset}>
+          Start over
+        </Button>
       </div>
-      <Button variant="ghost" className="!px-3 !py-1.5 text-xs" onClick={onReset}>
-        Start over
-      </Button>
+      {onOpenIntel && (
+        <p className="text-xs text-slate-500">
+          Spotted an opening in the{' '}
+          <button onClick={onOpenIntel} className="text-indigo-400 hover:text-indigo-300 font-medium">
+            Intelligence feed
+          </button>
+          ? Pressure-test it here before you build.
+        </p>
+      )}
     </header>
   );
 }
@@ -177,13 +186,13 @@ function Stepper({ steps, current, reachable, onGoto }) {
   );
 }
 
-function Footer({ onOpenDashboard }) {
+function Footer({ onOpenIntel }) {
   return (
     <footer className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
       <p>Evaluation runs entirely in your browser. Nothing is uploaded.</p>
-      {onOpenDashboard && (
-        <button onClick={onOpenDashboard} className="hover:text-slate-300 transition-colors">
-          View Tech Intel Dashboard →
+      {onOpenIntel && (
+        <button onClick={onOpenIntel} className="hover:text-slate-300 transition-colors">
+          ← Back to Intelligence
         </button>
       )}
     </footer>

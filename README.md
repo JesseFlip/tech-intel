@@ -61,11 +61,21 @@ See [SETUP.md](./SETUP.md) for detailed setup instructions.
 
 ### Intelligence Pipeline (`pipeline/`)
 
-Python-based intelligence fetchers:
+Python-based intelligence fetchers. Both feeds are produced by Claude + the
+`web_search` tool, so every item links to a **real source** (vendor advisory,
+NVD/CVE record, CISA alert, official announcement, or original reporting):
 
-- **`otx_fetcher.py`** - Fetches cyber threat intelligence from AlienVault OTX
-- **`ai_news_fetcher.py`** - Fetches AI news using Claude API with web search
-- **`update_intel.py`** - Unified orchestrator for all intelligence feeds
+- **`web_intel_fetcher.py`** - The engine. Runs Claude (`claude-opus-4-8`, adaptive
+  thinking) with web search and verifies each item's URL against the pages search
+  actually returned, so placeholder/hallucinated links never reach the UI.
+  - **Cyber** topic: newly disclosed/critical CVEs (incl. actively exploited / CISA KEV)
+    and major threat announcements (breaches, ransomware, APT, supply-chain).
+  - **AI** topic: model releases, research, funding, policy, and adoption news.
+- **`update_intel.py`** - Unified orchestrator. Refreshes the **separate** cyber and
+  AI feeds (each archived independently). `--use-otx` optionally sources cyber from
+  AlienVault OTX instead of web search.
+- **`otx_fetcher.py`** - Optional AlienVault OTX source for cyber intel.
+- **`ai_news_fetcher.py`** - Backward-compatible wrapper around `web_intel_fetcher`.
 
 ### Frontend (`src/`)
 
