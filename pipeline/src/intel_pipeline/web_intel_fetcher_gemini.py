@@ -33,7 +33,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-MODEL = "gemini-1.5-flash-002"  # Latest stable model with Google Search support
+MODEL = "gemini-1.5-flash-latest"  # Latest stable model with Google Search support
 
 
 def resolve_gemini_api_key() -> str:
