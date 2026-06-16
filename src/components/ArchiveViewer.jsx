@@ -14,9 +14,10 @@ export default function ArchiveViewer({ category = 'cyber', onClose }) {
   const [error, setError] = useState(null);
 
   // Determine paths based on category
+  const base = import.meta.env.BASE_URL;
   const archiveBasePath = category === 'cyber'
-    ? '/archives/cyber-intel'
-    : '/archives/ai-news';
+    ? `${base}archives/cyber-intel`
+    : `${base}archives/ai-news`;
 
   const categoryLabel = category === 'cyber'
     ? 'Cyber Intelligence'
