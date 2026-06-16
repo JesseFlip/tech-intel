@@ -2,12 +2,11 @@
 Unified Intelligence Update Script
 
 Orchestrates the daily refresh of two SEPARATE feeds, each archived on its own:
-  - Cyber: newly disclosed/critical CVEs and major threat announcements.
-  - AI:    model releases, research, funding, policy and adoption news.
+  - Cyber: newly disclosed/critical CVEs and major threat announcements (from OTX).
+  - AI:    model releases, research, funding, policy and adoption news (from Gemini).
 
-Both feeds are produced by Gemini + Google Search grounding (see web_intel_fetcher_gemini),
-so every item links to a REAL source. Cyber can optionally be sourced from
-AlienVault OTX instead via --use-otx.
+Cyber feed uses AlienVault OTX for verified threat intelligence.
+AI feed uses Gemini + Google Search grounding for real source URLs.
 """
 
 import sys
@@ -16,7 +15,22 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Optional
 
-from .web_intel_fetcher_gemini import WebIntelFetcherGemini, TOPICS
+from .web_intel_fetcher_gemini import WebIntelFetcherGemini
+from .otx_fetcher import OTXIntelFetcher
+
+# Topic configurations for output files and archiving
+TOPICS: Dict[str, Dict[str, str]] = {
+    "cyber": {
+        "output": "cyber-intel.json",
+        "archive": "archives/cyber-intel",
+        "category": "cyber",
+    },
+    "ai": {
+        "output": "ai-intel.json",
+        "archive": "archives/ai-news",
+        "category": "ai",
+    },
+}
 
 logging.basicConfig(
     level=logging.INFO,
@@ -32,74 +46,67 @@ class IntelUpdateOrchestrator:
     def __init__(
         self,
         gemini_api_key: Optional[str] = None,
+        otx_api_key: Optional[str] = None,
         output_dir: Path = Path("public"),
         archive_enabled: bool = True,
-        use_otx: bool = False,
-        otx_api_key: Optional[str] = None,
     ):
         self.output_dir = Path(output_dir)
         self.archive_enabled = archive_enabled
-        self.use_otx = use_otx
         self.otx_api_key = otx_api_key
 
+        # Initialize Gemini fetcher for AI news
         try:
-            self.fetcher = WebIntelFetcherGemini(api_key=gemini_api_key)
-            logger.info("Web intel fetcher (Gemini) initialized successfully")
+            self.ai_fetcher = WebIntelFetcherGemini(api_key=gemini_api_key)
+            logger.info("AI news fetcher (Gemini) initialized successfully")
         except SystemExit:
             raise
         except Exception as e:
-            logger.error("Failed to initialize web intel fetcher: %s", e)
-            self.fetcher = None
+            logger.error("Failed to initialize AI fetcher: %s", e)
+            self.ai_fetcher = None
+
+        # Initialize OTX fetcher for cyber intel
+        try:
+            self.cyber_fetcher = OTXIntelFetcher(api_key=otx_api_key)
+            logger.info("Cyber intel fetcher (OTX) initialized successfully")
+        except SystemExit:
+            raise
+        except Exception as e:
+            logger.error("Failed to initialize cyber fetcher: %s", e)
+            self.cyber_fetcher = None
 
     # -- feeds ----------------------------------------------------------------
     def update_cyber_intel(self, limit: int = 4) -> bool:
-        """Refresh the cyber feed (CVEs + major threats) with real source links."""
+        """Refresh the cyber feed from AlienVault OTX."""
         logger.info("=" * 60)
-        logger.info("UPDATING CYBER THREAT INTELLIGENCE")
+        logger.info("UPDATING CYBER THREAT INTELLIGENCE (OTX)")
         logger.info("=" * 60)
 
-        if self.use_otx:
-            return self._update_cyber_via_otx(limit)
-
-        if not self.fetcher:
-            logger.error("Web fetcher unavailable; skipping cyber update")
+        if not self.cyber_fetcher:
+            logger.error("Cyber fetcher (OTX) unavailable; skipping cyber update")
             return False
+
         try:
-            items = self.fetcher.fetch_topic("cyber", num_items=limit)
+            items = self.cyber_fetcher.fetch_and_transform(limit=limit)
             return self._write_feed("cyber", items)
         except Exception as e:
             logger.error("Error updating cyber intel: %s", e)
             return False
 
     def update_ai_news(self, count: int = 4) -> bool:
-        """Refresh the AI feed with real source links."""
+        """Refresh the AI feed from Gemini with Google Search."""
         logger.info("=" * 60)
-        logger.info("UPDATING AI NEWS INTELLIGENCE")
+        logger.info("UPDATING AI NEWS INTELLIGENCE (Gemini)")
         logger.info("=" * 60)
 
-        if not self.fetcher:
-            logger.error("Web fetcher unavailable; skipping AI update")
+        if not self.ai_fetcher:
+            logger.error("AI fetcher (Gemini) unavailable; skipping AI update")
             return False
+
         try:
-            items = self.fetcher.fetch_topic("ai", num_items=count)
+            items = self.ai_fetcher.fetch_topic("ai", num_items=count)
             return self._write_feed("ai", items)
         except Exception as e:
             logger.error("Error updating AI news: %s", e)
-            return False
-
-    def _update_cyber_via_otx(self, limit: int) -> bool:
-        """Optional: source cyber intel from AlienVault OTX instead of web search."""
-        try:
-            from .otx_fetcher import OTXIntelFetcher
-        except Exception as e:
-            logger.error("OTX fetcher unavailable: %s", e)
-            return False
-        try:
-            otx = OTXIntelFetcher(api_key=self.otx_api_key, max_pulses=limit * 2)
-            items = otx.fetch_and_transform(limit=limit)
-            return self._write_feed("cyber", items)
-        except Exception as e:
-            logger.error("Error updating cyber intel via OTX: %s", e)
             return False
 
     # -- output / archiving ---------------------------------------------------
@@ -202,18 +209,16 @@ def main():
     parser.add_argument("--ai-count", type=int, default=4, help="Number of AI items (default: 4)")
     parser.add_argument("--output-dir", type=str, default="public", help="Output directory (default: public)")
     parser.add_argument("--no-archive", action="store_true", help="Disable archiving")
-    parser.add_argument("--use-otx", action="store_true", help="Source cyber intel from AlienVault OTX instead of web search")
-    parser.add_argument("--gemini-key", type=str, help="Gemini API key")
-    parser.add_argument("--otx-key", type=str, help="OTX API key (only with --use-otx)")
+    parser.add_argument("--gemini-key", type=str, help="Gemini API key (for AI feed)")
+    parser.add_argument("--otx-key", type=str, help="OTX API key (for cyber feed)")
 
     args = parser.parse_args()
 
     orchestrator = IntelUpdateOrchestrator(
         gemini_api_key=args.gemini_key,
+        otx_api_key=args.otx_key,
         output_dir=Path(args.output_dir),
         archive_enabled=not args.no_archive,
-        use_otx=args.use_otx,
-        otx_api_key=args.otx_key,
     )
 
     if args.cyber_only:

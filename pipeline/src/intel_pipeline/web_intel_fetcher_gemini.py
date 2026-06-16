@@ -1,15 +1,13 @@
 """
-Web-grounded intelligence fetcher using Gemini + Google Search grounding.
+Web-grounded intelligence fetcher using Google Gemini API (google.genai).
 
-This is the engine behind both the Cyber and AI feeds. Unlike a plain prompt
-(which makes the model hallucinate fake URLs), this enables Google's Search
-grounding feature so Gemini reads *real, current* pages and returns items whose
-URLs point at the genuine source article/advisory.
+This engine powers the AI news feed. Uses the modern google.genai package
+with Google Search grounding to fetch real, current sources.
 
 Design notes:
-- Model: gemini-2.0-flash-thinking-exp-1219 with Google Search grounding.
-- Google Search runs server-side and grounds responses in real web content.
-- We validate every item's `url` to ensure real links reach the UI.
+- Package: google.genai (not the deprecated google.generativeai)
+- Model: gemini-2.0-flash-exp with Google Search enabled
+- Validates URLs to ensure real links reach the UI
 """
 
 import os
@@ -22,9 +20,10 @@ from pathlib import Path
 from typing import List, Dict, Any, Optional
 
 try:
-    import google.generativeai as genai
+    from google import genai
+    from google.genai import types
 except ImportError:  # pragma: no cover
-    print("Error: google-generativeai package not installed. Run: pip install google-generativeai")
+    print("Error: google-genai package not installed. Run: pip install google-genai")
     sys.exit(1)
 
 logging.basicConfig(
@@ -34,7 +33,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-MODEL = "gemini-2.0-flash-thinking-exp-1219"
+MODEL = "gemini-2.0-flash-exp"
 
 
 def resolve_gemini_api_key() -> str:
@@ -60,38 +59,14 @@ def resolve_gemini_api_key() -> str:
 
 
 # --- Topic definitions -------------------------------------------------------
-# Each topic produces its own feed file + archive, so Cyber and AI stay separate
-# and both refresh independently.
-
 TOPICS: Dict[str, Dict[str, str]] = {
-    "cyber": {
-        "output": "cyber-intel.json",
-        "archive": "archives/cyber-intel",
-        "category": "cyber",
-        "link_text": "Read the advisory →",
-        "instructions": (
-            "You are a senior cyber threat intelligence analyst. Using web search, "
-            "find the most important and genuinely RECENT (past 72 hours) cybersecurity "
-            "developments. Prioritise, in roughly this order:\n"
-            "1. Newly disclosed or updated CRITICAL CVEs — especially ones being actively "
-            "exploited in the wild or newly added to CISA's Known Exploited Vulnerabilities "
-            "(KEV) catalog. Include the CVE ID in the title.\n"
-            "2. Major threat announcements — significant breaches, ransomware/extortion "
-            "campaigns, nation-state/APT activity, and large-scale supply-chain attacks.\n"
-            "3. Authoritative advisories from vendors, CISA, NCSC, or national CERTs.\n"
-            "Favour primary sources: the vendor security advisory, the NVD/CVE record, the "
-            "CISA alert, or the original reporting from a reputable security outlet "
-            "(BleepingComputer, The Hacker News, Krebs, Dark Reading, etc.). "
-            "Do NOT use search-engine result pages or aggregator landing pages as the URL."
-        ),
-    },
     "ai": {
         "output": "ai-intel.json",
         "archive": "archives/ai-news",
         "category": "ai",
         "link_text": "Read the full article →",
         "instructions": (
-            "You are a professional AI industry analyst. Using web search, find the most "
+            "You are a professional AI industry analyst. Search the web for the most "
             "important and genuinely RECENT (past 48 hours) AI and emerging-technology news. "
             "Cover a mix of: major model releases and updates (Anthropic, OpenAI, Google, "
             "Meta, etc.), significant research breakthroughs, notable funding/acquisitions, "
@@ -105,14 +80,13 @@ TOPICS: Dict[str, Dict[str, str]] = {
 
 
 class WebIntelFetcherGemini:
-    """Fetches web-grounded intel items with real source URLs via Gemini."""
+    """Fetches web-grounded AI news with real source URLs via Gemini."""
 
     def __init__(self, api_key: Optional[str] = None, model: str = MODEL):
         self.api_key = api_key or resolve_gemini_api_key()
-        genai.configure(api_key=self.api_key)
-        self.model = genai.GenerativeModel(model)
+        self.client = genai.Client(api_key=self.api_key)
+        self.model = model
 
-    # -- core model call ------------------------------------------------------
     def _run_search(self, instructions: str, num_items: int) -> str:
         """Run web-grounded search via Gemini; return response text."""
         today = datetime.now().strftime("%Y-%m-%d")
@@ -130,28 +104,25 @@ class WebIntelFetcherGemini:
             "never invent a URL, and never use a homepage or search page."
         )
 
-        # Configure generation with Google Search grounding
-        generation_config = genai.types.GenerationConfig(
-            temperature=0.7,
-            max_output_tokens=8192,
-        )
-
-        # Enable Google Search grounding
-        tools = [genai.types.Tool(google_search=genai.types.GoogleSearch())]
-
-        # Generate response
         try:
-            response = self.model.generate_content(
-                prompt,
-                generation_config=generation_config,
-                tools=tools
+            # Enable Google Search grounding
+            response = self.client.models.generate_content(
+                model=self.model,
+                contents=prompt,
+                config=types.GenerateContentConfig(
+                    temperature=0.7,
+                    max_output_tokens=8192,
+                    tools=[types.Tool(google_search=types.GoogleSearch())],
+                )
             )
-            return response.text.strip()
+
+            return response.text.strip() if response.text else ""
+
         except Exception as e:
             logger.error("Error during Gemini API call: %s", e)
+            logger.error("Error type: %s", type(e).__name__)
             return ""
 
-    # -- parsing helpers ------------------------------------------------------
     @staticmethod
     def _is_source_url(url: Optional[str]) -> bool:
         return isinstance(url, str) and bool(re.match(r"^https?://", url.strip(), re.I))
@@ -197,9 +168,8 @@ class WebIntelFetcherGemini:
 
         return items[:num_items]
 
-    # -- public API -----------------------------------------------------------
     def fetch_topic(self, topic: str, num_items: int = 4) -> List[Dict[str, str]]:
-        """Fetch intelligence items for the specified topic."""
+        """Fetch AI intelligence items via Gemini Google Search."""
         cfg = TOPICS[topic]
         logger.info("Fetching %d '%s' items via Gemini Google Search...", num_items, topic)
         response_text = self._run_search(cfg["instructions"], num_items)
@@ -209,11 +179,10 @@ class WebIntelFetcherGemini:
 
 
 def main():
-    """CLI for fetching a single topic feed."""
+    """CLI for fetching AI news feed."""
     import argparse
 
-    parser = argparse.ArgumentParser(description="Fetch web-grounded intel via Gemini")
-    parser.add_argument("topic", choices=sorted(TOPICS.keys()), help="Which feed to fetch")
+    parser = argparse.ArgumentParser(description="Fetch AI news via Gemini")
     parser.add_argument("--count", type=int, default=4, help="Number of items (default: 4)")
     parser.add_argument("--output", type=str, help="Override output JSON path")
     parser.add_argument("--api-key", type=str, help="Gemini API key (optional)")
@@ -221,12 +190,13 @@ def main():
     args = parser.parse_args()
 
     fetcher = WebIntelFetcherGemini(api_key=args.api_key)
-    items = fetcher.fetch_topic(args.topic, num_items=args.count)
+    items = fetcher.fetch_topic("ai", num_items=args.count)
+
     if not items:
-        logger.error("No items generated for topic '%s'", args.topic)
+        logger.error("No items generated")
         sys.exit(1)
 
-    out = Path(args.output) if args.output else Path("public") / TOPICS[args.topic]["output"]
+    out = Path(args.output) if args.output else Path("public") / TOPICS["ai"]["output"]
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(items, indent=2, ensure_ascii=False), encoding="utf-8")
     logger.info("Wrote %d items to %s", len(items), out)
