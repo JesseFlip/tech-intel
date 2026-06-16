@@ -5,7 +5,7 @@ Orchestrates the daily refresh of two SEPARATE feeds, each archived on its own:
   - Cyber: newly disclosed/critical CVEs and major threat announcements.
   - AI:    model releases, research, funding, policy and adoption news.
 
-Both feeds are produced by Claude + the web_search tool (see web_intel_fetcher),
+Both feeds are produced by Gemini + Google Search grounding (see web_intel_fetcher_gemini),
 so every item links to a REAL source. Cyber can optionally be sourced from
 AlienVault OTX instead via --use-otx.
 """
@@ -16,7 +16,7 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Optional
 
-from .web_intel_fetcher import WebIntelFetcher, TOPICS
+from .web_intel_fetcher_gemini import WebIntelFetcherGemini, TOPICS
 
 logging.basicConfig(
     level=logging.INFO,
@@ -31,7 +31,7 @@ class IntelUpdateOrchestrator:
 
     def __init__(
         self,
-        claude_api_key: Optional[str] = None,
+        gemini_api_key: Optional[str] = None,
         output_dir: Path = Path("public"),
         archive_enabled: bool = True,
         use_otx: bool = False,
@@ -43,8 +43,8 @@ class IntelUpdateOrchestrator:
         self.otx_api_key = otx_api_key
 
         try:
-            self.fetcher = WebIntelFetcher(api_key=claude_api_key)
-            logger.info("Web intel fetcher initialized successfully")
+            self.fetcher = WebIntelFetcherGemini(api_key=gemini_api_key)
+            logger.info("Web intel fetcher (Gemini) initialized successfully")
         except SystemExit:
             raise
         except Exception as e:
@@ -203,13 +203,13 @@ def main():
     parser.add_argument("--output-dir", type=str, default="public", help="Output directory (default: public)")
     parser.add_argument("--no-archive", action="store_true", help="Disable archiving")
     parser.add_argument("--use-otx", action="store_true", help="Source cyber intel from AlienVault OTX instead of web search")
-    parser.add_argument("--claude-key", type=str, help="Anthropic API key")
+    parser.add_argument("--gemini-key", type=str, help="Gemini API key")
     parser.add_argument("--otx-key", type=str, help="OTX API key (only with --use-otx)")
 
     args = parser.parse_args()
 
     orchestrator = IntelUpdateOrchestrator(
-        claude_api_key=args.claude_key,
+        gemini_api_key=args.gemini_key,
         output_dir=Path(args.output_dir),
         archive_enabled=not args.no_archive,
         use_otx=args.use_otx,
