@@ -149,8 +149,16 @@ class OTXIntelFetcher:
 
         malware_families = pulse.get('malware_families', [])
         if malware_families:
-            families_str = ', '.join([mf.get('display_name', mf.get('name', '')) for mf in malware_families[:3]])
-            content_parts.append(f"Associated malware: {families_str}.")
+            # Handle both dict and string formats
+            families_list = []
+            for mf in malware_families[:3]:
+                if isinstance(mf, dict):
+                    families_list.append(mf.get('display_name', mf.get('name', '')))
+                elif isinstance(mf, str):
+                    families_list.append(mf)
+            if families_list:
+                families_str = ', '.join(families_list)
+                content_parts.append(f"Associated malware: {families_str}.")
 
         content = ' '.join(content_parts) if content_parts else 'Threat intelligence pulse from AlienVault OTX.'
 
