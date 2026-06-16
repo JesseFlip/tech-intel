@@ -70,36 +70,39 @@ class OTXIntelFetcher:
 
     def fetch_recent_pulses(self, modified_since: Optional[str] = None) -> List[Dict[str, Any]]:
         """
-        Fetch recent pulses from OTX subscribed feed.
+        Fetch recent pulses from OTX public feed.
 
         Args:
-            modified_since: ISO 8601 datetime string to filter pulses (default: last 7 days)
+            modified_since: ISO 8601 datetime string to filter pulses (default: last 3 days)
 
         Returns:
             List of pulse dictionaries
         """
         logger.info("Fetching recent pulses from AlienVault OTX...")
 
-        # Default to last 7 days if not specified
+        # Default to last 3 days (shorter window for more reliability)
         if not modified_since:
-            seven_days_ago = datetime.now() - timedelta(days=7)
-            modified_since = seven_days_ago.isoformat()
+            three_days_ago = datetime.now() - timedelta(days=3)
+            modified_since = three_days_ago.isoformat()
 
         try:
-            # Get subscribed pulses (includes user subscriptions and curated feeds)
-            pulses_data = self.otx.getall(modified_since=modified_since, limit=self.max_pulses)
+            # Use getsince() to get general activity feed (not just subscriptions)
+            # This is more reliable as it doesn't require user to be subscribed to feeds
+            pulses_data = self.otx.getsince(modified_since, limit=self.max_pulses)
 
-            if not pulses_data or 'results' not in pulses_data:
+            if not pulses_data or not isinstance(pulses_data, list):
                 logger.warning("No pulses found in OTX response")
                 return []
 
-            pulses = pulses_data.get('results', [])
+            # getsince returns a list directly, not a dict with 'results'
+            pulses = pulses_data
             logger.info(f"Successfully fetched {len(pulses)} pulses from OTX")
 
             return pulses
 
         except Exception as e:
             logger.error(f"Error fetching OTX pulses: {e}")
+            logger.error(f"Error type: {type(e).__name__}")
             return []
 
     def transform_pulse_to_intel_item(self, pulse: Dict[str, Any]) -> Dict[str, str]:
