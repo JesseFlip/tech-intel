@@ -33,7 +33,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-MODEL = "gemini-1.5-flash-latest"  # Latest stable model with Google Search support
+MODEL = "models/gemini-1.5-flash"  # Stable model for AI news
 
 
 def resolve_gemini_api_key() -> str:
@@ -105,14 +105,14 @@ class WebIntelFetcherGemini:
         )
 
         try:
-            # Enable Google Search grounding
+            # Generate content (without Google Search grounding for now)
+            # The model will use its training data for recent AI news
             response = self.client.models.generate_content(
                 model=self.model,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     temperature=0.7,
                     max_output_tokens=8192,
-                    tools=[types.Tool(google_search=types.GoogleSearch())],
                 )
             )
 
