@@ -3,10 +3,10 @@ Unified Intelligence Update Script
 
 Orchestrates the daily refresh of two SEPARATE feeds, each archived on its own:
   - Cyber: newly disclosed/critical CVEs and major threat announcements (from OTX).
-  - AI:    model releases, research, funding, policy and adoption news (from Gemini).
+  - AI:    model releases, research, funding, policy and adoption news (from RSS feeds).
 
 Cyber feed uses AlienVault OTX for verified threat intelligence.
-AI feed uses Gemini + Google Search grounding for real source URLs.
+AI feed uses RSS feeds from TechCrunch, VentureBeat, MIT Tech Review, etc.
 """
 
 import sys
@@ -15,7 +15,7 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Optional
 
-from .web_intel_fetcher_gemini import WebIntelFetcherGemini
+from .ai_news_rss_fetcher import AINewsRSSFetcher
 from .otx_fetcher import OTXIntelFetcher
 
 # Topic configurations for output files and archiving
@@ -45,7 +45,6 @@ class IntelUpdateOrchestrator:
 
     def __init__(
         self,
-        gemini_api_key: Optional[str] = None,
         otx_api_key: Optional[str] = None,
         output_dir: Path = Path("public"),
         archive_enabled: bool = True,
@@ -54,12 +53,10 @@ class IntelUpdateOrchestrator:
         self.archive_enabled = archive_enabled
         self.otx_api_key = otx_api_key
 
-        # Initialize Gemini fetcher for AI news
+        # Initialize RSS fetcher for AI news (no API key needed)
         try:
-            self.ai_fetcher = WebIntelFetcherGemini(api_key=gemini_api_key)
-            logger.info("AI news fetcher (Gemini) initialized successfully")
-        except SystemExit:
-            raise
+            self.ai_fetcher = AINewsRSSFetcher()
+            logger.info("AI news fetcher (RSS) initialized successfully")
         except Exception as e:
             logger.error("Failed to initialize AI fetcher: %s", e)
             self.ai_fetcher = None
@@ -93,18 +90,30 @@ class IntelUpdateOrchestrator:
             return False
 
     def update_ai_news(self, count: int = 4) -> bool:
-        """Refresh the AI feed from Gemini with Google Search."""
+        """Refresh the AI feed from RSS sources."""
         logger.info("=" * 60)
-        logger.info("UPDATING AI NEWS INTELLIGENCE (Gemini)")
+        logger.info("UPDATING AI NEWS INTELLIGENCE (RSS)")
         logger.info("=" * 60)
 
         if not self.ai_fetcher:
-            logger.error("AI fetcher (Gemini) unavailable; skipping AI update")
+            logger.error("AI fetcher (RSS) unavailable; skipping AI update")
             return False
 
         try:
-            items = self.ai_fetcher.fetch_topic("ai", num_items=count)
-            return self._write_feed("ai", items)
+            items = self.ai_fetcher.fetch_ai_news(num_items=count)
+            if not items:
+                return False
+
+            # Write feed
+            if not self._write_feed("ai", items):
+                return False
+
+            # Archive if enabled
+            if self.archive_enabled:
+                archive_dir = self.output_dir / TOPICS["ai"]["archive"]
+                self.ai_fetcher.archive_news(items, archive_dir)
+
+            return True
         except Exception as e:
             logger.error("Error updating AI news: %s", e)
             return False
@@ -209,13 +218,11 @@ def main():
     parser.add_argument("--ai-count", type=int, default=4, help="Number of AI items (default: 4)")
     parser.add_argument("--output-dir", type=str, default="public", help="Output directory (default: public)")
     parser.add_argument("--no-archive", action="store_true", help="Disable archiving")
-    parser.add_argument("--gemini-key", type=str, help="Gemini API key (for AI feed)")
     parser.add_argument("--otx-key", type=str, help="OTX API key (for cyber feed)")
 
     args = parser.parse_args()
 
     orchestrator = IntelUpdateOrchestrator(
-        gemini_api_key=args.gemini_key,
         otx_api_key=args.otx_key,
         output_dir=Path(args.output_dir),
         archive_enabled=not args.no_archive,

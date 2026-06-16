@@ -48,7 +48,6 @@ jobs:
       - name: Update Intelligence Feeds
         env:
           OTX_API_KEY: ${{ secrets.OTX_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           cd pipeline
 
