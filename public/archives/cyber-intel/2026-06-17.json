@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-17",
+  "timestamp": "2026-06-17T07:54:21.648593",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Attackers Weaponize Microsoft Teams Relays to Stay Hidden",
+      "content": "Attackers deploying DragonForce ransomware against a major U.S. services firm concealed their command-and-control traffic within Microsoft Teams relay infrastructure using Backdoor.Turn, a custom Go-based remote access trojan. This novel technique leverages anonymous Teams visitor tokens and TURN relay servers to mask malicious communications as legitimate Microsoft traffic. The intrusion lasted... This pulse includes 31 indicators of compromise (IOCs). Associated malware: Backdoor.Turn, DragonForce.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a316151d9ab4af59e56576d"
+    },
+    {
+      "title": "Potemkin Loader & RMMProject The Anatomy of a ClickFix Attack",
+      "content": "A ClickFix social engineering attack on an unmonitored endpoint led to a multi-stage intrusion affecting over 11 hosts. The infection chain began with a malicious HTA payload that silently installed an MSI package containing Potemkin, a custom loader with a deterministic DGA. Potemkin delivered RMMProject, a 4.4 MB Lua-scriptable RAT featuring browser credential theft with Chrome App-Bound... This pulse includes 24 indicators of compromise (IOCs). Associated malware: Potemkin, RMMProject, EtherRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a315d670f9460fe003298a8"
+    },
+    {
+      "title": "Android Banker with Complete Device Takeover Capabilities",
+      "content": "A newly identified Android banking trojan named Rokarolla has been discovered, distributed through malicious websites masquerading as popular applications like TikTok or Google Chrome. The malware targets 217 distinct cryptocurrency and banking applications using 137 sophisticated commands for device control. Capabilities include harvesting lock screen credentials, exfiltrating contact lists and... This pulse includes 108 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Rokarolla.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a315d684f0c09972ddea652"
+    },
+    {
+      "title": "Investigation of email-based attack delivering MediaFire ZIP file with execution chain analysis",
+      "content": "An investigation revealed a malicious email campaign directing victims to download a ZIP file from MediaFire. The infection chain began with a Python setup executable (Setu.exe) that side-loaded a malicious 400 MB python37.dll containing repeated byte padding. The DLL performed process injection into dllhost.exe, establishing communication with a C2 server at 138.124.186.2:7000. The threat actor... This pulse includes 4 indicators of compromise (IOCs). Associated malware: NetSupport RMM.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a30df4495796498a192312a"
+    }
+  ]
+}
