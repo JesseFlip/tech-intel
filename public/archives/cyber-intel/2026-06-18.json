@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-18",
+  "timestamp": "2026-06-18T07:44:47.335195",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Copycat hits another npm package",
+      "content": "A Shai-Hulud copycat worm has infected the npm package chalk-tempalte, appearing just five days after the original worm was open-sourced by its creators. The same threat actor also published three additional malicious npm packages containing infostealer code: @deadcode09284814/axios-util, axois-utils, and color-style-utils. These packages collectively received 2,678 weekly downloads and contain... This pulse includes 2 indicators of compromise (IOCs). Associated malware: Shai-Hulud.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0b921d3574a6ef2eca8d47"
+    },
+    {
+      "title": "ClickFix Campaign Generated Via AI Delivers SmartRAT",
+      "content": "In March 2026, threat actors leveraged AI-powered website builders to create typosquatting domains impersonating a Brazilian bank. The campaign employed ClickFix techniques, presenting victims with fake CAPTCHA and BSOD screens to trick them into executing malicious PowerShell commands. This delivered SmartRAT, a PowerShell-based banking trojan with capabilities including encrypted C2... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: SmartRAT, Banana RAT, Remcos RAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a32e5873cf59d36f41c77be"
+    },
+    {
+      "title": "More Than 4,000 Legacy Routers Compromised by AryStinger, Turned into Global Attack Proxies for Hackers",
+      "content": "Security researchers discovered AryStinger, a botnet targeting legacy routers and NAS devices to build reconnaissance and attack infrastructure. The malware exploits vulnerabilities from 2013-2025 to compromise over 4,300 devices globally, primarily D-Link routers using RTL819X chips. AryStinger communicates via HTTP/HTTPS using Protobuf encoding and XOR encryption, supporting tasks including... This pulse includes 79 indicators of compromise (IOCs). Associated malware: AryStinger.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a32e3c65eeef62d1606b638"
+    },
+    {
+      "title": "From emerging threat to top-tier ransomware-as-a-service: The evolution of INC ransomware",
+      "content": "INC has evolved from an emerging ransomware-as-a-service operation into one of the most active groups in 2026, claiming over 800 victims since 2023. The disruption of LockBit and BlackCat's shutdown created opportunities for INC to expand as affiliates migrated. Both Windows and Linux/ESXi encryptors have been rewritten in Rust, enabling cross-platform development and increasing analysis... This pulse includes 35 indicators of compromise (IOCs). Targeted industries: Legal, Manufacturing, Technology. Associated malware: Brave Prince - S0252, Lynx, Sinobi.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a32a34570e116fb4e3621e7"
+    }
+  ]
+}
