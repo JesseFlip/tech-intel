@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-19",
+  "timestamp": "2026-06-19T07:55:29.782762",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Latest PyPi Compromise",
+      "content": "A supply chain attack targeting the Microsoft DurableTask Python client compromised versions 1.4.1, 1.4.2, and 1.4.3 on PyPi. The threat actor gained access through a compromised GitHub account previously linked to attacks, using stolen credentials to dump GitHub secrets containing PyPi tokens. The evolved payload targets Linux systems, stealing credentials from AWS, Azure, GCP, Kubernetes,... This pulse includes 8 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: rope.pyz, transformers.pyz, managed.pyz.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0ce3b0ad791179648c47b0"
+    },
+    {
+      "title": "Inside Banana RAT: From Build Server to Banking Fraud",
+      "content": "An MDR investigation successfully mapped the complete operational infrastructure of Banana RAT, a Brazilian banking trojan operated by threat cluster SHADOW-WATER-063. The investigation uncovered both server-side and client-side components, revealing a sophisticated FastAPI-based polymorphic payload generation system that produces hash-unique builds to evade detection. The malware employs layered... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Banana RAT, Grandoreiro - S0531, Mekotio.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0ce3af84b924ad15e27920"
+    },
+    {
+      "title": "Okendo Reviews Supply Chain Attack",
+      "content": "On May 14, 2026, a supply chain attack was discovered targeting the Okendo Reviews widget, a customer review platform used by over 18,000 brands. The threat actor injected malicious JavaScript code into the legitimate widget, which is deployed on high-traffic e-commerce pages including storefronts and product pages. The compromised JavaScript acted as a staged loader, using obfuscation,... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: NetSupport, Remcos, StealC.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3408141101549b20c17550"
+    },
+    {
+      "title": "Operation Endgame vs. SocGholish Fake Updates",
+      "content": "A multinational law enforcement operation called Operation Endgame has successfully disrupted SocGholish, a malware framework operated by threat actor TA569 since 2017. The operation took down 106 servers and domains and remediated nearly 15,000 compromised WordPress websites. SocGholish uses fake browser update prompts on compromised websites to trick victims into downloading malicious JScript... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Education, Finance. Associated malware: SocGholish, IcedID - S0483, Smokeloader.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3406813fdcd206dd6ba872"
+    }
+  ]
+}
