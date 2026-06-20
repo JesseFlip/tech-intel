@@ -253,6 +253,7 @@ class IntelUpdateOrchestrator:
 
 def main():
     import argparse
+    import os
 
     parser = argparse.ArgumentParser(description="Update all intelligence feeds")
     parser.add_argument("--cyber-only", action="store_true", help="Update only cyber intel")
@@ -267,9 +268,13 @@ def main():
 
     args = parser.parse_args()
 
+    # Use environment variables as fallback for API keys
+    otx_key = args.otx_key or os.getenv("OTX_API_KEY")
+    fred_key = args.fred_key or os.getenv("FRED_API_KEY")
+
     orchestrator = IntelUpdateOrchestrator(
-        otx_api_key=args.otx_key,
-        fred_api_key=args.fred_key,
+        otx_api_key=otx_key,
+        fred_api_key=fred_key,
         output_dir=Path(args.output_dir),
         archive_enabled=not args.no_archive,
     )

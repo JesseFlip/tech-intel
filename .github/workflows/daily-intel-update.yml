@@ -48,6 +48,7 @@ jobs:
       - name: Update Intelligence Feeds
         env:
           OTX_API_KEY: ${{ secrets.OTX_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
         run: |
           cd pipeline
 
@@ -62,6 +63,15 @@ jobs:
 
           # Add output directory
           CMD="$CMD --output-dir ../public"
+
+          # Add API keys if available
+          if [ -n "$OTX_API_KEY" ]; then
+            CMD="$CMD --otx-key $OTX_API_KEY"
+          fi
+
+          if [ -n "$FRED_API_KEY" ]; then
+            CMD="$CMD --fred-key $FRED_API_KEY"
+          fi
 
           # Run the update
           echo "Running: $CMD"
