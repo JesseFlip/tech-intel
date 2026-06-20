@@ -1,9 +1,8 @@
 import { useState, useEffect, useCallback } from 'react';
-import fredService from '../api/fredService';
 
 /**
  * Custom hook for fetching and managing macro-economic data
- * Implements caching and refresh logic to minimize API calls
+ * Fetches from static JSON file updated daily by GitHub Actions
  */
 export function useMacroData(refreshInterval = 3600000) { // Default: 1 hour
   const [macroData, setMacroData] = useState(null);
@@ -16,13 +15,22 @@ export function useMacroData(refreshInterval = 3600000) { // Default: 1 hour
       setLoading(true);
       setError(null);
 
-      const data = await fredService.getMacroDashboard();
+      // Fetch from static JSON file (updated daily by pipeline)
+      const base = import.meta.env.BASE_URL;
+      const response = await fetch(`${base}macro-data.json`);
+
+      if (!response.ok) {
+        throw new Error(`Failed to fetch macro data: ${response.status}`);
+      }
+
+      const data = await response.json();
 
       if (data) {
         setMacroData(data);
-        setLastUpdated(new Date());
+        // Use the last_updated timestamp from the data
+        setLastUpdated(data.last_updated ? new Date(data.last_updated) : new Date());
       } else {
-        throw new Error('Failed to fetch macro data');
+        throw new Error('No macro data available');
       }
     } catch (err) {
       console.error('Error fetching macro data:', err);

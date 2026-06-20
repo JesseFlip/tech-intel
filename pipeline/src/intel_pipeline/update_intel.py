@@ -17,6 +17,7 @@ from typing import List, Dict, Optional
 
 from .ai_news_rss_fetcher import AINewsRSSFetcher
 from .otx_fetcher import OTXIntelFetcher
+from .fred_fetcher import FREDFetcher
 
 # Topic configurations for output files and archiving
 TOPICS: Dict[str, Dict[str, str]] = {
@@ -29,6 +30,11 @@ TOPICS: Dict[str, Dict[str, str]] = {
         "output": "ai-intel.json",
         "archive": "archives/ai-news",
         "category": "ai",
+    },
+    "macro": {
+        "output": "macro-data.json",
+        "archive": "archives/macro-data",
+        "category": "macro",
     },
 }
 
@@ -46,12 +52,14 @@ class IntelUpdateOrchestrator:
     def __init__(
         self,
         otx_api_key: Optional[str] = None,
+        fred_api_key: Optional[str] = None,
         output_dir: Path = Path("public"),
         archive_enabled: bool = True,
     ):
         self.output_dir = Path(output_dir)
         self.archive_enabled = archive_enabled
         self.otx_api_key = otx_api_key
+        self.fred_api_key = fred_api_key
 
         # Initialize RSS fetcher for AI news (no API key needed)
         try:
@@ -70,6 +78,14 @@ class IntelUpdateOrchestrator:
         except Exception as e:
             logger.error("Failed to initialize cyber fetcher: %s", e)
             self.cyber_fetcher = None
+
+        # Initialize FRED fetcher for macro-economic data
+        try:
+            self.fred_fetcher = FREDFetcher(api_key=fred_api_key)
+            logger.info("FRED macro data fetcher initialized successfully")
+        except Exception as e:
+            logger.error("Failed to initialize FRED fetcher: %s", e)
+            self.fred_fetcher = None
 
     # -- feeds ----------------------------------------------------------------
     def update_cyber_intel(self, limit: int = 4) -> bool:
@@ -116,6 +132,31 @@ class IntelUpdateOrchestrator:
             return True
         except Exception as e:
             logger.error("Error updating AI news: %s", e)
+            return False
+
+    def update_macro_data(self) -> bool:
+        """Refresh macro-economic data from FRED."""
+        logger.info("=" * 60)
+        logger.info("UPDATING MACRO-ECONOMIC DATA (FRED)")
+        logger.info("=" * 60)
+
+        if not self.fred_fetcher:
+            logger.error("FRED fetcher unavailable; skipping macro update")
+            return False
+
+        try:
+            data = self.fred_fetcher.fetch_macro_dashboard()
+
+            # Write to output file (no archive needed for macro data)
+            cfg = TOPICS["macro"]
+            output_file = self.output_dir / cfg["output"]
+            output_file.parent.mkdir(parents=True, exist_ok=True)
+            output_file.write_text(json.dumps(data, indent=2, ensure_ascii=False), encoding="utf-8")
+            logger.info("Saved macro data to %s", output_file)
+
+            return True
+        except Exception as e:
+            logger.error("Error updating macro data: %s", e)
             return False
 
     # -- output / archiving ---------------------------------------------------
@@ -197,12 +238,14 @@ class IntelUpdateOrchestrator:
         results = {
             "cyber": self.update_cyber_intel(limit=cyber_limit),
             "ai": self.update_ai_news(count=ai_count),
+            "macro": self.update_macro_data(),
         }
 
         logger.info("=" * 60)
         logger.info("UPDATE SUMMARY")
         logger.info("Cyber Intel: %s", "✓ SUCCESS" if results["cyber"] else "✗ FAILED")
         logger.info("AI News:     %s", "✓ SUCCESS" if results["ai"] else "✗ FAILED")
+        logger.info("Macro Data:  %s", "✓ SUCCESS" if results["macro"] else "✗ FAILED")
         logger.info("=" * 60)
 
         return any(results.values())
@@ -214,16 +257,19 @@ def main():
     parser = argparse.ArgumentParser(description="Update all intelligence feeds")
     parser.add_argument("--cyber-only", action="store_true", help="Update only cyber intel")
     parser.add_argument("--ai-only", action="store_true", help="Update only AI news")
+    parser.add_argument("--macro-only", action="store_true", help="Update only macro data")
     parser.add_argument("--cyber-limit", type=int, default=4, help="Number of cyber items (default: 4)")
     parser.add_argument("--ai-count", type=int, default=4, help="Number of AI items (default: 4)")
     parser.add_argument("--output-dir", type=str, default="public", help="Output directory (default: public)")
     parser.add_argument("--no-archive", action="store_true", help="Disable archiving")
     parser.add_argument("--otx-key", type=str, help="OTX API key (for cyber feed)")
+    parser.add_argument("--fred-key", type=str, help="FRED API key (for macro data)")
 
     args = parser.parse_args()
 
     orchestrator = IntelUpdateOrchestrator(
         otx_api_key=args.otx_key,
+        fred_api_key=args.fred_key,
         output_dir=Path(args.output_dir),
         archive_enabled=not args.no_archive,
     )
@@ -232,6 +278,8 @@ def main():
         success = orchestrator.update_cyber_intel(limit=args.cyber_limit)
     elif args.ai_only:
         success = orchestrator.update_ai_news(count=args.ai_count)
+    elif args.macro_only:
+        success = orchestrator.update_macro_data()
     else:
         success = orchestrator.run_full_update(cyber_limit=args.cyber_limit, ai_count=args.ai_count)
 
