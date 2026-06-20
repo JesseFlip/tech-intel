@@ -1,34 +1,34 @@
 {
   "inflation": {
     "cpi": {
-      "value": null,
-      "yoy": null,
-      "date": ""
+      "value": 333.979,
+      "yoy": 4.166614684049648,
+      "date": "2026-05-01"
     },
     "core_pce": {
-      "value": null,
-      "yoy": null,
-      "date": ""
+      "value": 129.63,
+      "yoy": 3.289190610508199,
+      "date": "2026-04-01"
     }
   },
   "labor": {
-    "unemployment_rate": null,
-    "date": ""
+    "unemployment_rate": 4.3,
+    "date": "2026-05-01"
   },
   "fed_policy": {
-    "funds_rate": null,
-    "date": ""
+    "funds_rate": 3.63,
+    "date": "2026-05-01"
   },
   "yield_curve": {
-    "ten_year": null,
-    "two_year": null,
-    "spread": null,
+    "ten_year": 4.49,
+    "two_year": 4.2,
+    "spread": -0.29000000000000004,
     "inverted": false,
-    "date": ""
+    "date": "2026-06-17"
   },
   "sentiment": {
-    "consumer_sentiment": null,
-    "date": ""
+    "consumer_sentiment": 49.8,
+    "date": "2026-04-01"
   },
-  "last_updated": "2026-06-20T15:07:52.937796Z"
+  "last_updated": "2026-06-20T15:23:58.051053Z"
 }

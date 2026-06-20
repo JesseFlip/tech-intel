@@ -1,8 +1,14 @@
 {
   "date": "2026-06-20",
-  "timestamp": "2026-06-20T15:07:51.496491",
+  "timestamp": "2026-06-20T15:23:55.585294",
   "category": "cyber",
   "items": [
+    {
+      "title": "PureLogs: Delivery via PawsRunner Steganography",
+      "content": "Attackers are concealing .NET infostealers within seemingly innocuous images to evade detection. A phishing campaign uses TXZ archive attachments with invoice-themed lures to initiate infection. The embedded JavaScript leverages environment variables to hide malicious commands, launching PowerShell to decode and decrypt payloads. PawsRunner, a steganography loader, extracts encrypted data from... This pulse includes 16 indicators of compromise (IOCs). Associated malware: PureLogs, PawsRunner.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0f272cd9c82db936e6a249"
+    },
     {
       "title": "Operation Dragon Whistle: UNG002 Targets Chinese Academia via Weaponized Institutional Lure",
       "content": "A sophisticated spear-phishing campaign designated Operation Dragon Whistle has been identified targeting Changzhou University in China. The threat actor UNG002 leveraged highly contextual social engineering by impersonating official university communications regarding mandatory 2026 National Student Physical Fitness and Health Standards testing, which directly impacts graduation eligibility. The... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: Cobalt Strike - S0154.",
@@ -20,12 +26,6 @@
       "content": "A supply chain attack has compromised the node-ipc npm package, with malicious versions 9.1.6, 9.2.3, and 12.0.1 containing obfuscated stealer and backdoor functionality. The attack vector involved takeover of a dormant maintainer account through an expired email domain. The malware fingerprints host environments, enumerates and reads local files including SSH keys, cloud credentials, database... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: node-ipc.",
       "linkText": "View on AlienVault OTX →",
       "url": "https://otx.alienvault.com/pulse/6a0d970e99916e7e7e17c893"
-    },
-    {
-      "title": "Operation Poisson – Analyzing a Cybercriminal’s Entire Operation",
-      "content": "A comprehensive analysis of 339 commands issued by a French-speaking threat actor nicknamed 'Poisson' over 33 days, targeting a French automotive small business and four French individuals. The attacker utilized a multi-stage fileless attack deploying a 70-line Python keylogger to harvest banking and email credentials. The operation leveraged free-tier infrastructure including Havoc C2 framework,... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Automotive. Associated malware: Havoc - S1229, RustDesk.",
-      "linkText": "View on AlienVault OTX →",
-      "url": "https://otx.alienvault.com/pulse/6a3526fcbaffc5909dd73ce4"
     }
   ]
 }
