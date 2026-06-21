@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-21",
+  "timestamp": "2026-06-21T07:41:35.607393",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Middle East Malicious Infrastructure Report: 1,350+ C2 Servers Mapped Across 98 Providers",
+      "content": "Between February and May 2026, over 1,350 active command-and-control servers were identified across 98 infrastructure providers spanning 14 Middle Eastern countries. Saudi Arabia's STC hosted 981 C2 servers, representing 72.4% of all regional malicious infrastructure, the largest concentration globally. C2 infrastructure dominated at 96.8% of detected activity, with IoT-focused botnets like... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Energy, Government. Associated malware: Phorpiex, Twizt, XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0f8f36422c8adb515a9804"
+    },
+    {
+      "title": "One Man, One AI, One Fake Persona: Inside the 5-Year Influence and Fraud 'Patriot Bait' Campaign",
+      "content": "A solo Russian-speaking threat actor tracked as 'bandcampro' operated a five-year MAGA-themed Telegram channel with approximately 17,000 subscribers, initially forwarding cryptocurrency scam content before pivoting to AI-automated operations in September 2025. The actor utilized jailbroken Google Gemini to generate QAnon-styled posts, deploy infrastructure, manage stolen API keys, and run... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare, Defense. Associated malware: GoToResolve.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0f8f3596d6a5268e168a10"
+    },
+    {
+      "title": "The Gentleman Ransomware | Defense Evasion TTPs Uncovered",
+      "content": "In April and May 2026, investigations revealed two incidents involving The Gentlemen ransomware-as-a-service operation, which has claimed over 400 victims across 70 countries since mid-2025. Both incidents demonstrated common tactics including Scheduled Tasks, PowerShell commands, and defense evasion techniques such as clearing Security, System, and Application Event Logs, disabling Microsoft... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Transportation, Construction. Associated malware: The Gentlemen, Qilin, Trojan:Win32/MpTamperBulkExcl.H.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0f8f34dd916c38a643df30"
+    },
+    {
+      "title": "The Evolution of ClickFix: From Cleartext to Server Side Polymorphism",
+      "content": "The ClickFix campaign has evolved from basic disk-based infections to sophisticated, obfuscated attacks using fake CAPTCHA pages that trick victims into executing malicious PowerShell commands. Initial variants used cleartext commands downloading batch scripts to deploy DeerStealer InfoStealer. The campaign advanced to fileless execution using XOR encryption or Base64 compression, operating... This pulse includes 4499 indicators of compromise (IOCs). Associated malware: DeerStealer, Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a0d971608b49dfc89267777"
+    }
+  ]
+}
