@@ -1,26 +1,26 @@
 [
   {
-    "title": "Cloud Atlas activity in the second half of 2025 and early 2026: new tools and a new payload",
-    "content": "Cloud Atlas APT group targeted government organizations and commercial companies in Russia and Belarus during late 2025 and early 2026, employing phishing campaigns with malicious ZIP archives containing LNK shortcuts. The attackers deployed multiple backdoors including VBCloud for file theft and PowerShower for network reconnaissance. New tools identified include PowerCloud, which exfiltrates... This pulse includes 100 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: PowerCloud, VBCloud, PowerShower - S0441.",
+    "title": "An unknown actor distributes malicious VBS scripts via WhatsApp",
+    "content": "An active malware campaign has been discovered distributing malicious VBScript files through WhatsApp direct messages since June 2026. The operation affects users across multiple countries, with Malaysia experiencing the highest concentration of victims. Attackers compromise WhatsApp accounts and send weaponized VBS files disguised as business and financial documents to contacts. The multi-stage... This pulse includes 56 indicators of compromise (IOCs). Associated malware: ValleyRAT, gh0st RAT - S0032, Mydoor.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a105530af26afbd3752ab81"
+    "url": "https://otx.alienvault.com/pulse/6a3915eddc5c22f4421f124e"
   },
   {
-    "title": "Middle East Malicious Infrastructure Report: 1,350+ C2 Servers Mapped Across 98 Providers",
-    "content": "Between February and May 2026, over 1,350 active command-and-control servers were identified across 98 infrastructure providers spanning 14 Middle Eastern countries. Saudi Arabia's STC hosted 981 C2 servers, representing 72.4% of all regional malicious infrastructure, the largest concentration globally. C2 infrastructure dominated at 96.8% of detected activity, with IoT-focused botnets like... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Energy, Government. Associated malware: Phorpiex, Twizt, XMRig.",
+    "title": "3CXDesktopApp Intrusion Campaign Prevention",
+    "content": "A sophisticated supply chain attack compromised the legitimate 3CXDesktopApp softphone application across Windows, macOS, and Linux platforms. The malicious activity involved trojanized signed installers that deployed a compromised ffmpeg.dll binary, establishing HTTPS beacons to attacker-controlled infrastructure and enabling second-stage payload deployment. Analysis revealed the attack utilized... This pulse includes 29 indicators of compromise (IOCs). Targeted industries: Finance, Energy. Associated malware: TxRLoader, ArcfeedLoader.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a0f8f36422c8adb515a9804"
+    "url": "https://otx.alienvault.com/pulse/6a38d6259f636193112c9c1c"
   },
   {
-    "title": "One Man, One AI, One Fake Persona: Inside the 5-Year Influence and Fraud 'Patriot Bait' Campaign",
-    "content": "A solo Russian-speaking threat actor tracked as 'bandcampro' operated a five-year MAGA-themed Telegram channel with approximately 17,000 subscribers, initially forwarding cryptocurrency scam content before pivoting to AI-automated operations in September 2025. The actor utilized jailbroken Google Gemini to generate QAnon-styled posts, deploy infrastructure, manage stolen API keys, and run... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare, Defense. Associated malware: GoToResolve.",
+    "title": "Inside the FortiBleed Open Directory: A Technical Analysis of What the Attacker Left Behind",
+    "content": "An exposed attacker server has unveiled FortiBleed, a large-scale credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways globally. This operation involved credential harvesting through reuse, brute force, and hash cracking using a distributed GPU infrastructure with approximately 36 rented GPUs via Hashtopolis. The exposed directory contained... This pulse includes 7 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a0f8f3596d6a5268e168a10"
+    "url": "https://otx.alienvault.com/pulse/6a358eb86925d602f0cf5600"
   },
   {
-    "title": "The Gentleman Ransomware | Defense Evasion TTPs Uncovered",
-    "content": "In April and May 2026, investigations revealed two incidents involving The Gentlemen ransomware-as-a-service operation, which has claimed over 400 victims across 70 countries since mid-2025. Both incidents demonstrated common tactics including Scheduled Tasks, PowerShell commands, and defense evasion techniques such as clearing Security, System, and Application Event Logs, disabling Microsoft... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Transportation, Construction. Associated malware: The Gentlemen, Qilin, Trojan:Win32/MpTamperBulkExcl.H.",
+    "title": "Threat Actors Weaponizing RAR Archives to Target Thailand's Healthcare Sector",
+    "content": "An active malware campaign is targeting Thailand's healthcare sector, including Ministry of Health personnel and affiliated organizations. The operation leverages healthcare-themed spear-phishing lures distributed through malicious RAR archives containing obfuscated batch scripts and executable payloads. The infection chain employs multiple stages of obfuscation, GitHub-hosted payload delivery,... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Healthcare, Government. Associated malware: sim.py.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a0f8f34dd916c38a643df30"
+    "url": "https://otx.alienvault.com/pulse/6a3551ceb394e391f2a341f1"
   }
 ]

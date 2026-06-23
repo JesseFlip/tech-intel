@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-23",
+  "timestamp": "2026-06-23T07:18:20.353320",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "An unknown actor distributes malicious VBS scripts via WhatsApp",
+      "content": "An active malware campaign has been discovered distributing malicious VBScript files through WhatsApp direct messages since June 2026. The operation affects users across multiple countries, with Malaysia experiencing the highest concentration of victims. Attackers compromise WhatsApp accounts and send weaponized VBS files disguised as business and financial documents to contacts. The multi-stage... This pulse includes 56 indicators of compromise (IOCs). Associated malware: ValleyRAT, gh0st RAT - S0032, Mydoor.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3915eddc5c22f4421f124e"
+    },
+    {
+      "title": "3CXDesktopApp Intrusion Campaign Prevention",
+      "content": "A sophisticated supply chain attack compromised the legitimate 3CXDesktopApp softphone application across Windows, macOS, and Linux platforms. The malicious activity involved trojanized signed installers that deployed a compromised ffmpeg.dll binary, establishing HTTPS beacons to attacker-controlled infrastructure and enabling second-stage payload deployment. Analysis revealed the attack utilized... This pulse includes 29 indicators of compromise (IOCs). Targeted industries: Finance, Energy. Associated malware: TxRLoader, ArcfeedLoader.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a38d6259f636193112c9c1c"
+    },
+    {
+      "title": "Inside the FortiBleed Open Directory: A Technical Analysis of What the Attacker Left Behind",
+      "content": "An exposed attacker server has unveiled FortiBleed, a large-scale credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways globally. This operation involved credential harvesting through reuse, brute force, and hash cracking using a distributed GPU infrastructure with approximately 36 rented GPUs via Hashtopolis. The exposed directory contained... This pulse includes 7 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a358eb86925d602f0cf5600"
+    },
+    {
+      "title": "Threat Actors Weaponizing RAR Archives to Target Thailand's Healthcare Sector",
+      "content": "An active malware campaign is targeting Thailand's healthcare sector, including Ministry of Health personnel and affiliated organizations. The operation leverages healthcare-themed spear-phishing lures distributed through malicious RAR archives containing obfuscated batch scripts and executable payloads. The infection chain employs multiple stages of obfuscation, GitHub-hosted payload delivery,... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Healthcare, Government. Associated malware: sim.py.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3551ceb394e391f2a341f1"
+    }
+  ]
+}
