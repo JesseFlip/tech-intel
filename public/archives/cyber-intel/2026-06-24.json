@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-24",
+  "timestamp": "2026-06-24T07:14:44.614247",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Observed phishing URLs delivering RMM payload",
+      "content": "ScreenConnect is used in phishing URLs to deliver RMM payload. DocuSign has been observed to be the common theme in these phishing emails. This pulse includes 3 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3ae5bf02925732fd075068"
+    },
+    {
+      "title": "A Multi-Stage Steganographic Loader Campaign Deploying Diverse Payloads Globally",
+      "content": "A sophisticated phishing campaign was identified distributing multiple malware families through a multi-stage loader utilizing steganography and fileless techniques. The infection chain begins with archive attachments containing files disguised as financial documents, primarily targeting Indian organizations using names related to GST, NEFT, RTGS, and IMPS transactions. The loader employs... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Remcos RAT, Agent Tesla - S0331, MassLogger.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3ac3d87dd519f2fec1d2ea"
+    },
+    {
+      "title": "The #APT36 cluster can't stop, won't stop",
+      "content": "They just added #CVE-2026-21509 and #CVE-2026-21513 (borrowed from APT28) onto their delivery chain, pushing updated FIREPOWER via weaponized RTF and LNKs against 🇮🇳 targets. Separately, fresh SheetCreep + a shiny new CrystalShell-Slack variant co-dropped on a Kashmir target, because one implant is never enough. The vibeware factory is running three shifts: Crystal, .NET and PowerShell. This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SHEETCREEP, CrystalShell.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3add255a93c4e851962479"
+    },
+    {
+      "title": "Customer CRM Data Accessed in Supply Chain Incident",
+      "content": "LastPass experienced a security incident through Klue, a third-party market intelligence platform integrated with its Salesforce and Gong systems. On June 12, 2026, LastPass was notified that an unauthorized actor exploited stolen OAuth tokens held by Klue to access customer relationship management data within LastPass's Salesforce environment. The exposed information includes customer names,... This pulse includes 3 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3ab4c93adb7c2764a5fa23"
+    }
+  ]
+}
