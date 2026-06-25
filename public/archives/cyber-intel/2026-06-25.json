@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-25",
+  "timestamp": "2026-06-25T07:14:54.014965",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "New Backdoor May be Linked to Ransomware Access Broker",
+      "content": "A stealthy new backdoor called Mistic has been deployed in cybercrime intrusions since April 2026, potentially linked to Woodgnat, an initial access broker associated with multiple ransomware operations including Qilin, Interlock, Rhysida, Akira, 8Base and Black Basta. Mistic was deployed alongside ModeloRAT in at least one case, a tool developed by Woodgnat. The backdoor uses sideloading... This pulse includes 45 indicators of compromise (IOCs). Targeted industries: Insurance, Education, Technology. Associated malware: Backdoor.Mistic, ModeloRAT, GateKeeper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3bde32e46aafdb90f9593b"
+    },
+    {
+      "title": "StrikeShark: a new campaign involving a custom SharkLoader and Cobalt Strike Beacon",
+      "content": "A previously undocumented malware family named SharkLoader has been discovered delivering Cobalt Strike Beacon to targets worldwide. The threat actor deploys SharkLoader through exploitation of internet-facing applications including Microsoft Exchange, SharePoint, and Openfire Server, as well as through malicious droppers disguised as legitimate software. SharkLoader employs sophisticated... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Government, Technology. Associated malware: SharkLoader, Cobalt Strike - S0154, FScan.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3bddeff7731f4be214a16d"
+    },
+    {
+      "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
+      "content": "Infostealers remain among the most pervasive cybercrime threats, silently harvesting passwords, cookies, and session tokens that enable enterprise breaches. StealC is a malware-as-a-service infostealer written in C++ that collects credentials from browsers, cryptocurrency wallets, messaging applications, email clients, and gaming platforms while functioning as a secondary loader. Amadey operates... This pulse includes 47 indicators of compromise (IOCs). Associated malware: StealC, Amadey - S1025, Lumma Stealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3bde31cd05f010063a2224"
+    },
+    {
+      "title": "Ukraine's UAV Supply Chain Targeted With Besomar-Themed Malware Chain",
+      "content": "A newly identified threat group, designated as GhostShell, has been conducting cyber operations against Ukraine's unmanned aerial vehicle supply chain since February 2026. The attackers employ malicious archives containing decoy documents that impersonate Besomar, a Ukrainian manufacturer of high-precision interceptor drones, to compromise defense and procurement networks. The attack chain... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Defense. Associated malware: Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3b9d601cf5ebad8e7b3d3b"
+    }
+  ]
+}
