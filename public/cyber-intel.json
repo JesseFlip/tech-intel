@@ -1,26 +1,26 @@
 [
   {
-    "title": "New Backdoor May be Linked to Ransomware Access Broker",
-    "content": "A stealthy new backdoor called Mistic has been deployed in cybercrime intrusions since April 2026, potentially linked to Woodgnat, an initial access broker associated with multiple ransomware operations including Qilin, Interlock, Rhysida, Akira, 8Base and Black Basta. Mistic was deployed alongside ModeloRAT in at least one case, a tool developed by Woodgnat. The backdoor uses sideloading... This pulse includes 45 indicators of compromise (IOCs). Targeted industries: Insurance, Education, Technology. Associated malware: Backdoor.Mistic, ModeloRAT, GateKeeper.",
+    "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+    "content": "Microsoft Defender Experts identified an active cryptojacking campaign leveraging AI-assisted delivery mechanisms alongside traditional SEO poisoning. Attackers create fake download sites impersonating trusted utilities like CrystalDiskInfo, HWMonitor, and FurMark, targeting users with high-performance GPUs. Victims download ZIP archives containing legitimate executables bundled with malicious... This pulse includes 26 indicators of compromise (IOCs). Associated malware: SimpleRunPE, RuntimeHost.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3bde32e46aafdb90f9593b"
+    "url": "https://otx.alienvault.com/pulse/6a1634fbefeffa7f0c6a52f5"
   },
   {
-    "title": "StrikeShark: a new campaign involving a custom SharkLoader and Cobalt Strike Beacon",
-    "content": "A previously undocumented malware family named SharkLoader has been discovered delivering Cobalt Strike Beacon to targets worldwide. The threat actor deploys SharkLoader through exploitation of internet-facing applications including Microsoft Exchange, SharePoint, and Openfire Server, as well as through malicious droppers disguised as legitimate software. SharkLoader employs sophisticated... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Government, Technology. Associated malware: SharkLoader, Cobalt Strike - S0154, FScan.",
+    "title": "FIFA 2026 Security Alert: Cybercriminals Exploit Fan Excitement with Mass Phishing",
+    "content": "Threat actors are exploiting anticipation for the FIFA World Cup 2026 through sophisticated phishing campaigns targeting fans seeking tickets, hospitality packages, and tournament information. Attackers have deployed FIFA-themed domains and mobile-optimized phishing infrastructure resolving to specific IP addresses, designed to harvest credentials and payment information. The campaigns feature... This pulse includes 5 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3bddeff7731f4be214a16d"
+    "url": "https://otx.alienvault.com/pulse/6a3d36251ae1eb075bc13b90"
   },
   {
-    "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
-    "content": "Infostealers remain among the most pervasive cybercrime threats, silently harvesting passwords, cookies, and session tokens that enable enterprise breaches. StealC is a malware-as-a-service infostealer written in C++ that collects credentials from browsers, cryptocurrency wallets, messaging applications, email clients, and gaming platforms while functioning as a secondary loader. Amadey operates... This pulse includes 47 indicators of compromise (IOCs). Associated malware: StealC, Amadey - S1025, Lumma Stealer.",
+    "title": "KimJongRAT Continues to Evolve by Leveraging LOTS",
+    "content": "In May 2026, security researchers observed an attack campaign distributing KimJongRAT through GitHub and other legitimate services. KimJongRAT, used by the North Korean APT group Kimsuky since 2013, combines information stealing and remote access capabilities. The infection chain begins with phishing emails containing shortened URLs redirecting to GitHub Releases hosting malicious ZIP files.... This pulse includes 11 indicators of compromise (IOCs). Associated malware: KimJongRAT, MeshAgent.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3bde31cd05f010063a2224"
+    "url": "https://otx.alienvault.com/pulse/6a3cb7a3c8dfa3feec75cb80"
   },
   {
-    "title": "Ukraine's UAV Supply Chain Targeted With Besomar-Themed Malware Chain",
-    "content": "A newly identified threat group, designated as GhostShell, has been conducting cyber operations against Ukraine's unmanned aerial vehicle supply chain since February 2026. The attackers employ malicious archives containing decoy documents that impersonate Besomar, a Ukrainian manufacturer of high-precision interceptor drones, to compromise defense and procurement networks. The attack chain... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Defense. Associated malware: Vidar.",
+    "title": "LokiBot After a Decade: An Analysis of a Recent LokiBot Campaign",
+    "content": "LokiBot, an infostealer first advertised in May 2015, continues to operate after more than a decade with numerous variants. The malware targets credentials from over a hundred software products including browsers, cryptocurrency wallets, password managers, email and FTP clients. A recent campaign delivers LokiBot through malspam with JScript email attachments, executing a multi-stage infection... This pulse includes 17 indicators of compromise (IOCs). Associated malware: Lokibot - S0447.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3b9d601cf5ebad8e7b3d3b"
+    "url": "https://otx.alienvault.com/pulse/6a3c6b9416a51c4cdec616c4"
   }
 ]

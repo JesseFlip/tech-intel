@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-26",
+  "timestamp": "2026-06-26T07:20:51.093269",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+      "content": "Microsoft Defender Experts identified an active cryptojacking campaign leveraging AI-assisted delivery mechanisms alongside traditional SEO poisoning. Attackers create fake download sites impersonating trusted utilities like CrystalDiskInfo, HWMonitor, and FurMark, targeting users with high-performance GPUs. Victims download ZIP archives containing legitimate executables bundled with malicious... This pulse includes 26 indicators of compromise (IOCs). Associated malware: SimpleRunPE, RuntimeHost.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a1634fbefeffa7f0c6a52f5"
+    },
+    {
+      "title": "FIFA 2026 Security Alert: Cybercriminals Exploit Fan Excitement with Mass Phishing",
+      "content": "Threat actors are exploiting anticipation for the FIFA World Cup 2026 through sophisticated phishing campaigns targeting fans seeking tickets, hospitality packages, and tournament information. Attackers have deployed FIFA-themed domains and mobile-optimized phishing infrastructure resolving to specific IP addresses, designed to harvest credentials and payment information. The campaigns feature... This pulse includes 5 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3d36251ae1eb075bc13b90"
+    },
+    {
+      "title": "KimJongRAT Continues to Evolve by Leveraging LOTS",
+      "content": "In May 2026, security researchers observed an attack campaign distributing KimJongRAT through GitHub and other legitimate services. KimJongRAT, used by the North Korean APT group Kimsuky since 2013, combines information stealing and remote access capabilities. The infection chain begins with phishing emails containing shortened URLs redirecting to GitHub Releases hosting malicious ZIP files.... This pulse includes 11 indicators of compromise (IOCs). Associated malware: KimJongRAT, MeshAgent.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3cb7a3c8dfa3feec75cb80"
+    },
+    {
+      "title": "LokiBot After a Decade: An Analysis of a Recent LokiBot Campaign",
+      "content": "LokiBot, an infostealer first advertised in May 2015, continues to operate after more than a decade with numerous variants. The malware targets credentials from over a hundred software products including browsers, cryptocurrency wallets, password managers, email and FTP clients. A recent campaign delivers LokiBot through malspam with JScript email attachments, executing a multi-stage infection... This pulse includes 17 indicators of compromise (IOCs). Associated malware: Lokibot - S0447.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3c6b9416a51c4cdec616c4"
+    }
+  ]
+}
