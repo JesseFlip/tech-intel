@@ -1,26 +1,26 @@
 [
   {
-    "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
-    "content": "Microsoft Defender Experts identified an active cryptojacking campaign leveraging AI-assisted delivery mechanisms alongside traditional SEO poisoning. Attackers create fake download sites impersonating trusted utilities like CrystalDiskInfo, HWMonitor, and FurMark, targeting users with high-performance GPUs. Victims download ZIP archives containing legitimate executables bundled with malicious... This pulse includes 26 indicators of compromise (IOCs). Associated malware: SimpleRunPE, RuntimeHost.",
+    "title": "Sapphire Sleet Targets macOS",
+    "content": "We recently observed a multi-stage macOS intrusion campaign conducted by the North Korean state-sponsored threat group Sapphire Sleet (also tracked as BlueNoroff / UNC1069). The campaign specifically targets macOS environments within high-value financial sectors, including venture capital firms, Web3 developers, and cryptocurrency organizations. By leveraging signed, built-in system applications... This pulse includes 16 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a1634fbefeffa7f0c6a52f5"
+    "url": "https://otx.alienvault.com/pulse/6a19675cc4b620f11791ba1b"
   },
   {
-    "title": "FIFA 2026 Security Alert: Cybercriminals Exploit Fan Excitement with Mass Phishing",
-    "content": "Threat actors are exploiting anticipation for the FIFA World Cup 2026 through sophisticated phishing campaigns targeting fans seeking tickets, hospitality packages, and tournament information. Attackers have deployed FIFA-themed domains and mobile-optimized phishing infrastructure resolving to specific IP addresses, designed to harvest credentials and payment information. The campaigns feature... This pulse includes 5 indicators of compromise (IOCs).",
+    "title": "Operation DragonReturn: China-Nexus Cyber Espionage Campaign Targeting Govt. of India/MoF Tax Infrastructure via Multi-Stage DcRAT Deployment",
+    "content": "A sophisticated China-aligned cyber espionage campaign targeting India's tax infrastructure was identified between May and June 2026. The operation impersonates the Income Tax Department, Ministry of Finance, exploiting the AY2026-27 ITR filing season to target corporate entities, tax professionals, chartered accountants, and taxpayers. The attack employs spear-phishing emails with malicious... This pulse includes 35 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: DcRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3d36251ae1eb075bc13b90"
+    "url": "https://otx.alienvault.com/pulse/6a3e75975494e990e7421b4d"
   },
   {
-    "title": "KimJongRAT Continues to Evolve by Leveraging LOTS",
-    "content": "In May 2026, security researchers observed an attack campaign distributing KimJongRAT through GitHub and other legitimate services. KimJongRAT, used by the North Korean APT group Kimsuky since 2013, combines information stealing and remote access capabilities. The infection chain begins with phishing emails containing shortened URLs redirecting to GitHub Releases hosting malicious ZIP files.... This pulse includes 11 indicators of compromise (IOCs). Associated malware: KimJongRAT, MeshAgent.",
+    "title": "The GHOST STADIUM Score: Billions At Stake At The World’s Largest Football Tournament",
+    "content": "Researchers uncovered a massive fraud ecosystem targeting the 2026 FIFA World Cup, identifying over 4,300 fraudulent domains impersonating FIFA's official website since August 2025. At the center operates GHOST STADIUM, a Chinese-speaking threat actor running a sophisticated phishing campaign across 300+ domains using a pixel-perfect clone of FIFA's authentication system. The operation harvests... This pulse includes 51 indicators of compromise (IOCs). Targeted industries: Hospitality, Media, Finance. Associated malware: Vidar, Lumma.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3cb7a3c8dfa3feec75cb80"
+    "url": "https://otx.alienvault.com/pulse/6a16d67df4a69d07c59516be"
   },
   {
-    "title": "LokiBot After a Decade: An Analysis of a Recent LokiBot Campaign",
-    "content": "LokiBot, an infostealer first advertised in May 2015, continues to operate after more than a decade with numerous variants. The malware targets credentials from over a hundred software products including browsers, cryptocurrency wallets, password managers, email and FTP clients. A recent campaign delivers LokiBot through malspam with JScript email attachments, executing a multi-stage infection... This pulse includes 17 indicators of compromise (IOCs). Associated malware: Lokibot - S0447.",
+    "title": "Mini Shai-Hulud Hits LeoPlatform npm Packages and GitHub Actions, Expands to the Go Ecosystem",
+    "content": "A sophisticated supply chain attack campaign linked to Mini Shai-Hulud, Miasma, and Hades malware has compromised LeoPlatform npm packages, GitHub Actions workflows, and the Verana Blockchain Go module. The attack employs binding.gyp install-time execution, Bun-staged JavaScript malware, and encrypted credential exfiltration targeting developer and CI/CD environments. Malicious packages were... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Mini Shai-Hulud, Miasma, Hades.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3c6b9416a51c4cdec616c4"
+    "url": "https://otx.alienvault.com/pulse/6a3df898a72c3bb83671b47b"
   }
 ]
