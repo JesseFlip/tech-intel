@@ -1,0 +1,31 @@
+{
+  "date": "2026-06-28",
+  "timestamp": "2026-06-28T07:25:14.853433",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
+      "content": "JINX-0164, a financially motivated threat actor active since mid-2025, has been conducting sophisticated campaigns against cryptocurrency organizations. The actor employs LinkedIn-based social engineering, posing as recruiters or business partners to deliver custom macOS malware including AUDIOFIX (a Python-based infostealer and RAT) and MINIRAT (a lightweight Go backdoor). Their operations focus... This pulse includes 92 indicators of compromise (IOCs). Targeted industries: Technology, Finance. Associated malware: AUDIOFIX, MINIRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a181e409d755171f4ac356c"
+    },
+    {
+      "title": "Sapphire Sleet Targets macOS",
+      "content": "We recently observed a multi-stage macOS intrusion campaign conducted by the North Korean state-sponsored threat group Sapphire Sleet (also tracked as BlueNoroff / UNC1069). The campaign specifically targets macOS environments within high-value financial sectors, including venture capital firms, Web3 developers, and cryptocurrency organizations. By leveraging signed, built-in system applications... This pulse includes 16 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a19675cc4b620f11791ba1b"
+    },
+    {
+      "title": "Operation DragonReturn: China-Nexus Cyber Espionage Campaign Targeting Govt. of India/MoF Tax Infrastructure via Multi-Stage DcRAT Deployment",
+      "content": "A sophisticated China-aligned cyber espionage campaign targeting India's tax infrastructure was identified between May and June 2026. The operation impersonates the Income Tax Department, Ministry of Finance, exploiting the AY2026-27 ITR filing season to target corporate entities, tax professionals, chartered accountants, and taxpayers. The attack employs spear-phishing emails with malicious... This pulse includes 35 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: DcRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3e75975494e990e7421b4d"
+    },
+    {
+      "title": "The GHOST STADIUM Score: Billions At Stake At The World’s Largest Football Tournament",
+      "content": "Researchers uncovered a massive fraud ecosystem targeting the 2026 FIFA World Cup, identifying over 4,300 fraudulent domains impersonating FIFA's official website since August 2025. At the center operates GHOST STADIUM, a Chinese-speaking threat actor running a sophisticated phishing campaign across 300+ domains using a pixel-perfect clone of FIFA's authentication system. The operation harvests... This pulse includes 51 indicators of compromise (IOCs). Targeted industries: Hospitality, Media, Finance. Associated malware: Vidar, Lumma.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a16d67df4a69d07c59516be"
+    }
+  ]
+}
