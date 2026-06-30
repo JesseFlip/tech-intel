@@ -1,26 +1,26 @@
 [
   {
-    "title": "A New Threat Actor Using ClickFix and Fake Update Drive-By Attacks in Thousands of Compromised Sites",
-    "content": "DriveSurge is a newly identified threat actor operating as an Initial Access Broker using a Pay-Per-Install model to supply victim leads to downstream actors. The actor has compromised thousands of websites, injecting malicious code that redirects visitors through zTDS (Traffic Distribution System) to deliver malware via two primary methods: FakeUpdates, which impersonate browser update prompts... This pulse includes 31 indicators of compromise (IOCs).",
+    "title": "Rapid growth and a new ransomware variant",
+    "content": "The Gentlemen ransomware-as-a-service group emerged as a top-10 threat actor in the first half of 2026. The group exploits vulnerabilities in internet-facing devices like VPNs and firewalls, potentially collaborating with initial access brokers. They employ comprehensive reconnaissance using tools like SharpADWS, NetScan, and Advanced IP Scanner, capturing network traffic with netsh. The... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Manufacturing, Technology, Healthcare. Associated malware: SharkLoader, Cobalt Strike - S0154, ZiChatBot.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a1a7e87f6f70533d1443f96"
+    "url": "https://otx.alienvault.com/pulse/6a42506c95cc259404196a5b"
   },
   {
-    "title": "Kimsuky's Advanced Attack Techniques: JSONPing, Webex Spoofing, and a New HttpSpy Variant",
-    "content": "Through April 2026, Kimsuky deployed sophisticated malicious campaigns against South Korean military and corporate entities using tailored social engineering tactics including fake security software installation pages and spoofed Webex meeting pages leveraging legitimate meeting schedules. The threat actor introduced a novel JSONPing technique allowing distribution pages to verify in real time... This pulse includes 56 indicators of compromise (IOCs). Targeted industries: Defense, Finance. Associated malware: HttpSpy, MemLoader, calc.exe.",
+    "title": "New customs charges for online orders outside the EU",
+    "content": "With the introduction of charges/taxes on certain items posted from outside the EU, threat actors appear to be leveraging the situation to send fraudulent SMS and email messages impersonating postal services in an attempt to harvest payment details and personal information. The campaign is already being observed targeting Irish users, and I'd like to highlight this activity publicly as part of a... This pulse includes 3 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a19766cc7caf96e27eae35e"
+    "url": "https://otx.alienvault.com/pulse/6a4292045a662553c3583b0a"
   },
   {
-    "title": "Operation XENOFISCAL: SideCopy deploying persistent XenoRAT targeting the MoF, Afghanistan",
-    "content": "SideCopy APT, a Pakistan-linked threat group under the Transparent Tribe umbrella, executed a targeted spear phishing campaign against Afghanistan's Ministry of Finance and provincial revenue directorates. The attack begins with a Pashto-language LNK file disguised as a staff directory document, which executes mshta.exe to fetch remote HTA payloads from compromised Afghan education... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: XenoRAT.",
+    "title": "Phishing Campaign PasasteSinTAG - New domain rotation identified associated with the campaign impersonating the PasasteSinTAG portal",
+    "content": "A phishing campaign targeting Chile continues to evolve with significant infrastructure expansion. Security researchers identified 99 new domains impersonating the legitimate PasasteSinTAG portal, with 22 domains confirmed active and 77 registered but not yet activated. The active domains utilize various top-level domains including .click, .cfd, .cyou, .mom, .best, .rest, .top, .help, .sbs, .icu,... This pulse includes 108 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a196f2fd88de848b913e4da"
+    "url": "https://otx.alienvault.com/pulse/6a42124a18e7d2cb639c06dd"
   },
   {
-    "title": "A New Threat Actor Targeting the Cryptocurrency Industry's Software Development Infrastructure",
-    "content": "JINX-0164, a financially motivated threat actor active since mid-2025, has been conducting sophisticated campaigns against cryptocurrency organizations. The actor employs LinkedIn-based social engineering, posing as recruiters or business partners to deliver custom macOS malware including AUDIOFIX (a Python-based infostealer and RAT) and MINIRAT (a lightweight Go backdoor). Their operations focus... This pulse includes 92 indicators of compromise (IOCs). Targeted industries: Technology, Finance. Associated malware: AUDIOFIX, MINIRAT.",
+    "title": "Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited",
+    "content": "On June 25, 2026, the first active exploitation of CVE-2026-55255, a critical CVSS 9.9 Langflow vulnerability, was documented. Langflow is an open-source framework for building AI agents and RAG pipelines. A single operator exploited both CVE-2026-55255 (cross-tenant IDOR) and CVE-2026-33017 (unauthenticated RCE, CVSS 9.3) against the same instance. Despite its lower score, the RCE has been... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a181e409d755171f4ac356c"
+    "url": "https://otx.alienvault.com/pulse/6a3eefb892e3d749bcf92233"
   }
 ]
