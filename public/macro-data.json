@@ -21,14 +21,14 @@
   },
   "yield_curve": {
     "ten_year": 4.38,
-    "two_year": 4.07,
-    "spread": -0.3099999999999996,
+    "two_year": 4.1,
+    "spread": -0.28000000000000025,
     "inverted": false,
-    "date": "2026-06-26"
+    "date": "2026-06-29"
   },
   "sentiment": {
     "consumer_sentiment": 44.8,
     "date": "2026-05-01"
   },
-  "last_updated": "2026-06-30T07:21:11.145532Z"
+  "last_updated": "2026-07-01T07:33:06.060628Z"
 }

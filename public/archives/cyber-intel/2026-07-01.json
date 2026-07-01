@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-01",
+  "timestamp": "2026-07-01T07:33:03.608773",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Not very gentlemanly: Analyzing a zero-day exploit used to disable targets' EDRs",
+      "content": "The Gentlemen ransomware group, which emerged in July 2025, employed a zero-day vulnerability in a bring-your-own-vulnerable-driver (BYOVD) attack to disable endpoint detection and response systems. During an incident investigated in early April, the group leveraged an obscure third-party driver named ktapi.sys from Kontron to bypass security protections. The sophisticated exploit chains multiple... This pulse includes 3 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a43f039e387ddd12ed0896c"
+    },
+    {
+      "title": "An Analysis of ValleyRAT Infection Campaigns from Fake Installers, Japanese Malicious Emails",
+      "content": "LevelBlue has identified two distinct ValleyRAT attack vectors: campaigns using fake installers and malicious email-based campaigns. Detection volume increased significantly from May 2025, nearly doubling in 2026. The fake installer attacks primarily target Chinese-speaking users and employ advanced techniques including Pool Party Variant 7 process injection and BYOVD methods. The malicious email... This pulse includes 6 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a446c5df8b0ab9d5af62b64"
+    },
+    {
+      "title": "A stealthy RAT burrowing deep into Android devices",
+      "content": "BTMOB is an Android remote access trojan that evolved from SpySolr malware and poses significant threats beyond traditional banking trojans. The malware combines phishing-led delivery with an APK builder interface that enables rapid payload generation without coding skills. Distributed through fake app stores impersonating streaming services, cryptocurrency platforms, and government agencies,... This pulse includes 99 indicators of compromise (IOCs). Associated malware: BTMOB, SpySolr.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a1cc51d7c8f832f819a0a43"
+    },
+    {
+      "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
+      "content": "Mustang Panda orchestrated two concurrent espionage campaigns targeting Indian government entities and hydropower infrastructure between May and June 2026. The campaigns leveraged DLL sideloading via legitimate executables to deploy newly identified malware including SHARDLOADER, MINIRECON, and ZOHOMURK. MINIRECON represents an evolution of Toneshell with WebSocket-based command-and-control... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: SHARDLOADER, MINIRECON, ZOHOMURK.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a42d4a95543681c96ad0e57"
+    }
+  ]
+}

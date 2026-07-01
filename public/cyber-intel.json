@@ -1,26 +1,26 @@
 [
   {
-    "title": "Rapid growth and a new ransomware variant",
-    "content": "The Gentlemen ransomware-as-a-service group emerged as a top-10 threat actor in the first half of 2026. The group exploits vulnerabilities in internet-facing devices like VPNs and firewalls, potentially collaborating with initial access brokers. They employ comprehensive reconnaissance using tools like SharpADWS, NetScan, and Advanced IP Scanner, capturing network traffic with netsh. The... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Manufacturing, Technology, Healthcare. Associated malware: SharkLoader, Cobalt Strike - S0154, ZiChatBot.",
+    "title": "Not very gentlemanly: Analyzing a zero-day exploit used to disable targets' EDRs",
+    "content": "The Gentlemen ransomware group, which emerged in July 2025, employed a zero-day vulnerability in a bring-your-own-vulnerable-driver (BYOVD) attack to disable endpoint detection and response systems. During an incident investigated in early April, the group leveraged an obscure third-party driver named ktapi.sys from Kontron to bypass security protections. The sophisticated exploit chains multiple... This pulse includes 3 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a42506c95cc259404196a5b"
+    "url": "https://otx.alienvault.com/pulse/6a43f039e387ddd12ed0896c"
   },
   {
-    "title": "New customs charges for online orders outside the EU",
-    "content": "With the introduction of charges/taxes on certain items posted from outside the EU, threat actors appear to be leveraging the situation to send fraudulent SMS and email messages impersonating postal services in an attempt to harvest payment details and personal information. The campaign is already being observed targeting Irish users, and I'd like to highlight this activity publicly as part of a... This pulse includes 3 indicators of compromise (IOCs).",
+    "title": "An Analysis of ValleyRAT Infection Campaigns from Fake Installers, Japanese Malicious Emails",
+    "content": "LevelBlue has identified two distinct ValleyRAT attack vectors: campaigns using fake installers and malicious email-based campaigns. Detection volume increased significantly from May 2025, nearly doubling in 2026. The fake installer attacks primarily target Chinese-speaking users and employ advanced techniques including Pool Party Variant 7 process injection and BYOVD methods. The malicious email... This pulse includes 6 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a4292045a662553c3583b0a"
+    "url": "https://otx.alienvault.com/pulse/6a446c5df8b0ab9d5af62b64"
   },
   {
-    "title": "Phishing Campaign PasasteSinTAG - New domain rotation identified associated with the campaign impersonating the PasasteSinTAG portal",
-    "content": "A phishing campaign targeting Chile continues to evolve with significant infrastructure expansion. Security researchers identified 99 new domains impersonating the legitimate PasasteSinTAG portal, with 22 domains confirmed active and 77 registered but not yet activated. The active domains utilize various top-level domains including .click, .cfd, .cyou, .mom, .best, .rest, .top, .help, .sbs, .icu,... This pulse includes 108 indicators of compromise (IOCs).",
+    "title": "A stealthy RAT burrowing deep into Android devices",
+    "content": "BTMOB is an Android remote access trojan that evolved from SpySolr malware and poses significant threats beyond traditional banking trojans. The malware combines phishing-led delivery with an APK builder interface that enables rapid payload generation without coding skills. Distributed through fake app stores impersonating streaming services, cryptocurrency platforms, and government agencies,... This pulse includes 99 indicators of compromise (IOCs). Associated malware: BTMOB, SpySolr.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a42124a18e7d2cb639c06dd"
+    "url": "https://otx.alienvault.com/pulse/6a1cc51d7c8f832f819a0a43"
   },
   {
-    "title": "Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited",
-    "content": "On June 25, 2026, the first active exploitation of CVE-2026-55255, a critical CVSS 9.9 Langflow vulnerability, was documented. Langflow is an open-source framework for building AI agents and RAG pipelines. A single operator exploited both CVE-2026-55255 (cross-tenant IDOR) and CVE-2026-33017 (unauthenticated RCE, CVSS 9.3) against the same instance. Despite its lower score, the RCE has been... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology.",
+    "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
+    "content": "Mustang Panda orchestrated two concurrent espionage campaigns targeting Indian government entities and hydropower infrastructure between May and June 2026. The campaigns leveraged DLL sideloading via legitimate executables to deploy newly identified malware including SHARDLOADER, MINIRECON, and ZOHOMURK. MINIRECON represents an evolution of Toneshell with WebSocket-based command-and-control... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: SHARDLOADER, MINIRECON, ZOHOMURK.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3eefb892e3d749bcf92233"
+    "url": "https://otx.alienvault.com/pulse/6a42d4a95543681c96ad0e57"
   }
 ]
