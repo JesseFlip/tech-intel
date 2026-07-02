@@ -1,26 +1,26 @@
 [
   {
-    "title": "Not very gentlemanly: Analyzing a zero-day exploit used to disable targets' EDRs",
-    "content": "The Gentlemen ransomware group, which emerged in July 2025, employed a zero-day vulnerability in a bring-your-own-vulnerable-driver (BYOVD) attack to disable endpoint detection and response systems. During an incident investigated in early April, the group leveraged an obscure third-party driver named ktapi.sys from Kontron to bypass security protections. The sophisticated exploit chains multiple... This pulse includes 3 indicators of compromise (IOCs).",
+    "title": "Inside an affiliate panel targeting Microsoft 365",
+    "content": "Cisco Talos discovered ARToken, a sophisticated phishing-as-a-service panel sharing infrastructure and operational patterns with the EvilTokens platform. The panel exposes over 80 API endpoints enabling device code phishing, Primary Refresh Token persistence, email access, business email compromise operations, and SharePoint exfiltration through a React-based dashboard. The platform deploys a... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare. Associated malware: ARToken, EvilTokens.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a43f039e387ddd12ed0896c"
+    "url": "https://otx.alienvault.com/pulse/6a4500fd1580f75d3cf32d5e"
   },
   {
-    "title": "An Analysis of ValleyRAT Infection Campaigns from Fake Installers, Japanese Malicious Emails",
-    "content": "LevelBlue has identified two distinct ValleyRAT attack vectors: campaigns using fake installers and malicious email-based campaigns. Detection volume increased significantly from May 2025, nearly doubling in 2026. The fake installer attacks primarily target Chinese-speaking users and employ advanced techniques including Pool Party Variant 7 process injection and BYOVD methods. The malicious email... This pulse includes 6 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+    "title": "Browser-Only Ransomware: From LLM Hallucinations to a Practical Attack Technique",
+    "content": "Check Point Research discovered a novel browser-native ransomware technique that emerged from AI-generated code attributed to DeepSeek. The attack leverages the File System Access API in Chromium browsers to encrypt files without requiring native payloads, exploits, or app installations. A malicious sample disguised as an AI image upscaler was analyzed, revealing how LLMs can connect theoretical... This pulse includes 1 indicators of compromise (IOCs). Associated malware: InfernoGrabber, VoidLink.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a446c5df8b0ab9d5af62b64"
+    "url": "https://otx.alienvault.com/pulse/6a4500ffd044499efcd70db1"
   },
   {
-    "title": "A stealthy RAT burrowing deep into Android devices",
-    "content": "BTMOB is an Android remote access trojan that evolved from SpySolr malware and poses significant threats beyond traditional banking trojans. The malware combines phishing-led delivery with an APK builder interface that enables rapid payload generation without coding skills. Distributed through fake app stores impersonating streaming services, cryptocurrency platforms, and government agencies,... This pulse includes 99 indicators of compromise (IOCs). Associated malware: BTMOB, SpySolr.",
+    "title": "How a single ScreenConnect incident exposed a massive campaign",
+    "content": "A massive campaign distributes malicious installer archives hosted on spoofed websites masquerading as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam. Over 90 domain names localized across 10 languages were discovered. The malicious archives bundle a legitimate Microsoft-signed install.exe binary with a rogue install.res.1033.dll library deployed via DLL sideloading. This... This pulse includes 134 indicators of compromise (IOCs). Associated malware: AsyncRAT, ScreenConnect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a1cc51d7c8f832f819a0a43"
+    "url": "https://otx.alienvault.com/pulse/6a4545dbc77aff75fe16cee7"
   },
   {
-    "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
-    "content": "Mustang Panda orchestrated two concurrent espionage campaigns targeting Indian government entities and hydropower infrastructure between May and June 2026. The campaigns leveraged DLL sideloading via legitimate executables to deploy newly identified malware including SHARDLOADER, MINIRECON, and ZOHOMURK. MINIRECON represents an evolution of Toneshell with WebSocket-based command-and-control... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: SHARDLOADER, MINIRECON, ZOHOMURK.",
+    "title": "Iran-Nexus Disseminates MarkiRAT Surveillance Tool",
+    "content": "TAG-182, an Iran-nexus threat cluster, is conducting surveillance operations targeting Iranian citizens both domestically and abroad using MarkiRAT malware. The group distributes fake Android applications masquerading as VPN services and media players through social media platforms, particularly Instagram. Following Iran's partial internet restoration in May 2026 after an 88-day shutdown, these... This pulse includes 85 indicators of compromise (IOCs). Associated malware: MarkiRAT - S0652, FurBall, DCHSpy.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a42d4a95543681c96ad0e57"
+    "url": "https://otx.alienvault.com/pulse/6a45471afccee96152675f88"
   }
 ]

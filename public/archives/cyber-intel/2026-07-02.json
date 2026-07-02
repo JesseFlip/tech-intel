@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-02",
+  "timestamp": "2026-07-02T07:10:31.802488",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside an affiliate panel targeting Microsoft 365",
+      "content": "Cisco Talos discovered ARToken, a sophisticated phishing-as-a-service panel sharing infrastructure and operational patterns with the EvilTokens platform. The panel exposes over 80 API endpoints enabling device code phishing, Primary Refresh Token persistence, email access, business email compromise operations, and SharePoint exfiltration through a React-based dashboard. The platform deploys a... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare. Associated malware: ARToken, EvilTokens.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4500fd1580f75d3cf32d5e"
+    },
+    {
+      "title": "Browser-Only Ransomware: From LLM Hallucinations to a Practical Attack Technique",
+      "content": "Check Point Research discovered a novel browser-native ransomware technique that emerged from AI-generated code attributed to DeepSeek. The attack leverages the File System Access API in Chromium browsers to encrypt files without requiring native payloads, exploits, or app installations. A malicious sample disguised as an AI image upscaler was analyzed, revealing how LLMs can connect theoretical... This pulse includes 1 indicators of compromise (IOCs). Associated malware: InfernoGrabber, VoidLink.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4500ffd044499efcd70db1"
+    },
+    {
+      "title": "How a single ScreenConnect incident exposed a massive campaign",
+      "content": "A massive campaign distributes malicious installer archives hosted on spoofed websites masquerading as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam. Over 90 domain names localized across 10 languages were discovered. The malicious archives bundle a legitimate Microsoft-signed install.exe binary with a rogue install.res.1033.dll library deployed via DLL sideloading. This... This pulse includes 134 indicators of compromise (IOCs). Associated malware: AsyncRAT, ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4545dbc77aff75fe16cee7"
+    },
+    {
+      "title": "Iran-Nexus Disseminates MarkiRAT Surveillance Tool",
+      "content": "TAG-182, an Iran-nexus threat cluster, is conducting surveillance operations targeting Iranian citizens both domestically and abroad using MarkiRAT malware. The group distributes fake Android applications masquerading as VPN services and media players through social media platforms, particularly Instagram. Following Iran's partial internet restoration in May 2026 after an 88-day shutdown, these... This pulse includes 85 indicators of compromise (IOCs). Associated malware: MarkiRAT - S0652, FurBall, DCHSpy.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a45471afccee96152675f88"
+    }
+  ]
+}
