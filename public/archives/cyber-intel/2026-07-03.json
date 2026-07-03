@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-03",
+  "timestamp": "2026-07-03T08:58:22.303571",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "GitHub Impersonation Deploys Information Stealer",
+      "content": "An internal security operations team identified a fraudulent GitHub page impersonating a cybersecurity vendor to target customers and the general public. The malicious page appeared legitimate by referencing authentic services and operational requirements. While the GitHub page itself contained non-malicious content, a disguised link led victims to download a ZIP archive containing malicious... This pulse includes 6 indicators of compromise (IOCs). Associated malware: BoryptGrab Stealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a468e99941f9e2f4d672d80"
+    },
+    {
+      "title": "Vibe Coded Extortion: Path from Legal Lure to CrownX Ransom Capabilities",
+      "content": "A sophisticated multi-stage phishing campaign delivers a previously undocumented framework called Avalon through spoofed legal documents hosted on Proton Drive. The intrusion begins with password-protected archives containing ISO images that execute malicious MSBuild projects, loading payloads entirely in memory without conventional executable attachments. Avalon consolidates credential theft,... This pulse includes 10 indicators of compromise (IOCs). Associated malware: Avalon, CrownX.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a46d120d41fcc87a8a52932"
+    },
+    {
+      "title": "Branded Gambling Campaigns: How Scammers Are Exploiting Trusted Brand Names to Drive Casino Traffic",
+      "content": "Scam advertising campaigns have been identified that impersonate trusted brands to redirect consumers to unrelated online gambling sites. These operations utilize paid social media advertisements on platforms like Facebook, Instagram, and TikTok, combined with fake app store pages and Progressive Web Apps. The campaigns target UK consumers primarily, with variants observed in German and Spanish.... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Media.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a46d12100d65a16f173e8a4"
+    },
+    {
+      "title": "PamStealer: a Rust-based macOS infostealer that validates credentials through PAM",
+      "content": "PamStealer is a two-stage macOS infostealer distributed as a compiled AppleScript impersonating Maccy, a legitimate clipboard manager, hosted on a fake domain. The first stage uses JavaScript for Automation with Objective-C APIs to download payloads while avoiding shell commands. The second stage is a Rust-based Mach-O binary that validates stolen credentials through PAM before harvesting, reads... This pulse includes 28 indicators of compromise (IOCs). Associated malware: PamStealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a471de6cf9848f2ef9503c0"
+    }
+  ]
+}

@@ -12,23 +12,23 @@
     }
   },
   "labor": {
-    "unemployment_rate": 4.3,
-    "date": "2026-05-01"
+    "unemployment_rate": 4.2,
+    "date": "2026-06-01"
   },
   "fed_policy": {
     "funds_rate": 3.63,
     "date": "2026-06-01"
   },
   "yield_curve": {
-    "ten_year": 4.44,
-    "two_year": 4.14,
-    "spread": -0.3000000000000007,
+    "ten_year": 4.48,
+    "two_year": 4.17,
+    "spread": -0.3100000000000005,
     "inverted": false,
-    "date": "2026-06-30"
+    "date": "2026-07-01"
   },
   "sentiment": {
     "consumer_sentiment": 44.8,
     "date": "2026-05-01"
   },
-  "last_updated": "2026-07-02T07:10:33.731238Z"
+  "last_updated": "2026-07-03T08:58:24.334555Z"
 }

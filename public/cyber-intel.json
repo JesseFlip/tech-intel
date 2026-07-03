@@ -1,26 +1,26 @@
 [
   {
-    "title": "Inside an affiliate panel targeting Microsoft 365",
-    "content": "Cisco Talos discovered ARToken, a sophisticated phishing-as-a-service panel sharing infrastructure and operational patterns with the EvilTokens platform. The panel exposes over 80 API endpoints enabling device code phishing, Primary Refresh Token persistence, email access, business email compromise operations, and SharePoint exfiltration through a React-based dashboard. The platform deploys a... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare. Associated malware: ARToken, EvilTokens.",
+    "title": "GitHub Impersonation Deploys Information Stealer",
+    "content": "An internal security operations team identified a fraudulent GitHub page impersonating a cybersecurity vendor to target customers and the general public. The malicious page appeared legitimate by referencing authentic services and operational requirements. While the GitHub page itself contained non-malicious content, a disguised link led victims to download a ZIP archive containing malicious... This pulse includes 6 indicators of compromise (IOCs). Associated malware: BoryptGrab Stealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a4500fd1580f75d3cf32d5e"
+    "url": "https://otx.alienvault.com/pulse/6a468e99941f9e2f4d672d80"
   },
   {
-    "title": "Browser-Only Ransomware: From LLM Hallucinations to a Practical Attack Technique",
-    "content": "Check Point Research discovered a novel browser-native ransomware technique that emerged from AI-generated code attributed to DeepSeek. The attack leverages the File System Access API in Chromium browsers to encrypt files without requiring native payloads, exploits, or app installations. A malicious sample disguised as an AI image upscaler was analyzed, revealing how LLMs can connect theoretical... This pulse includes 1 indicators of compromise (IOCs). Associated malware: InfernoGrabber, VoidLink.",
+    "title": "Vibe Coded Extortion: Path from Legal Lure to CrownX Ransom Capabilities",
+    "content": "A sophisticated multi-stage phishing campaign delivers a previously undocumented framework called Avalon through spoofed legal documents hosted on Proton Drive. The intrusion begins with password-protected archives containing ISO images that execute malicious MSBuild projects, loading payloads entirely in memory without conventional executable attachments. Avalon consolidates credential theft,... This pulse includes 10 indicators of compromise (IOCs). Associated malware: Avalon, CrownX.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a4500ffd044499efcd70db1"
+    "url": "https://otx.alienvault.com/pulse/6a46d120d41fcc87a8a52932"
   },
   {
-    "title": "How a single ScreenConnect incident exposed a massive campaign",
-    "content": "A massive campaign distributes malicious installer archives hosted on spoofed websites masquerading as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam. Over 90 domain names localized across 10 languages were discovered. The malicious archives bundle a legitimate Microsoft-signed install.exe binary with a rogue install.res.1033.dll library deployed via DLL sideloading. This... This pulse includes 134 indicators of compromise (IOCs). Associated malware: AsyncRAT, ScreenConnect.",
+    "title": "Branded Gambling Campaigns: How Scammers Are Exploiting Trusted Brand Names to Drive Casino Traffic",
+    "content": "Scam advertising campaigns have been identified that impersonate trusted brands to redirect consumers to unrelated online gambling sites. These operations utilize paid social media advertisements on platforms like Facebook, Instagram, and TikTok, combined with fake app store pages and Progressive Web Apps. The campaigns target UK consumers primarily, with variants observed in German and Spanish.... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Media.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a4545dbc77aff75fe16cee7"
+    "url": "https://otx.alienvault.com/pulse/6a46d12100d65a16f173e8a4"
   },
   {
-    "title": "Iran-Nexus Disseminates MarkiRAT Surveillance Tool",
-    "content": "TAG-182, an Iran-nexus threat cluster, is conducting surveillance operations targeting Iranian citizens both domestically and abroad using MarkiRAT malware. The group distributes fake Android applications masquerading as VPN services and media players through social media platforms, particularly Instagram. Following Iran's partial internet restoration in May 2026 after an 88-day shutdown, these... This pulse includes 85 indicators of compromise (IOCs). Associated malware: MarkiRAT - S0652, FurBall, DCHSpy.",
+    "title": "PamStealer: a Rust-based macOS infostealer that validates credentials through PAM",
+    "content": "PamStealer is a two-stage macOS infostealer distributed as a compiled AppleScript impersonating Maccy, a legitimate clipboard manager, hosted on a fake domain. The first stage uses JavaScript for Automation with Objective-C APIs to download payloads while avoiding shell commands. The second stage is a Rust-based Mach-O binary that validates stolen credentials through PAM before harvesting, reads... This pulse includes 28 indicators of compromise (IOCs). Associated malware: PamStealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a45471afccee96152675f88"
+    "url": "https://otx.alienvault.com/pulse/6a471de6cf9848f2ef9503c0"
   }
 ]
