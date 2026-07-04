@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-04",
+  "timestamp": "2026-07-04T08:33:18.438195",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Error 524 Decoy: Unmasking a Global Smishing Operation Hiding Behind Error Pages",
+      "content": "A sophisticated smishing and phishing operation active since the second half of 2025 has impersonated over 267 brands across 72 countries, with particular concentration in Latin America. The campaign generated 4,389 phishing domain instances, with Mexico accounting for 1,851 cases. Telecommunications is the most targeted sector with 1,754 instances, followed by financial services and consumer... Targeted industries: Telecommunications, Finance, Retail.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a20299f34e4961fdaff1615"
+    },
+    {
+      "title": "Matryoshka #3/3: Gamaredon's Gammasteel Infostealer",
+      "content": "This analysis examines Gamaredon's (UAC-0010, Armagedon) advanced espionage operations targeting Ukrainian government, military, and critical infrastructure. The FSB-operated group deploys GammaSteel, a sophisticated stealer operating almost entirely from memory using Windows DPAPI encryption and storing 71 distinct payload functions in the HKCU\\Printers registry key. The malware employs three... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: GammaSteel, GammaLoad, GammaPhish.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a21844636a81843ce1af3cc"
+    },
+    {
+      "title": "Inside the Cross-Platform Propagation of a New Gafgyt Variant C0XMO",
+      "content": "A new Gafgyt botnet variant named C0XMO has been discovered that spreads by exploiting a stack buffer overflow vulnerability in DD-WRT router firmware. Unlike earlier versions, this malware separates its lateral movement capabilities into a standalone Python script, enabling more efficient targeting of various system architectures including ARM, MIPS, PowerPC, and x86. The malware establishes... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: C0XMO, Gafgyt.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a20a73f2ecb12c1ffd10df5"
+    },
+    {
+      "title": "The Demon Arrives Later: A Havoc Stager Hides Behind Microsoft Defender DLP",
+      "content": "Cybercriminals in Brazil are exploiting the country's electronic invoice system (Nota Fiscal eletrônica) to deliver Havoc framework implants. The campaign surfaced during May 2026, coinciding with tax season when accountants routinely process invoice-related emails. Attackers distribute malicious ZIP files disguised as legitimate invoices, containing VBScript droppers that download MSI installers... This pulse includes 63 indicators of compromise (IOCs). Associated malware: Havoc, Banana RAT, KongTuke.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a20a73fc005e1fc15255876"
+    }
+  ]
+}

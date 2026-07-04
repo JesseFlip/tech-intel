@@ -1,26 +1,26 @@
 [
   {
-    "title": "GitHub Impersonation Deploys Information Stealer",
-    "content": "An internal security operations team identified a fraudulent GitHub page impersonating a cybersecurity vendor to target customers and the general public. The malicious page appeared legitimate by referencing authentic services and operational requirements. While the GitHub page itself contained non-malicious content, a disguised link led victims to download a ZIP archive containing malicious... This pulse includes 6 indicators of compromise (IOCs). Associated malware: BoryptGrab Stealer.",
+    "title": "Error 524 Decoy: Unmasking a Global Smishing Operation Hiding Behind Error Pages",
+    "content": "A sophisticated smishing and phishing operation active since the second half of 2025 has impersonated over 267 brands across 72 countries, with particular concentration in Latin America. The campaign generated 4,389 phishing domain instances, with Mexico accounting for 1,851 cases. Telecommunications is the most targeted sector with 1,754 instances, followed by financial services and consumer... Targeted industries: Telecommunications, Finance, Retail.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a468e99941f9e2f4d672d80"
+    "url": "https://otx.alienvault.com/pulse/6a20299f34e4961fdaff1615"
   },
   {
-    "title": "Vibe Coded Extortion: Path from Legal Lure to CrownX Ransom Capabilities",
-    "content": "A sophisticated multi-stage phishing campaign delivers a previously undocumented framework called Avalon through spoofed legal documents hosted on Proton Drive. The intrusion begins with password-protected archives containing ISO images that execute malicious MSBuild projects, loading payloads entirely in memory without conventional executable attachments. Avalon consolidates credential theft,... This pulse includes 10 indicators of compromise (IOCs). Associated malware: Avalon, CrownX.",
+    "title": "Matryoshka #3/3: Gamaredon's Gammasteel Infostealer",
+    "content": "This analysis examines Gamaredon's (UAC-0010, Armagedon) advanced espionage operations targeting Ukrainian government, military, and critical infrastructure. The FSB-operated group deploys GammaSteel, a sophisticated stealer operating almost entirely from memory using Windows DPAPI encryption and storing 71 distinct payload functions in the HKCU\\Printers registry key. The malware employs three... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: GammaSteel, GammaLoad, GammaPhish.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a46d120d41fcc87a8a52932"
+    "url": "https://otx.alienvault.com/pulse/6a21844636a81843ce1af3cc"
   },
   {
-    "title": "Branded Gambling Campaigns: How Scammers Are Exploiting Trusted Brand Names to Drive Casino Traffic",
-    "content": "Scam advertising campaigns have been identified that impersonate trusted brands to redirect consumers to unrelated online gambling sites. These operations utilize paid social media advertisements on platforms like Facebook, Instagram, and TikTok, combined with fake app store pages and Progressive Web Apps. The campaigns target UK consumers primarily, with variants observed in German and Spanish.... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Media.",
+    "title": "Inside the Cross-Platform Propagation of a New Gafgyt Variant C0XMO",
+    "content": "A new Gafgyt botnet variant named C0XMO has been discovered that spreads by exploiting a stack buffer overflow vulnerability in DD-WRT router firmware. Unlike earlier versions, this malware separates its lateral movement capabilities into a standalone Python script, enabling more efficient targeting of various system architectures including ARM, MIPS, PowerPC, and x86. The malware establishes... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: C0XMO, Gafgyt.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a46d12100d65a16f173e8a4"
+    "url": "https://otx.alienvault.com/pulse/6a20a73f2ecb12c1ffd10df5"
   },
   {
-    "title": "PamStealer: a Rust-based macOS infostealer that validates credentials through PAM",
-    "content": "PamStealer is a two-stage macOS infostealer distributed as a compiled AppleScript impersonating Maccy, a legitimate clipboard manager, hosted on a fake domain. The first stage uses JavaScript for Automation with Objective-C APIs to download payloads while avoiding shell commands. The second stage is a Rust-based Mach-O binary that validates stolen credentials through PAM before harvesting, reads... This pulse includes 28 indicators of compromise (IOCs). Associated malware: PamStealer.",
+    "title": "The Demon Arrives Later: A Havoc Stager Hides Behind Microsoft Defender DLP",
+    "content": "Cybercriminals in Brazil are exploiting the country's electronic invoice system (Nota Fiscal eletrônica) to deliver Havoc framework implants. The campaign surfaced during May 2026, coinciding with tax season when accountants routinely process invoice-related emails. Attackers distribute malicious ZIP files disguised as legitimate invoices, containing VBScript droppers that download MSI installers... This pulse includes 63 indicators of compromise (IOCs). Associated malware: Havoc, Banana RAT, KongTuke.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a471de6cf9848f2ef9503c0"
+    "url": "https://otx.alienvault.com/pulse/6a20a73fc005e1fc15255876"
   }
 ]
