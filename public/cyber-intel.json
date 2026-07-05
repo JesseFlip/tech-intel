@@ -1,26 +1,26 @@
 [
   {
-    "title": "Error 524 Decoy: Unmasking a Global Smishing Operation Hiding Behind Error Pages",
-    "content": "A sophisticated smishing and phishing operation active since the second half of 2025 has impersonated over 267 brands across 72 countries, with particular concentration in Latin America. The campaign generated 4,389 phishing domain instances, with Mexico accounting for 1,851 cases. Telecommunications is the most targeted sector with 1,754 instances, followed by financial services and consumer... Targeted industries: Telecommunications, Finance, Retail.",
+    "title": "Latest goon squad to use fake helpdesk calls to steal creds",
+    "content": "A new extortion group called Pink, tracked as cluster CL-CRI-1147, employs voice phishing and fake IT helpdesk impersonation to compromise organizations. The gang steals employee credentials, bypasses multi-factor authentication, and exfiltrates data from cloud storage platforms like SharePoint and OneDrive. Pink threatens to leak stolen information unless ransom demands are met, setting 72-hour... This pulse includes 3 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a20299f34e4961fdaff1615"
+    "url": "https://otx.alienvault.com/pulse/6a2201a2fe176ac0486f58e5"
   },
   {
-    "title": "Matryoshka #3/3: Gamaredon's Gammasteel Infostealer",
-    "content": "This analysis examines Gamaredon's (UAC-0010, Armagedon) advanced espionage operations targeting Ukrainian government, military, and critical infrastructure. The FSB-operated group deploys GammaSteel, a sophisticated stealer operating almost entirely from memory using Windows DPAPI encryption and storing 71 distinct payload functions in the HKCU\\Printers registry key. The malware employs three... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: GammaSteel, GammaLoad, GammaPhish.",
+    "title": "ClickFix Deno Abuse to CastleRAT",
+    "content": "Activity began with a ClickFix-style social engineering chain that led to MSI execution, PowerShell staging, and installation/use of Deno to run attacker-controlled JavaScript. Follow-on activity downloaded a portable Python runtime, `install.pyc`, and an encrypted `.MOa` container, which was later decrypted to recover a 64-bit Windows PE payload. Analysis of the recovered payload showed Steam... This pulse includes 14 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a21844636a81843ce1af3cc"
+    "url": "https://otx.alienvault.com/pulse/6a21aa7db4b7cf1351f27cb6"
+  },
+  {
+    "title": "Argamal: Malware hidden in hentai games",
+    "content": "In April 2026, researchers discovered a malware campaign targeting players of adult-themed games. The infected games install a previously unknown implant called Argamal that downloads and executes a RAT after several days, resulting in full system compromise. The malware uses COM hijacking to persist, replacing the InprocServer32 entry for Windows Color System Calibration Loader DLL. Delivery... This pulse includes 24 indicators of compromise (IOCs). Associated malware: Argamal, Termixia.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a214338125edff8d16ab273"
   },
   {
     "title": "Inside the Cross-Platform Propagation of a New Gafgyt Variant C0XMO",
-    "content": "A new Gafgyt botnet variant named C0XMO has been discovered that spreads by exploiting a stack buffer overflow vulnerability in DD-WRT router firmware. Unlike earlier versions, this malware separates its lateral movement capabilities into a standalone Python script, enabling more efficient targeting of various system architectures including ARM, MIPS, PowerPC, and x86. The malware establishes... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: C0XMO, Gafgyt.",
+    "content": "A new Gafgyt botnet variant named C0XMO has been discovered that spreads by exploiting a stack buffer overflow vulnerability in DD-WRT router firmware. Unlike earlier versions, this malware separates its lateral movement capabilities into a standalone Python script, enabling more efficient targeting of various system architectures including ARM, MIPS, PowerPC, and x86. The malware establishes... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: C0XMO, Gafgyt.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a20a73f2ecb12c1ffd10df5"
-  },
-  {
-    "title": "The Demon Arrives Later: A Havoc Stager Hides Behind Microsoft Defender DLP",
-    "content": "Cybercriminals in Brazil are exploiting the country's electronic invoice system (Nota Fiscal eletrônica) to deliver Havoc framework implants. The campaign surfaced during May 2026, coinciding with tax season when accountants routinely process invoice-related emails. Attackers distribute malicious ZIP files disguised as legitimate invoices, containing VBScript droppers that download MSI installers... This pulse includes 63 indicators of compromise (IOCs). Associated malware: Havoc, Banana RAT, KongTuke.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a20a73fc005e1fc15255876"
   }
 ]
