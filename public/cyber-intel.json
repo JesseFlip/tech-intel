@@ -1,26 +1,26 @@
 [
   {
-    "title": "Latest goon squad to use fake helpdesk calls to steal creds",
-    "content": "A new extortion group called Pink, tracked as cluster CL-CRI-1147, employs voice phishing and fake IT helpdesk impersonation to compromise organizations. The gang steals employee credentials, bypasses multi-factor authentication, and exfiltrates data from cloud storage platforms like SharePoint and OneDrive. Pink threatens to leak stolen information unless ransom demands are met, setting 72-hour... This pulse includes 3 indicators of compromise (IOCs).",
+    "title": "Phishing in the Balkans: Fake Traffic Fines, Real Losses",
+    "content": "An active SMS phishing campaign targets Serbian road users by impersonating Putevi Srbije, Serbia's state road authority. Victims receive text messages claiming they have unpaid traffic fines with urgent payment demands. The fraudulent links lead to cloned government websites designed to steal payment card details. The infrastructure employs JavaScript-based obfuscation techniques to evade... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a2201a2fe176ac0486f58e5"
+    "url": "https://otx.alienvault.com/pulse/6a4545d3f23bbaf07db98a73"
   },
   {
-    "title": "ClickFix Deno Abuse to CastleRAT",
-    "content": "Activity began with a ClickFix-style social engineering chain that led to MSI execution, PowerShell staging, and installation/use of Deno to run attacker-controlled JavaScript. Follow-on activity downloaded a portable Python runtime, `install.pyc`, and an encrypted `.MOa` container, which was later decrypted to recover a 64-bit Windows PE payload. Analysis of the recovered payload showed Steam... This pulse includes 14 indicators of compromise (IOCs).",
+    "title": "Indirect Prompt Injection in Web Content Targets AI Agents",
+    "content": "AI agents are increasingly vulnerable to indirect prompt injection (IPI) attacks, where malicious instructions are embedded in web content to manipulate AI-driven workflows. Two campaigns were identified that combine SEO poisoning with CSS/HTML abuse to influence AI decision-making. The first campaign uses fake API documentation to trick AI agents into making fraudulent payments for a fake Python... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a21aa7db4b7cf1351f27cb6"
+    "url": "https://otx.alienvault.com/pulse/6a46cc8d21232689c52266a2"
   },
   {
-    "title": "Argamal: Malware hidden in hentai games",
-    "content": "In April 2026, researchers discovered a malware campaign targeting players of adult-themed games. The infected games install a previously unknown implant called Argamal that downloads and executes a RAT after several days, resulting in full system compromise. The malware uses COM hijacking to persist, replacing the InprocServer32 entry for Windows Color System Calibration Loader DLL. Delivery... This pulse includes 24 indicators of compromise (IOCs). Associated malware: Argamal, Termixia.",
+    "title": "What Is the BabaDeda Loader? Analysis of a New ClickFix Malware Campaign.",
+    "content": "The BabaDeda loader family has undergone significant advancements in its capabilities, particularly in stealth, evasion, and payload flexibility. Discovered during April 2026, this evolved framework continues to conceal malicious payloads within seemingly legitimate installer packages while expanding its functionality. The attack methodology begins with a social engineering exploit known as... This pulse includes 38 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a214338125edff8d16ab273"
+    "url": "https://otx.alienvault.com/pulse/6a47b2cc64d3d9241377df01"
   },
   {
-    "title": "Inside the Cross-Platform Propagation of a New Gafgyt Variant C0XMO",
-    "content": "A new Gafgyt botnet variant named C0XMO has been discovered that spreads by exploiting a stack buffer overflow vulnerability in DD-WRT router firmware. Unlike earlier versions, this malware separates its lateral movement capabilities into a standalone Python script, enabling more efficient targeting of various system architectures including ARM, MIPS, PowerPC, and x86. The malware establishes... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: C0XMO, Gafgyt.",
+    "title": "Armored Likho's new weapon: BusySnake Stealer",
+    "content": "Kaspersky uncovered a sophisticated phishing campaign by the APT group Armored Likho, deploying a previously undocumented Python-based infostealer dubbed BusySnake Stealer. The campaign targets government agencies and electric power sectors across Russia, Brazil, and Kazakhstan through spear-phishing emails containing malicious EXE or LNK attachments. BusySnake Stealer features advanced... This pulse includes 46 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BusySnake Stealer, AquilaRAT, Go2Tunnel.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a20a73f2ecb12c1ffd10df5"
+    "url": "https://otx.alienvault.com/pulse/6a47a77e01d1e457798b3a33"
   }
 ]
