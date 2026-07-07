@@ -1,5 +1,11 @@
 [
   {
+    "title": "AsyncRAT and Remcos Delivered in Multi-Stage Phishing Campaign",
+    "content": "A global phishing campaign targets business functions with emails carrying malicious Excel attachments that initiate a multi-stage infection chain when macros are enabled.\nThe attack uses layered obfuscation, including HTA scripts, PowerShell, encoded payloads, and steganography in PNG files, to deliver and execute Remote Access Trojans such as Remcos and AsyncRAT in a largely fileless manner.\nIt... This pulse includes 99 indicators of compromise (IOCs).",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a3ba45b3fef31b3a05d9cb0"
+  },
+  {
     "title": "Phishing in the Balkans: Fake Traffic Fines, Real Losses",
     "content": "An active SMS phishing campaign targets Serbian road users by impersonating Putevi Srbije, Serbia's state road authority. Victims receive text messages claiming they have unpaid traffic fines with urgent payment demands. The fraudulent links lead to cloned government websites designed to steal payment card details. The infrastructure employs JavaScript-based obfuscation techniques to evade... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Government.",
     "linkText": "View on AlienVault OTX →",
@@ -16,11 +22,5 @@
     "content": "The BabaDeda loader family has undergone significant advancements in its capabilities, particularly in stealth, evasion, and payload flexibility. Discovered during April 2026, this evolved framework continues to conceal malicious payloads within seemingly legitimate installer packages while expanding its functionality. The attack methodology begins with a social engineering exploit known as... This pulse includes 38 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a47b2cc64d3d9241377df01"
-  },
-  {
-    "title": "Armored Likho's new weapon: BusySnake Stealer",
-    "content": "Kaspersky uncovered a sophisticated phishing campaign by the APT group Armored Likho, deploying a previously undocumented Python-based infostealer dubbed BusySnake Stealer. The campaign targets government agencies and electric power sectors across Russia, Brazil, and Kazakhstan through spear-phishing emails containing malicious EXE or LNK attachments. BusySnake Stealer features advanced... This pulse includes 46 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BusySnake Stealer, AquilaRAT, Go2Tunnel.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a47a77e01d1e457798b3a33"
   }
 ]
