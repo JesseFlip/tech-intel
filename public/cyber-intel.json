@@ -1,26 +1,26 @@
 [
   {
-    "title": "AsyncRAT and Remcos Delivered in Multi-Stage Phishing Campaign",
-    "content": "A global phishing campaign targets business functions with emails carrying malicious Excel attachments that initiate a multi-stage infection chain when macros are enabled.\nThe attack uses layered obfuscation, including HTA scripts, PowerShell, encoded payloads, and steganography in PNG files, to deliver and execute Remote Access Trojans such as Remcos and AsyncRAT in a largely fileless manner.\nIt... This pulse includes 99 indicators of compromise (IOCs).",
+    "title": "Agentic AI Uncovers New China-Linked Cluster OP-512",
+    "content": "A newly identified China-linked espionage cluster designated OP-512 has been discovered targeting Internet Information Services (IIS) servers through advanced AI-driven detection. The operation involves deploying a sophisticated custom web shell framework consisting of three components: a file manager with command-and-control notification channel and two cryptographically authenticated command... This pulse includes 4 indicators of compromise (IOCs). Associated malware: GhostKit, BadPotato, SweetPotato.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3ba45b3fef31b3a05d9cb0"
+    "url": "https://otx.alienvault.com/pulse/6a23107727fdc1e824252731"
   },
   {
-    "title": "Phishing in the Balkans: Fake Traffic Fines, Real Losses",
-    "content": "An active SMS phishing campaign targets Serbian road users by impersonating Putevi Srbije, Serbia's state road authority. Victims receive text messages claiming they have unpaid traffic fines with urgent payment demands. The fraudulent links lead to cloned government websites designed to steal payment card details. The infrastructure employs JavaScript-based obfuscation techniques to evade... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Government.",
+    "title": "VerdantBamboo: Just Another BRICKSTORM in the Firewall",
+    "content": "Chinese threat actor VerdantBamboo compromised a victim organization and its Managed Services Provider over an 18-month period, deploying malware on network edge devices lacking EDR coverage. The initial breach involved an Egnyte Storage Sync system, where attackers exploited a sudo misconfiguration for privilege escalation and installed BRICKSTORM backdoor and AGENTPSD fallback implant.... This pulse includes 105 indicators of compromise (IOCs). Associated malware: BRICKSTORM, PLENET, AGENTPSD.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a4545d3f23bbaf07db98a73"
+    "url": "https://otx.alienvault.com/pulse/6a2310765ec1df9836ee072f"
   },
   {
-    "title": "Indirect Prompt Injection in Web Content Targets AI Agents",
-    "content": "AI agents are increasingly vulnerable to indirect prompt injection (IPI) attacks, where malicious instructions are embedded in web content to manipulate AI-driven workflows. Two campaigns were identified that combine SEO poisoning with CSS/HTML abuse to influence AI decision-making. The first campaign uses fake API documentation to trick AI agents into making fraudulent payments for a fake Python... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Finance.",
+    "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
+    "content": "An unidentified threat actor is actively exploiting CVE-2026-0257, an authentication bypass vulnerability in PAN-OS GlobalProtect portal and gateway components. The flaw allows unauthorized attackers to circumvent security controls and initiate VPN connections. The vulnerability was added to CISA's Known Exploited Vulnerabilities catalog on May 29, 2026. Exploitation activity has been detected... This pulse includes 1 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a46cc8d21232689c52266a2"
+    "url": "https://otx.alienvault.com/pulse/6a230a1d075271a064d3f708"
   },
   {
-    "title": "What Is the BabaDeda Loader? Analysis of a New ClickFix Malware Campaign.",
-    "content": "The BabaDeda loader family has undergone significant advancements in its capabilities, particularly in stealth, evasion, and payload flexibility. Discovered during April 2026, this evolved framework continues to conceal malicious payloads within seemingly legitimate installer packages while expanding its functionality. The attack methodology begins with a social engineering exploit known as... This pulse includes 38 indicators of compromise (IOCs).",
+    "title": "From Phishing to Persistence: A CrySome RAT Infection Chain Analysis",
+    "content": "A sophisticated multi-stage infection chain was analyzed following successful containment by MDR SOC operations. Initial access occurred through spear-phishing using a logistics rate confirmation lure, delivering CrySome remote access trojan via multiple stages. The attack chain leveraged living-off-the-land techniques, ICMLuaUtil COM interface for UAC bypass, and in-memory AMSI patching.... This pulse includes 17 indicators of compromise (IOCs). Associated malware: CrySome RAT, WinDefCtl.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a47b2cc64d3d9241377df01"
+    "url": "https://otx.alienvault.com/pulse/6a4d09e0fbf878666b3d5afd"
   }
 ]
