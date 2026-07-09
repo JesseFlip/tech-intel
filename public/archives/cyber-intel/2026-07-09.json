@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-09",
+  "timestamp": "2026-07-09T09:34:12.524121",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Old WinRAR Flaw Fuels Attacks on Ukraine: How Unmanaged Software Keeps the Door Open",
+      "content": "Two Russia-aligned campaigns continue exploiting CVE-2025-8088, a WinRAR path traversal vulnerability patched in July 2025, against Ukrainian organizations through April 2026. SHADOW-EARTH-066 deploys an evolved GIFTEDCROOK information stealer using in-memory DLL loading via direct NT system calls, harvesting browser credentials, session cookies, and documents across 35 file extensions before... This pulse includes 58 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: GIFTEDCROOK, GammaSteel.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2699c6a6badcc8eac21083"
+    },
+    {
+      "title": "Hacktivists are broadening their scope beyond political motivation",
+      "content": "Kaspersky researchers uncovered interconnected hacktivist campaigns attributed to groups including 4BID, Hakerskii Kit, and C.A.S., targeting organizations primarily in Russia and Belarus, but expanding to Kazakhstan, UAE, Syria, and Egypt. Attackers exploited ProxyShell vulnerabilities in Microsoft Exchange servers to deploy fd.aspx web shells and various post-exploitation frameworks including... This pulse includes 79 indicators of compromise (IOCs). Targeted industries: Healthcare, Government, Manufacturing. Associated malware: BlackReaperRAT, Warp RAT, Sliver.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2699c629b0ddee8d84e7b6"
+    },
+    {
+      "title": "Don't Fear the Repo: UNK_DeadDrop Phishing Campaign Targets Developers to Steal Cryptocurrency",
+      "content": "Between April and May 2026, a likely North Korean threat actor conducted phishing campaigns targeting developers across nearly 100 organizations in finance, cryptocurrency, education, and technology sectors. The attacks used recruitment and code review themes, delivering emails with links to actor-controlled GitHub repositories hosting malicious scripts. The infection chain exploited Visual... This pulse includes 76 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Education. Associated malware: Overlord, OtterCookie, Invisible Ferret.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2693f169b076341f77f7b6"
+    },
+    {
+      "title": "Agentic AI Uncovers New China-Linked Cluster OP-512",
+      "content": "A newly identified China-linked espionage cluster designated OP-512 has been discovered targeting Internet Information Services (IIS) servers through advanced AI-driven detection. The operation involves deploying a sophisticated custom web shell framework consisting of three components: a file manager with command-and-control notification channel and two cryptographically authenticated command... This pulse includes 4 indicators of compromise (IOCs). Associated malware: GhostKit, BadPotato, SweetPotato.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a23107727fdc1e824252731"
+    }
+  ]
+}
