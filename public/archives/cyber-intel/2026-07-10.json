@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-10",
+  "timestamp": "2026-07-10T09:30:28.143252",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+      "content": "In October 2025, Microsoft Threat Intelligence discovered GigaWiper, a sophisticated Golang-based backdoor that combines command-and-control capabilities with multiple destructive payloads. This versatile implant consolidates functionality from at least three separate malware families: a standalone wiper operating at physical disk level, a destructive component derived from Crucio ransomware that... This pulse includes 20 indicators of compromise (IOCs). Associated malware: GigaWiper, Crucio, FlockWiper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4fdb50b88e8fc2bfbd26dd"
+    },
+    {
+      "title": "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
+      "content": "Between February 2024 and April 2026, multiple cyberespionage actors, suspected to be China-nexus and India-nexus threat groups, conducted sustained intrusions into Pakistani law enforcement organizations, particularly Balochistan Police. The compromised infrastructure included network appliances and servers hosting web applications managing criminal records, biometric data, hotel registrations,... This pulse includes 71 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: PlugX - S0013, Thoper, TVT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a501da43fb3cb230cc9a9b9"
+    },
+    {
+      "title": "Compromised Injective SDK npm Package Exfiltrates Wallet Keys and Mnemonics",
+      "content": "A compromised version of the Injective Labs TypeScript SDK npm package was published containing malicious code that exfiltrates cryptocurrency wallet private keys and mnemonic phrases. The malicious version 1.20.21 was published on June 8, 2026, through a compromised developer account with established repository access. The malware hooks key generation functions to capture sensitive wallet data... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a506b1789bdc92f8fe1d6d5"
+    },
+    {
+      "title": "Fake Banking Rewards, Telegram Delivery and Albiriox: Anatomy of an Android Malware Campaign",
+      "content": "A malicious campaign was detected impersonating an Italian banking brand through a fraudulent domain offering fake financial rewards for installing a mobile application. Users are redirected to a Telegram bot that distributes a malicious Android APK outside official app stores. The APK functions as a dropper containing an embedded second-stage payload identified as Albiriox, an Android banking... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Albiriox.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a501da5e79e415cb0ec861e"
+    }
+  ]
+}
