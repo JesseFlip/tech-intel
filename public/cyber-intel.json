@@ -1,5 +1,11 @@
 [
   {
+    "title": "SilabRAT, What's Your Power?",
+    "content": "SilabRAT is an advanced Remote Access Trojan offered as Malware-as-a-Service on Darkweb forums since late 2025, developed by threat actor o1oo1 and sold for $5,000 monthly. This financially-motivated tool focuses on credential theft and cryptocurrency operations, featuring Hidden Virtual Network Computing for invisible remote control, browser profile cloning to bypass session protections, and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: SilabRAT, Hijackloader, AsmCrypt.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a2951665d658e753b489765"
+  },
+  {
     "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
     "content": "In October 2025, Microsoft Threat Intelligence discovered GigaWiper, a sophisticated Golang-based backdoor that combines command-and-control capabilities with multiple destructive payloads. This versatile implant consolidates functionality from at least three separate malware families: a standalone wiper operating at physical disk level, a destructive component derived from Crucio ransomware that... This pulse includes 20 indicators of compromise (IOCs). Associated malware: GigaWiper, Crucio, FlockWiper.",
     "linkText": "View on AlienVault OTX →",
@@ -16,11 +22,5 @@
     "content": "A compromised version of the Injective Labs TypeScript SDK npm package was published containing malicious code that exfiltrates cryptocurrency wallet private keys and mnemonic phrases. The malicious version 1.20.21 was published on June 8, 2026, through a compromised developer account with established repository access. The malware hooks key generation functions to capture sensitive wallet data... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a506b1789bdc92f8fe1d6d5"
-  },
-  {
-    "title": "Fake Banking Rewards, Telegram Delivery and Albiriox: Anatomy of an Android Malware Campaign",
-    "content": "A malicious campaign was detected impersonating an Italian banking brand through a fraudulent domain offering fake financial rewards for installing a mobile application. Users are redirected to a Telegram bot that distributes a malicious Android APK outside official app stores. The APK functions as a dropper containing an embedded second-stage payload identified as Albiriox, an Android banking... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Albiriox.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a501da5e79e415cb0ec861e"
   }
 ]

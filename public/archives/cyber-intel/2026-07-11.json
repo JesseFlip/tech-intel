@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-11",
+  "timestamp": "2026-07-11T07:51:10.600736",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "SilabRAT, What's Your Power?",
+      "content": "SilabRAT is an advanced Remote Access Trojan offered as Malware-as-a-Service on Darkweb forums since late 2025, developed by threat actor o1oo1 and sold for $5,000 monthly. This financially-motivated tool focuses on credential theft and cryptocurrency operations, featuring Hidden Virtual Network Computing for invisible remote control, browser profile cloning to bypass session protections, and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: SilabRAT, Hijackloader, AsmCrypt.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2951665d658e753b489765"
+    },
+    {
+      "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+      "content": "In October 2025, Microsoft Threat Intelligence discovered GigaWiper, a sophisticated Golang-based backdoor that combines command-and-control capabilities with multiple destructive payloads. This versatile implant consolidates functionality from at least three separate malware families: a standalone wiper operating at physical disk level, a destructive component derived from Crucio ransomware that... This pulse includes 20 indicators of compromise (IOCs). Associated malware: GigaWiper, Crucio, FlockWiper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4fdb50b88e8fc2bfbd26dd"
+    },
+    {
+      "title": "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
+      "content": "Between February 2024 and April 2026, multiple cyberespionage actors, suspected to be China-nexus and India-nexus threat groups, conducted sustained intrusions into Pakistani law enforcement organizations, particularly Balochistan Police. The compromised infrastructure included network appliances and servers hosting web applications managing criminal records, biometric data, hotel registrations,... This pulse includes 71 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: PlugX - S0013, Thoper, TVT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a501da43fb3cb230cc9a9b9"
+    },
+    {
+      "title": "Compromised Injective SDK npm Package Exfiltrates Wallet Keys and Mnemonics",
+      "content": "A compromised version of the Injective Labs TypeScript SDK npm package was published containing malicious code that exfiltrates cryptocurrency wallet private keys and mnemonic phrases. The malicious version 1.20.21 was published on June 8, 2026, through a compromised developer account with established repository access. The malware hooks key generation functions to capture sensitive wallet data... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a506b1789bdc92f8fe1d6d5"
+    }
+  ]
+}
