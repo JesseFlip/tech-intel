@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-12",
+  "timestamp": "2026-07-12T08:12:37.078850",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Targets Education Sector with Oracle PeopleSoft Exploit",
+      "content": "Between May 27 and June 9, 2026, UNC6240 (ShinyHunters) conducted an active compromise and extortion campaign targeting Oracle PeopleSoft application infrastructure. The threat actor exploited CVE-2026-35273, a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component, as a zero-day before Oracle's June 10, 2026 advisory. Over 100 organizations were... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: MeshCentral.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2b24138a34132bc69a0072"
+    },
+    {
+      "title": "Affidavit in Support of Application for Criminal Complaint",
+      "content": "An FBI investigation identified Denis Nikolayevich Obrezko, a Russian national, as facilitating cyber intrusions conducted by the Russia-aligned threat group Void Blizzard. Between June and July 2024, multiple U.S. companies across various sectors were targeted in a large-scale cyber espionage campaign involving mass email harvesting and unauthorized access. The threat actors utilized stolen... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Education, Finance, Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2b2411d3d3323a465da4c0"
+    },
+    {
+      "title": "Threat Actors Target FIFA World Cup 2026",
+      "content": "A sophisticated Chinese-origin fraud operation is targeting FIFA World Cup 2026 attendees through pixel-perfect website clones and a multi-tenant phishing infrastructure. The actors deploy typosquatted domains and a commercially developed administrative system to mimic legitimate FIFA ticketing platforms. Technical analysis reveals high-fidelity brand cloning, real-time card skimming... This pulse includes 44 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2ae2e76dc9f990eeb985f0"
+    },
+    {
+      "title": "From external espionage to domestic targeting",
+      "content": "Analysis of OceanLotus activities from 2024-2026 reveals a strategic shift toward domestic espionage within Vietnam. The Vietnam-aligned APT group conducted two distinct campaigns using the SPECTRALVIPER backdoor: a supply-chain attack compromising FireAnt Metakit stock trading platform from October 2025 to March 2026, and a prolonged intrusion into a Vietnamese infrastructure and transport... This pulse includes 226 indicators of compromise (IOCs). Targeted industries: Finance, Construction, Transportation. Associated malware: SPECTRALVIPER, Denis - S0354, SOUNDBITE - S0157.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a2ac312c98386d398eab284"
+    }
+  ]
+}
