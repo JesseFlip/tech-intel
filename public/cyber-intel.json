@@ -1,5 +1,11 @@
 [
   {
+    "title": "Interlock and Rhysida within the Ransomware Ecosystem",
+    "content": "This analysis examines over two years of observations on the ransomware ecosystem surrounding Interlock and Rhysida threat groups. Hive0163 (Interlock) employs custom malware including NodeSnake, InterlockRAT, JunkFiction downloader, Supper, and Interlock ransomware, with identified links to TAG-124. Rhysida actors utilize Endico downloader, Broomstick, Supper, and Tomb crypter, showing... This pulse includes 240 indicators of compromise (IOCs). Targeted industries: Aerospace, Agriculture, Chemical. Associated malware: NodeSnake, InterlockRAT, JunkFiction.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a2c7a1d041f52879495ac3e"
+  },
+  {
     "title": "Targets Education Sector with Oracle PeopleSoft Exploit",
     "content": "Between May 27 and June 9, 2026, UNC6240 (ShinyHunters) conducted an active compromise and extortion campaign targeting Oracle PeopleSoft application infrastructure. The threat actor exploited CVE-2026-35273, a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component, as a zero-day before Oracle's June 10, 2026 advisory. Over 100 organizations were... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: MeshCentral.",
     "linkText": "View on AlienVault OTX →",
@@ -16,11 +22,5 @@
     "content": "A sophisticated Chinese-origin fraud operation is targeting FIFA World Cup 2026 attendees through pixel-perfect website clones and a multi-tenant phishing infrastructure. The actors deploy typosquatted domains and a commercially developed administrative system to mimic legitimate FIFA ticketing platforms. Technical analysis reveals high-fidelity brand cloning, real-time card skimming... This pulse includes 44 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a2ae2e76dc9f990eeb985f0"
-  },
-  {
-    "title": "From external espionage to domestic targeting",
-    "content": "Analysis of OceanLotus activities from 2024-2026 reveals a strategic shift toward domestic espionage within Vietnam. The Vietnam-aligned APT group conducted two distinct campaigns using the SPECTRALVIPER backdoor: a supply-chain attack compromising FireAnt Metakit stock trading platform from October 2025 to March 2026, and a prolonged intrusion into a Vietnamese infrastructure and transport... This pulse includes 226 indicators of compromise (IOCs). Targeted industries: Finance, Construction, Transportation. Associated malware: SPECTRALVIPER, Denis - S0354, SOUNDBITE - S0157.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a2ac312c98386d398eab284"
   }
 ]
