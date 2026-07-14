@@ -1,26 +1,26 @@
 [
   {
-    "title": "Interlock and Rhysida within the Ransomware Ecosystem",
-    "content": "This analysis examines over two years of observations on the ransomware ecosystem surrounding Interlock and Rhysida threat groups. Hive0163 (Interlock) employs custom malware including NodeSnake, InterlockRAT, JunkFiction downloader, Supper, and Interlock ransomware, with identified links to TAG-124. Rhysida actors utilize Endico downloader, Broomstick, Supper, and Tomb crypter, showing... This pulse includes 240 indicators of compromise (IOCs). Targeted industries: Aerospace, Agriculture, Chemical. Associated malware: NodeSnake, InterlockRAT, JunkFiction.",
+    "title": "Threat Actors Achieve Persistence After SQL Injection",
+    "content": "Threat actors gaining initial access through SQL injection exploited a web application vulnerability in a technology sector organization. After compromising an MSSQL instance via inadequate input validation, the attackers deployed base64-encoded PowerShell scripts to conduct reconnaissance using tasklist commands and exfiltrated results to an external server. They established persistence by... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: BadIIS, XMRig, CnCrypt Protect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a2c7a1d041f52879495ac3e"
+    "url": "https://otx.alienvault.com/pulse/6a551f28c1e094d7650c8ecd"
   },
   {
-    "title": "Targets Education Sector with Oracle PeopleSoft Exploit",
-    "content": "Between May 27 and June 9, 2026, UNC6240 (ShinyHunters) conducted an active compromise and extortion campaign targeting Oracle PeopleSoft application infrastructure. The threat actor exploited CVE-2026-35273, a critical remote code execution vulnerability (CVSS 9.8) in the Environment Management component, as a zero-day before Oracle's June 10, 2026 advisory. Over 100 organizations were... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: MeshCentral.",
+    "title": "Update on Attacks by Threat Group APT-C-60 in 2026",
+    "content": "APT-C-60 continues targeting organizations in Japan with evolved tactics observed throughout 2026. The threat group employs spear-phishing emails containing Proton Drive links or direct attachments with RAR archives. Victims extract LNK files that execute JavaScript via mshta.exe, leading to multi-stage payload delivery. The attackers abuse legitimate services including GitHub, GitLab, jsDelivr,... This pulse includes 104 indicators of compromise (IOCs). Associated malware: SpyGlace.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a2b24138a34132bc69a0072"
+    "url": "https://otx.alienvault.com/pulse/6a54e01e0597d81e8ad9f7d0"
   },
   {
-    "title": "Affidavit in Support of Application for Criminal Complaint",
-    "content": "An FBI investigation identified Denis Nikolayevich Obrezko, a Russian national, as facilitating cyber intrusions conducted by the Russia-aligned threat group Void Blizzard. Between June and July 2024, multiple U.S. companies across various sectors were targeted in a large-scale cyber espionage campaign involving mass email harvesting and unauthorized access. The threat actors utilized stolen... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Education, Finance, Technology.",
+    "title": "One Misconfigured Server, Three Active Campaigns: Full exposure of three AiTM Phishing Operators",
+    "content": "A misconfigured Python HTTP server on a Budapest VPS exposed the complete operational infrastructure of three distinct phishing operators. The investigation uncovered codemado, an Egyptian threat actor operating since 2018, running a full AiTM platform with custom tools including MaDoO Blaster; saroula01, deploying OAuth Device Code Flow attacks that accumulated 218 victims across 12 countries... This pulse includes 73 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Government. Associated malware: AsyncRAT, MaDoO Blaster, Evilginx.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a2b2411d3d3323a465da4c0"
+    "url": "https://otx.alienvault.com/pulse/6a54bfc57c70fae743cb883e"
   },
   {
-    "title": "Threat Actors Target FIFA World Cup 2026",
-    "content": "A sophisticated Chinese-origin fraud operation is targeting FIFA World Cup 2026 attendees through pixel-perfect website clones and a multi-tenant phishing infrastructure. The actors deploy typosquatted domains and a commercially developed administrative system to mimic legitimate FIFA ticketing platforms. Technical analysis reveals high-fidelity brand cloning, real-time card skimming... This pulse includes 44 indicators of compromise (IOCs).",
+    "title": "Operation Capsule Vault: RokRAT Attack Chain Analysis Using EMBED_PAYLOAD_v2",
+    "content": "A sophisticated spear-phishing campaign targeted individuals in research, policy, and academic fields through emails disguised as materials from an actual academic conference. The attack leveraged a cloud storage link delivering a malicious ISO file containing a PIF executable disguised as a PDF document. The multi-stage loader used EMBED_PAYLOAD_v2 structure to embed both legitimate documents... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Education, Government. Associated malware: ROKRAT - S0240.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a2ae2e76dc9f990eeb985f0"
+    "url": "https://otx.alienvault.com/pulse/6a5414fab18f9d7456d7eda8"
   }
 ]
