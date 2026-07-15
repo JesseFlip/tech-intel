@@ -1,26 +1,26 @@
 [
   {
-    "title": "Threat Actors Achieve Persistence After SQL Injection",
-    "content": "Threat actors gaining initial access through SQL injection exploited a web application vulnerability in a technology sector organization. After compromising an MSSQL instance via inadequate input validation, the attackers deployed base64-encoded PowerShell scripts to conduct reconnaissance using tasklist commands and exfiltrated results to an external server. They established persistence by... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: BadIIS, XMRig, CnCrypt Protect.",
+    "title": "The Scam Will Go On: Beware of Fake Offers for Celine Dion Concert Tickets",
+    "content": "A sophisticated multi-layered scam operation targets fans seeking tickets for Celine Dion's French tour through two primary vectors. Fraudsters embed themselves in Facebook Groups and Marketplace, using social engineering to create artificial urgency and selling tickets before official presale dates. They exploit Ticketmaster's legitimate transfer feature to resell identical digital tickets to... This pulse includes 67 indicators of compromise (IOCs). Targeted industries: Media, Hospitality, Retail.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a551f28c1e094d7650c8ecd"
+    "url": "https://otx.alienvault.com/pulse/6a566597fbaff52dd5288ce4"
   },
   {
-    "title": "Update on Attacks by Threat Group APT-C-60 in 2026",
-    "content": "APT-C-60 continues targeting organizations in Japan with evolved tactics observed throughout 2026. The threat group employs spear-phishing emails containing Proton Drive links or direct attachments with RAR archives. Victims extract LNK files that execute JavaScript via mshta.exe, leading to multi-stage payload delivery. The attackers abuse legitimate services including GitHub, GitLab, jsDelivr,... This pulse includes 104 indicators of compromise (IOCs). Associated malware: SpyGlace.",
+    "title": "Compromised npm Packages in the AsyncAPI Namespace Deliver Miasma Botnet Loader",
+    "content": "Four npm packages in the AsyncAPI namespace were compromised to distribute a multi-stage botnet loader called Miasma. The attack utilized trusted GitHub Actions publishing but originated from a poisoned source commit. Malicious code was injected into legitimate source files that execute when imported, launching a detached Node.js process to download an 8.25 MB encrypted payload from IPFS. The... This pulse includes 18 indicators of compromise (IOCs). Associated malware: Miasma.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a54e01e0597d81e8ad9f7d0"
+    "url": "https://otx.alienvault.com/pulse/6a5665a177561cba872b779e"
   },
   {
-    "title": "One Misconfigured Server, Three Active Campaigns: Full exposure of three AiTM Phishing Operators",
-    "content": "A misconfigured Python HTTP server on a Budapest VPS exposed the complete operational infrastructure of three distinct phishing operators. The investigation uncovered codemado, an Egyptian threat actor operating since 2018, running a full AiTM platform with custom tools including MaDoO Blaster; saroula01, deploying OAuth Device Code Flow attacks that accumulated 218 victims across 12 countries... This pulse includes 73 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Government. Associated malware: AsyncRAT, MaDoO Blaster, Evilginx.",
+    "title": "Supply Chain Compromise via GitHub Actions",
+    "content": "On July 14, 2026, an attacker exploited a misconfigured GitHub Actions workflow in the AsyncAPI generator repository through a 'pwn request' vulnerability. The attacker opened 37 pull requests, with one containing obfuscated JavaScript that exfiltrated a highly privileged Personal Access Token belonging to asyncapi-bot. Using the stolen credentials, the attacker published five malicious npm... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Miasma, M-RED-TEAM.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a54bfc57c70fae743cb883e"
+    "url": "https://otx.alienvault.com/pulse/6a5665a03fa69522f5e6c982"
   },
   {
-    "title": "Operation Capsule Vault: RokRAT Attack Chain Analysis Using EMBED_PAYLOAD_v2",
-    "content": "A sophisticated spear-phishing campaign targeted individuals in research, policy, and academic fields through emails disguised as materials from an actual academic conference. The attack leveraged a cloud storage link delivering a malicious ISO file containing a PIF executable disguised as a PDF document. The multi-stage loader used EMBED_PAYLOAD_v2 structure to embed both legitimate documents... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Education, Government. Associated malware: ROKRAT - S0240.",
+    "title": "Lucide Proxy: Turning Student Web Proxies into DDoS Bots",
+    "content": "A sophisticated campaign deployed 148 malicious npm packages disguised as student web proxy applications under brands like Riverbend Tutoring and Northstar Tutoring. Published by accounts terminal3airport and eerikakirk, these packages weaponized visitor browsers into distributed denial-of-service botnets while generating advertising revenue. The applications functioned as working proxies but... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Education.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5414fab18f9d7456d7eda8"
+    "url": "https://otx.alienvault.com/pulse/6a5660720f790923b2946df9"
   }
 ]
