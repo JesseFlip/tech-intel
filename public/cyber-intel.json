@@ -1,26 +1,26 @@
 [
   {
-    "title": "The Scam Will Go On: Beware of Fake Offers for Celine Dion Concert Tickets",
-    "content": "A sophisticated multi-layered scam operation targets fans seeking tickets for Celine Dion's French tour through two primary vectors. Fraudsters embed themselves in Facebook Groups and Marketplace, using social engineering to create artificial urgency and selling tickets before official presale dates. They exploit Ticketmaster's legitimate transfer feature to resell identical digital tickets to... This pulse includes 67 indicators of compromise (IOCs). Targeted industries: Media, Hospitality, Retail.",
+    "title": "Investigation of email-based attack delivering MediaFire ZIP file with execution chain analysis",
+    "content": "An investigation revealed a malicious email campaign directing victims to download a ZIP file from MediaFire. The infection chain began with a Python setup executable (Setu.exe) that side-loaded a malicious 400 MB python37.dll containing repeated byte padding. The DLL performed process injection into dllhost.exe, establishing communication with a C2 server at 138.124.186.2:7000. The threat actor... This pulse includes 2 indicators of compromise (IOCs). Associated malware: NetSupport RMM.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a566597fbaff52dd5288ce4"
+    "url": "https://otx.alienvault.com/pulse/6a30df4495796498a192312a"
   },
   {
-    "title": "Compromised npm Packages in the AsyncAPI Namespace Deliver Miasma Botnet Loader",
-    "content": "Four npm packages in the AsyncAPI namespace were compromised to distribute a multi-stage botnet loader called Miasma. The attack utilized trusted GitHub Actions publishing but originated from a poisoned source commit. Malicious code was injected into legitimate source files that execute when imported, launching a detached Node.js process to download an 8.25 MB encrypted payload from IPFS. The... This pulse includes 18 indicators of compromise (IOCs). Associated malware: Miasma.",
+    "title": "WebAssembly Malware Found in Trojanized Open VSX Extensions",
+    "content": "Trojanized Visual Studio Code extensions distributed via the Open VSX marketplace deliver a sophisticated WebAssembly-based attack chain. The extensions ship ChaCha20-encrypted TinyGo-compiled WebAssembly modules that poll the Solana blockchain for command-and-control instructions embedded in transaction memos. This novel dead-drop technique allows attackers to rotate infrastructure without... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: GlassWASM.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5665a177561cba872b779e"
+    "url": "https://otx.alienvault.com/pulse/6a30d0b403db287f819b47e9"
   },
   {
-    "title": "Supply Chain Compromise via GitHub Actions",
-    "content": "On July 14, 2026, an attacker exploited a misconfigured GitHub Actions workflow in the AsyncAPI generator repository through a 'pwn request' vulnerability. The attacker opened 37 pull requests, with one containing obfuscated JavaScript that exfiltrated a highly privileged Personal Access Token belonging to asyncapi-bot. Using the stolen credentials, the attacker published five malicious npm... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Miasma, M-RED-TEAM.",
+    "title": "Fake crypto scams try to piggyback off SpaceX IPO",
+    "content": "Scammers are exploiting public interest in the SpaceX IPO through fraudulent investment portals impersonating SpaceX, Elon Musk, and major financial brands including Fidelity and Robinhood. The campaign uses themed domains to lure victims into fake onboarding processes that mimic legitimate investment procedures, including W-8BEN tax forms for non-U.S. investors. Victims are asked to select... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5665a03fa69522f5e6c982"
+    "url": "https://otx.alienvault.com/pulse/6a57f270713faa71010c16ad"
   },
   {
-    "title": "Lucide Proxy: Turning Student Web Proxies into DDoS Bots",
-    "content": "A sophisticated campaign deployed 148 malicious npm packages disguised as student web proxy applications under brands like Riverbend Tutoring and Northstar Tutoring. Published by accounts terminal3airport and eerikakirk, these packages weaponized visitor browsers into distributed denial-of-service botnets while generating advertising revenue. The applications functioned as working proxies but... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Education.",
+    "title": "Operation Fake KickOff: Attackers Abuse Recruiters and SaaS to Harvest Work Credentials",
+    "content": "A sophisticated multi-stage phishing operation has been active since April 2025, systematically exploiting legitimate SaaS platforms and cloud services to steal corporate credentials. The campaign utilizes 232 phishing domains and 80 command-and-control servers, primarily impersonating human resources consulting firms, with Robert Half Inc. and Aquent LLC representing 50% of targeted brands.... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Human Resources, Aerospace, Technology.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5660720f790923b2946df9"
+    "url": "https://otx.alienvault.com/pulse/6a57f26f4f7b83bede7d73d8"
   }
 ]

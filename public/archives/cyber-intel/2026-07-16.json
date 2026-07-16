@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-16",
+  "timestamp": "2026-07-16T08:08:20.718752",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Investigation of email-based attack delivering MediaFire ZIP file with execution chain analysis",
+      "content": "An investigation revealed a malicious email campaign directing victims to download a ZIP file from MediaFire. The infection chain began with a Python setup executable (Setu.exe) that side-loaded a malicious 400 MB python37.dll containing repeated byte padding. The DLL performed process injection into dllhost.exe, establishing communication with a C2 server at 138.124.186.2:7000. The threat actor... This pulse includes 2 indicators of compromise (IOCs). Associated malware: NetSupport RMM.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a30df4495796498a192312a"
+    },
+    {
+      "title": "WebAssembly Malware Found in Trojanized Open VSX Extensions",
+      "content": "Trojanized Visual Studio Code extensions distributed via the Open VSX marketplace deliver a sophisticated WebAssembly-based attack chain. The extensions ship ChaCha20-encrypted TinyGo-compiled WebAssembly modules that poll the Solana blockchain for command-and-control instructions embedded in transaction memos. This novel dead-drop technique allows attackers to rotate infrastructure without... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: GlassWASM.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a30d0b403db287f819b47e9"
+    },
+    {
+      "title": "Fake crypto scams try to piggyback off SpaceX IPO",
+      "content": "Scammers are exploiting public interest in the SpaceX IPO through fraudulent investment portals impersonating SpaceX, Elon Musk, and major financial brands including Fidelity and Robinhood. The campaign uses themed domains to lure victims into fake onboarding processes that mimic legitimate investment procedures, including W-8BEN tax forms for non-U.S. investors. Victims are asked to select... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a57f270713faa71010c16ad"
+    },
+    {
+      "title": "Operation Fake KickOff: Attackers Abuse Recruiters and SaaS to Harvest Work Credentials",
+      "content": "A sophisticated multi-stage phishing operation has been active since April 2025, systematically exploiting legitimate SaaS platforms and cloud services to steal corporate credentials. The campaign utilizes 232 phishing domains and 80 command-and-control servers, primarily impersonating human resources consulting firms, with Robert Half Inc. and Aquent LLC representing 50% of targeted brands.... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Human Resources, Aerospace, Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a57f26f4f7b83bede7d73d8"
+    }
+  ]
+}
