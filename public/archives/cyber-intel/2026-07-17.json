@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-17",
+  "timestamp": "2026-07-17T08:05:10.387935",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Novel Starland RAT and bespoke WLDR C2 implant deployed in financially motivated campaign",
+      "content": "A sophisticated Russian-speaking financially motivated adversary designated UAT-11795 has been conducting malicious operations targeting users in the United States and Europe since June 2025. The campaign delivers a Python-based remote access tool called Starland RAT and a PowerShell-based command-and-control memory implant known as the WLDR agent. The actor distributes trojanized installers... This pulse includes 49 indicators of compromise (IOCs). Associated malware: Starland RAT, WLDR agent, CastleStealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a58c1aa702b1130710d1bfb"
+    },
+    {
+      "title": "The Patch Wars have begun",
+      "content": "Microsoft released an unprecedented 622 vulnerability patches in July's Patch Tuesday, with 62 critical severity issues and three zero-days, two actively exploited. This represents more vulnerabilities than all of 2018 combined and marks a dramatic shift from the typical five patches issued in July two years prior. Microsoft attributes this surge to AI frontier model-accelerated vulnerability... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Starland RAT, WLDR agent, CastleStealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5947760995db41a09b5025"
+    },
+    {
+      "title": "GoSerpent backdoor attacks in Southeast Asia",
+      "content": "Since late 2025, government and diplomatic entities in Southeast Asia have been targeted by sophisticated attacks involving GoSerpent, a Go-based RAT with proxy capabilities. The malware receives encrypted arguments and deploys additional tools for data collection and credential dumping. GoSerpent has been active since 2021, with newer variants using AES-CBC encryption and ChaCha20 for... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GoSerpent, McMx, ThumbcacheService.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a590384cb730e14eaafeac5"
+    },
+    {
+      "title": "HelloNet campaign: a threat via the ViPNet update system",
+      "content": "An active APT campaign discovered in May 2026 exploits the ViPNet update system to deploy previously unknown tooling against large Russian organizations. Attackers achieve persistence through DLL sideloading, placing malicious wtsapi32.dll in ViPNet directories. The campaign employs multiple components: HelloInjector loader, HelloProxy for traffic proxying and payload delivery, HelloExecutor... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Government, Energy, Transportation. Associated malware: HelloInjector, HelloProxy, HelloExecutor.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5903832a32a07a14de0d86"
+    }
+  ]
+}
