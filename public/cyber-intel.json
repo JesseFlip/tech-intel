@@ -1,26 +1,26 @@
 [
   {
-    "title": "Novel Starland RAT and bespoke WLDR C2 implant deployed in financially motivated campaign",
-    "content": "A sophisticated Russian-speaking financially motivated adversary designated UAT-11795 has been conducting malicious operations targeting users in the United States and Europe since June 2025. The campaign delivers a Python-based remote access tool called Starland RAT and a PowerShell-based command-and-control memory implant known as the WLDR agent. The actor distributes trojanized installers... This pulse includes 49 indicators of compromise (IOCs). Associated malware: Starland RAT, WLDR agent, CastleStealer.",
+    "title": "Klue Integration Abused in Salesforce Data Theft | Threat Spotlight",
+    "content": "In June 2026, a compromised Klue competitive-intelligence platform integration was exploited to exfiltrate customer relationship management data from enterprise Salesforce environments. Attackers authenticated through compromised Klue service accounts, generated OAuth tokens, and executed automated Python scripts to conduct bulk data extraction via Salesforce REST API queries over approximately...",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a58c1aa702b1130710d1bfb"
+    "url": "https://otx.alienvault.com/pulse/6a33628e05ab2c2a8cced854"
   },
   {
-    "title": "The Patch Wars have begun",
-    "content": "Microsoft released an unprecedented 622 vulnerability patches in July's Patch Tuesday, with 62 critical severity issues and three zero-days, two actively exploited. This represents more vulnerabilities than all of 2018 combined and marks a dramatic shift from the typical five patches issued in July two years prior. Microsoft attributes this surge to AI frontier model-accelerated vulnerability... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Starland RAT, WLDR agent, CastleStealer.",
+    "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
+    "content": "NadMesh is an industrial-grade Go-based botnet observed in July 2026 that autonomously scans and exploits AI infrastructure and cloud services. The botnet integrates scanning, exploitation, and intelligence harvesting into a single platform targeting over 90 cloud provider address ranges. It employs 20+ exploitation vectors against Redis, Docker, MCP, Kubernetes, and other services, with... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: NadMesh.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5947760995db41a09b5025"
+    "url": "https://otx.alienvault.com/pulse/6a5a11b5327ee76f3502c500"
   },
   {
-    "title": "GoSerpent backdoor attacks in Southeast Asia",
-    "content": "Since late 2025, government and diplomatic entities in Southeast Asia have been targeted by sophisticated attacks involving GoSerpent, a Go-based RAT with proxy capabilities. The malware receives encrypted arguments and deploys additional tools for data collection and credential dumping. GoSerpent has been active since 2021, with newer variants using AES-CBC encryption and ChaCha20 for... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GoSerpent, McMx, ThumbcacheService.",
+    "title": "Contagious Interview malware in SVG images: DPRK campaign",
+    "content": "A DPRK-aligned threat group is targeting developers through fake job postings and coding challenges in a campaign tracked as REF9403. Attackers post fake job offers in developer forums, then send trojanized repositories containing fully functional e-commerce projects with malicious code hidden using steganography inside SVG flag images. When developers run these projects, the malware deploys... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: OTTERCOOKIE, BEAVERTAIL.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a590384cb730e14eaafeac5"
+    "url": "https://otx.alienvault.com/pulse/6a5a8ba0229db5a5b2686baa"
   },
   {
-    "title": "HelloNet campaign: a threat via the ViPNet update system",
-    "content": "An active APT campaign discovered in May 2026 exploits the ViPNet update system to deploy previously unknown tooling against large Russian organizations. Attackers achieve persistence through DLL sideloading, placing malicious wtsapi32.dll in ViPNet directories. The campaign employs multiple components: HelloInjector loader, HelloProxy for traffic proxying and payload delivery, HelloExecutor... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Government, Energy, Transportation. Associated malware: HelloInjector, HelloProxy, HelloExecutor.",
+    "title": "Behind the Refund: From GST Phishing to Remcos RAT Through a Multi-Stage .NET Infection Chain",
+    "content": "A sophisticated phishing campaign targeting Indian businesses and taxpayers leverages GST-related themes to distribute Remcos RAT through a multi-stage .NET framework. Threat actors impersonate Government of India GST communications using fraudulent refund notifications with convincing ARN references. The attack chain begins with a malicious RAR archive containing a .NET executable that employs... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: Remcos RAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5903832a32a07a14de0d86"
+    "url": "https://otx.alienvault.com/pulse/6a5a0f86e175ec219dfa17b2"
   }
 ]

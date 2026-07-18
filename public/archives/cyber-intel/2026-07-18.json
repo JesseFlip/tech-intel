@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-18",
+  "timestamp": "2026-07-18T07:44:19.384539",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Klue Integration Abused in Salesforce Data Theft | Threat Spotlight",
+      "content": "In June 2026, a compromised Klue competitive-intelligence platform integration was exploited to exfiltrate customer relationship management data from enterprise Salesforce environments. Attackers authenticated through compromised Klue service accounts, generated OAuth tokens, and executed automated Python scripts to conduct bulk data extraction via Salesforce REST API queries over approximately...",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a33628e05ab2c2a8cced854"
+    },
+    {
+      "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
+      "content": "NadMesh is an industrial-grade Go-based botnet observed in July 2026 that autonomously scans and exploits AI infrastructure and cloud services. The botnet integrates scanning, exploitation, and intelligence harvesting into a single platform targeting over 90 cloud provider address ranges. It employs 20+ exploitation vectors against Redis, Docker, MCP, Kubernetes, and other services, with... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: NadMesh.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5a11b5327ee76f3502c500"
+    },
+    {
+      "title": "Contagious Interview malware in SVG images: DPRK campaign",
+      "content": "A DPRK-aligned threat group is targeting developers through fake job postings and coding challenges in a campaign tracked as REF9403. Attackers post fake job offers in developer forums, then send trojanized repositories containing fully functional e-commerce projects with malicious code hidden using steganography inside SVG flag images. When developers run these projects, the malware deploys... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: OTTERCOOKIE, BEAVERTAIL.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5a8ba0229db5a5b2686baa"
+    },
+    {
+      "title": "Behind the Refund: From GST Phishing to Remcos RAT Through a Multi-Stage .NET Infection Chain",
+      "content": "A sophisticated phishing campaign targeting Indian businesses and taxpayers leverages GST-related themes to distribute Remcos RAT through a multi-stage .NET framework. Threat actors impersonate Government of India GST communications using fraudulent refund notifications with convincing ARN references. The attack chain begins with a malicious RAR archive containing a .NET executable that employs... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: Remcos RAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5a0f86e175ec219dfa17b2"
+    }
+  ]
+}
