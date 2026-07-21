@@ -1,26 +1,26 @@
 [
   {
+    "title": "Still Circling: Toolkit Keeps Evolving",
+    "content": "Between May and July 2026, researchers tracked the Latin America-focused threat actor Blind Eagle through multiple exposed staging servers, identifying significant toolkit evolution. Four key developments emerged: a third string-obfuscation scheme featuring JavaScript with custom AES S-box substitution, a RunPE loader using bare AutoIt3 interpreter staged via GitHub, a reusable 'Photo Studio'... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: AsyncRAT, njRAT - S0385, Njw0rm.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a5b639c3194d1cc5f0e281b"
+  },
+  {
+    "title": "Unpacking \"Cruciferra\": An Analysis of a Sophisticated Crypter Service",
+    "content": "Cruciferra is a sophisticated crypter service utilized by multiple unrelated cybercriminal threat clusters to deliver remote access trojans and infostealers. Written in Mono, it employs extensive defense-evasion capabilities including indirect system calls, API unhooking, BYOVD-based EDR tampering, privilege escalation, and customized Process Ghosting for payload execution. The service features... This pulse includes 80 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare, Government. Associated malware: Cruciferra, zgRAT, AgentTesla.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a5dec09c0c4b7d2a00d7b2c"
+  },
+  {
+    "title": "Vishing actors target Entra passkey enrollment",
+    "content": "Since April 2026, threat actors operating under O-UNC-066 have deployed a sophisticated vishing campaign targeting Microsoft 365 passkey enrollment. Attackers register domains containing 'passkey' and call victims to convince them to register new passkeys. Victims are directed to operator-controlled phishing kits that mimic Microsoft's enrollment process while attackers simultaneously register... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Technology, Healthcare, Automotive.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a50aa1cde3ff232cf43db03"
+  },
+  {
     "title": "Inside the FortiBleed Open Directory: A Technical Analysis of What the Attacker Left Behind",
     "content": "An exposed attacker server has unveiled FortiBleed, a large-scale credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways globally. This operation involved credential harvesting through reuse, brute force, and hash cracking using a distributed GPU infrastructure with approximately 36 rented GPUs via Hashtopolis. The exposed directory contained...",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a358eb86925d602f0cf5600"
-  },
-  {
-    "title": "Operation Poisson – Analyzing a Cybercriminal’s Entire Operation",
-    "content": "A comprehensive analysis of 339 commands issued by a French-speaking threat actor nicknamed 'Poisson' over 33 days, targeting a French automotive small business and four French individuals. The attacker utilized a multi-stage fileless attack deploying a 70-line Python keylogger to harvest banking and email credentials. The operation leveraged free-tier infrastructure including Havoc C2 framework,... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Automotive. Associated malware: Havoc - S1229, RustDesk.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3526fcbaffc5909dd73ce4"
-  },
-  {
-    "title": "Popa: From Sourcing to Distribution",
-    "content": "An Android proxyware SDK named Popa enrolls consumer devices including phones, tablets, and streaming boxes into a commercial residential proxy network. Operating since at least 2020, Popa and its variants (Loopop, Neupop, and Moneytiser) are distributed inside consumer streaming, IPTV, and utility applications. The SDK begins relaying third-party traffic at host-app launch without displaying... This pulse includes 211 indicators of compromise (IOCs). Associated malware: Popa, Moneytiser, Loopop.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3447ad5cdebd92116d1c01"
-  },
-  {
-    "title": "Klue Integration Abused in Salesforce Data Theft | Threat Spotlight",
-    "content": "In June 2026, a compromised Klue competitive-intelligence platform integration was exploited to exfiltrate customer relationship management data from enterprise Salesforce environments. Attackers authenticated through compromised Klue service accounts, generated OAuth tokens, and executed automated Python scripts to conduct bulk data extraction via Salesforce REST API queries over approximately...",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a33628e05ab2c2a8cced854"
   }
 ]
