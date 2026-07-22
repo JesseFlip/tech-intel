@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-22",
+  "timestamp": "2026-07-22T08:23:45.378052",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "New Project CAV3RN .NET Native AOT communication module",
+      "content": "Kaspersky identified a new .NET Native AOT communication module for Project CAV3RN, a sophisticated cyberespionage framework targeting Israel. This module replaces the previous HTTP/WebSocket component by exchanging commands through Outlook calendar events accessed via Microsoft Graph API. Commands and results are stored in a fixed time window (2050-05-13 22:00-23:00 UTC) using specific subject... This pulse includes 18 indicators of compromise (IOCs). Associated malware: CAV3RN, RDAT - S0495, SC5k.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5f55d6d75eaa9d17122eea"
+    },
+    {
+      "title": "NadMesh Botnet Analysis: Product-Level Threat in the AI Services Era",
+      "content": "In July 2026, a sophisticated Go-based botnet named NadMesh was discovered actively deploying across the internet. Unlike traditional worms, it integrates autonomous scanning, exploitation of 20+ vulnerabilities, and targeted harvesting of AI infrastructure credentials. The botnet specifically targets AI services including ComfyUI, Ollama, and MCP ecosystems using Shodan intelligence to... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: NadMesh.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5e35e2a358640bd14154c8"
+    },
+    {
+      "title": "Portugal-focused phishing campaign delivers multistage malware",
+      "content": "An active Lampion malware campaign has been identified targeting Portuguese users through phishing emails that impersonate financial and administrative communications. Lampion, a Brazilian banking malware derived from the ChePro lineage, delivers initial payloads via ZIP archives containing heavily obfuscated HTML files designed to evade detection. The HTML stage retrieves additional scripts from... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Lampion, ChePro.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5f98b0ca49303f8f2e4aa7"
+    },
+    {
+      "title": "Inside a Global Procurement-Themed AiTM Phishing Campaign",
+      "content": "A sophisticated adversary-in-the-middle phishing campaign is targeting universities, enterprises, and multinational institutions including EU and UN agencies. Active since May 2026, the operation leverages compromised organizational email accounts to distribute procurement-themed lures that mimic requests for information, bid invitations, and project documentation. Victims are redirected through... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Education, Government, Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6015d87a94549d768bc929"
+    }
+  ]
+}
