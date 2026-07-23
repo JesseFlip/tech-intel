@@ -1,26 +1,26 @@
 [
   {
-    "title": "New Project CAV3RN .NET Native AOT communication module",
-    "content": "Kaspersky identified a new .NET Native AOT communication module for Project CAV3RN, a sophisticated cyberespionage framework targeting Israel. This module replaces the previous HTTP/WebSocket component by exchanging commands through Outlook calendar events accessed via Microsoft Graph API. Commands and results are stored in a fixed time window (2050-05-13 22:00-23:00 UTC) using specific subject... This pulse includes 18 indicators of compromise (IOCs). Associated malware: CAV3RN, RDAT - S0495, SC5k.",
+    "title": "Dolphin X Stealer Targets 300+ Apps and Profiles Users with AI",
+    "content": "A newly discovered Windows stealer and remote access trojan called Dolphin X targets over 300 applications including browsers, cryptocurrency wallets, password managers, and cloud command-line tools. The malware collects credentials ranging from browser logins to SSH keys, .env files, and cloud tokens. A distinctive feature called the AI Profiler automatically scores infected victims based on... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Dolphin X.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5f55d6d75eaa9d17122eea"
+    "url": "https://otx.alienvault.com/pulse/6a61203a6b39de0e8d3d7247"
   },
   {
-    "title": "NadMesh Botnet Analysis: Product-Level Threat in the AI Services Era",
-    "content": "In July 2026, a sophisticated Go-based botnet named NadMesh was discovered actively deploying across the internet. Unlike traditional worms, it integrates autonomous scanning, exploitation of 20+ vulnerabilities, and targeted harvesting of AI infrastructure credentials. The botnet specifically targets AI services including ComfyUI, Ollama, and MCP ecosystems using Shodan intelligence to... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: NadMesh.",
+    "title": "Inside a TrickBot Variant Using DNS Tunneling for C2",
+    "content": "A TrickBot variant has been identified that uses DNS tunneling for command-and-control communications instead of traditional HTTP protocols. The malware maintains persistence through Windows Task Scheduler, creating disguised tasks that execute at startup and repeat every five minutes. Configuration data is stored in NTFS Alternate Data Streams to evade detection. The malware employs multiple... This pulse includes 10 indicators of compromise (IOCs). Associated malware: TrickBot - S0266, Totbrick, TSPY_TRICKLOAD.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5e35e2a358640bd14154c8"
+    "url": "https://otx.alienvault.com/pulse/6a6120390f602b6ee56739c3"
   },
   {
-    "title": "Portugal-focused phishing campaign delivers multistage malware",
-    "content": "An active Lampion malware campaign has been identified targeting Portuguese users through phishing emails that impersonate financial and administrative communications. Lampion, a Brazilian banking malware derived from the ChePro lineage, delivers initial payloads via ZIP archives containing heavily obfuscated HTML files designed to evade detection. The HTML stage retrieves additional scripts from... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Lampion, ChePro.",
+    "title": "Abusing Trusted Business Workflows: A Multi-Stage Phantom Stealer Campaign",
+    "content": "A sophisticated phishing campaign impersonates legitimate business entities including UPS and the Malaysian Inland Revenue Board to distribute Phantom Stealer v3.5.0. The attack begins with convincing emails containing compressed archives housing malicious JavaScript files. Once executed, the JavaScript launches obfuscated PowerShell scripts that operate entirely in memory, deploying multiple... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: Phantom Stealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5f98b0ca49303f8f2e4aa7"
+    "url": "https://otx.alienvault.com/pulse/6a60df1ccbee3728dd9c71e5"
   },
   {
-    "title": "Inside a Global Procurement-Themed AiTM Phishing Campaign",
-    "content": "A sophisticated adversary-in-the-middle phishing campaign is targeting universities, enterprises, and multinational institutions including EU and UN agencies. Active since May 2026, the operation leverages compromised organizational email accounts to distribute procurement-themed lures that mimic requests for information, bid invitations, and project documentation. Victims are redirected through... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Education, Government, Finance.",
+    "title": "Detecting the Klue supply chain attack in Salesforce instances",
+    "content": "On June 11, 2026, the Icarus threat group compromised Klue's backend systems, a market intelligence platform used by hundreds of enterprises to sync competitive battlecard data with CRM environments. The attackers exploited a dormant credential from an abandoned prototype integration to harvest OAuth tokens for Salesforce and Gong. Through automated API calls using Python scripts, the group...",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6015d87a94549d768bc929"
+    "url": "https://otx.alienvault.com/pulse/6a3999371eb0f2f2e3fb7f08"
   }
 ]
