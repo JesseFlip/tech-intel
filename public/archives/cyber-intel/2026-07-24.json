@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-24",
+  "timestamp": "2026-07-24T08:22:48.495749",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Skill Marketplace and the Emerging AI Supply Chain Threat",
+      "content": "Between February and May 2026, researchers identified five malicious skills on ClawHub, OpenClaw's AI agent marketplace, that evaded detection by VirusTotal and ClawScan. The threats included two macOS infostealers communicating with command-and-control infrastructure, one skill using file padding to bypass scanner thresholds, and two novel agentic threats exploiting the AI supply chain for... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: AMOS, ClawHavoc, cluw.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3b512e73c8b7fb25b84c38"
+    },
+    {
+      "title": "Inside FortiBleed: Reverse Engineering the CyberStrike Harvester Behind a Global FortiGate Credential Factory",
+      "content": "FortiBleed is a large-scale credential compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways globally. The operation employs a sophisticated credential pipeline utilizing credential stuffing, password spraying, configuration harvesting, offline cracking, and post-authentication capture processing. Reverse engineering of the CyberStrike Harvester v1.5... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Government, Telecommunications, Finance. Associated malware: CyberStrike Harvester, EKZ Infostealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3b512cc6365025ee5f1d3e"
+    },
+    {
+      "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
+      "content": "Between July 9-13, 2026, three exposed directories on a Hong Kong server revealed an ongoing cyber espionage operation targeting Thailand's Ministry of Finance. The attack leveraged Hermes, an autonomous AI agent operating in unattended YOLO mode, alongside a custom Go-based implant called Hades. Recovered files included exploit code for multiple vulnerabilities, webshells, stolen credentials,... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: Hades, VShell, ShadowPad - S0596.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6280a6b0f220d5330af106"
+    },
+    {
+      "title": "Upgrades MaaS Ecosystem with Modular Tools",
+      "content": "Insikt Group identified four new malware families from TAG-195 (Golden Chickens, Venom Spider), a financially motivated malware-as-a-service developer. The families include TinyEgg, a lightweight initial-access backdoor; ChonkyChicken, which expands capabilities with browser credential theft and session automation; a modularized ChonkyChicken variant using controller-and-plugin architecture; and... This pulse includes 75 indicators of compromise (IOCs). Associated malware: TinyEgg, ChonkyChicken, ChromEggscalator.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6241aa476b940a0df81e20"
+    }
+  ]
+}
