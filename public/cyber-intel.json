@@ -1,26 +1,26 @@
 [
   {
-    "title": "KimJongRAT Continues to Evolve by Leveraging LOTS",
-    "content": "In May 2026, security researchers observed an attack campaign distributing KimJongRAT through GitHub and other legitimate services. KimJongRAT, used by the North Korean APT group Kimsuky since 2013, combines information stealing and remote access capabilities. The infection chain begins with phishing emails containing shortened URLs redirecting to GitHub Releases hosting malicious ZIP files.... This pulse includes 10 indicators of compromise (IOCs). Associated malware: KimJongRAT, MeshAgent.",
+    "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
+    "content": "Since April 2026, a sophisticated multi-stage intrusion campaign has targeted hospitality and hotel organizations across Europe and Asia. The operation uses photo-themed ZIP archives containing malicious shortcut files disguised as images. When executed, these shortcuts initiate an attack chain involving obfuscated PowerShell, Node.js-based implants, and dual registry persistence mechanisms. The... This pulse includes 103 indicators of compromise (IOCs). Targeted industries: Hospitality. Associated malware: TonRAT, Wacatac, PureRat.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3cb7a3c8dfa3feec75cb80"
+    "url": "https://otx.alienvault.com/pulse/6a3df8979895cc716bfbf931"
   },
   {
-    "title": "LokiBot After a Decade: An Analysis of a Recent LokiBot Campaign",
-    "content": "LokiBot, an infostealer first advertised in May 2015, continues to operate after more than a decade with numerous variants. The malware targets credentials from over a hundred software products including browsers, cryptocurrency wallets, password managers, email and FTP clients. A recent campaign delivers LokiBot through malspam with JScript email attachments, executing a multi-stage infection... This pulse includes 16 indicators of compromise (IOCs). Associated malware: Lokibot - S0447.",
+    "title": "Millenium: A RAT Rewritten, A Threat Multiplied",
+    "content": "Group-IB analyzes Millenium RAT version 4.*, a remote access trojan that has undergone significant architectural changes from .NET to native C++, while continuing to leverage Telegram Bot API for command and control without requiring dedicated server infrastructure. The malware is distributed as Malware-as-a-Service by developer 'ShinyEnigma' for $50-90 USD. Active exploitation campaigns are... This pulse includes 99 indicators of compromise (IOCs). Associated malware: Millenium RAT, AsyncRAT, XWorm.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3c6b9416a51c4cdec616c4"
+    "url": "https://otx.alienvault.com/pulse/6a3d76e592eaea08a66ad337"
   },
   {
-    "title": "Operation Endgame disrupts Amadey and Stealc",
-    "content": "ESET Research contributed to a global disruption operation targeting the Amadey botnet and Stealc infostealer, both malware-as-a-service offerings. The operation, coordinated by Microsoft Digital Crimes Unit, BitSight, Lumen, and MBSD, impacted approximately 50 domains and nearly 200 active IP-based command and control servers. ESET provided technical analyses, statistical information, C&C server... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Amadey - S1025, Stealc, Lumma Stealer.",
+    "title": "What Is the BabaDeda Loader? Analysis of a New ClickFix Malware Campaign.",
+    "content": "The BabaDeda loader family has undergone significant advancements in its capabilities, particularly in stealth, evasion, and payload flexibility. Discovered during April 2026, this evolved framework continues to conceal malicious payloads within seemingly legitimate installer packages while expanding its functionality. The attack methodology begins with a social engineering exploit known as... This pulse includes 31 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3c278cadbc5a0ba0a18ce3"
+    "url": "https://otx.alienvault.com/pulse/6a47b2cc64d3d9241377df01"
   },
   {
-    "title": "Security Advisory - Action Required - July 2026 Security Update",
-    "content": "A security update addresses multiple vulnerabilities discovered during routine security review, including authentication bypass issues affecting management products. One vulnerability (CVE-2026-16232) has been exploited in the wild against a limited number of customers with specific configurations where Management is exposed directly to the internet without IP restrictions. The affected systems... This pulse includes 8 indicators of compromise (IOCs).",
+    "title": "Zero-Day Exploitation of Vulnerability (CVE-2026-20245) in Cisco Catalyst SD-WAN Manager",
+    "content": "In early 2026, a threat actor targeted SD-WAN infrastructure at a service provider, exploiting a zero-day vulnerability in Cisco Catalyst SD-WAN to escalate privileges. The attacker initially gained access through unauthorized peering connections and manipulated default account passwords. They then exploited CVE-2026-20245, a privilege escalation flaw in the file upload feature, by uploading a... This pulse includes 4 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6375b8843a154abdf4a0f0"
+    "url": "https://otx.alienvault.com/pulse/6a3d476551c12310394b4adc"
   }
 ]
