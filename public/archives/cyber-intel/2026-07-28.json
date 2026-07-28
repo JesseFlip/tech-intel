@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-28",
+  "timestamp": "2026-07-28T08:31:34.007525",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Phishing on the Edge of the Web and Mobile Using QR Codes",
+      "content": "This article explores the misuse of QR codes in phishing attacks, focusing on three key areas: QR codes with URL shorteners concealing malicious destinations, in-app deep links used to steal credentials and control victims' apps, and QR codes bypassing app store security via direct malicious app downloads. The research reveals an average of 11,000 daily detections of malicious QR codes, with... This pulse includes 41 indicators of compromise (IOCs). Targeted industries: Financial, Technology, Retail. Associated malware: NagaPocker.apk, app-u7cp-release.apk, ludashi_home.apk.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/698feecd9634c758b58f2ace"
+    },
+    {
+      "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
+      "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 7 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a63dbd0b430a77c116293ac"
+    },
+    {
+      "title": "Fake Corepack Site Distributes Infostealer and Proxyware to Developers",
+      "content": "A fraudulent website impersonating Corepack, the Node.js package manager tool, is distributing malware to developers. The attackers exploit timing around Corepack's removal from Node.js bundling, targeting developers searching for installation instructions. The site offers Windows executables that deliver OpenShield infostealer and proxyware, enrolling victim machines in bandwidth-sharing... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: OpenShield, Apprunner.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a646bc49938f4fb7a0a02f2"
+    },
+    {
+      "title": "Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited",
+      "content": "On June 25, 2026, the first active exploitation of CVE-2026-55255, a critical CVSS 9.9 Langflow vulnerability, was documented. Langflow is an open-source framework for building AI agents and RAG pipelines. A single operator exploited both CVE-2026-55255 (cross-tenant IDOR) and CVE-2026-33017 (unauthenticated RCE, CVSS 9.3) against the same instance. Despite its lower score, the RCE has been... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a3eefb892e3d749bcf92233"
+    }
+  ]
+}

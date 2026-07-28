@@ -1,5 +1,11 @@
 [
   {
+    "title": "Phishing on the Edge of the Web and Mobile Using QR Codes",
+    "content": "This article explores the misuse of QR codes in phishing attacks, focusing on three key areas: QR codes with URL shorteners concealing malicious destinations, in-app deep links used to steal credentials and control victims' apps, and QR codes bypassing app store security via direct malicious app downloads. The research reveals an average of 11,000 daily detections of malicious QR codes, with... This pulse includes 41 indicators of compromise (IOCs). Targeted industries: Financial, Technology, Retail. Associated malware: NagaPocker.apk, app-u7cp-release.apk, ludashi_home.apk.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/698feecd9634c758b58f2ace"
+  },
+  {
     "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
     "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 7 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
@@ -16,11 +22,5 @@
     "content": "On June 25, 2026, the first active exploitation of CVE-2026-55255, a critical CVSS 9.9 Langflow vulnerability, was documented. Langflow is an open-source framework for building AI agents and RAG pipelines. A single operator exploited both CVE-2026-55255 (cross-tenant IDOR) and CVE-2026-33017 (unauthenticated RCE, CVSS 9.3) against the same instance. Despite its lower score, the RCE has been... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Technology.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a3eefb892e3d749bcf92233"
-  },
-  {
-    "title": "Operation DragonReturn: China-Nexus Cyber Espionage Campaign Targeting Govt. of India/MoF Tax Infrastructure via Multi-Stage DcRAT Deployment",
-    "content": "A sophisticated China-aligned cyber espionage campaign targeting India's tax infrastructure was identified between May and June 2026. The operation impersonates the Income Tax Department, Ministry of Finance, exploiting the AY2026-27 ITR filing season to target corporate entities, tax professionals, chartered accountants, and taxpayers. The attack employs spear-phishing emails with malicious... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: DcRAT.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3e75975494e990e7421b4d"
   }
 ]
