@@ -1,26 +1,26 @@
 [
   {
-    "title": "Phishing on the Edge of the Web and Mobile Using QR Codes",
-    "content": "This article explores the misuse of QR codes in phishing attacks, focusing on three key areas: QR codes with URL shorteners concealing malicious destinations, in-app deep links used to steal credentials and control victims' apps, and QR codes bypassing app store security via direct malicious app downloads. The research reveals an average of 11,000 daily detections of malicious QR codes, with... This pulse includes 41 indicators of compromise (IOCs). Targeted industries: Financial, Technology, Retail. Associated malware: NagaPocker.apk, app-u7cp-release.apk, ludashi_home.apk.",
+    "title": "Phishing Campaign PasasteSinTAG - New domain rotation identified associated with the campaign impersonating the PasasteSinTAG portal",
+    "content": "A phishing campaign targeting Chile continues to evolve with significant infrastructure expansion. Security researchers identified 99 new domains impersonating the legitimate PasasteSinTAG portal, with 22 domains confirmed active and 77 registered but not yet activated. The active domains utilize various top-level domains including .click, .cfd, .cyou, .mom, .best, .rest, .top, .help, .sbs, .icu,... This pulse includes 105 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/698feecd9634c758b58f2ace"
+    "url": "https://otx.alienvault.com/pulse/6a42124a18e7d2cb639c06dd"
   },
   {
-    "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
-    "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 7 indicators of compromise (IOCs).",
+    "title": "New customs charges for online orders outside the EU",
+    "content": "With the introduction of charges/taxes on certain items posted from outside the EU, threat actors appear to be leveraging the situation to send fraudulent SMS and email messages impersonating postal services in an attempt to harvest payment details and personal information. The campaign is already being observed targeting Irish users, and I'd like to highlight this activity publicly as part of a... This pulse includes 2 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a63dbd0b430a77c116293ac"
+    "url": "https://otx.alienvault.com/pulse/6a4292045a662553c3583b0a"
   },
   {
-    "title": "Fake Corepack Site Distributes Infostealer and Proxyware to Developers",
-    "content": "A fraudulent website impersonating Corepack, the Node.js package manager tool, is distributing malware to developers. The attackers exploit timing around Corepack's removal from Node.js bundling, targeting developers searching for installation instructions. The site offers Windows executables that deliver OpenShield infostealer and proxyware, enrolling victim machines in bandwidth-sharing... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: OpenShield, Apprunner.",
+    "title": "Mirage Kitten targets Middle East and Africa region with new malware",
+    "content": "Mirage Kitten, an advanced persistent threat group also known as UNC1549, Smoke Sandstorm, and Nimbus Manticore, has been observed deploying a previously undocumented malware set targeting aerospace, aviation, defense, and telecommunications sectors across the Middle East and Africa. The toolset includes NightLedger, a Windows backdoor with reconnaissance, command execution, file operations,... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Aerospace, Defense, Telecommunications. Associated malware: NightLedger, BridgeHead, ArcBridge.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a646bc49938f4fb7a0a02f2"
+    "url": "https://otx.alienvault.com/pulse/6a689c34d4df4bb1475d80c7"
   },
   {
-    "title": "Understanding Langflow CVE-2026-55255, and why higher CVSS vulnerabilities aren't always the most exploited",
-    "content": "On June 25, 2026, the first active exploitation of CVE-2026-55255, a critical CVSS 9.9 Langflow vulnerability, was documented. Langflow is an open-source framework for building AI agents and RAG pipelines. A single operator exploited both CVE-2026-55255 (cross-tenant IDOR) and CVE-2026-33017 (unauthenticated RCE, CVSS 9.3) against the same instance. Despite its lower score, the RCE has been... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Technology.",
+    "title": "Helpdesk Hijackers: Teams Vishing, Quick Assist, and GoGRPC Backdoor",
+    "content": "Since January 2026, a threat actor likely functioning as an initial access broker for ransomware operations has been targeting organizations through Microsoft Teams vishing attacks. Attackers impersonate IT helpdesk staff to convince victims to initiate Quick Assist remote sessions. Following initial compromise, PowerShell scripts deploy a Go-based backdoor called GoGRPC, which exists in four... This pulse includes 34 indicators of compromise (IOCs). Associated malware: GoGRPC, BlindDoor, RevSocket.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a3eefb892e3d749bcf92233"
+    "url": "https://otx.alienvault.com/pulse/6a678b1bffd8195d4d34ef68"
   }
 ]

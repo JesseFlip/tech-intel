@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-29",
+  "timestamp": "2026-07-29T08:35:37.415868",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Phishing Campaign PasasteSinTAG - New domain rotation identified associated with the campaign impersonating the PasasteSinTAG portal",
+      "content": "A phishing campaign targeting Chile continues to evolve with significant infrastructure expansion. Security researchers identified 99 new domains impersonating the legitimate PasasteSinTAG portal, with 22 domains confirmed active and 77 registered but not yet activated. The active domains utilize various top-level domains including .click, .cfd, .cyou, .mom, .best, .rest, .top, .help, .sbs, .icu,... This pulse includes 105 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a42124a18e7d2cb639c06dd"
+    },
+    {
+      "title": "New customs charges for online orders outside the EU",
+      "content": "With the introduction of charges/taxes on certain items posted from outside the EU, threat actors appear to be leveraging the situation to send fraudulent SMS and email messages impersonating postal services in an attempt to harvest payment details and personal information. The campaign is already being observed targeting Irish users, and I'd like to highlight this activity publicly as part of a... This pulse includes 2 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4292045a662553c3583b0a"
+    },
+    {
+      "title": "Mirage Kitten targets Middle East and Africa region with new malware",
+      "content": "Mirage Kitten, an advanced persistent threat group also known as UNC1549, Smoke Sandstorm, and Nimbus Manticore, has been observed deploying a previously undocumented malware set targeting aerospace, aviation, defense, and telecommunications sectors across the Middle East and Africa. The toolset includes NightLedger, a Windows backdoor with reconnaissance, command execution, file operations,... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Aerospace, Defense, Telecommunications. Associated malware: NightLedger, BridgeHead, ArcBridge.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a689c34d4df4bb1475d80c7"
+    },
+    {
+      "title": "Helpdesk Hijackers: Teams Vishing, Quick Assist, and GoGRPC Backdoor",
+      "content": "Since January 2026, a threat actor likely functioning as an initial access broker for ransomware operations has been targeting organizations through Microsoft Teams vishing attacks. Attackers impersonate IT helpdesk staff to convince victims to initiate Quick Assist remote sessions. Following initial compromise, PowerShell scripts deploy a Go-based backdoor called GoGRPC, which exists in four... This pulse includes 34 indicators of compromise (IOCs). Associated malware: GoGRPC, BlindDoor, RevSocket.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a678b1bffd8195d4d34ef68"
+    }
+  ]
+}
