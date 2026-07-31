@@ -1,0 +1,31 @@
+{
+  "date": "2026-07-31",
+  "timestamp": "2026-07-31T08:45:05.665327",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "XMRig Covert Ops: The Cryptomining Campaign That Abuses Trusted Access and Deploys Forensic Smokescreens",
+      "content": "In May 2026, a sophisticated Monero cryptomining campaign was identified targeting Linux environments. Attackers gained initial access through trusted third-party relationships, then escalated to root privileges. Rather than operating openly as root, they weaponized Linux Pluggable Authentication Modules (PAM) to impersonate multiple low-privileged users, creating a forensic smokescreen and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6b24fc4e9307c078956d75"
+    },
+    {
+      "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
+      "content": "GenieLocker is a new ransomware family active since March 2026, targeting organizations in the Russian Federation, primarily in manufacturing. Attributed to the financially motivated Toy Ghouls group (also known as Bearlyfy, Labubu, and Laboo.boo), this custom-designed ransomware marks a shift from their previous reliance on third-party encryption tools like RedAlert, LockBit, and Babuk.... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Manufacturing, Construction, Finance. Associated malware: GenieLocker, RedAlert, LockBit.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6b1c3ea08dbc663eb8f4c0"
+    },
+    {
+      "title": "Cleaning Out Inboxes: TA488 Comes for Outlook with Another Half-Click Exploit",
+      "content": "TA488, a Russia-aligned threat actor, initiated a campaign on July 22, 2026, exploiting CVE-2026-42897, a cross-site scripting vulnerability in Outlook Web Access. The campaign targeted US and European government entities, along with telecommunications, financial, hospitality, and aerospace sectors. The attack employs half-click exploits requiring only email opening to trigger compromise,... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Government, Telecommunications, Finance. Associated malware: OWAReaper, ZimReaper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6a0890823d4ce2caed584a"
+    },
+    {
+      "title": "An Analysis of ValleyRAT Infection Campaigns from Fake Installers, Japanese Malicious Emails",
+      "content": "LevelBlue has identified two distinct ValleyRAT attack vectors: campaigns using fake installers and malicious email-based campaigns. Detection volume increased significantly from May 2025, nearly doubling in 2026. The fake installer attacks primarily target Chinese-speaking users and employ advanced techniques including Pool Party Variant 7 process injection and BYOVD methods. The malicious email... This pulse includes 5 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a446c5df8b0ab9d5af62b64"
+    }
+  ]
+}
