@@ -1,26 +1,26 @@
 [
   {
-    "title": "XMRig Covert Ops: The Cryptomining Campaign That Abuses Trusted Access and Deploys Forensic Smokescreens",
-    "content": "In May 2026, a sophisticated Monero cryptomining campaign was identified targeting Linux environments. Attackers gained initial access through trusted third-party relationships, then escalated to root privileges. Rather than operating openly as root, they weaponized Linux Pluggable Authentication Modules (PAM) to impersonate multiple low-privileged users, creating a forensic smokescreen and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: XMRig.",
+    "title": "Analysis of Ongoing Ousaban Attacks Targeting the Iberian Peninsula",
+    "content": "In May 2026, an attack campaign targeting banking users in Spain and Portugal was identified involving the Ousaban banking Trojan. The malware, previously active in Brazil, spreads through phishing PDFs that redirect victims to malicious webpages performing environment checks to ensure targets are located in Spain or Portugal. The attack chain involves VBS scripts downloading steganographic... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Ousaban, Metamorfo - S0455, Casbaneiro.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6b24fc4e9307c078956d75"
+    "url": "https://otx.alienvault.com/pulse/6a45880f3df872860c77a553"
   },
   {
-    "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
-    "content": "GenieLocker is a new ransomware family active since March 2026, targeting organizations in the Russian Federation, primarily in manufacturing. Attributed to the financially motivated Toy Ghouls group (also known as Bearlyfy, Labubu, and Laboo.boo), this custom-designed ransomware marks a shift from their previous reliance on third-party encryption tools like RedAlert, LockBit, and Babuk.... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Manufacturing, Construction, Finance. Associated malware: GenieLocker, RedAlert, LockBit.",
+    "title": "Iran-Nexus Disseminates MarkiRAT Surveillance Tool",
+    "content": "TAG-182, an Iran-nexus threat cluster, is conducting surveillance operations targeting Iranian citizens both domestically and abroad using MarkiRAT malware. The group distributes fake Android applications masquerading as VPN services and media players through social media platforms, particularly Instagram. Following Iran's partial internet restoration in May 2026 after an 88-day shutdown, these... This pulse includes 80 indicators of compromise (IOCs). Associated malware: MarkiRAT - S0652, FurBall, DCHSpy.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6b1c3ea08dbc663eb8f4c0"
+    "url": "https://otx.alienvault.com/pulse/6a45471afccee96152675f88"
   },
   {
-    "title": "Cleaning Out Inboxes: TA488 Comes for Outlook with Another Half-Click Exploit",
-    "content": "TA488, a Russia-aligned threat actor, initiated a campaign on July 22, 2026, exploiting CVE-2026-42897, a cross-site scripting vulnerability in Outlook Web Access. The campaign targeted US and European government entities, along with telecommunications, financial, hospitality, and aerospace sectors. The attack employs half-click exploits requiring only email opening to trigger compromise,... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Government, Telecommunications, Finance. Associated malware: OWAReaper, ZimReaper.",
+    "title": "How a single ScreenConnect incident exposed a massive campaign",
+    "content": "A massive campaign distributes malicious installer archives hosted on spoofed websites masquerading as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam. Over 90 domain names localized across 10 languages were discovered. The malicious archives bundle a legitimate Microsoft-signed install.exe binary with a rogue install.res.1033.dll library deployed via DLL sideloading. This... This pulse includes 129 indicators of compromise (IOCs). Associated malware: AsyncRAT, ScreenConnect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6a0890823d4ce2caed584a"
+    "url": "https://otx.alienvault.com/pulse/6a4545dbc77aff75fe16cee7"
   },
   {
-    "title": "An Analysis of ValleyRAT Infection Campaigns from Fake Installers, Japanese Malicious Emails",
-    "content": "LevelBlue has identified two distinct ValleyRAT attack vectors: campaigns using fake installers and malicious email-based campaigns. Detection volume increased significantly from May 2025, nearly doubling in 2026. The fake installer attacks primarily target Chinese-speaking users and employ advanced techniques including Pool Party Variant 7 process injection and BYOVD methods. The malicious email... This pulse includes 5 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+    "title": "Tax Season, Open Season: Phishing and Malware Campaigns Targeting Indian Taxpayers",
+    "content": "A sophisticated malware campaign is targeting Indian taxpayers during filing season by impersonating the Income Tax Department. Attackers distribute fake penalty notices via WhatsApp from unknown or compromised accounts, using forged Office Memorandums citing legitimate tax law sections and creating 72-hour deadlines to induce panic. The campaign delivers ITD.zip files containing malicious... This pulse includes 38 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a446c5df8b0ab9d5af62b64"
+    "url": "https://otx.alienvault.com/pulse/6a6b24fd9aca51b0320e47a6"
   }
 ]
