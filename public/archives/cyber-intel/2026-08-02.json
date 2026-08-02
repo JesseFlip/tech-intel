@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-02",
+  "timestamp": "2026-08-02T08:21:03.922803",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "A single RedLine C2 pivots into a maritime spear-phishing cluster and attacker-owned infrastructure.",
+      "content": "An investigation beginning with a single RedLine Stealer C2 server from VMRay UniqueSignal evolved into uncovering a targeted Business Email Compromise campaign against South Korean maritime infrastructure. The analysis started with IP 194.156.79.122 on port 55615, leveraging fingerprinting techniques through FOFA and VirusTotal to identify additional C2 infrastructure. Pivoting through... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Manufacturing, Transportation. Associated malware: RedLine Stealer - S1240, XLoader - S1207, Formbook.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a464b96bef17724be5668a0"
+    },
+    {
+      "title": "Analysis of Ongoing Ousaban Attacks Targeting the Iberian Peninsula",
+      "content": "In May 2026, an attack campaign targeting banking users in Spain and Portugal was identified involving the Ousaban banking Trojan. The malware, previously active in Brazil, spreads through phishing PDFs that redirect victims to malicious webpages performing environment checks to ensure targets are located in Spain or Portugal. The attack chain involves VBS scripts downloading steganographic... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Ousaban, Metamorfo - S0455, Casbaneiro.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a45880f3df872860c77a553"
+    },
+    {
+      "title": "Iran-Nexus Disseminates MarkiRAT Surveillance Tool",
+      "content": "TAG-182, an Iran-nexus threat cluster, is conducting surveillance operations targeting Iranian citizens both domestically and abroad using MarkiRAT malware. The group distributes fake Android applications masquerading as VPN services and media players through social media platforms, particularly Instagram. Following Iran's partial internet restoration in May 2026 after an 88-day shutdown, these... This pulse includes 80 indicators of compromise (IOCs). Associated malware: MarkiRAT - S0652, FurBall, DCHSpy.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a45471afccee96152675f88"
+    },
+    {
+      "title": "How a single ScreenConnect incident exposed a massive campaign",
+      "content": "A massive campaign distributes malicious installer archives hosted on spoofed websites masquerading as popular software like OBS Studio, DNS Jumper, DS4Windows, and Bandicam. Over 90 domain names localized across 10 languages were discovered. The malicious archives bundle a legitimate Microsoft-signed install.exe binary with a rogue install.res.1033.dll library deployed via DLL sideloading. This... This pulse includes 129 indicators of compromise (IOCs). Associated malware: AsyncRAT, ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4545dbc77aff75fe16cee7"
+    }
+  ]
+}
