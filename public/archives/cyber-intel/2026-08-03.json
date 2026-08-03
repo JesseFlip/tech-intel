@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-03",
+  "timestamp": "2026-08-03T09:38:03.357776",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Reversing a Windows Kernel Driver Rootkit",
+      "content": "A sophisticated Windows kernel-mode rootkit initially misidentified as Cobalt Strike Beacon operates from Ring 0 to compromise system security. The driver patches Event Tracing for Windows (ETW), employs Direct Kernel Object Manipulation (DKOM) to hide processes, hooks the NSI driver to conceal command-and-control ports, and manipulates Windows Filtering Platform to block security products. Its... This pulse includes 6 indicators of compromise (IOCs). Associated malware: SakDriver, CrackerDrv.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7059a9cb9e82a2a574651c"
+    },
+    {
+      "title": "A Deep Dive Into the Latest XCSSET Version",
+      "content": "After months of dormancy, XCSSET malware version 40 emerged in April 2026 targeting macOS developers through supply chain attacks. The malware hides in Xcode projects of legitimate applications on GitHub, spreading through infected development environments. V40 features advanced detection evasion through polymorphic payload generation, fileless persistence, and in-memory execution while weakening... This pulse includes 71 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XCSSET - S0658, OSX.DubRobber, NETWIRE - S0198.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7059ccae49a160e5763d1d"
+    },
+    {
+      "title": "The Crown Prince, Nezha",
+      "content": "Beginning in August 2025, a sophisticated intrusion was discovered where attackers used log poisoning techniques to deploy a web shell on vulnerable phpMyAdmin panels. The threat actors exploited misconfigured web applications to plant China Chopper web shells, controlled via AntSword, before deploying Nezha, an open-source monitoring tool, to facilitate remote command execution. This led to the... This pulse includes 12 indicators of compromise (IOCs). Associated malware: China Chopper - S0020, AntSword, Nezha.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4828eab61bec7567ac88b1"
+    },
+    {
+      "title": "Armored Likho's new weapon: BusySnake Stealer",
+      "content": "Kaspersky uncovered a sophisticated phishing campaign by the APT group Armored Likho, deploying a previously undocumented Python-based infostealer dubbed BusySnake Stealer. The campaign targets government agencies and electric power sectors across Russia, Brazil, and Kazakhstan through spear-phishing emails containing malicious EXE or LNK attachments. BusySnake Stealer features advanced... This pulse includes 42 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BusySnake Stealer, AquilaRAT, Go2Tunnel.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a47a77e01d1e457798b3a33"
+    }
+  ]
+}
