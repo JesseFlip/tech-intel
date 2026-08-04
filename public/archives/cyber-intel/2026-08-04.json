@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-04",
+  "timestamp": "2026-08-04T08:32:45.202754",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Analysis of a Phishing Email Attack Case",
+      "content": "The Larva-24009 threat actor, also known as HeptaX, has been conducting phishing email campaigns since 2023, targeting Korean and global users to install malware. Active through 2026, the actor uses LNK files disguised as documents with topics like hospital surveys, blockchain, project proposals, and resumes to target enterprises. Upon execution, obfuscated PowerShell commands deploy backdoors... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Healthcare. Associated malware: QuasarRAT, UltraVNC, Notifier.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a70c6f0d15cdde2874f628e"
+    },
+    {
+      "title": "Targeted Attack on Government Entities in the Middle East | Part 2",
+      "content": "A sophisticated multi-stage campaign targets government entities in the Middle East, deploying BINDCLOAK, a previously undocumented 64-bit modular Windows backdoor written in C++. BINDCLOAK is decrypted and reflectively loaded by MIXEDKEY loader as part of a complex attack chain. The backdoor employs advanced techniques including a complex message routing mechanism for C2 communications, EDR... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BINDCLOAK, OctLurk, TELESHIM.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a710a5c190ae98a3d9c1be1"
+    },
+    {
+      "title": "WhatsApp account takeover scam asks you to \"vote for my friend\"",
+      "content": "A sophisticated scam is spreading through WhatsApp that exploits the platform's legitimate 'Linked devices' feature to take over user accounts. Attackers compromise existing accounts and send messages to contacts asking them to vote for a friend or relative in various online contests. When victims click the provided link, they are redirected through pages appearing to be WhatsApp-related, often... This pulse includes 12 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a719213d506eb46339cc1dd"
+    },
+    {
+      "title": "Inside a Global Procurement-Themed AiTM Phishing Campaign",
+      "content": "A sophisticated adversary-in-the-middle phishing campaign is targeting universities, enterprises, and multinational institutions including EU and UN agencies. Active since May 2026, the operation leverages compromised organizational email accounts to distribute procurement-themed lures that mimic requests for information, bid invitations, and project documentation. Victims are redirected through... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Education, Government, Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6015d87a94549d768bc929"
+    }
+  ]
+}

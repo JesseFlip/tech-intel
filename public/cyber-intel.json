@@ -1,26 +1,26 @@
 [
   {
-    "title": "Reversing a Windows Kernel Driver Rootkit",
-    "content": "A sophisticated Windows kernel-mode rootkit initially misidentified as Cobalt Strike Beacon operates from Ring 0 to compromise system security. The driver patches Event Tracing for Windows (ETW), employs Direct Kernel Object Manipulation (DKOM) to hide processes, hooks the NSI driver to conceal command-and-control ports, and manipulates Windows Filtering Platform to block security products. Its... This pulse includes 6 indicators of compromise (IOCs). Associated malware: SakDriver, CrackerDrv.",
+    "title": "Analysis of a Phishing Email Attack Case",
+    "content": "The Larva-24009 threat actor, also known as HeptaX, has been conducting phishing email campaigns since 2023, targeting Korean and global users to install malware. Active through 2026, the actor uses LNK files disguised as documents with topics like hospital surveys, blockchain, project proposals, and resumes to target enterprises. Upon execution, obfuscated PowerShell commands deploy backdoors... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Healthcare. Associated malware: QuasarRAT, UltraVNC, Notifier.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7059a9cb9e82a2a574651c"
+    "url": "https://otx.alienvault.com/pulse/6a70c6f0d15cdde2874f628e"
   },
   {
-    "title": "A Deep Dive Into the Latest XCSSET Version",
-    "content": "After months of dormancy, XCSSET malware version 40 emerged in April 2026 targeting macOS developers through supply chain attacks. The malware hides in Xcode projects of legitimate applications on GitHub, spreading through infected development environments. V40 features advanced detection evasion through polymorphic payload generation, fileless persistence, and in-memory execution while weakening... This pulse includes 71 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XCSSET - S0658, OSX.DubRobber, NETWIRE - S0198.",
+    "title": "Targeted Attack on Government Entities in the Middle East | Part 2",
+    "content": "A sophisticated multi-stage campaign targets government entities in the Middle East, deploying BINDCLOAK, a previously undocumented 64-bit modular Windows backdoor written in C++. BINDCLOAK is decrypted and reflectively loaded by MIXEDKEY loader as part of a complex attack chain. The backdoor employs advanced techniques including a complex message routing mechanism for C2 communications, EDR... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BINDCLOAK, OctLurk, TELESHIM.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7059ccae49a160e5763d1d"
+    "url": "https://otx.alienvault.com/pulse/6a710a5c190ae98a3d9c1be1"
   },
   {
-    "title": "The Crown Prince, Nezha",
-    "content": "Beginning in August 2025, a sophisticated intrusion was discovered where attackers used log poisoning techniques to deploy a web shell on vulnerable phpMyAdmin panels. The threat actors exploited misconfigured web applications to plant China Chopper web shells, controlled via AntSword, before deploying Nezha, an open-source monitoring tool, to facilitate remote command execution. This led to the... This pulse includes 12 indicators of compromise (IOCs). Associated malware: China Chopper - S0020, AntSword, Nezha.",
+    "title": "WhatsApp account takeover scam asks you to \"vote for my friend\"",
+    "content": "A sophisticated scam is spreading through WhatsApp that exploits the platform's legitimate 'Linked devices' feature to take over user accounts. Attackers compromise existing accounts and send messages to contacts asking them to vote for a friend or relative in various online contests. When victims click the provided link, they are redirected through pages appearing to be WhatsApp-related, often... This pulse includes 12 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a4828eab61bec7567ac88b1"
+    "url": "https://otx.alienvault.com/pulse/6a719213d506eb46339cc1dd"
   },
   {
-    "title": "Armored Likho's new weapon: BusySnake Stealer",
-    "content": "Kaspersky uncovered a sophisticated phishing campaign by the APT group Armored Likho, deploying a previously undocumented Python-based infostealer dubbed BusySnake Stealer. The campaign targets government agencies and electric power sectors across Russia, Brazil, and Kazakhstan through spear-phishing emails containing malicious EXE or LNK attachments. BusySnake Stealer features advanced... This pulse includes 42 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BusySnake Stealer, AquilaRAT, Go2Tunnel.",
+    "title": "Inside a Global Procurement-Themed AiTM Phishing Campaign",
+    "content": "A sophisticated adversary-in-the-middle phishing campaign is targeting universities, enterprises, and multinational institutions including EU and UN agencies. Active since May 2026, the operation leverages compromised organizational email accounts to distribute procurement-themed lures that mimic requests for information, bid invitations, and project documentation. Victims are redirected through... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Education, Government, Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a47a77e01d1e457798b3a33"
+    "url": "https://otx.alienvault.com/pulse/6a6015d87a94549d768bc929"
   }
 ]
