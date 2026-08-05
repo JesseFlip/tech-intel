@@ -1,26 +1,26 @@
 [
   {
+    "title": "ClickFix-Themed Campaign Deploys Starland RAT and WLDR Framework",
+    "content": "A Russian-speaking, financially motivated threat actor designated UAT-11795 has been conducting a sophisticated malware campaign since June 2025, primarily targeting users in the United States. The operation utilizes ClickFix-style social engineering techniques with trojanized software installers for applications like MobaXterm, Cisco WebEx, Zoom, DBeaver, and FACEIT. The campaign deploys... This pulse includes 76 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Starland RAT, WLDR, CastleStealer.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a71a6ac7bd8297ea6d2093f"
+  },
+  {
+    "title": "NightLedger Backdoor Deployed in Espionage Campaign Targeting the Middle East and Africa",
+    "content": "An advanced persistent threat group, Mirage Kitten, is conducting cyber-espionage operations across the Middle East and Africa using three previously undocumented malware families: NightLedger, BridgeHead, and ArcBridge. These tools provide reconnaissance, command execution, covert tunneling, and persistent access capabilities. The campaign targets organizations in Egypt, Jordan, Tanzania,... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Aerospace, Defense, Telecommunications. Associated malware: NightLedger, BridgeHead, ArcBridge.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a71aa488c89bfcbd2814692"
+  },
+  {
+    "title": "Almost Half of Malware Samples Communicate Direct to IP",
+    "content": "Analysis of 4 million dynamic malware reports reveals that 45.32% of malware samples with command-and-control activity establish direct-to-IP (D2IP) connections, bypassing DNS entirely and evading DNS-based security defenses. D2IP traffic accounts for 23.17% of all C2 connection attempts. This behavior is observed across diverse threats including Phorpiex ransomware droppers using hard-coded IP... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Education, Government, Transportation. Associated malware: Phorpiex, Mozi, SectopRAT.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a71e43a0127c62218b7c365"
+  },
+  {
     "title": "Analysis of a Phishing Email Attack Case",
     "content": "The Larva-24009 threat actor, also known as HeptaX, has been conducting phishing email campaigns since 2023, targeting Korean and global users to install malware. Active through 2026, the actor uses LNK files disguised as documents with topics like hospital surveys, blockchain, project proposals, and resumes to target enterprises. Upon execution, obfuscated PowerShell commands deploy backdoors... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Healthcare. Associated malware: QuasarRAT, UltraVNC, Notifier.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a70c6f0d15cdde2874f628e"
-  },
-  {
-    "title": "Targeted Attack on Government Entities in the Middle East | Part 2",
-    "content": "A sophisticated multi-stage campaign targets government entities in the Middle East, deploying BINDCLOAK, a previously undocumented 64-bit modular Windows backdoor written in C++. BINDCLOAK is decrypted and reflectively loaded by MIXEDKEY loader as part of a complex attack chain. The backdoor employs advanced techniques including a complex message routing mechanism for C2 communications, EDR... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: BINDCLOAK, OctLurk, TELESHIM.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a710a5c190ae98a3d9c1be1"
-  },
-  {
-    "title": "WhatsApp account takeover scam asks you to \"vote for my friend\"",
-    "content": "A sophisticated scam is spreading through WhatsApp that exploits the platform's legitimate 'Linked devices' feature to take over user accounts. Attackers compromise existing accounts and send messages to contacts asking them to vote for a friend or relative in various online contests. When victims click the provided link, they are redirected through pages appearing to be WhatsApp-related, often... This pulse includes 12 indicators of compromise (IOCs).",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a719213d506eb46339cc1dd"
-  },
-  {
-    "title": "Inside a Global Procurement-Themed AiTM Phishing Campaign",
-    "content": "A sophisticated adversary-in-the-middle phishing campaign is targeting universities, enterprises, and multinational institutions including EU and UN agencies. Active since May 2026, the operation leverages compromised organizational email accounts to distribute procurement-themed lures that mimic requests for information, bid invitations, and project documentation. Victims are redirected through... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Education, Government, Finance.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6015d87a94549d768bc929"
   }
 ]

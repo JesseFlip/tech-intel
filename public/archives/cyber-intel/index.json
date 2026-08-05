@@ -1,7 +1,14 @@
 {
-  "last_updated": "2026-08-04T08:32:45.203567",
-  "total_archives": 50,
+  "last_updated": "2026-08-05T08:30:32.503770",
+  "total_archives": 51,
   "archives": [
+    {
+      "date": "2026-08-05",
+      "timestamp": "2026-08-05T08:30:32.502855",
+      "category": "cyber",
+      "item_count": 4,
+      "filename": "2026-08-05.json"
+    },
     {
       "date": "2026-08-04",
       "timestamp": "2026-08-04T08:32:45.202754",
