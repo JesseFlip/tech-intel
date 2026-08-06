@@ -58,12 +58,12 @@ A production-ready intelligence aggregation platform that automatically collects
 ## 🏗️ Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
+┌───────────────────────────────────────────────┐
 │                    GitHub Actions (Cron)                     │
 │                    Daily at 6 AM UTC                         │
-└────────────────────┬────────────────────────────────────────┘
+└────────────────────┬───────────────────────────────────┘
                      │
-        ┌────────────┴─────────────┐
+        ┌────────────┴────────────┐
         │                          │
         ▼                          ▼
 ┌───────────────┐          ┌──────────────┐
@@ -99,6 +99,16 @@ A production-ready intelligence aggregation platform that automatically collects
 ## 🚀 Technical Implementation
 
 ### **Intelligence Pipeline**
+
+**Adversarial Number Verification** — every figure the pipeline publishes passes
+through a QA gate (`number_verifier.py`) before it ships. Deterministic guards
+(range/sanity bounds, independent recomputation of derived values like the
+yield-curve spread, source-presence checks) always run; when `ANTHROPIC_API_KEY`
+is set, independent LLM "refuter" agents adversarially try to disprove each numeric
+claim against its real source and quarantine any figure they can't confirm. Results
+land in `public/verification-report.json`. The frontend applies the same principle
+(`src/utils/numberGuard.js`): a `--` placeholder is always preferred over a
+fabricated number, and the macro ticker is built from real fetched values only.
 
 **Cyber Threat Intelligence (AlienVault OTX)**
 ```python
@@ -340,10 +350,14 @@ tech-intel/
 │   └── src/intel_pipeline/
 │       ├── otx_fetcher.py            # OTX threat intelligence
 │       ├── ai_news_rss_fetcher.py    # RSS news aggregation
+│       ├── fred_fetcher.py           # FRED macro-economic data
+│       ├── number_verifier.py        # Adversarial number-verification gate
 │       └── update_intel.py           # Main orchestrator
 ├── public/
 │   ├── cyber-intel.json              # Latest threats
 │   ├── ai-intel.json                 # Latest AI news
+│   ├── macro-data.json               # Latest macro figures
+│   ├── verification-report.json      # Per-feed number-verification results
 │   └── archives/                     # Historical data
 ├── src/
 │   ├── components/                   # React components
