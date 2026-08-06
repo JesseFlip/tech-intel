@@ -1,0 +1,31 @@
+{
+  "date": "2026-08-06",
+  "timestamp": "2026-08-06T08:30:42.054083",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Phishing Email Delivers ScreenConnect Malware",
+      "content": "A sophisticated phishing campaign targets Windows users with fraudulent Bank of America emails, delivering ScreenConnect remote monitoring software as malware. The attack begins with convincing emails mimicking Bank of America branding, directing victims to fake security pages. Windows users receive AccountGuard.zip containing a VBS file with multiple layers of base64-encoded content. The attack... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a722c0bba9d9f436322ae56"
+    },
+    {
+      "title": "npm Packages Hijacked in Supply Chain Attack",
+      "content": "Multiple npm packages in the keyv/cacheable ecosystem were compromised after attackers gained control of a GitHub maintainer account. Beginning at 9:00 UTC on August 4, 2026, the attacker introduced IDE persistence mechanisms and published malicious versions that propagated to over 400 distinct packages. The payload is a descendant of the 'Mini' Shai-Hulud malware family, sharing similarities... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Shai-Hulud, GeminiDuke - S0049.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a722c48758de52f5ea94f17"
+    },
+    {
+      "title": "ScreenConnect RMM Abuse, Cloudflare Tunnels, and Trusted Software Lures Threat Intelligence, Threat Research, Threat Security",
+      "content": "Threat actors are conducting a multi-wave campaign using social engineering lures themed around Zoom updates, business documents, and system utilities to deploy ScreenConnect Remote Monitoring and Management agents. The operation employs VBScript droppers, batch loaders, compiled .NET executables, and HTML phishing pages, all retrieving payloads from a WsgiDAV staging server at... This pulse includes 54 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a722d8bdafe1dfae681f87b"
+    },
+    {
+      "title": "Fake Xeno Roblox Cheats Deliver Powerful Java Stealer Through Discord and Forums",
+      "content": "A sophisticated malware campaign targets Roblox players by distributing fake versions of the Xeno script executor through gaming forums and Discord communities. The attack deploys a multi-stage Java infection chain that mimics legitimate Windows and gaming components, including files disguised in Xbox Game Bar directories. The final payload functions as both an information stealer and remote... This pulse includes 36 indicators of compromise (IOCs). Associated malware: Powercat.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a722d8ce0ae0afdde284102"
+    }
+  ]
+}
