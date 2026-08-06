@@ -3,6 +3,7 @@ import Tooltip from './components/Tooltip';
 import DataFreshnessIndicator from './components/DataFreshnessIndicator';
 import useMacroData from './hooks/useMacroData';
 import liveFinanceService from './api/liveFinanceService';
+import { buildTickerHeadlines } from './utils/numberGuard';
 
 const ArchiveViewer = lazy(() => import('./components/ArchiveViewer'));
 
@@ -80,12 +81,12 @@ export default function App({ onOpenIdeaLab }) {
         });
       } catch (error) {
         console.error('Error fetching market data:', error);
-        // Fallback to reasonable defaults
+        // Don't present fabricated fallbacks as live data — show "--" instead.
         setMarketData({
-          us10y: 4.425,
-          vix: 14.25,
-          es: 5310.50,
-          dxy: 104.80,
+          us10y: null,
+          vix: null,
+          es: null,
+          dxy: null,
           lastFetched: null
         });
       }
@@ -98,14 +99,9 @@ export default function App({ onOpenIdeaLab }) {
     return () => clearInterval(interval);
   }, []);
 
-  const headlines = [
-    "CME FEDWATCH: 68% PROBABILITY OF NO HIKE AT NEXT MEETING",
-    "US 10-YEAR TREASURY YIELD TESTS CRITICAL 4.50% RESISTANCE",
-    "CREDIT SPREADS REMAIN TIGHT DESPITE GEOPOLITICAL NOISE",
-    "VIX INDEX FLIRTS WITH 15.0 - COMPLACENCY REMAINS HIGH",
-    "S&P FUTURES INDICATE FLAT OPEN PENDING PCE INFLATION DATA",
-    "DXY DOLLAR INDEX CONSOLIDATES NEAR 6-MONTH HIGHS"
-  ];
+  // Ticker headlines are built from REAL fetched market/macro numbers only —
+  // never fabricated statistics. See utils/numberGuard.buildTickerHeadlines.
+  const headlines = buildTickerHeadlines({ marketData, macroData });
 
   // Tech Intel Data State with initial fallbacks
   const [cyberIntel, setCyberIntel] = useState([

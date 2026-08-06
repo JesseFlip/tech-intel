@@ -18,6 +18,7 @@ from typing import List, Dict, Optional
 from .ai_news_rss_fetcher import AINewsRSSFetcher
 from .otx_fetcher import OTXIntelFetcher
 from .fred_fetcher import FREDFetcher
+from .number_verifier import NumberVerifier, verify_macro, verify_text_feed
 
 # Topic configurations for output files and archiving
 TOPICS: Dict[str, Dict[str, str]] = {
@@ -55,11 +56,23 @@ class IntelUpdateOrchestrator:
         fred_api_key: Optional[str] = None,
         output_dir: Path = Path("public"),
         archive_enabled: bool = True,
+        verify_enabled: bool = True,
+        verify_llm: bool = True,
     ):
         self.output_dir = Path(output_dir)
         self.archive_enabled = archive_enabled
         self.otx_api_key = otx_api_key
         self.fred_api_key = fred_api_key
+
+        # Adversarial number-verification gate. The verifier itself falls back to
+        # deterministic-only when no ANTHROPIC_API_KEY is available.
+        self.verify_enabled = verify_enabled
+        self.verifier = NumberVerifier(enable_llm=verify_llm) if verify_enabled else None
+        if verify_enabled:
+            logger.info(
+                "Number verification enabled (LLM adversary: %s)",
+                "on" if self.verifier and self.verifier.llm_enabled else "off — deterministic only",
+            )
 
         # Initialize RSS fetcher for AI news (no API key needed)
         try:
@@ -146,6 +159,7 @@ class IntelUpdateOrchestrator:
 
         try:
             data = self.fred_fetcher.fetch_macro_dashboard()
+            data = self._verify_macro_data(data)
 
             # Write to output file (no archive needed for macro data)
             cfg = TOPICS["macro"]
@@ -159,12 +173,106 @@ class IntelUpdateOrchestrator:
             logger.error("Error updating macro data: %s", e)
             return False
 
+    # -- verification ---------------------------------------------------------
+    def _verify_text_feed(self, topic: str, items: List[Dict[str, str]]) -> List[Dict[str, str]]:
+        """Run the adversarial number gate over a text feed, annotate each item
+        with its verification status, and record a report. Items are never
+        silently dropped — a refuted number is surfaced via item['verification']."""
+        if not (self.verify_enabled and self.verifier):
+            return items
+        try:
+            report = verify_text_feed(topic, items, self.verifier)
+        except Exception as e:
+            logger.error("Verification of %s feed failed: %s", topic, e)
+            return items
+
+        by_index = {row["index"]: row["status"] for row in report.get("items", [])}
+        for i, item in enumerate(items):
+            item["verification"] = by_index.get(i, "verified")
+
+        counts = report.get("status_counts", {})
+        logger.info("Verification (%s): %s", topic, counts or "no numbers found")
+        self._record_verification(topic, report)
+        return items
+
+    def _record_verification(self, feed: str, report: Dict) -> None:
+        """Merge one feed's verification report into public/verification-report.json."""
+        from datetime import datetime
+
+        path = self.output_dir / "verification-report.json"
+        try:
+            existing = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+        except Exception:
+            existing = {}
+        report = dict(report)
+        report["verified_at"] = datetime.utcnow().isoformat() + "Z"
+        report["llm_adversary"] = bool(self.verifier and self.verifier.llm_enabled)
+        existing[feed] = report
+        existing["last_updated"] = report["verified_at"]
+        try:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            path.write_text(json.dumps(existing, indent=2, ensure_ascii=False), encoding="utf-8")
+        except Exception as e:
+            logger.error("Could not write verification report: %s", e)
+
+    # Map each verifiable metric to its location in the macro dashboard so a
+    # hard-refuted value can be nulled out rather than published.
+    _MACRO_PATHS = {
+        "cpi_yoy": ("inflation", "cpi", "yoy"),
+        "core_pce_yoy": ("inflation", "core_pce", "yoy"),
+        "cpi_value": ("inflation", "cpi", "value"),
+        "core_pce_value": ("inflation", "core_pce", "value"),
+        "unemployment_rate": ("labor", "unemployment_rate"),
+        "fed_funds_rate": ("fed_policy", "funds_rate"),
+        "treasury_10y": ("yield_curve", "ten_year"),
+        "treasury_2y": ("yield_curve", "two_year"),
+        "yield_spread": ("yield_curve", "spread"),
+        "consumer_sentiment": ("sentiment", "consumer_sentiment"),
+    }
+
+    def _verify_macro_data(self, data: Dict) -> Dict:
+        """Adversarially verify macro numbers: range-check every figure, recompute
+        the yield-curve spread/inversion, null out any hard-refuted value, and
+        attach a transparent verification summary."""
+        if not (self.verify_enabled and self.verifier):
+            return data
+        try:
+            report = verify_macro(data, self.verifier)
+        except Exception as e:
+            logger.error("Macro verification failed: %s", e)
+            return data
+
+        refuted = [v for v in report.get("verdicts", []) if v.get("status") == "refuted"]
+        for v in refuted:
+            path = self._MACRO_PATHS.get(v.get("metric"))
+            if not path:
+                continue
+            node = data
+            for key in path[:-1]:
+                node = node.get(key) if isinstance(node, dict) else None
+            if isinstance(node, dict):
+                logger.warning("Nulling refuted macro value %s (%s)", v.get("metric"), v.get("notes"))
+                node[path[-1]] = None
+
+        for issue in report.get("consistency_issues", []):
+            logger.warning("Macro consistency issue: %s", issue)
+
+        logger.info("Verification (macro): %s", report.get("status_counts", {}))
+        self._record_verification("macro", report)
+        data["_verification"] = {
+            "status_counts": report.get("status_counts", {}),
+            "consistency_issues": report.get("consistency_issues", []),
+            "llm_adversary": bool(self.verifier and self.verifier.llm_enabled),
+        }
+        return data
+
     # -- output / archiving ---------------------------------------------------
     def _write_feed(self, topic: str, items: List[Dict[str, str]]) -> bool:
         if not items:
             logger.warning("No %s items generated; leaving existing feed untouched", topic)
             return False
 
+        items = self._verify_text_feed(topic, items)
         cfg = TOPICS[topic]
         output_file = self.output_dir / cfg["output"]
         output_file.parent.mkdir(parents=True, exist_ok=True)
@@ -265,6 +373,9 @@ def main():
     parser.add_argument("--no-archive", action="store_true", help="Disable archiving")
     parser.add_argument("--otx-key", type=str, help="OTX API key (for cyber feed)")
     parser.add_argument("--fred-key", type=str, help="FRED API key (for macro data)")
+    parser.add_argument("--no-verify", action="store_true", help="Disable the number-verification gate")
+    parser.add_argument("--no-verify-llm", action="store_true",
+                        help="Deterministic checks only (skip the LLM adversary even if a key is set)")
 
     args = parser.parse_args()
 
@@ -277,6 +388,8 @@ def main():
         fred_api_key=fred_key,
         output_dir=Path(args.output_dir),
         archive_enabled=not args.no_archive,
+        verify_enabled=not args.no_verify,
+        verify_llm=not args.no_verify_llm,
     )
 
     if args.cyber_only:
