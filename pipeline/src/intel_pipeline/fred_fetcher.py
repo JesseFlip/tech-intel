@@ -192,12 +192,13 @@ class FREDFetcher:
         print("  • Consumer sentiment...")
         consumer_sentiment = self.fetch_series_latest(self.SERIES_IDS["CONSUMER_SENTIMENT"])
 
-        # Calculate yield curve spread
+        # Calculate yield curve spread using the standard 2s10s convention:
+        # spread = 10y - 2y, which goes NEGATIVE when the curve inverts.
         yield_spread = None
         yield_inverted = False
         if treasury_2y and treasury_10y:
-            yield_spread = treasury_2y["value"] - treasury_10y["value"]
-            yield_inverted = yield_spread > 0
+            yield_spread = treasury_10y["value"] - treasury_2y["value"]
+            yield_inverted = yield_spread < 0
 
         dashboard_data = {
             "inflation": {
