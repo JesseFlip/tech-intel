@@ -207,6 +207,13 @@ function scaled(value) {
   return ((v - VALUE_MIN) / (VALUE_MAX - VALUE_MIN)) * 100;
 }
 
+// Guarantee any displayed score is a whole number in [0, 100] — never NaN or
+// out of range, even if given malformed ratings/weights.
+function clampScore(n) {
+  if (!Number.isFinite(n)) return 0;
+  return Math.max(0, Math.min(100, Math.round(n)));
+}
+
 // Weighted 0–100 success score for a single model type.
 export function scoreForModel(ratings, modelType) {
   let weightSum = 0;
@@ -216,7 +223,7 @@ export function scoreForModel(ratings, modelType) {
     weightSum += w;
     acc += w * scaled(ratings[dim.id]);
   }
-  return weightSum === 0 ? 0 : Math.round(acc / weightSum);
+  return weightSum === 0 ? 0 : clampScore(acc / weightSum);
 }
 
 // Score across every model type so the user can see which shape fits best.
@@ -229,7 +236,7 @@ export function scoreAllModels(ratings) {
 export function worthwhileScore(worthRatings) {
   if (!WORTH_DIMENSIONS.length) return 0;
   const sum = WORTH_DIMENSIONS.reduce((a, d) => a + scaled(worthRatings[d.id]), 0);
-  return Math.round(sum / WORTH_DIMENSIONS.length);
+  return clampScore(sum / WORTH_DIMENSIONS.length);
 }
 
 // Dimensions rated very low that act as hard caps on the verdict.
