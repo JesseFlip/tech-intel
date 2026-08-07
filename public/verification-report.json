@@ -1,0 +1,323 @@
+{
+  "cyber": {
+    "feed": "cyber",
+    "checked": 10,
+    "items": [
+      {
+        "index": 0,
+        "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
+        "numbers_checked": 1,
+        "status": "verified"
+      },
+      {
+        "index": 1,
+        "title": "Analysis of the Connection Between Xctdoor and Past CRAT Attack Cases",
+        "numbers_checked": 4,
+        "status": "verified"
+      },
+      {
+        "index": 2,
+        "title": "ChainDrop npm Attack Compromises Hundreds of Packages",
+        "numbers_checked": 3,
+        "status": "verified"
+      },
+      {
+        "index": 3,
+        "title": "Continues building ORB networks using new malware",
+        "numbers_checked": 2,
+        "status": "verified"
+      }
+    ],
+    "verdicts": [
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      }
+    ],
+    "status_counts": {
+      "verified": 10
+    },
+    "verified_at": "2026-08-07T07:10:11.919066Z",
+    "llm_adversary": false
+  },
+  "last_updated": "2026-08-07T07:10:14.373742Z",
+  "ai": {
+    "feed": "ai",
+    "checked": 6,
+    "items": [
+      {
+        "index": 0,
+        "title": "Data center demand drives 66% surge in natural gas power plant costs",
+        "numbers_checked": 2,
+        "status": "verified"
+      },
+      {
+        "index": 1,
+        "title": "Converge Bio raises $25M, backed by Bessemer and execs from Meta, OpenAI, Wiz",
+        "numbers_checked": 2,
+        "status": "verified"
+      },
+      {
+        "index": 2,
+        "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+        "numbers_checked": 1,
+        "status": "verified"
+      },
+      {
+        "index": 3,
+        "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+        "numbers_checked": 1,
+        "status": "verified"
+      }
+    ],
+    "verdicts": [
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      }
+    ],
+    "status_counts": {
+      "verified": 6
+    },
+    "verified_at": "2026-08-07T07:10:12.646637Z",
+    "llm_adversary": false
+  },
+  "macro": {
+    "feed": "macro",
+    "checked": 10,
+    "verdicts": [
+      {
+        "metric": "cpi_yoy",
+        "value": 3.4635307293854063,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "core_pce_yoy",
+        "value": 3.286526430967084,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "cpi_value",
+        "value": 332.568,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "core_pce_value",
+        "value": 130.266,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "unemployment_rate",
+        "value": 4.2,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "fed_funds_rate",
+        "value": 3.63,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "treasury_10y",
+        "value": 4.63,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "treasury_2y",
+        "value": 4.18,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "consumer_sentiment",
+        "value": 49.5,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "yield_spread",
+        "value": 0.4500000000000002,
+        "status": "verified",
+        "checks": [
+          "ok within range / recompute"
+        ],
+        "notes": ""
+      }
+    ],
+    "consistency_issues": [],
+    "status_counts": {
+      "verified": 10
+    },
+    "verified_at": "2026-08-07T07:10:14.373742Z",
+    "llm_adversary": false
+  }
+}

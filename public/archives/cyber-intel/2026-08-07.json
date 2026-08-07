@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-07",
+  "timestamp": "2026-08-07T07:10:11.919802",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
+      "content": "Cybercriminals are exploiting API keys used by developers to access AI platforms through a technique called token jacking. Attackers steal these authentication tokens to gain unauthorized access to expensive AI resources, which they either use themselves or resell through gray-market services called transfer stations. These transfer stations act as intermediaries, offering frontier AI model... This pulse includes 9 indicators of compromise (IOCs). Associated malware: Shai-Hulud, Miasma.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a748055b6dd0f782e3470ff",
+      "verification": "verified"
+    },
+    {
+      "title": "Analysis of the Connection Between Xctdoor and Past CRAT Attack Cases",
+      "content": "A threat actor designated as Larva-26005, linked to North Korea, has been distributing Xctdoor backdoor malware to users in Korea since at least 2020. The campaign evolved from using CRAT malware alongside Hansom ransomware to deploying Xctdoor variants written in C++ and Go. Distribution methods include spear phishing emails with LNK files disguised as documents and security software installers.... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Defense, Technology. Associated malware: Xctdoor, Hydraq - S0203, Roarur.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a748055fc990bd246b92b6c",
+      "verification": "verified"
+    },
+    {
+      "title": "ChainDrop npm Attack Compromises Hundreds of Packages",
+      "content": "A sophisticated software supply chain attack named ChainDrop has infected hundreds of npm packages, including popular caching libraries with millions of weekly downloads. Beginning August 4, 2026, attackers compromised a GitHub account of a keyv package maintainer, injecting malicious code into legitimate repositories. The malware executes credential-stealing payloads targeting developer... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ChainDrop, Shai-Hulud.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7484b807f5882281629fae",
+      "verification": "verified"
+    },
+    {
+      "title": "Continues building ORB networks using new malware",
+      "content": "An advanced persistent threat actor designated UAT-7810 maintains and expands the LapDogs Operational Relay Box network infrastructure. This China-nexus group develops custom malware including SHORTLEASH and its evolved version LONGLEASH, alongside newly discovered tools DOGLEASH (a C-based backdoor), JARLEASH (a JAVA-based administrative backdoor), and LEASHTEST (a testing binary for MIPS... This pulse includes 87 indicators of compromise (IOCs). Associated malware: SHORTLEASH, LONGLEASH, DOGLEASH.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4d0a8afd30c55d7e2c19d5",
+      "verification": "verified"
+    }
+  ]
+}
