@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
-        "numbers_checked": 1,
+        "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Analysis of the Connection Between Xctdoor and Past CRAT Attack Cases",
-        "numbers_checked": 4,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "ChainDrop npm Attack Compromises Hundreds of Packages",
+        "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
-        "index": 3,
+        "index": 2,
         "title": "Continues building ORB networks using new malware",
+        "numbers_checked": 2,
+        "status": "verified"
+      },
+      {
+        "index": 3,
+        "title": "Inside a Self-Propagating npm Worm",
         "numbers_checked": 2,
         "status": "verified"
       }
@@ -109,24 +109,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 9
     },
-    "verified_at": "2026-08-07T07:10:11.919066Z",
+    "verified_at": "2026-08-08T06:45:58.867436Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-07T07:10:14.373742Z",
+  "last_updated": "2026-08-08T06:46:01.905230Z",
   "ai": {
     "feed": "ai",
     "checked": 6,
@@ -215,7 +206,7 @@
     "status_counts": {
       "verified": 6
     },
-    "verified_at": "2026-08-07T07:10:12.646637Z",
+    "verified_at": "2026-08-08T06:45:59.059374Z",
     "llm_adversary": false
   },
   "macro": {
@@ -260,7 +251,7 @@
       },
       {
         "metric": "unemployment_rate",
-        "value": 4.2,
+        "value": 4.1,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +269,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.63,
+        "value": 4.69,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +278,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.18,
+        "value": 4.25,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +296,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.4500000000000002,
+        "value": 0.4400000000000004,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-07T07:10:14.373742Z",
+    "verified_at": "2026-08-08T06:46:01.905230Z",
     "llm_adversary": false
   }
 }

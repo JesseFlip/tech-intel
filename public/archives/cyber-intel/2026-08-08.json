@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-08",
+  "timestamp": "2026-08-08T06:45:58.868337",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
+      "content": "Mustang Panda orchestrated two concurrent espionage campaigns targeting Indian government entities and hydropower infrastructure between May and June 2026. The campaigns leveraged DLL sideloading via legitimate executables to deploy newly identified malware including SHARDLOADER, MINIRECON, and ZOHOMURK. MINIRECON represents an evolution of Toneshell with WebSocket-based command-and-control... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: SHARDLOADER, MINIRECON, ZOHOMURK.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a42d4a95543681c96ad0e57",
+      "verification": "verified"
+    },
+    {
+      "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
+      "content": "A financially motivated campaign identified in April 2026 delivers Vidar stealer and XMRig cryptocurrency miner to victims worldwide through malvertising. Attackers distribute password-protected archives impersonating cracked software, using Go-compiled loaders built with the Factory-v3 framework. The malware employs sophisticated evasion techniques including rogue Authenticode certificates... This pulse includes 161 indicators of compromise (IOCs). Associated malware: Vidar, XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4d89812b006d2839a4dc49",
+      "verification": "verified"
+    },
+    {
+      "title": "Continues building ORB networks using new malware",
+      "content": "An advanced persistent threat actor designated UAT-7810 maintains and expands the LapDogs Operational Relay Box network infrastructure. This China-nexus group develops custom malware including SHORTLEASH and its evolved version LONGLEASH, alongside newly discovered tools DOGLEASH (a C-based backdoor), JARLEASH (a JAVA-based administrative backdoor), and LEASHTEST (a testing binary for MIPS... This pulse includes 83 indicators of compromise (IOCs). Associated malware: SHORTLEASH, LONGLEASH, DOGLEASH.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4d0a8afd30c55d7e2c19d5",
+      "verification": "verified"
+    },
+    {
+      "title": "Inside a Self-Propagating npm Worm",
+      "content": "A self-propagating npm worm dubbed ChainDrop infected over 400 packages downloaded hundreds of millions of times weekly, including popular packages like keyv and cacheable-request. The worm steals cloud credentials, npm and GitHub tokens, SSH keys, and sensitive developer data while extracting temporary credentials from GitHub Actions runner memory. It uses stolen npm publishing tokens to infect... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ChainDrop.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a75b2f415506d0a2374398b",
+      "verification": "verified"
+    }
+  ]
+}
