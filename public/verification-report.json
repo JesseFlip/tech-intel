@@ -5,25 +5,25 @@
     "items": [
       {
         "index": 0,
-        "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
-        "numbers_checked": 2,
+        "title": "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Vidar Stealer Unmasked: Code Signing Abuse, Go Loaders and File Inflation",
-        "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "Continues building ORB networks using new malware",
+        "title": "Indonesian Banking Sector Threat Landscape",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
+        "index": 2,
+        "title": "From Invoice to AnyDesk: Uncovering a Phishing Campaign Targeting Russian Aerospace Organizations",
+        "numbers_checked": 1,
+        "status": "verified"
+      },
+      {
         "index": 3,
-        "title": "Inside a Self-Propagating npm Worm",
+        "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
         "numbers_checked": 2,
         "status": "verified"
       }
@@ -114,10 +114,10 @@
     "status_counts": {
       "verified": 9
     },
-    "verified_at": "2026-08-08T06:45:58.867436Z",
+    "verified_at": "2026-08-09T06:51:09.560851Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-08T06:46:01.905230Z",
+  "last_updated": "2026-08-09T06:51:12.052683Z",
   "ai": {
     "feed": "ai",
     "checked": 6,
@@ -206,7 +206,7 @@
     "status_counts": {
       "verified": 6
     },
-    "verified_at": "2026-08-08T06:45:59.059374Z",
+    "verified_at": "2026-08-09T06:51:10.118603Z",
     "llm_adversary": false
   },
   "macro": {
@@ -308,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-08T06:46:01.905230Z",
+    "verified_at": "2026-08-09T06:51:12.052683Z",
     "llm_adversary": false
   }
 }
