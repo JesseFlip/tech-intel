@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-10",
+  "timestamp": "2026-08-10T07:26:30.717340",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
+      "content": "Between February 2024 and April 2026, multiple cyberespionage actors, suspected to be China-nexus and India-nexus threat groups, conducted sustained intrusions into Pakistani law enforcement organizations, particularly Balochistan Police. The compromised infrastructure included network appliances and servers hosting web applications managing criminal records, biometric data, hotel registrations,... This pulse includes 53 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: PlugX - S0013, Thoper, TVT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a501da43fb3cb230cc9a9b9",
+      "verification": "verified"
+    },
+    {
+      "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+      "content": "In October 2025, Microsoft Threat Intelligence discovered GigaWiper, a sophisticated Golang-based backdoor that combines command-and-control capabilities with multiple destructive payloads. This versatile implant consolidates functionality from at least three separate malware families: a standalone wiper operating at physical disk level, a destructive component derived from Crucio ransomware that... This pulse includes 18 indicators of compromise (IOCs). Associated malware: GigaWiper, Crucio, FlockWiper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4fdb50b88e8fc2bfbd26dd",
+      "verification": "verified"
+    },
+    {
+      "title": "Indonesian Banking Sector Threat Landscape",
+      "content": "Indonesia's Banking, Financial Services, and Insurance sector faced significant cyber threats throughout 2026, including multiple alleged data breaches targeting major banking institutions and fintech platforms. Underground forums advertised compromised datasets containing customer information, account details, and sensitive documents, with varying levels of validation. Ransomware groups ICARUS... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Finance, Government, Technology. Associated malware: ValleyRAT, ABCDoor, LOTUSLITE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4fdf500b5e6dffde939998",
+      "verification": "verified"
+    },
+    {
+      "title": "From Invoice to AnyDesk: Uncovering a Phishing Campaign Targeting Russian Aerospace Organizations",
+      "content": "A sophisticated spear-phishing campaign targeting Russian aerospace and aviation organizations has been identified, likely attributed to the Rare Werewolf threat group. The attack begins with fraudulent emails impersonating a legitimate Russian aerospace research institute, delivering password-protected archives containing malicious installers. The campaign employs living-off-the-land techniques,... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Aerospace.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a4f858d17f60f10d1e16c2c",
+      "verification": "verified"
+    }
+  ]
+}

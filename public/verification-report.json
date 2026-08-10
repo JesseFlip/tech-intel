@@ -11,20 +11,20 @@
       },
       {
         "index": 1,
-        "title": "Indonesian Banking Sector Threat Landscape",
+        "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "From Invoice to AnyDesk: Uncovering a Phishing Campaign Targeting Russian Aerospace Organizations",
-        "numbers_checked": 1,
+        "title": "Indonesian Banking Sector Threat Landscape",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "India's government and energy sectors targeted with ZOHOMURK and MINIRECON",
-        "numbers_checked": 2,
+        "title": "From Invoice to AnyDesk: Uncovering a Phishing Campaign Targeting Russian Aerospace Organizations",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -114,10 +114,10 @@
     "status_counts": {
       "verified": 9
     },
-    "verified_at": "2026-08-09T06:51:09.560851Z",
+    "verified_at": "2026-08-10T07:26:30.716453Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-09T06:51:12.052683Z",
+  "last_updated": "2026-08-10T07:26:32.425293Z",
   "ai": {
     "feed": "ai",
     "checked": 6,
@@ -206,7 +206,7 @@
     "status_counts": {
       "verified": 6
     },
-    "verified_at": "2026-08-09T06:51:10.118603Z",
+    "verified_at": "2026-08-10T07:26:30.989400Z",
     "llm_adversary": false
   },
   "macro": {
@@ -308,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-09T06:51:12.052683Z",
+    "verified_at": "2026-08-10T07:26:32.425293Z",
     "llm_adversary": false
   }
 }
