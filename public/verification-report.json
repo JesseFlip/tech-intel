@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 9,
+    "checked": 10,
     "items": [
       {
         "index": 0,
-        "title": "One Target, Two Flags | Rival Espionage Actors Converge On Pakistani Law Enforcement",
-        "numbers_checked": 4,
+        "title": "Powercat malware campaign: Fake game cheats deliver infostealer",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+        "title": "Integrating AI into Attack Operations, From AI-Generated Decoy Documents to a Local LLM",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Indonesian Banking Sector Threat Landscape",
-        "numbers_checked": 2,
+        "title": "Investigating a Multi-Stage PowerShell Loader",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "From Invoice to AnyDesk: Uncovering a Phishing Campaign Targeting Russian Aerospace Organizations",
-        "numbers_checked": 1,
+        "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -109,15 +109,24 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 9
+      "verified": 10
     },
-    "verified_at": "2026-08-10T07:26:30.716453Z",
+    "verified_at": "2026-08-11T07:01:24.874918Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-10T07:26:32.425293Z",
+  "last_updated": "2026-08-11T07:02:17.012644Z",
   "ai": {
     "feed": "ai",
     "checked": 6,
@@ -206,7 +215,7 @@
     "status_counts": {
       "verified": 6
     },
-    "verified_at": "2026-08-10T07:26:30.989400Z",
+    "verified_at": "2026-08-11T07:01:25.636126Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +278,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.69,
+        "value": 4.65,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +287,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.25,
+        "value": 4.19,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +305,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.4400000000000004,
+        "value": 0.45999999999999996,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-10T07:26:32.425293Z",
+    "verified_at": "2026-08-11T07:02:17.012644Z",
     "llm_adversary": false
   }
 }

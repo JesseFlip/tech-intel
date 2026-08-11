@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-11",
+  "timestamp": "2026-08-11T07:01:24.875955",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Powercat malware campaign: Fake game cheats deliver infostealer",
+      "content": "In February 2026, an active malware delivery campaign named Powercat was observed distributing infostealer malware disguised as utility or cheat software for popular PC games including Roblox, Minecraft, and Grand Theft Auto V. The multi-stage infection chain begins with an initial executable that profiles victims and establishes persistence, followed by a Java-based loader that deploys the final... This pulse includes 20 indicators of compromise (IOCs). Associated malware: Powercat.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a79d611fbc9cb6fa6102a8b",
+      "verification": "verified"
+    },
+    {
+      "title": "Integrating AI into Attack Operations, From AI-Generated Decoy Documents to a Local LLM",
+      "content": "The Kimsuky threat group has integrated artificial intelligence capabilities into its attack operations, establishing local large language model environments using Ollama, GPT4All, and Msty. Evidence indicates the group is accumulating technologies to incorporate AI across attack operations, including AI-generated decoy documents and retrieval-augmented generation for document analysis. The... This pulse includes 78 indicators of compromise (IOCs). Targeted industries: Government, Defense, Finance. Associated malware: AsyncRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a79d612a1f9e2ac4e744aa8",
+      "verification": "verified"
+    },
+    {
+      "title": "Investigating a Multi-Stage PowerShell Loader",
+      "content": "A threat hunting investigation identified suspicious PowerShell content served from an IP address (203.188.171.166) and domain (dorenzaa.com), both retrieving ZIP archives from Vercel-hosted infrastructure. The PowerShell loaders extract and execute payloads locally, including Grape.exe, UltraToolliteSetup.exe, and draw.io.exe. Analysis revealed heavily obfuscated PowerShell stages utilizing... This pulse includes 16 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a79de355f436f32f159929b",
+      "verification": "verified"
+    },
+    {
+      "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
+      "content": "UNC6671 continues conducting data theft extortion operations despite the alleged retirement of the BlackFile brand in May 2026. The threat actor has diversified across multiple extortion fronts including Redact, Pink, Helix, and Falcon. They employ voice phishing tactics, posing as IT helpdesk staff to contact employees on personal mobile devices, directing them to spoofed login portals with... This pulse includes 79 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Transportation.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a75078f7b8e057bc29b8769",
+      "verification": "verified"
+    }
+  ]
+}
