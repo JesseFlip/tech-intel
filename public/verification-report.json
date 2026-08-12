@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 8,
     "items": [
       {
         "index": 0,
-        "title": "Powercat malware campaign: Fake game cheats deliver infostealer",
-        "numbers_checked": 2,
+        "title": "Shattering the Dream - When a Job Offer Becomes a Zero-Day Attack",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Integrating AI into Attack Operations, From AI-Generated Decoy Documents to a Local LLM",
-        "numbers_checked": 2,
+        "title": "Fake CCleaner installs GhostDesk Chrome spyware",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Investigating a Multi-Stage PowerShell Loader",
-        "numbers_checked": 3,
+        "title": "CaptiveCrunch: Midnight Blizzard Weaponizes Hotel Wi-Fi Captive Portals to Steal Microsoft 365 Credentials",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
-        "numbers_checked": 3,
+        "title": "Tracking Shai-Hulud: Inside the ChainDrop NPM Worm",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -100,33 +100,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 8
     },
-    "verified_at": "2026-08-11T07:01:24.874918Z",
+    "verified_at": "2026-08-12T07:19:44.477553Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-11T07:02:17.012644Z",
+  "last_updated": "2026-08-12T07:19:46.514770Z",
   "ai": {
     "feed": "ai",
     "checked": 6,
@@ -215,7 +197,7 @@
     "status_counts": {
       "verified": 6
     },
-    "verified_at": "2026-08-11T07:01:25.636126Z",
+    "verified_at": "2026-08-12T07:19:45.202775Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +260,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.65,
+        "value": 4.72,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +269,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.19,
+        "value": 4.25,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +287,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.45999999999999996,
+        "value": 0.46999999999999975,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-11T07:02:17.012644Z",
+    "verified_at": "2026-08-12T07:19:46.514770Z",
     "llm_adversary": false
   }
 }

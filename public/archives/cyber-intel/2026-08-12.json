@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-12",
+  "timestamp": "2026-08-12T07:19:44.478568",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Shattering the Dream - When a Job Offer Becomes a Zero-Day Attack",
+      "content": "The provided document does not contain an intelligence report. Instead, it appears to be a webpage notification indicating that JavaScript needs to be enabled in the browser to proceed with viewing content. The page includes a verification mechanism to confirm that the user is not an automated bot. No threat intelligence information, malicious activity, threat actors, malware campaigns, attack... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Defense, Aerospace. Associated malware: FudModule, SecurityPDF, RelayShell.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7b8b7a783979ea34063bad",
+      "verification": "verified"
+    },
+    {
+      "title": "Fake CCleaner installs GhostDesk Chrome spyware",
+      "content": "A fraudulent version of the widely-used PC cleaning utility CCleaner is being distributed through a convincing imitation website to deploy GhostDesk, a malicious Chrome extension functioning as spyware. The attack begins when users download the fake application from a lookalike site, which then launches a multi-stage infection using CScript to modify Chrome's Security Extension and install... This pulse includes 15 indicators of compromise (IOCs). Associated malware: GhostDesk.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7b8dab529ad28b12d29796",
+      "verification": "verified"
+    },
+    {
+      "title": "CaptiveCrunch: Midnight Blizzard Weaponizes Hotel Wi-Fi Captive Portals to Steal Microsoft 365 Credentials",
+      "content": "A sophisticated credential theft campaign manipulates DNS and HTTP traffic on captive portal networks at hotels, conference centers, and hospitality venues to redirect victims to attacker-controlled infrastructure. The operation harvests Microsoft 365 credentials through phishing pages, device code phishing abusing Microsoft Entra ID authentication flow, and malware delivery via ClickFix social... This pulse includes 16 indicators of compromise (IOCs). Associated malware: CornFlake, ChocoShell.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7bdb051d6a41c7ea440061",
+      "verification": "verified"
+    },
+    {
+      "title": "Tracking Shai-Hulud: Inside the ChainDrop NPM Worm",
+      "content": "On August 4, 2026, ChainDrop, a self-propagating worm variant of Mini Shai-Hulud linked to TeamPCP, infiltrated the npm ecosystem through a compromised maintainer account of the keyv ecosystem. The attacker injected malicious code into GitHub repositories, weaponizing legitimate CI/CD pipelines to publish poisoned packages with valid SLSA Build Level 3 provenance attestations, making them... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ChainDrop, Shai-Hulud, Mini Shai-Hulud.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7bdb4167c384aad06f1253",
+      "verification": "verified"
+    }
+  ]
+}

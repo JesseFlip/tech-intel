@@ -1,30 +1,30 @@
 [
   {
-    "title": "Powercat malware campaign: Fake game cheats deliver infostealer",
-    "content": "In February 2026, an active malware delivery campaign named Powercat was observed distributing infostealer malware disguised as utility or cheat software for popular PC games including Roblox, Minecraft, and Grand Theft Auto V. The multi-stage infection chain begins with an initial executable that profiles victims and establishes persistence, followed by a Java-based loader that deploys the final... This pulse includes 20 indicators of compromise (IOCs). Associated malware: Powercat.",
+    "title": "Shattering the Dream - When a Job Offer Becomes a Zero-Day Attack",
+    "content": "The provided document does not contain an intelligence report. Instead, it appears to be a webpage notification indicating that JavaScript needs to be enabled in the browser to proceed with viewing content. The page includes a verification mechanism to confirm that the user is not an automated bot. No threat intelligence information, malicious activity, threat actors, malware campaigns, attack... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Defense, Aerospace. Associated malware: FudModule, SecurityPDF, RelayShell.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a79d611fbc9cb6fa6102a8b",
+    "url": "https://otx.alienvault.com/pulse/6a7b8b7a783979ea34063bad",
     "verification": "verified"
   },
   {
-    "title": "Integrating AI into Attack Operations, From AI-Generated Decoy Documents to a Local LLM",
-    "content": "The Kimsuky threat group has integrated artificial intelligence capabilities into its attack operations, establishing local large language model environments using Ollama, GPT4All, and Msty. Evidence indicates the group is accumulating technologies to incorporate AI across attack operations, including AI-generated decoy documents and retrieval-augmented generation for document analysis. The... This pulse includes 78 indicators of compromise (IOCs). Targeted industries: Government, Defense, Finance. Associated malware: AsyncRAT.",
+    "title": "Fake CCleaner installs GhostDesk Chrome spyware",
+    "content": "A fraudulent version of the widely-used PC cleaning utility CCleaner is being distributed through a convincing imitation website to deploy GhostDesk, a malicious Chrome extension functioning as spyware. The attack begins when users download the fake application from a lookalike site, which then launches a multi-stage infection using CScript to modify Chrome's Security Extension and install... This pulse includes 15 indicators of compromise (IOCs). Associated malware: GhostDesk.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a79d612a1f9e2ac4e744aa8",
+    "url": "https://otx.alienvault.com/pulse/6a7b8dab529ad28b12d29796",
     "verification": "verified"
   },
   {
-    "title": "Investigating a Multi-Stage PowerShell Loader",
-    "content": "A threat hunting investigation identified suspicious PowerShell content served from an IP address (203.188.171.166) and domain (dorenzaa.com), both retrieving ZIP archives from Vercel-hosted infrastructure. The PowerShell loaders extract and execute payloads locally, including Grape.exe, UltraToolliteSetup.exe, and draw.io.exe. Analysis revealed heavily obfuscated PowerShell stages utilizing... This pulse includes 16 indicators of compromise (IOCs).",
+    "title": "CaptiveCrunch: Midnight Blizzard Weaponizes Hotel Wi-Fi Captive Portals to Steal Microsoft 365 Credentials",
+    "content": "A sophisticated credential theft campaign manipulates DNS and HTTP traffic on captive portal networks at hotels, conference centers, and hospitality venues to redirect victims to attacker-controlled infrastructure. The operation harvests Microsoft 365 credentials through phishing pages, device code phishing abusing Microsoft Entra ID authentication flow, and malware delivery via ClickFix social... This pulse includes 16 indicators of compromise (IOCs). Associated malware: CornFlake, ChocoShell.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a79de355f436f32f159929b",
+    "url": "https://otx.alienvault.com/pulse/6a7bdb051d6a41c7ea440061",
     "verification": "verified"
   },
   {
-    "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
-    "content": "UNC6671 continues conducting data theft extortion operations despite the alleged retirement of the BlackFile brand in May 2026. The threat actor has diversified across multiple extortion fronts including Redact, Pink, Helix, and Falcon. They employ voice phishing tactics, posing as IT helpdesk staff to contact employees on personal mobile devices, directing them to spoofed login portals with... This pulse includes 79 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Transportation.",
+    "title": "Tracking Shai-Hulud: Inside the ChainDrop NPM Worm",
+    "content": "On August 4, 2026, ChainDrop, a self-propagating worm variant of Mini Shai-Hulud linked to TeamPCP, infiltrated the npm ecosystem through a compromised maintainer account of the keyv ecosystem. The attacker injected malicious code into GitHub repositories, weaponizing legitimate CI/CD pipelines to publish poisoned packages with valid SLSA Build Level 3 provenance attestations, making them... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ChainDrop, Shai-Hulud, Mini Shai-Hulud.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a75078f7b8e057bc29b8769",
+    "url": "https://otx.alienvault.com/pulse/6a7bdb4167c384aad06f1253",
     "verification": "verified"
   }
 ]
