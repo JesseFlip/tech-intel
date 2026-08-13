@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-13",
+  "timestamp": "2026-08-13T07:22:27.743519",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Tomorrowland 2026, Belgium: People of Tomorrow, Targets of Today",
+      "content": "Tomorrowland Belgium 2026, spanning two weekends in July at De Schorre in Boom, sold out rapidly, creating opportunities for cybercriminals. Investigation uncovered approximately a dozen fraudulent websites impersonating the festival brand to target ticket seekers and travellers. These scams include fake ticket shops mimicking official sales with countdown timers and fraudulent biometric checks,... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Hospitality, Entertainment.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a55e306b92e2ed9438ab45f",
+      "verification": "verified"
+    },
+    {
+      "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+      "content": "Between mid-2025 and mid-2026, threat actors using tradecraft associated with ShinyHunters targeted customer SaaS applications, particularly Salesforce instances, through three primary intrusion paths. Voice phishing campaigns impersonated IT support to trick employees into authorizing malicious OAuth applications. Supply chain compromises leveraged trusted integrations including Salesloft,... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Retail, Education, Manufacturing.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a55a1380d4e12c0ea409b6e",
+      "verification": "verified"
+    },
+    {
+      "title": "Fake popular sites offer a free app, instead take over PCs",
+      "content": "A campaign uses fake websites impersonating CNN, Stremio, and Avast to distribute legitimate remote administration software O&O Syspectr pre-linked to attacker accounts. The lookalike sites closely mimic authentic homepages and trick Windows users into downloading installers that appear legitimate but grant attackers remote access to victim computers. Additional fake sites use cryptocurrency... This pulse includes 5 indicators of compromise (IOCs). Associated malware: O&O Syspectr.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7c2827f67f1ff14996237e",
+      "verification": "verified"
+    },
+    {
+      "title": "Gone with the WindRelay: A New Malware Combo Behind a Growing Fraud Scheme",
+      "content": "A new NFC relay malware family called WindRelay has been discovered operating in combination with SpyNote RAT to enable sophisticated contactless payment fraud. The scheme uses live social engineering phone calls where fraudsters impersonate bank employees and guide victims to install personalized RAT malware labeled with the victim's own name. Once installed, the RAT enables silent deployment of... This pulse includes 74 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: WindRelay, SpyNote, NFCGate.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7c6340682f0dc9b225d8d6",
+      "verification": "verified"
+    }
+  ]
+}
