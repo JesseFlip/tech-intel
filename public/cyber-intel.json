@@ -1,30 +1,30 @@
 [
   {
-    "title": "Tomorrowland 2026, Belgium: People of Tomorrow, Targets of Today",
-    "content": "Tomorrowland Belgium 2026, spanning two weekends in July at De Schorre in Boom, sold out rapidly, creating opportunities for cybercriminals. Investigation uncovered approximately a dozen fraudulent websites impersonating the festival brand to target ticket seekers and travellers. These scams include fake ticket shops mimicking official sales with countdown timers and fraudulent biometric checks,... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Hospitality, Entertainment.",
+    "title": "Suspected Chinese Operators Use Claude Code and DeepSeek to Breach Government Systems Across Four Countries",
+    "content": "In June 2026, infrastructure pivoting from TencShell C2 nodes revealed an active intrusion campaign utilizing AI language models for attack automation. Thirteen Hong Kong-based servers across four ASNs exposed an open directory containing victim source code, custom exploits, operational logs, and cloned login pages with notes in Simplified Chinese. The operation employed Claude Code for execution... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Finance, Telecommunications. Associated malware: TencShell, HSEWH-Ur, Vshell.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a55e306b92e2ed9438ab45f",
+    "url": "https://otx.alienvault.com/pulse/6a56a77a59a4d2b99d9aa87f",
     "verification": "verified"
   },
   {
-    "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
-    "content": "Between mid-2025 and mid-2026, threat actors using tradecraft associated with ShinyHunters targeted customer SaaS applications, particularly Salesforce instances, through three primary intrusion paths. Voice phishing campaigns impersonated IT support to trick employees into authorizing malicious OAuth applications. Supply chain compromises leveraged trusted integrations including Salesloft,... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Retail, Education, Manufacturing.",
+    "title": "LabubaRAT: A Rust Based Remote Access Tool Masquerading as NVIDIA Software",
+    "content": "A previously undocumented remote access tool named LabubaRAT has been identified, masquerading as NVIDIA software through fake metadata and runtime artifacts. This Rust-based malware creates persistent footholds enabling hands-on operator activity including host profiling, security tool identification, command execution, file transfers, screenshot capture, and traffic proxying. The implant... This pulse includes 5 indicators of compromise (IOCs). Associated malware: LabubaRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a55a1380d4e12c0ea409b6e",
+    "url": "https://otx.alienvault.com/pulse/6a56a77949905f89b073e5fd",
     "verification": "verified"
   },
   {
-    "title": "Fake popular sites offer a free app, instead take over PCs",
-    "content": "A campaign uses fake websites impersonating CNN, Stremio, and Avast to distribute legitimate remote administration software O&O Syspectr pre-linked to attacker accounts. The lookalike sites closely mimic authentic homepages and trick Windows users into downloading installers that appear legitimate but grant attackers remote access to victim computers. Additional fake sites use cryptocurrency... This pulse includes 5 indicators of compromise (IOCs). Associated malware: O&O Syspectr.",
+    "title": "​​Kratos PhaaS Targets US and EU: How to Reduce Microsoft 365 Account Takeover Risk​",
+    "content": "Kratos is a mature Phishing-as-a-Service operation targeting Microsoft 365 users across the United States, Europe, and other regions. The platform enables attackers to steal credentials through trusted platforms, anti-bot verification, and convincing login pages. Researchers traced three generations of the kit and uncovered 1,484 previously unattributed detonations. The operation targets... This pulse includes 23 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7c2827f67f1ff14996237e",
+    "url": "https://otx.alienvault.com/pulse/6a566597c655f8331b4e00ad",
     "verification": "verified"
   },
   {
-    "title": "Gone with the WindRelay: A New Malware Combo Behind a Growing Fraud Scheme",
-    "content": "A new NFC relay malware family called WindRelay has been discovered operating in combination with SpyNote RAT to enable sophisticated contactless payment fraud. The scheme uses live social engineering phone calls where fraudsters impersonate bank employees and guide victims to install personalized RAT malware labeled with the victim's own name. Once installed, the RAT enables silent deployment of... This pulse includes 74 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: WindRelay, SpyNote, NFCGate.",
+    "title": "Recent Attack Activity Analysis Using North Korea-Related Lures",
+    "content": "APT-C-06 (Darkhotel) is an APT organization that has been active since at least 2007, targeting corporate executives, defense industries, and electronics sectors. In April 2026, the group launched phishing attacks using a decoy document titled 'North Korean Central Television Real-time Broadcasting Program Instructions.' The document instructs users to download an application for watching North... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Defense, Technology.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7c6340682f0dc9b225d8d6",
+    "url": "https://otx.alienvault.com/pulse/6a7dc1fd395815126acd4647",
     "verification": "verified"
   }
 ]
