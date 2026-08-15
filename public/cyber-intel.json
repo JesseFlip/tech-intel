@@ -1,30 +1,30 @@
 [
   {
-    "title": "Suspected Chinese Operators Use Claude Code and DeepSeek to Breach Government Systems Across Four Countries",
-    "content": "In June 2026, infrastructure pivoting from TencShell C2 nodes revealed an active intrusion campaign utilizing AI language models for attack automation. Thirteen Hong Kong-based servers across four ASNs exposed an open directory containing victim source code, custom exploits, operational logs, and cloned login pages with notes in Simplified Chinese. The operation employed Claude Code for execution... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Finance, Telecommunications. Associated malware: TencShell, HSEWH-Ur, Vshell.",
+    "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
+    "content": "On July 14, 2026, a coordinated supply chain attack compromised the @asyncapi npm organization, affecting five package versions across four packages. The attack originated from a GitHub Actions workflow vulnerability that exposed privileged credentials, enabling unauthorized code injection. Unlike typical postinstall attacks, this campaign executes at module import time, bypassing common npm... This pulse includes 18 indicators of compromise (IOCs). Associated malware: Miasma, BLUERABBIT, GigaWiper.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a56a77a59a4d2b99d9aa87f",
+    "url": "https://otx.alienvault.com/pulse/6a58813c09a76d1819c69bb0",
     "verification": "verified"
   },
   {
-    "title": "LabubaRAT: A Rust Based Remote Access Tool Masquerading as NVIDIA Software",
-    "content": "A previously undocumented remote access tool named LabubaRAT has been identified, masquerading as NVIDIA software through fake metadata and runtime artifacts. This Rust-based malware creates persistent footholds enabling hands-on operator activity including host profiling, security tool identification, command execution, file transfers, screenshot capture, and traffic proxying. The implant... This pulse includes 5 indicators of compromise (IOCs). Associated malware: LabubaRAT.",
+    "title": "Miasma Worm Returns to npm",
+    "content": "Four AsyncAPI npm packages were compromised in July 2026, delivering Miasma v3, a new variant of the worm previously found in Red Hat packages. The malicious versions (@asyncapi/generator, @asyncapi/generator-helpers, @asyncapi/generator-components, and @asyncapi/specs) were published through AsyncAPI's legitimate GitHub Actions workflow using npm's OIDC integration, creating packages with valid... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Miasma v3.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a56a77949905f89b073e5fd",
+    "url": "https://otx.alienvault.com/pulse/6a579712c94f47186288661d",
     "verification": "verified"
   },
   {
-    "title": "​​Kratos PhaaS Targets US and EU: How to Reduce Microsoft 365 Account Takeover Risk​",
-    "content": "Kratos is a mature Phishing-as-a-Service operation targeting Microsoft 365 users across the United States, Europe, and other regions. The platform enables attackers to steal credentials through trusted platforms, anti-bot verification, and convincing login pages. Researchers traced three generations of the kit and uncovered 1,484 previously unattributed detonations. The operation targets... This pulse includes 23 indicators of compromise (IOCs).",
+    "title": "Six Minutes to Compromise: How 'Patriot Bait' Actor Used AI to Build and Deploy a C&C Botnet",
+    "content": "A Russian-speaking threat actor known as 'bandcampro' leveraged Google Gemini CLI to migrate and operate a command-and-control botnet in six minutes, with the AI handling 89% of all work including architecture, coding, deployment, and debugging. Analysis of 200 Gemini CLI session logs from March-April 2026 revealed the actor controlled eight computers in a dental clinic, accessing OpenDental... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Healthcare.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a566597c655f8331b4e00ad",
+    "url": "https://otx.alienvault.com/pulse/6a57358efddea38fc28153f6",
     "verification": "verified"
   },
   {
-    "title": "Recent Attack Activity Analysis Using North Korea-Related Lures",
-    "content": "APT-C-06 (Darkhotel) is an APT organization that has been active since at least 2007, targeting corporate executives, defense industries, and electronics sectors. In April 2026, the group launched phishing attacks using a decoy document titled 'North Korean Central Television Real-time Broadcasting Program Instructions.' The document instructs users to download an application for watching North... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Defense, Technology.",
+    "title": "TA416 resumes European government espionage campaigns",
+    "content": "Since mid-2025, China-aligned threat actor TA416 has resumed targeting European government and diplomatic organizations after a two-year operational shift to Southeast Asia. The campaigns primarily focused on diplomatic missions to the EU and NATO, using web bug reconnaissance and malware delivery through compromised accounts and attacker-controlled infrastructure. In March 2026, TA416 expanded... This pulse includes 255 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: PlugX - S0013, Thoper, TVT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7dc1fd395815126acd4647",
+    "url": "https://otx.alienvault.com/pulse/69d4e667e8ab2d6d4082fc5b",
     "verification": "verified"
   }
 ]
