@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-16",
+  "timestamp": "2026-08-16T06:34:19.121653",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "GoSerpent backdoor attacks in Southeast Asia",
+      "content": "Since late 2025, government and diplomatic entities in Southeast Asia have been targeted by sophisticated attacks involving GoSerpent, a Go-based RAT with proxy capabilities. The malware receives encrypted arguments and deploys additional tools for data collection and credential dumping. GoSerpent has been active since 2021, with newer variants using AES-CBC encryption and ChaCha20 for... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GoSerpent, McMx, ThumbcacheService.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a590384cb730e14eaafeac5",
+      "verification": "verified"
+    },
+    {
+      "title": "HelloNet campaign: a threat via the ViPNet update system",
+      "content": "An active APT campaign discovered in May 2026 exploits the ViPNet update system to deploy previously unknown tooling against large Russian organizations. Attackers achieve persistence through DLL sideloading, placing malicious wtsapi32.dll in ViPNet directories. The campaign employs multiple components: HelloInjector loader, HelloProxy for traffic proxying and payload delivery, HelloExecutor... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Government, Energy, Transportation. Associated malware: HelloInjector, HelloProxy, HelloExecutor.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5903832a32a07a14de0d86",
+      "verification": "verified"
+    },
+    {
+      "title": "The TTF Trap: A Global Campaign of a Low-Detection Lua Loader",
+      "content": "Since late March 2026, a large-scale phishing campaign has been deploying malware including Agent Tesla, Remcos, XWorm, and Best Private LOGGER through fileless techniques and low-detection Lua-based loaders. Attackers impersonate well-known companies using business cooperation lures to distribute malicious archives containing obfuscated JavaScript files. These scripts deploy either AutoIt or... This pulse includes 48 indicators of compromise (IOCs). Associated malware: Agent Tesla - S0331, Remcos, XWorm.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a59018a415370b96937338d",
+      "verification": "verified"
+    },
+    {
+      "title": "Spirals: New Stealthy Ransomware Deployed Against Asian IT Company",
+      "content": "A previously unseen ransomware family named Spirals was deployed in a double extortion attack against an IT services company in South Asia in June 2026. The Rust-based payload demonstrated sophisticated capabilities including defense evasion, encryption, lateral movement, and privilege escalation. Attackers gained initial access through a compromised internet-facing IIS web server via an ASP.NET... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Spirals, ASP.NET web shell, revsocks.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a58c2ecd43c8e98d4bdd2e0",
+      "verification": "verified"
+    }
+  ]
+}

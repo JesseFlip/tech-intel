@@ -1,30 +1,30 @@
 [
   {
-    "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
-    "content": "On July 14, 2026, a coordinated supply chain attack compromised the @asyncapi npm organization, affecting five package versions across four packages. The attack originated from a GitHub Actions workflow vulnerability that exposed privileged credentials, enabling unauthorized code injection. Unlike typical postinstall attacks, this campaign executes at module import time, bypassing common npm... This pulse includes 18 indicators of compromise (IOCs). Associated malware: Miasma, BLUERABBIT, GigaWiper.",
+    "title": "GoSerpent backdoor attacks in Southeast Asia",
+    "content": "Since late 2025, government and diplomatic entities in Southeast Asia have been targeted by sophisticated attacks involving GoSerpent, a Go-based RAT with proxy capabilities. The malware receives encrypted arguments and deploys additional tools for data collection and credential dumping. GoSerpent has been active since 2021, with newer variants using AES-CBC encryption and ChaCha20 for... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GoSerpent, McMx, ThumbcacheService.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a58813c09a76d1819c69bb0",
+    "url": "https://otx.alienvault.com/pulse/6a590384cb730e14eaafeac5",
     "verification": "verified"
   },
   {
-    "title": "Miasma Worm Returns to npm",
-    "content": "Four AsyncAPI npm packages were compromised in July 2026, delivering Miasma v3, a new variant of the worm previously found in Red Hat packages. The malicious versions (@asyncapi/generator, @asyncapi/generator-helpers, @asyncapi/generator-components, and @asyncapi/specs) were published through AsyncAPI's legitimate GitHub Actions workflow using npm's OIDC integration, creating packages with valid... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Miasma v3.",
+    "title": "HelloNet campaign: a threat via the ViPNet update system",
+    "content": "An active APT campaign discovered in May 2026 exploits the ViPNet update system to deploy previously unknown tooling against large Russian organizations. Attackers achieve persistence through DLL sideloading, placing malicious wtsapi32.dll in ViPNet directories. The campaign employs multiple components: HelloInjector loader, HelloProxy for traffic proxying and payload delivery, HelloExecutor... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Government, Energy, Transportation. Associated malware: HelloInjector, HelloProxy, HelloExecutor.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a579712c94f47186288661d",
+    "url": "https://otx.alienvault.com/pulse/6a5903832a32a07a14de0d86",
     "verification": "verified"
   },
   {
-    "title": "Six Minutes to Compromise: How 'Patriot Bait' Actor Used AI to Build and Deploy a C&C Botnet",
-    "content": "A Russian-speaking threat actor known as 'bandcampro' leveraged Google Gemini CLI to migrate and operate a command-and-control botnet in six minutes, with the AI handling 89% of all work including architecture, coding, deployment, and debugging. Analysis of 200 Gemini CLI session logs from March-April 2026 revealed the actor controlled eight computers in a dental clinic, accessing OpenDental... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Healthcare.",
+    "title": "The TTF Trap: A Global Campaign of a Low-Detection Lua Loader",
+    "content": "Since late March 2026, a large-scale phishing campaign has been deploying malware including Agent Tesla, Remcos, XWorm, and Best Private LOGGER through fileless techniques and low-detection Lua-based loaders. Attackers impersonate well-known companies using business cooperation lures to distribute malicious archives containing obfuscated JavaScript files. These scripts deploy either AutoIt or... This pulse includes 48 indicators of compromise (IOCs). Associated malware: Agent Tesla - S0331, Remcos, XWorm.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a57358efddea38fc28153f6",
+    "url": "https://otx.alienvault.com/pulse/6a59018a415370b96937338d",
     "verification": "verified"
   },
   {
-    "title": "TA416 resumes European government espionage campaigns",
-    "content": "Since mid-2025, China-aligned threat actor TA416 has resumed targeting European government and diplomatic organizations after a two-year operational shift to Southeast Asia. The campaigns primarily focused on diplomatic missions to the EU and NATO, using web bug reconnaissance and malware delivery through compromised accounts and attacker-controlled infrastructure. In March 2026, TA416 expanded... This pulse includes 255 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: PlugX - S0013, Thoper, TVT.",
+    "title": "Spirals: New Stealthy Ransomware Deployed Against Asian IT Company",
+    "content": "A previously unseen ransomware family named Spirals was deployed in a double extortion attack against an IT services company in South Asia in June 2026. The Rust-based payload demonstrated sophisticated capabilities including defense evasion, encryption, lateral movement, and privilege escalation. Attackers gained initial access through a compromised internet-facing IIS web server via an ASP.NET... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Spirals, ASP.NET web shell, revsocks.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/69d4e667e8ab2d6d4082fc5b",
+    "url": "https://otx.alienvault.com/pulse/6a58c2ecd43c8e98d4bdd2e0",
     "verification": "verified"
   }
 ]
