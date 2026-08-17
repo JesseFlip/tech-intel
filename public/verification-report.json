@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "GoSerpent backdoor attacks in Southeast Asia",
+        "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 1,
+        "title": "GoSerpent backdoor attacks in Southeast Asia",
+        "numbers_checked": 4,
+        "status": "verified"
+      },
+      {
+        "index": 2,
         "title": "HelloNet campaign: a threat via the ViPNet update system",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
-        "index": 2,
+        "index": 3,
         "title": "The TTF Trap: A Global Campaign of a Low-Detection Lua Loader",
         "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
-        "index": 3,
-        "title": "Spirals: New Stealthy Ransomware Deployed Against Asian IT Company",
-        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -136,15 +136,33 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 14
     },
-    "verified_at": "2026-08-16T06:34:19.120785Z",
+    "verified_at": "2026-08-17T06:48:35.399934Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-16T06:34:21.506383Z",
+  "last_updated": "2026-08-17T06:48:36.990858Z",
   "ai": {
     "feed": "ai",
     "checked": 5,
@@ -224,7 +242,7 @@
     "status_counts": {
       "verified": 5
     },
-    "verified_at": "2026-08-16T06:34:19.779271Z",
+    "verified_at": "2026-08-17T06:48:35.614602Z",
     "llm_adversary": false
   },
   "macro": {
@@ -326,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-16T06:34:21.506383Z",
+    "verified_at": "2026-08-17T06:48:36.990858Z",
     "llm_adversary": false
   }
 }
