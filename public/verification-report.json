@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 14,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
+        "title": "Still Circling: Toolkit Keeps Evolving",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "GoSerpent backdoor attacks in Southeast Asia",
-        "numbers_checked": 4,
+        "title": "New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "HelloNet campaign: a threat via the ViPNet update system",
-        "numbers_checked": 3,
+        "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "The TTF Trap: A Global Campaign of a Low-Detection Lua Loader",
-        "numbers_checked": 3,
+        "title": "GoSerpent backdoor attacks in Southeast Asia",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -154,15 +154,24 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 14
+      "verified": 15
     },
-    "verified_at": "2026-08-17T06:48:35.399934Z",
+    "verified_at": "2026-08-18T06:38:27.472791Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-17T06:48:36.990858Z",
+  "last_updated": "2026-08-18T06:38:29.054292Z",
   "ai": {
     "feed": "ai",
     "checked": 5,
@@ -242,7 +251,7 @@
     "status_counts": {
       "verified": 5
     },
-    "verified_at": "2026-08-17T06:48:35.614602Z",
+    "verified_at": "2026-08-18T06:38:27.875536Z",
     "llm_adversary": false
   },
   "macro": {
@@ -305,7 +314,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.63,
+        "value": 4.68,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +323,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.15,
+        "value": 4.17,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +341,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.47999999999999954,
+        "value": 0.5099999999999998,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -344,7 +353,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-17T06:48:36.990858Z",
+    "verified_at": "2026-08-18T06:38:29.054292Z",
     "llm_adversary": false
   }
 }

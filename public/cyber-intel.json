@@ -1,5 +1,19 @@
 [
   {
+    "title": "Still Circling: Toolkit Keeps Evolving",
+    "content": "Between May and July 2026, researchers tracked the Latin America-focused threat actor Blind Eagle through multiple exposed staging servers, identifying significant toolkit evolution. Four key developments emerged: a third string-obfuscation scheme featuring JavaScript with custom AES S-box substitution, a RunPE loader using bare AutoIt3 interpreter staged via GitHub, a reusable 'Photo Studio'... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: AsyncRAT, njRAT - S0385, Njw0rm.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a5b639c3194d1cc5f0e281b",
+    "verification": "verified"
+  },
+  {
+    "title": "New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies",
+    "content": "A sophisticated Linux botnet named Evooo1Bot has been actively targeting internet-facing devices since July 2026, exploiting multiple vulnerabilities in edge devices across diverse regions. Built on the leaked Mirai source code, this modular botnet features significantly enhanced capabilities including encrypted command-and-control communications, SSH brute-force scanning, and a reverse SOCKS... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Evooo1Bot, Mirai.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a7f349eb2e90e5a682c7e6f",
+    "verification": "verified"
+  },
+  {
     "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
     "content": "NadMesh is an industrial-grade Go-based botnet observed in July 2026 that autonomously scans and exploits AI infrastructure and cloud services. The botnet integrates scanning, exploitation, and intelligence harvesting into a single platform targeting over 90 cloud provider address ranges. It employs 20+ exploitation vectors against Redis, Docker, MCP, Kubernetes, and other services, with... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: NadMesh.",
     "linkText": "View on AlienVault OTX →",
@@ -11,20 +25,6 @@
     "content": "Since late 2025, government and diplomatic entities in Southeast Asia have been targeted by sophisticated attacks involving GoSerpent, a Go-based RAT with proxy capabilities. The malware receives encrypted arguments and deploys additional tools for data collection and credential dumping. GoSerpent has been active since 2021, with newer variants using AES-CBC encryption and ChaCha20 for... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GoSerpent, McMx, ThumbcacheService.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a590384cb730e14eaafeac5",
-    "verification": "verified"
-  },
-  {
-    "title": "HelloNet campaign: a threat via the ViPNet update system",
-    "content": "An active APT campaign discovered in May 2026 exploits the ViPNet update system to deploy previously unknown tooling against large Russian organizations. Attackers achieve persistence through DLL sideloading, placing malicious wtsapi32.dll in ViPNet directories. The campaign employs multiple components: HelloInjector loader, HelloProxy for traffic proxying and payload delivery, HelloExecutor... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Government, Energy, Transportation. Associated malware: HelloInjector, HelloProxy, HelloExecutor.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5903832a32a07a14de0d86",
-    "verification": "verified"
-  },
-  {
-    "title": "The TTF Trap: A Global Campaign of a Low-Detection Lua Loader",
-    "content": "Since late March 2026, a large-scale phishing campaign has been deploying malware including Agent Tesla, Remcos, XWorm, and Best Private LOGGER through fileless techniques and low-detection Lua-based loaders. Attackers impersonate well-known companies using business cooperation lures to distribute malicious archives containing obfuscated JavaScript files. These scripts deploy either AutoIt or... This pulse includes 48 indicators of compromise (IOCs). Associated malware: Agent Tesla - S0331, Remcos, XWorm.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a59018a415370b96937338d",
     "verification": "verified"
   }
 ]
