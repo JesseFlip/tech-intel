@@ -1,30 +1,30 @@
 [
   {
-    "title": "Still Circling: Toolkit Keeps Evolving",
-    "content": "Between May and July 2026, researchers tracked the Latin America-focused threat actor Blind Eagle through multiple exposed staging servers, identifying significant toolkit evolution. Four key developments emerged: a third string-obfuscation scheme featuring JavaScript with custom AES S-box substitution, a RunPE loader using bare AutoIt3 interpreter staged via GitHub, a reusable 'Photo Studio'... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: AsyncRAT, njRAT - S0385, Njw0rm.",
+    "title": "Fraudulent Employment Operations",
+    "content": "Multiple clusters of North Korean IT workers, designated as PurpleDelta, have been identified applying to over 1,100 companies between late 2024 and early 2025, primarily targeting software, technology, staffing, consulting, and healthcare sectors. The operators maintained at least 22 fabricated personas supported by AI-generated profile photos, custom ChatGPT assistants, and fraudulent identity... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Technology, Healthcare, Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5b639c3194d1cc5f0e281b",
+    "url": "https://otx.alienvault.com/pulse/6a8478fdbb5ebd2c1549a543",
     "verification": "verified"
   },
   {
-    "title": "New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies",
-    "content": "A sophisticated Linux botnet named Evooo1Bot has been actively targeting internet-facing devices since July 2026, exploiting multiple vulnerabilities in edge devices across diverse regions. Built on the leaked Mirai source code, this modular botnet features significantly enhanced capabilities including encrypted command-and-control communications, SSH brute-force scanning, and a reverse SOCKS... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Evooo1Bot, Mirai.",
+    "title": "Signed Overwolf Binary Sideloads ValleyRAT Malware in India",
+    "content": "A phishing campaign targets Indian organizations by impersonating the Indian Income Tax Department. Victims receive emails containing links to spoofed notice pages that download ZIP archives. These archives include a legitimately signed Overwolf executable and two hidden files: a malicious DLL and an encrypted binary. When executed, the signed binary side-loads the malicious DLL through DLL... This pulse includes 36 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7f349eb2e90e5a682c7e6f",
+    "url": "https://otx.alienvault.com/pulse/6a8478fe441f9c15e06ee4cc",
     "verification": "verified"
   },
   {
-    "title": "Botnet Analysis: A Product-Grade Threat for the AI Service Era",
-    "content": "NadMesh is an industrial-grade Go-based botnet observed in July 2026 that autonomously scans and exploits AI infrastructure and cloud services. The botnet integrates scanning, exploitation, and intelligence harvesting into a single platform targeting over 90 cloud provider address ranges. It employs 20+ exploitation vectors against Redis, Docker, MCP, Kubernetes, and other services, with... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: NadMesh.",
+    "title": "Octagon: A New Android Bot Targeting Crypto Wallets and Banking Apps",
+    "content": "In June 2026, a previously undocumented Android fraud bot called Octagon was identified, sold as malware-as-a-service by Russian-speaking actor AndroidKitKat for $1,400 monthly. The malware employs accessibility overlays, hidden VNC, SMS interception, unlock-pattern capture, and balance reading capabilities to target cryptocurrency wallets, exchanges, and banking applications. Distributed through... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Octagon.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a5a11b5327ee76f3502c500",
+    "url": "https://otx.alienvault.com/pulse/6a8474eb4f130dfa41887e40",
     "verification": "verified"
   },
   {
-    "title": "GoSerpent backdoor attacks in Southeast Asia",
-    "content": "Since late 2025, government and diplomatic entities in Southeast Asia have been targeted by sophisticated attacks involving GoSerpent, a Go-based RAT with proxy capabilities. The malware receives encrypted arguments and deploys additional tools for data collection and credential dumping. GoSerpent has been active since 2021, with newer variants using AES-CBC encryption and ChaCha20 for... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GoSerpent, McMx, ThumbcacheService.",
+    "title": "Beware of Phishing Emails Disguised as Transaction Receipts",
+    "content": "A sophisticated phishing campaign has been identified where attackers impersonate employees of a US company, sending emails that claim to contain transaction receipts. Recipients are urged to verify fund deposits by opening an attached PDF file. The malicious PDF displays a fake Adobe Flash Player update prompt, which when clicked, downloads a VBS script. This script executes with administrator... This pulse includes 7 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a590384cb730e14eaafeac5",
+    "url": "https://otx.alienvault.com/pulse/6a8431e74688d3e47ef55014",
     "verification": "verified"
   }
 ]

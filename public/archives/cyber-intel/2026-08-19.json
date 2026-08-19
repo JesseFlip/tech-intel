@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-19",
+  "timestamp": "2026-08-19T06:38:01.524016",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Fraudulent Employment Operations",
+      "content": "Multiple clusters of North Korean IT workers, designated as PurpleDelta, have been identified applying to over 1,100 companies between late 2024 and early 2025, primarily targeting software, technology, staffing, consulting, and healthcare sectors. The operators maintained at least 22 fabricated personas supported by AI-generated profile photos, custom ChatGPT assistants, and fraudulent identity... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Technology, Healthcare, Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8478fdbb5ebd2c1549a543",
+      "verification": "verified"
+    },
+    {
+      "title": "Signed Overwolf Binary Sideloads ValleyRAT Malware in India",
+      "content": "A phishing campaign targets Indian organizations by impersonating the Indian Income Tax Department. Victims receive emails containing links to spoofed notice pages that download ZIP archives. These archives include a legitimately signed Overwolf executable and two hidden files: a malicious DLL and an encrypted binary. When executed, the signed binary side-loads the malicious DLL through DLL... This pulse includes 36 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8478fe441f9c15e06ee4cc",
+      "verification": "verified"
+    },
+    {
+      "title": "Octagon: A New Android Bot Targeting Crypto Wallets and Banking Apps",
+      "content": "In June 2026, a previously undocumented Android fraud bot called Octagon was identified, sold as malware-as-a-service by Russian-speaking actor AndroidKitKat for $1,400 monthly. The malware employs accessibility overlays, hidden VNC, SMS interception, unlock-pattern capture, and balance reading capabilities to target cryptocurrency wallets, exchanges, and banking applications. Distributed through... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Octagon.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8474eb4f130dfa41887e40",
+      "verification": "verified"
+    },
+    {
+      "title": "Beware of Phishing Emails Disguised as Transaction Receipts",
+      "content": "A sophisticated phishing campaign has been identified where attackers impersonate employees of a US company, sending emails that claim to contain transaction receipts. Recipients are urged to verify fund deposits by opening an attached PDF file. The malicious PDF displays a fake Adobe Flash Player update prompt, which when clicked, downloads a VBS script. This script executes with administrator... This pulse includes 7 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8431e74688d3e47ef55014",
+      "verification": "verified"
+    }
+  ]
+}
