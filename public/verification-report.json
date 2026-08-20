@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "Fraudulent Employment Operations",
-        "numbers_checked": 5,
-        "status": "verified"
-      },
-      {
-        "index": 1,
-        "title": "Signed Overwolf Binary Sideloads ValleyRAT Malware in India",
-        "numbers_checked": 1,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "Octagon: A New Android Bot Targeting Crypto Wallets and Banking Apps",
+        "title": "JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
+        "index": 1,
+        "title": "Analysis of Kimsuky's Attack on a South Korean Groupware Vendor Using a New Gomir Family Variant",
+        "numbers_checked": 5,
+        "status": "verified"
+      },
+      {
+        "index": 2,
+        "title": "https://malbearlabs.com/shadow-hvnc-and-shadow-loader-the-kit-that-protects-its-license-better-than-its-customers-dd99520b6af3",
+        "numbers_checked": 4,
+        "status": "verified"
+      },
+      {
         "index": 3,
-        "title": "Beware of Phishing Emails Disguised as Transaction Receipts",
-        "numbers_checked": 1,
+        "title": "From ClickFix to MaaS: Exposing a Modular Windows RAT and Its Admin Panel",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -118,18 +118,54 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 14
     },
-    "verified_at": "2026-08-19T06:38:01.523090Z",
+    "verified_at": "2026-08-20T06:42:50.927248Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-19T06:38:03.475885Z",
+  "last_updated": "2026-08-20T06:42:52.601596Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -145,13 +181,13 @@
       },
       {
         "index": 2,
-        "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
-        "numbers_checked": 1,
+        "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+        "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -192,21 +228,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 4
     },
-    "verified_at": "2026-08-19T06:38:02.112494Z",
+    "verified_at": "2026-08-20T06:42:51.156214Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +296,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.72,
+        "value": 4.71,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +323,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.5299999999999994,
+        "value": 0.5199999999999996,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +335,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-19T06:38:03.475885Z",
+    "verified_at": "2026-08-20T06:42:52.601596Z",
     "llm_adversary": false
   }
 }

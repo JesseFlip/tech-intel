@@ -1,30 +1,30 @@
 [
   {
-    "title": "Fraudulent Employment Operations",
-    "content": "Multiple clusters of North Korean IT workers, designated as PurpleDelta, have been identified applying to over 1,100 companies between late 2024 and early 2025, primarily targeting software, technology, staffing, consulting, and healthcare sectors. The operators maintained at least 22 fabricated personas supported by AI-generated profile photos, custom ChatGPT assistants, and fraudulent identity... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Technology, Healthcare, Finance.",
+    "title": "JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models",
+    "content": "An advanced threat actor identified as JADEPUFFER has evolved its capabilities, now deploying ENCFORGE, a specialized ransomware targeting AI and ML infrastructure. The actor exploits CVE-2025-3248 in Langflow to gain initial access, then autonomously chains reconnaissance, credential harvesting, and lateral movement. ENCFORGE is a compiled Go binary targeting approximately 180 file extensions... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ENCFORGE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8478fdbb5ebd2c1549a543",
+    "url": "https://otx.alienvault.com/pulse/6a5eb7c2617139caf1fe0f2d",
     "verification": "verified"
   },
   {
-    "title": "Signed Overwolf Binary Sideloads ValleyRAT Malware in India",
-    "content": "A phishing campaign targets Indian organizations by impersonating the Indian Income Tax Department. Victims receive emails containing links to spoofed notice pages that download ZIP archives. These archives include a legitimately signed Overwolf executable and two hidden files: a malicious DLL and an encrypted binary. When executed, the signed binary side-loads the malicious DLL through DLL... This pulse includes 36 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+    "title": "Analysis of Kimsuky's Attack on a South Korean Groupware Vendor Using a New Gomir Family Variant",
+    "content": "Between 2025 and early 2026, the North Korean-linked Kimsuky group infiltrated South Korean groupware vendors through vulnerability exploitation and spear-phishing. They deployed two new malware variants, BirdTroy and DriveTroy, based on the Gomir/HttpTroy family. BirdTroy uses custom protocols and HTTP/3 (QUIC) for command-and-control communication, while DriveTroy abuses Google Drive as a C2... This pulse includes 31 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Gomir, HttpTroy, BirdTroy.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8478fe441f9c15e06ee4cc",
+    "url": "https://otx.alienvault.com/pulse/6a5e7a9e8b20b763327b0d2d",
     "verification": "verified"
   },
   {
-    "title": "Octagon: A New Android Bot Targeting Crypto Wallets and Banking Apps",
-    "content": "In June 2026, a previously undocumented Android fraud bot called Octagon was identified, sold as malware-as-a-service by Russian-speaking actor AndroidKitKat for $1,400 monthly. The malware employs accessibility overlays, hidden VNC, SMS interception, unlock-pattern capture, and balance reading capabilities to target cryptocurrency wallets, exchanges, and banking applications. Distributed through... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Octagon.",
+    "title": "https://malbearlabs.com/shadow-hvnc-and-shadow-loader-the-kit-that-protects-its-license-better-than-its-customers-dd99520b6af3",
+    "content": "This pulse includes 13 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8474eb4f130dfa41887e40",
+    "url": "https://otx.alienvault.com/pulse/6a85ae7731d98c565dddf19f",
     "verification": "verified"
   },
   {
-    "title": "Beware of Phishing Emails Disguised as Transaction Receipts",
-    "content": "A sophisticated phishing campaign has been identified where attackers impersonate employees of a US company, sending emails that claim to contain transaction receipts. Recipients are urged to verify fund deposits by opening an attached PDF file. The malicious PDF displays a fake Adobe Flash Player update prompt, which when clicked, downloads a VBS script. This script executes with administrator... This pulse includes 7 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
+    "title": "From ClickFix to MaaS: Exposing a Modular Windows RAT and Its Admin Panel",
+    "content": "A new ClickFix campaign targets Windows users with a NodeJS-based infostealer delivered via malicious MSI installers. This highly adaptable remote access Trojan minimizes forensic footprints through dynamic capability loading, with core stealing modules and communication protocols delivered in-memory only after C2 connection. The malware routes gRPC streaming traffic over Tor network for... This pulse includes 6 indicators of compromise (IOCs). Associated malware: LegionLoader, LummaStealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8431e74688d3e47ef55014",
+    "url": "https://otx.alienvault.com/pulse/6a8592950ee0e8d05fc1bec9",
     "verification": "verified"
   }
 ]

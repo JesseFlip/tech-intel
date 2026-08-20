@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-20",
+  "timestamp": "2026-08-20T06:42:50.928144",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models",
+      "content": "An advanced threat actor identified as JADEPUFFER has evolved its capabilities, now deploying ENCFORGE, a specialized ransomware targeting AI and ML infrastructure. The actor exploits CVE-2025-3248 in Langflow to gain initial access, then autonomously chains reconnaissance, credential harvesting, and lateral movement. ENCFORGE is a compiled Go binary targeting approximately 180 file extensions... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ENCFORGE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5eb7c2617139caf1fe0f2d",
+      "verification": "verified"
+    },
+    {
+      "title": "Analysis of Kimsuky's Attack on a South Korean Groupware Vendor Using a New Gomir Family Variant",
+      "content": "Between 2025 and early 2026, the North Korean-linked Kimsuky group infiltrated South Korean groupware vendors through vulnerability exploitation and spear-phishing. They deployed two new malware variants, BirdTroy and DriveTroy, based on the Gomir/HttpTroy family. BirdTroy uses custom protocols and HTTP/3 (QUIC) for command-and-control communication, while DriveTroy abuses Google Drive as a C2... This pulse includes 31 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Gomir, HttpTroy, BirdTroy.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a5e7a9e8b20b763327b0d2d",
+      "verification": "verified"
+    },
+    {
+      "title": "https://malbearlabs.com/shadow-hvnc-and-shadow-loader-the-kit-that-protects-its-license-better-than-its-customers-dd99520b6af3",
+      "content": "This pulse includes 13 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a85ae7731d98c565dddf19f",
+      "verification": "verified"
+    },
+    {
+      "title": "From ClickFix to MaaS: Exposing a Modular Windows RAT and Its Admin Panel",
+      "content": "A new ClickFix campaign targets Windows users with a NodeJS-based infostealer delivered via malicious MSI installers. This highly adaptable remote access Trojan minimizes forensic footprints through dynamic capability loading, with core stealing modules and communication protocols delivered in-memory only after C2 connection. The malware routes gRPC streaming traffic over Tor network for... This pulse includes 6 indicators of compromise (IOCs). Associated malware: LegionLoader, LummaStealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8592950ee0e8d05fc1bec9",
+      "verification": "verified"
+    }
+  ]
+}
