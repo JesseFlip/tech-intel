@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-21",
+  "timestamp": "2026-08-21T06:39:52.392367",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside Kimsuky's Abuse of Legitimate Remote Control Tools Across Northeast Asia",
+      "content": "Kimsuky conducted spear phishing campaigns against South Korean and Japanese targets during the first half of 2026, distributing LNK malware through OneDrive share links. The malicious files established scheduled tasks that periodically fetched PowerShell scripts from command-and-control servers to profile systems, exfiltrate Thunderbird and Outlook email data, and log keystrokes. The threat... This pulse includes 20 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a873495a873c0ec3c6d9880",
+      "verification": "verified"
+    },
+    {
+      "title": "BRIDGEHEAD: An npm typosquatting campaign that crosses from WSL into Windows to plant a crypto-wallet stealer",
+      "content": "In August 2026, an operator published forty typosquatted npm packages mimicking popular libraries like chalk, axios, commander, lodash, react, and typescript. Each package contained an install script that profiles the host and, when detecting Windows or WSL environments, downloads a 22MB Rust-based executable from GitHub. This payload runs entirely in memory without dropping files to disk,... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8734846b4cc1afd4bde567",
+      "verification": "verified"
+    },
+    {
+      "title": "How Peer2Profit and Astroproxy Turn Your Bandwidth Into Someone Else's Product",
+      "content": "Investigation into residential proxy networks reveals that bandwidth-sharing applications like PEER2PROFIT recruit users to share internet connections for payment, then monetize this bandwidth through commercial proxy service ASTROPROXY at up to 27 times the original cost. Over 72 hours, researchers identified 117,224 unique IPs across residential, mobile, and datacenter pools, with residential... This pulse includes 4 indicators of compromise (IOCs). Associated malware: PRIVATELOADER.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8734bb1e57bed1c101e5e9",
+      "verification": "verified"
+    },
+    {
+      "title": "Distinct Clusters Target Individuals of Interest to Russia",
+      "content": "Three distinct suspected Russian cyber espionage threat clusters—UNC6293, UNC7005, and UNC5976—are abusing legitimate authentication flows to target individuals in academia, aerospace, defense, governments, and think tanks across Europe and the United States. These groups conduct sophisticated phishing campaigns using app password phishing, OAuth phishing, device code phishing, and malware... This pulse includes 44 indicators of compromise (IOCs). Targeted industries: Academia, Aerospace, Defense. Associated malware: VIDAR, ATOMIC, ENGINELIGHT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8734bac622f3c7b2d9a633",
+      "verification": "verified"
+    }
+  ]
+}

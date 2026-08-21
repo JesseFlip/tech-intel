@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "JADEPUFFER evolves: The agentic threat actor deploys ransomware built to destroy AI models",
-        "numbers_checked": 3,
+        "title": "Inside Kimsuky's Abuse of Legitimate Remote Control Tools Across Northeast Asia",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Analysis of Kimsuky's Attack on a South Korean Groupware Vendor Using a New Gomir Family Variant",
-        "numbers_checked": 5,
+        "title": "BRIDGEHEAD: An npm typosquatting campaign that crosses from WSL into Windows to plant a crypto-wallet stealer",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "https://malbearlabs.com/shadow-hvnc-and-shadow-loader-the-kit-that-protects-its-license-better-than-its-customers-dd99520b6af3",
-        "numbers_checked": 4,
+        "title": "How Peer2Profit and Astroproxy Turn Your Bandwidth Into Someone Else's Product",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "From ClickFix to MaaS: Exposing a Modular Windows RAT and Its Admin Panel",
-        "numbers_checked": 2,
+        "title": "Distinct Clusters Target Individuals of Interest to Russia",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -159,10 +159,10 @@
     "status_counts": {
       "verified": 14
     },
-    "verified_at": "2026-08-20T06:42:50.927248Z",
+    "verified_at": "2026-08-21T06:39:52.391274Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-20T06:42:52.601596Z",
+  "last_updated": "2026-08-21T06:39:54.470193Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -233,7 +233,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-20T06:42:51.156214Z",
+    "verified_at": "2026-08-21T06:39:52.917207Z",
     "llm_adversary": false
   },
   "macro": {
@@ -296,7 +296,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.71,
+        "value": 4.65,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -323,7 +323,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.5199999999999996,
+        "value": 0.45999999999999996,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -335,7 +335,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-20T06:42:52.601596Z",
+    "verified_at": "2026-08-21T06:39:54.470193Z",
     "llm_adversary": false
   }
 }
