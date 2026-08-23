@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 17,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns",
-        "numbers_checked": 12,
+        "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Popular Rust Crates Compromised in Build-Time Supply Chain Attack",
+        "title": "Global Webmail Espionage",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "SynkLoader: when you throw in everything but the kitchen sink",
-        "numbers_checked": 1,
+        "title": "A New Name in the Data Extortion Ecosystem?",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
-        "numbers_checked": 1,
+        "title": "Exploitation in the Wild of wp2shell",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -154,42 +154,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 17
+      "verified": 14
     },
-    "verified_at": "2026-08-22T06:34:52.188596Z",
+    "verified_at": "2026-08-23T06:35:20.978806Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-22T06:34:53.949707Z",
+  "last_updated": "2026-08-23T06:35:22.595794Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -260,7 +233,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-22T06:34:52.478502Z",
+    "verified_at": "2026-08-23T06:35:21.290152Z",
     "llm_adversary": false
   },
   "macro": {
@@ -362,7 +335,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-22T06:34:53.949707Z",
+    "verified_at": "2026-08-23T06:35:22.595794Z",
     "llm_adversary": false
   }
 }

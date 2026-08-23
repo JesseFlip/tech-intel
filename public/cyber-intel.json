@@ -1,30 +1,30 @@
 [
   {
-    "title": "Supply Chain Attack on arrayref: Significant Overlap with DPRK Campaigns",
-    "content": "On August 20, 2026, malicious versions of three Rust crates were published to crates.io: arrayref@0.3.10, internment@0.8.7, and append-only-vec@0.1.9. The malicious crates added a typosquatted dependency (proc-macro1) whose build script downloads and executes a remote binary at compile time. The payload is a featureful backdoor that beacons to C2 via HTTPS, exfiltrates host information,... This pulse includes 8 indicators of compromise (IOCs). Associated malware: proc-macro1.",
+    "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
+    "content": "Between July 9-13, 2026, three exposed directories on a Hong Kong server revealed an ongoing cyber espionage operation targeting Thailand's Ministry of Finance. The attack leveraged Hermes, an autonomous AI agent operating in unattended YOLO mode, alongside a custom Go-based implant called Hades. Recovered files included exploit code for multiple vulnerabilities, webshells, stolen credentials,... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: Hades, VShell, ShadowPad - S0596.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8775e93b9ffe6d9c526c90",
+    "url": "https://otx.alienvault.com/pulse/6a6280a6b0f220d5330af106",
     "verification": "verified"
   },
   {
-    "title": "Popular Rust Crates Compromised in Build-Time Supply Chain Attack",
-    "content": "A coordinated supply chain attack compromised three legitimate Rust crates maintained by David Roundy: arrayref, internment, and append-only-vec. The threat actor injected a malicious dependency called proc-macro1, a typosquat of the legitimate proc-macro2 crate. This malicious package executed cross-platform malware automatically during Cargo builds through its build.rs script. The attack... This pulse includes 18 indicators of compromise (IOCs). Associated malware: proc-macro1, proc-macro-en.",
+    "title": "Global Webmail Espionage",
+    "content": "A persistent cyberespionage campaign tracked as CL-STA-1114, overlapping with Russian threat actor activity known as Void Blizzard and LAUNDRY BEAR, has been targeting Zimbra webmail in government, defense, transportation, and financial organizations. The campaign focuses on NATO member states, Ukraine, Commonwealth of Independent States countries, and Africa. Attackers exploit CVE-2025-66376, a... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Defense, Transportation.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8775e8885af9073b89474a",
+    "url": "https://otx.alienvault.com/pulse/6a624073df6738006a6f6e5a",
     "verification": "verified"
   },
   {
-    "title": "SynkLoader: when you throw in everything but the kitchen sink",
-    "content": "A sophisticated modular loader utilizing multiple programming languages to evade detection has been discovered. The attack begins with Microsoft Teams phishing where attackers impersonate IT helpdesk personnel, convincing targets to install a fake PowerShell cleaner via MSI installer. The malware deploys memory-resident components bridging Python, C#, C++, and PowerShell to profile systems,... This pulse includes 18 indicators of compromise (IOCs). Associated malware: SynkLoader.",
+    "title": "A New Name in the Data Extortion Ecosystem?",
+    "content": "A data extortion group called Helix has been identified conducting multi-target campaigns using vishing, device code phishing, and automated SharePoint exfiltration. The group likely emerged from the BlackFile and ShinyHunters ecosystem after BlackFile shut down in April 2026. Helix uses sophisticated social engineering, impersonating managers by name during vishing calls to initiate device code... This pulse includes 1 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a87b22b1fbf04df7046d537",
+    "url": "https://otx.alienvault.com/pulse/6a623272a8b581c080b0aee0",
     "verification": "verified"
   },
   {
-    "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
-    "content": "The Head Mare APT group exploited two vulnerabilities in TrueConf video conferencing servers to deliver PhantomCore malware to conference participants. Attackers used these vulnerabilities to execute arbitrary code, replace legitimate client installers with malicious versions, and deploy web shells. When participants downloaded the TrueConf client from compromised servers, they received infected... This pulse includes 45 indicators of compromise (IOCs). Associated malware: PhantomCore, PhantomGraph.",
+    "title": "Exploitation in the Wild of wp2shell",
+    "content": "A critical pre-authentication remote code execution vulnerability chain dubbed \"wp2shell\" affecting WordPress Core has been actively exploited in the wild. The vulnerability chain, consisting of CVE-2026-63030 and CVE-2026-60137, allows unauthenticated attackers to gain remote code execution on default WordPress installations. Multiple threat actors have been observed exploiting these... This pulse includes 7 indicators of compromise (IOCs). Associated malware: CMSmap.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a87ffab05b89766cd6c1700",
+    "url": "https://otx.alienvault.com/pulse/6a61c32bf83a8841dbf45852",
     "verification": "verified"
   }
 ]

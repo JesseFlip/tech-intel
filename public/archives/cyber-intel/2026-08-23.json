@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-23",
+  "timestamp": "2026-08-23T06:35:20.979713",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
+      "content": "Between July 9-13, 2026, three exposed directories on a Hong Kong server revealed an ongoing cyber espionage operation targeting Thailand's Ministry of Finance. The attack leveraged Hermes, an autonomous AI agent operating in unattended YOLO mode, alongside a custom Go-based implant called Hades. Recovered files included exploit code for multiple vulnerabilities, webshells, stolen credentials,... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: Hades, VShell, ShadowPad - S0596.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6280a6b0f220d5330af106",
+      "verification": "verified"
+    },
+    {
+      "title": "Global Webmail Espionage",
+      "content": "A persistent cyberespionage campaign tracked as CL-STA-1114, overlapping with Russian threat actor activity known as Void Blizzard and LAUNDRY BEAR, has been targeting Zimbra webmail in government, defense, transportation, and financial organizations. The campaign focuses on NATO member states, Ukraine, Commonwealth of Independent States countries, and Africa. Attackers exploit CVE-2025-66376, a... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Defense, Transportation.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a624073df6738006a6f6e5a",
+      "verification": "verified"
+    },
+    {
+      "title": "A New Name in the Data Extortion Ecosystem?",
+      "content": "A data extortion group called Helix has been identified conducting multi-target campaigns using vishing, device code phishing, and automated SharePoint exfiltration. The group likely emerged from the BlackFile and ShinyHunters ecosystem after BlackFile shut down in April 2026. Helix uses sophisticated social engineering, impersonating managers by name during vishing calls to initiate device code... This pulse includes 1 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a623272a8b581c080b0aee0",
+      "verification": "verified"
+    },
+    {
+      "title": "Exploitation in the Wild of wp2shell",
+      "content": "A critical pre-authentication remote code execution vulnerability chain dubbed \"wp2shell\" affecting WordPress Core has been actively exploited in the wild. The vulnerability chain, consisting of CVE-2026-63030 and CVE-2026-60137, allows unauthenticated attackers to gain remote code execution on default WordPress installations. Multiple threat actors have been observed exploiting these... This pulse includes 7 indicators of compromise (IOCs). Associated malware: CMSmap.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a61c32bf83a8841dbf45852",
+      "verification": "verified"
+    }
+  ]
+}
