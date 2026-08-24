@@ -1,30 +1,30 @@
 [
   {
+    "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
+    "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 3 indicators of compromise (IOCs).",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a63dbd0b430a77c116293ac",
+    "verification": "verified"
+  },
+  {
+    "title": "Security Advisory - Action Required - July 2026 Security Update",
+    "content": "A security update addresses multiple vulnerabilities discovered during routine security review, including authentication bypass issues affecting management products. One vulnerability (CVE-2026-16232) has been exploited in the wild against a limited number of customers with specific configurations where Management is exposed directly to the internet without IP restrictions. The affected systems... This pulse includes 4 indicators of compromise (IOCs).",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a6375b8843a154abdf4a0f0",
+    "verification": "verified"
+  },
+  {
+    "title": "Ongoing PLC Exploitation Against Critical U.S. Infrastructure",
+    "content": "Multiple federal agencies have updated a joint advisory warning of active exploitation targeting programmable logic controllers (PLCs) in U.S. critical infrastructure. Attackers scan for internet-exposed industrial control systems and connect using legitimate engineering software with valid credentials, appearing as authorized technicians. Once inside, they alter controller logic and manipulate... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: IOCONTROL, MALPDB.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a635bdde06bc9c9945e6c19",
+    "verification": "verified"
+  },
+  {
     "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
     "content": "Between July 9-13, 2026, three exposed directories on a Hong Kong server revealed an ongoing cyber espionage operation targeting Thailand's Ministry of Finance. The attack leveraged Hermes, an autonomous AI agent operating in unattended YOLO mode, alongside a custom Go-based implant called Hades. Recovered files included exploit code for multiple vulnerabilities, webshells, stolen credentials,... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: Hades, VShell, ShadowPad - S0596.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a6280a6b0f220d5330af106",
-    "verification": "verified"
-  },
-  {
-    "title": "Global Webmail Espionage",
-    "content": "A persistent cyberespionage campaign tracked as CL-STA-1114, overlapping with Russian threat actor activity known as Void Blizzard and LAUNDRY BEAR, has been targeting Zimbra webmail in government, defense, transportation, and financial organizations. The campaign focuses on NATO member states, Ukraine, Commonwealth of Independent States countries, and Africa. Attackers exploit CVE-2025-66376, a... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Defense, Transportation.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a624073df6738006a6f6e5a",
-    "verification": "verified"
-  },
-  {
-    "title": "A New Name in the Data Extortion Ecosystem?",
-    "content": "A data extortion group called Helix has been identified conducting multi-target campaigns using vishing, device code phishing, and automated SharePoint exfiltration. The group likely emerged from the BlackFile and ShinyHunters ecosystem after BlackFile shut down in April 2026. Helix uses sophisticated social engineering, impersonating managers by name during vishing calls to initiate device code... This pulse includes 1 indicators of compromise (IOCs).",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a623272a8b581c080b0aee0",
-    "verification": "verified"
-  },
-  {
-    "title": "Exploitation in the Wild of wp2shell",
-    "content": "A critical pre-authentication remote code execution vulnerability chain dubbed \"wp2shell\" affecting WordPress Core has been actively exploited in the wild. The vulnerability chain, consisting of CVE-2026-63030 and CVE-2026-60137, allows unauthenticated attackers to gain remote code execution on default WordPress installations. Multiple threat actors have been observed exploiting these... This pulse includes 7 indicators of compromise (IOCs). Associated malware: CMSmap.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a61c32bf83a8841dbf45852",
     "verification": "verified"
   }
 ]
