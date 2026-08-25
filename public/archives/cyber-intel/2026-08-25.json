@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-25",
+  "timestamp": "2026-08-25T06:40:20.110214",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Anatomy of a macOS ClickFix Crimekit that Weaponises EtherHiding",
+      "content": "A sophisticated macOS campaign exploits ClickFix social engineering, deceiving victims into executing malicious AppleScript commands via fake CAPTCHA verification pages. The attack chain deploys a persistent backdoor agent that utilizes EtherHiding, storing C2 addresses in Polygon blockchain smart contracts, making infrastructure detection challenging. The infection establishes persistence... This pulse includes 25 indicators of compromise (IOCs). Associated malware: AMOS, XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8c3403077781b7036ee79a",
+      "verification": "verified"
+    },
+    {
+      "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
+      "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 3 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a63dbd0b430a77c116293ac",
+      "verification": "verified"
+    },
+    {
+      "title": "Security Advisory - Action Required - July 2026 Security Update",
+      "content": "A security update addresses multiple vulnerabilities discovered during routine security review, including authentication bypass issues affecting management products. One vulnerability (CVE-2026-16232) has been exploited in the wild against a limited number of customers with specific configurations where Management is exposed directly to the internet without IP restrictions. The affected systems... This pulse includes 4 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6375b8843a154abdf4a0f0",
+      "verification": "verified"
+    },
+    {
+      "title": "Ongoing PLC Exploitation Against Critical U.S. Infrastructure",
+      "content": "Multiple federal agencies have updated a joint advisory warning of active exploitation targeting programmable logic controllers (PLCs) in U.S. critical infrastructure. Attackers scan for internet-exposed industrial control systems and connect using legitimate engineering software with valid credentials, appearing as authorized technicians. Once inside, they alter controller logic and manipulate... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: IOCONTROL, MALPDB.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a635bdde06bc9c9945e6c19",
+      "verification": "verified"
+    }
+  ]
+}

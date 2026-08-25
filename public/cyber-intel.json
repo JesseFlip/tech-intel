@@ -1,5 +1,12 @@
 [
   {
+    "title": "Anatomy of a macOS ClickFix Crimekit that Weaponises EtherHiding",
+    "content": "A sophisticated macOS campaign exploits ClickFix social engineering, deceiving victims into executing malicious AppleScript commands via fake CAPTCHA verification pages. The attack chain deploys a persistent backdoor agent that utilizes EtherHiding, storing C2 addresses in Polygon blockchain smart contracts, making infrastructure detection challenging. The infection establishes persistence... This pulse includes 25 indicators of compromise (IOCs). Associated malware: AMOS, XMRig.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a8c3403077781b7036ee79a",
+    "verification": "verified"
+  },
+  {
     "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
     "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 3 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
@@ -18,13 +25,6 @@
     "content": "Multiple federal agencies have updated a joint advisory warning of active exploitation targeting programmable logic controllers (PLCs) in U.S. critical infrastructure. Attackers scan for internet-exposed industrial control systems and connect using legitimate engineering software with valid credentials, appearing as authorized technicians. Once inside, they alter controller logic and manipulate... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: IOCONTROL, MALPDB.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a635bdde06bc9c9945e6c19",
-    "verification": "verified"
-  },
-  {
-    "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
-    "content": "Between July 9-13, 2026, three exposed directories on a Hong Kong server revealed an ongoing cyber espionage operation targeting Thailand's Ministry of Finance. The attack leveraged Hermes, an autonomous AI agent operating in unattended YOLO mode, alongside a custom Go-based implant called Hades. Recovered files included exploit code for multiple vulnerabilities, webshells, stolen credentials,... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Government, Finance. Associated malware: Hades, VShell, ShadowPad - S0596.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6280a6b0f220d5330af106",
     "verification": "verified"
   }
 ]

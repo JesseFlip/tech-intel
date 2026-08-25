@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 8,
     "items": [
       {
         "index": 0,
-        "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
+        "title": "Anatomy of a macOS ClickFix Crimekit that Weaponises EtherHiding",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
+        "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
+        "numbers_checked": 2,
+        "status": "verified"
+      },
+      {
+        "index": 2,
         "title": "Security Advisory - Action Required - July 2026 Security Update",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
-        "index": 2,
+        "index": 3,
         "title": "Ongoing PLC Exploitation Against Critical U.S. Infrastructure",
         "numbers_checked": 1,
-        "status": "verified"
-      },
-      {
-        "index": 3,
-        "title": "Thailand's Ministry of Finance Targeted With Hermes AI Agent Running Unattended, Hades Implant Staged",
-        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -100,42 +100,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 8
     },
-    "verified_at": "2026-08-24T06:51:57.453263Z",
+    "verified_at": "2026-08-25T06:40:20.109206Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-24T06:51:59.486896Z",
+  "last_updated": "2026-08-25T06:40:22.288501Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -206,7 +179,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-24T06:51:58.082579Z",
+    "verified_at": "2026-08-25T06:40:20.388643Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +242,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.69,
+        "value": 4.74,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +251,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.19,
+        "value": 4.24,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +281,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-24T06:51:59.486896Z",
+    "verified_at": "2026-08-25T06:40:22.288501Z",
     "llm_adversary": false
   }
 }
