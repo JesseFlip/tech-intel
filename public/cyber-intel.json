@@ -1,30 +1,30 @@
 [
   {
-    "title": "Anatomy of a macOS ClickFix Crimekit that Weaponises EtherHiding",
-    "content": "A sophisticated macOS campaign exploits ClickFix social engineering, deceiving victims into executing malicious AppleScript commands via fake CAPTCHA verification pages. The attack chain deploys a persistent backdoor agent that utilizes EtherHiding, storing C2 addresses in Polygon blockchain smart contracts, making infrastructure detection challenging. The infection establishes persistence... This pulse includes 25 indicators of compromise (IOCs). Associated malware: AMOS, XMRig.",
+    "title": "What the Source Leak Says About HookBot",
+    "content": "ERMAC and HookBot are two branches of one Android banking trojan sold as a service, forking from shared code originating with Cerberus. A copy of the builder, Laravel backend, and React panel leaked in August 2025, enabling unrelated operators to deploy panels with default credentials and keys still in place. The lineage runs Cerberus to ERMAC to Hook, confirmed through source code analysis... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: ERMAC, HookBot, Hook.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8c3403077781b7036ee79a",
+    "url": "https://otx.alienvault.com/pulse/6a8dc2ed12d6752a7f9e258d",
     "verification": "verified"
   },
   {
-    "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
-    "content": "Check Point has released urgent security updates addressing three critical vulnerabilities affecting Security Management, Multi-Domain Management, Quantum Security Gateway, and Gaia operating systems. The most severe vulnerability, CVE-2026-16232, allows unauthenticated remote attackers to bypass SmartConsole login and gain full administrative access to exposed Management Servers. The... This pulse includes 3 indicators of compromise (IOCs).",
+    "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
+    "content": "Analysis of over 400 AI-integrated malware samples reveals that approximately 97% exist only in research repositories and sandboxes, never reaching production environments. Of 405 samples examined, only 12 appeared on protected endpoints across three countries, spanning five malware families including FunkSec ransomware, trojanized AI applications, Oyster backdoor, Rhadamanthys stealer, and COM... This pulse includes 12 indicators of compromise (IOCs). Associated malware: FunkSec, Oyster, CleanBoost.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a63dbd0b430a77c116293ac",
+    "url": "https://otx.alienvault.com/pulse/6a8d839dc914173bba8b0c7e",
     "verification": "verified"
   },
   {
-    "title": "Security Advisory - Action Required - July 2026 Security Update",
-    "content": "A security update addresses multiple vulnerabilities discovered during routine security review, including authentication bypass issues affecting management products. One vulnerability (CVE-2026-16232) has been exploited in the wild against a limited number of customers with specific configurations where Management is exposed directly to the internet without IP restrictions. The affected systems... This pulse includes 4 indicators of compromise (IOCs).",
+    "title": "A ClickFix cluster: Observed activity from recent ClickFix campaigns",
+    "content": "Multiple ClickFix campaigns were identified employing three distinct delivery mechanisms while sharing common characteristics including DLL sideloading, consistent file-naming conventions, and command-and-control dead drops. The first campaign used remotely hosted MSI packages containing legitimate software to sideload malicious DLLs. The second leveraged NodeJS to execute JavaScript files, while... This pulse includes 20 indicators of compromise (IOCs). Associated malware: Lorem Ipsum, Supper.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6375b8843a154abdf4a0f0",
+    "url": "https://otx.alienvault.com/pulse/6a8cb558cf3bdab6268fd52f",
     "verification": "verified"
   },
   {
-    "title": "Ongoing PLC Exploitation Against Critical U.S. Infrastructure",
-    "content": "Multiple federal agencies have updated a joint advisory warning of active exploitation targeting programmable logic controllers (PLCs) in U.S. critical infrastructure. Attackers scan for internet-exposed industrial control systems and connect using legitimate engineering software with valid credentials, appearing as authorized technicians. Once inside, they alter controller logic and manipulate... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: IOCONTROL, MALPDB.",
+    "title": "Extended Rapid Response: RecruitTrap Recruit Scams are Targeting Enterprise Credentials on Mobile",
+    "content": "Threat actors are conducting sophisticated recruitment-themed phishing campaigns by impersonating HR personnel from prominent companies. The attacks leverage Browser-in-the-Browser techniques on desktop, while mobile devices display full-screen counterfeit login pages without visible URL indicators. The malicious infrastructure actively screens victims, rejecting personal emails to specifically... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Aerospace, Technology, Retail.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a635bdde06bc9c9945e6c19",
+    "url": "https://otx.alienvault.com/pulse/6a8d043f2b2afd2b5aba604d",
     "verification": "verified"
   }
 ]

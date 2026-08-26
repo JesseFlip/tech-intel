@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-26",
+  "timestamp": "2026-08-26T06:42:32.004522",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "What the Source Leak Says About HookBot",
+      "content": "ERMAC and HookBot are two branches of one Android banking trojan sold as a service, forking from shared code originating with Cerberus. A copy of the builder, Laravel backend, and React panel leaked in August 2025, enabling unrelated operators to deploy panels with default credentials and keys still in place. The lineage runs Cerberus to ERMAC to Hook, confirmed through source code analysis... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: ERMAC, HookBot, Hook.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8dc2ed12d6752a7f9e258d",
+      "verification": "verified"
+    },
+    {
+      "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
+      "content": "Analysis of over 400 AI-integrated malware samples reveals that approximately 97% exist only in research repositories and sandboxes, never reaching production environments. Of 405 samples examined, only 12 appeared on protected endpoints across three countries, spanning five malware families including FunkSec ransomware, trojanized AI applications, Oyster backdoor, Rhadamanthys stealer, and COM... This pulse includes 12 indicators of compromise (IOCs). Associated malware: FunkSec, Oyster, CleanBoost.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8d839dc914173bba8b0c7e",
+      "verification": "verified"
+    },
+    {
+      "title": "A ClickFix cluster: Observed activity from recent ClickFix campaigns",
+      "content": "Multiple ClickFix campaigns were identified employing three distinct delivery mechanisms while sharing common characteristics including DLL sideloading, consistent file-naming conventions, and command-and-control dead drops. The first campaign used remotely hosted MSI packages containing legitimate software to sideload malicious DLLs. The second leveraged NodeJS to execute JavaScript files, while... This pulse includes 20 indicators of compromise (IOCs). Associated malware: Lorem Ipsum, Supper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8cb558cf3bdab6268fd52f",
+      "verification": "verified"
+    },
+    {
+      "title": "Extended Rapid Response: RecruitTrap Recruit Scams are Targeting Enterprise Credentials on Mobile",
+      "content": "Threat actors are conducting sophisticated recruitment-themed phishing campaigns by impersonating HR personnel from prominent companies. The attacks leverage Browser-in-the-Browser techniques on desktop, while mobile devices display full-screen counterfeit login pages without visible URL indicators. The malicious infrastructure actively screens victims, rejecting personal emails to specifically... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Aerospace, Technology, Retail.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8d043f2b2afd2b5aba604d",
+      "verification": "verified"
+    }
+  ]
+}

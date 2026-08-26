@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 8,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "Anatomy of a macOS ClickFix Crimekit that Weaponises EtherHiding",
+        "title": "What the Source Leak Says About HookBot",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Check Point SmartConsole Authentication Bypass (CVE-2026-16232)",
-        "numbers_checked": 2,
+        "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Security Advisory - Action Required - July 2026 Security Update",
-        "numbers_checked": 3,
+        "title": "A ClickFix cluster: Observed activity from recent ClickFix campaigns",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Ongoing PLC Exploitation Against Critical U.S. Infrastructure",
+        "title": "Extended Rapid Response: RecruitTrap Recruit Scams are Targeting Enterprise Credentials on Mobile",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -100,15 +100,24 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 8
+      "verified": 9
     },
-    "verified_at": "2026-08-25T06:40:20.109206Z",
+    "verified_at": "2026-08-26T06:42:32.003452Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-25T06:40:22.288501Z",
+  "last_updated": "2026-08-26T06:42:33.925753Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -179,7 +188,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-25T06:40:20.388643Z",
+    "verified_at": "2026-08-26T06:42:32.641324Z",
     "llm_adversary": false
   },
   "macro": {
@@ -242,7 +251,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.74,
+        "value": 4.7,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -269,7 +278,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.5,
+        "value": 0.45999999999999996,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -281,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-25T06:40:22.288501Z",
+    "verified_at": "2026-08-26T06:42:33.925753Z",
     "llm_adversary": false
   }
 }
