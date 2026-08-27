@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-27",
+  "timestamp": "2026-08-27T17:18:07.224012",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Expanding the Castle: New Campaigns, New Tooling, and the NeedleStealer Connection",
+      "content": "Arctic Wolf Labs has been tracking multiple campaigns built around CastleLoader, a multi-stage shellcode loader that has evolved significantly. Three distinct campaigns were identified: Urutyka, Garrigin, and Noidret. The most significant development is the integration of NeedleStealer framework payloads, marking the first observed use of Rust and Golang tooling in this campaign cluster.... This pulse includes 40 indicators of compromise (IOCs). Associated malware: CastleLoader, CastleStealer, PythonRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a682376fe6eac7ecb782129",
+      "verification": "verified"
+    },
+    {
+      "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
+      "content": "A suspected Chinese-speaking threat actor conducted targeted intrusions against Philippine nuclear research and defense organizations. On August 13, 2026, an open directory on a VPS exposed custom Python scripts exploiting CVE-2023-49105 in ownCloud and CVE-2024-28000 in WordPress LiteSpeed Cache. The operator exfiltrated approximately 9 GB from a nuclear agency, including reactor core databases,... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Government, Defense, Energy. Associated malware: Sliver, Metasploit, Mettle.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8f1fe1d950c245b840741b",
+      "verification": "verified"
+    },
+    {
+      "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
+      "content": "During a targeted intrusion investigation in June 2026, investigators uncovered GoCaracal, a previously undocumented modular framework written in Go. This sophisticated toolkit exists in two operational profiles: a lightweight implant for establishing access and delivering payloads, and an extended build for sustained intelligence collection with capabilities including keylogging, browser... This pulse includes 44 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: GoCaracal, Bandook - S0234, AsioGate.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8f1fe07f5ffb26e71db532",
+      "verification": "verified"
+    },
+    {
+      "title": "Expands Toolset With New Backdoor, SSH Tunnel",
+      "content": "An Iranian-linked cyber-espionage group known as Tortoiseshell has enhanced its malware arsenal with newly identified tools, including a reverse SSH tunneling utility and a C++ backdoor. The SSH tunnel, disguised as wtsapi32.dll, leverages Windows OpenSSH client to establish connections with command-and-control infrastructure. The backdoor, showing similarities to TWOSTROKE malware, supports file... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Defense, Aerospace, Technology. Associated malware: TWOSTROKE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8f1fe0b63c473eb499fd00",
+      "verification": "verified"
+    }
+  ]
+}

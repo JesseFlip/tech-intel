@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 9,
+    "checked": 12,
     "items": [
       {
         "index": 0,
-        "title": "What the Source Leak Says About HookBot",
-        "numbers_checked": 2,
+        "title": "Expanding the Castle: New Campaigns, New Tooling, and the NeedleStealer Connection",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
-        "numbers_checked": 5,
+        "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "A ClickFix cluster: Observed activity from recent ClickFix campaigns",
-        "numbers_checked": 1,
+        "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Extended Rapid Response: RecruitTrap Recruit Scams are Targeting Enterprise Credentials on Mobile",
-        "numbers_checked": 1,
+        "title": "Expands Toolset With New Backdoor, SSH Tunnel",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -109,15 +109,42 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 9
+      "verified": 12
     },
-    "verified_at": "2026-08-26T06:42:32.003452Z",
+    "verified_at": "2026-08-27T17:18:07.223085Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-26T06:42:33.925753Z",
+  "last_updated": "2026-08-27T17:18:08.671162Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -136,13 +163,13 @@
       },
       {
         "index": 2,
-        "title": "VentureBeat names Rob Strechay as its first Lead Analyst, expanding its enterprise AI research push",
+        "title": "Orchestration is the new challenge for CX in the age of AI agents",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Google just redesigned the search box for the first time in 25 years — here’s why it matters more than you think.",
+        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -188,7 +215,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-26T06:42:32.641324Z",
+    "verified_at": "2026-08-27T17:18:07.477119Z",
     "llm_adversary": false
   },
   "macro": {
@@ -206,7 +233,7 @@
       },
       {
         "metric": "core_pce_yoy",
-        "value": 3.286526430967084,
+        "value": 3.3441430040338367,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -224,7 +251,7 @@
       },
       {
         "metric": "core_pce_value",
-        "value": 130.266,
+        "value": 130.658,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -251,7 +278,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.7,
+        "value": 4.64,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +287,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.24,
+        "value": 4.17,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +305,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.45999999999999996,
+        "value": 0.46999999999999975,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -290,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-26T06:42:33.925753Z",
+    "verified_at": "2026-08-27T17:18:08.671162Z",
     "llm_adversary": false
   }
 }

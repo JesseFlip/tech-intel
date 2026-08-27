@@ -1,30 +1,30 @@
 [
   {
-    "title": "What the Source Leak Says About HookBot",
-    "content": "ERMAC and HookBot are two branches of one Android banking trojan sold as a service, forking from shared code originating with Cerberus. A copy of the builder, Laravel backend, and React panel leaked in August 2025, enabling unrelated operators to deploy panels with default credentials and keys still in place. The lineage runs Cerberus to ERMAC to Hook, confirmed through source code analysis... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: ERMAC, HookBot, Hook.",
+    "title": "Expanding the Castle: New Campaigns, New Tooling, and the NeedleStealer Connection",
+    "content": "Arctic Wolf Labs has been tracking multiple campaigns built around CastleLoader, a multi-stage shellcode loader that has evolved significantly. Three distinct campaigns were identified: Urutyka, Garrigin, and Noidret. The most significant development is the integration of NeedleStealer framework payloads, marking the first observed use of Rust and Golang tooling in this campaign cluster.... This pulse includes 40 indicators of compromise (IOCs). Associated malware: CastleLoader, CastleStealer, PythonRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8dc2ed12d6752a7f9e258d",
+    "url": "https://otx.alienvault.com/pulse/6a682376fe6eac7ecb782129",
     "verification": "verified"
   },
   {
-    "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
-    "content": "Analysis of over 400 AI-integrated malware samples reveals that approximately 97% exist only in research repositories and sandboxes, never reaching production environments. Of 405 samples examined, only 12 appeared on protected endpoints across three countries, spanning five malware families including FunkSec ransomware, trojanized AI applications, Oyster backdoor, Rhadamanthys stealer, and COM... This pulse includes 12 indicators of compromise (IOCs). Associated malware: FunkSec, Oyster, CleanBoost.",
+    "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
+    "content": "A suspected Chinese-speaking threat actor conducted targeted intrusions against Philippine nuclear research and defense organizations. On August 13, 2026, an open directory on a VPS exposed custom Python scripts exploiting CVE-2023-49105 in ownCloud and CVE-2024-28000 in WordPress LiteSpeed Cache. The operator exfiltrated approximately 9 GB from a nuclear agency, including reactor core databases,... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Government, Defense, Energy. Associated malware: Sliver, Metasploit, Mettle.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8d839dc914173bba8b0c7e",
+    "url": "https://otx.alienvault.com/pulse/6a8f1fe1d950c245b840741b",
     "verification": "verified"
   },
   {
-    "title": "A ClickFix cluster: Observed activity from recent ClickFix campaigns",
-    "content": "Multiple ClickFix campaigns were identified employing three distinct delivery mechanisms while sharing common characteristics including DLL sideloading, consistent file-naming conventions, and command-and-control dead drops. The first campaign used remotely hosted MSI packages containing legitimate software to sideload malicious DLLs. The second leveraged NodeJS to execute JavaScript files, while... This pulse includes 20 indicators of compromise (IOCs). Associated malware: Lorem Ipsum, Supper.",
+    "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
+    "content": "During a targeted intrusion investigation in June 2026, investigators uncovered GoCaracal, a previously undocumented modular framework written in Go. This sophisticated toolkit exists in two operational profiles: a lightweight implant for establishing access and delivering payloads, and an extended build for sustained intelligence collection with capabilities including keylogging, browser... This pulse includes 44 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: GoCaracal, Bandook - S0234, AsioGate.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8cb558cf3bdab6268fd52f",
+    "url": "https://otx.alienvault.com/pulse/6a8f1fe07f5ffb26e71db532",
     "verification": "verified"
   },
   {
-    "title": "Extended Rapid Response: RecruitTrap Recruit Scams are Targeting Enterprise Credentials on Mobile",
-    "content": "Threat actors are conducting sophisticated recruitment-themed phishing campaigns by impersonating HR personnel from prominent companies. The attacks leverage Browser-in-the-Browser techniques on desktop, while mobile devices display full-screen counterfeit login pages without visible URL indicators. The malicious infrastructure actively screens victims, rejecting personal emails to specifically... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Aerospace, Technology, Retail.",
+    "title": "Expands Toolset With New Backdoor, SSH Tunnel",
+    "content": "An Iranian-linked cyber-espionage group known as Tortoiseshell has enhanced its malware arsenal with newly identified tools, including a reverse SSH tunneling utility and a C++ backdoor. The SSH tunnel, disguised as wtsapi32.dll, leverages Windows OpenSSH client to establish connections with command-and-control infrastructure. The backdoor, showing similarities to TWOSTROKE malware, supports file... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Defense, Aerospace, Technology. Associated malware: TWOSTROKE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8d043f2b2afd2b5aba604d",
+    "url": "https://otx.alienvault.com/pulse/6a8f1fe0b63c473eb499fd00",
     "verification": "verified"
   }
 ]

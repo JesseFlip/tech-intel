@@ -1,7 +1,13 @@
 {
-  "last_updated": "2026-08-26T06:42:32.646341",
-  "total_archives": 86,
+  "last_updated": "2026-08-27T17:18:07.483435",
+  "total_archives": 87,
   "archives": [
+    {
+      "date": "2026-08-27",
+      "timestamp": "2026-08-27T17:18:07.482619",
+      "item_count": 4,
+      "filename": "2026-08-27.json"
+    },
     {
       "date": "2026-08-26",
       "timestamp": "2026-08-26T06:42:32.645617",
