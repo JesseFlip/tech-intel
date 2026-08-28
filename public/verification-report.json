@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 11,
     "items": [
       {
         "index": 0,
-        "title": "Expanding the Castle: New Campaigns, New Tooling, and the NeedleStealer Connection",
-        "numbers_checked": 1,
+        "title": "11 Malicious NuGet Tools Pose as Game Cheats to Drop a Windows Host-Surveillance Payload",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
-        "numbers_checked": 6,
+        "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
+        "title": "July 2026 Threat Trend Report on APT Attacks (South Korea)",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Expands Toolset With New Backdoor, SSH Tunnel",
-        "numbers_checked": 2,
+        "title": "Defense and Diplomacy Targeted with HOOKEDGE",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -127,24 +127,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 11
     },
-    "verified_at": "2026-08-27T17:18:07.223085Z",
+    "verified_at": "2026-08-28T18:10:32.005268Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-27T17:18:08.671162Z",
+  "last_updated": "2026-08-28T18:10:34.415528Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -163,14 +154,14 @@
       },
       {
         "index": 2,
-        "title": "Orchestration is the new challenge for CX in the age of AI agents",
-        "numbers_checked": 0,
+        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-        "numbers_checked": 1,
+        "title": "When agents act on their own, governance has to live in the data layer",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -215,7 +206,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-27T17:18:07.477119Z",
+    "verified_at": "2026-08-28T18:10:32.590616Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +269,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.64,
+        "value": 4.66,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +278,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.17,
+        "value": 4.19,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +287,7 @@
       },
       {
         "metric": "consumer_sentiment",
-        "value": 49.5,
+        "value": 55.2,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-27T17:18:08.671162Z",
+    "verified_at": "2026-08-28T18:10:34.415528Z",
     "llm_adversary": false
   }
 }
