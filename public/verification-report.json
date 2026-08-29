@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 10,
     "items": [
       {
         "index": 0,
+        "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
+        "numbers_checked": 2,
+        "status": "verified"
+      },
+      {
+        "index": 1,
         "title": "11 Malicious NuGet Tools Pose as Game Cheats to Drop a Windows Host-Surveillance Payload",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
-        "index": 1,
+        "index": 2,
         "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
-        "index": 2,
-        "title": "July 2026 Threat Trend Report on APT Attacks (South Korea)",
-        "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
         "index": 3,
-        "title": "Defense and Diplomacy Targeted with HOOKEDGE",
+        "title": "July 2026 Threat Trend Report on APT Attacks (South Korea)",
         "numbers_checked": 3,
         "status": "verified"
       }
@@ -118,24 +118,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 10
     },
-    "verified_at": "2026-08-28T18:10:32.005268Z",
+    "verified_at": "2026-08-29T12:15:27.327482Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-28T18:10:34.415528Z",
+  "last_updated": "2026-08-29T12:15:31.024488Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -206,7 +197,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-28T18:10:32.590616Z",
+    "verified_at": "2026-08-29T12:15:28.215320Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +260,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.66,
+        "value": 4.67,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +269,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.19,
+        "value": 4.2,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-28T18:10:34.415528Z",
+    "verified_at": "2026-08-29T12:15:31.024488Z",
     "llm_adversary": false
   }
 }
