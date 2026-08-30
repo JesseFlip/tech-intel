@@ -123,10 +123,10 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-29T12:15:27.327482Z",
+    "verified_at": "2026-08-30T11:13:13.024621Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-29T12:15:31.024488Z",
+  "last_updated": "2026-08-30T11:13:14.672741Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -197,7 +197,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-29T12:15:28.215320Z",
+    "verified_at": "2026-08-30T11:13:13.349884Z",
     "llm_adversary": false
   },
   "macro": {
@@ -299,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-29T12:15:31.024488Z",
+    "verified_at": "2026-08-30T11:13:14.672741Z",
     "llm_adversary": false
   }
 }

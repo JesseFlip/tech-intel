@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-30",
+  "timestamp": "2026-08-30T11:13:13.025693",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
+      "content": "GenieLocker is a new ransomware family active since March 2026, targeting organizations in the Russian Federation, primarily in manufacturing. Attributed to the financially motivated Toy Ghouls group (also known as Bearlyfy, Labubu, and Laboo.boo), this custom-designed ransomware marks a shift from their previous reliance on third-party encryption tools like RedAlert, LockBit, and Babuk.... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Manufacturing, Construction, Finance. Associated malware: GenieLocker, RedAlert, LockBit.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a6b1c3ea08dbc663eb8f4c0",
+      "verification": "verified"
+    },
+    {
+      "title": "11 Malicious NuGet Tools Pose as Game Cheats to Drop a Windows Host-Surveillance Payload",
+      "content": "Eleven malicious NuGet packages distributed as .NET command-line tools masquerade as game utilities and cheats for popular games including Albion Online, GTA5RP, GrandRP, and Throne and Liberty. Each package functions as a first-stage downloader that uses DNS-over-HTTPS to bypass local controls, requests UAC elevation to resync system time, and fetches a second-stage PyInstaller payload named... This pulse includes 36 indicators of compromise (IOCs). Associated malware: pepesoft.exe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a57b568d98a7ae03ccd6071",
+      "verification": "verified"
+    },
+    {
+      "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
+      "content": "A Chinese-language executable disguised as a resume claiming to be from a Beijing Institute of Technology graduate student delivers SNOWLIGHT and VShell RAT. The infection chain uses a custom Go loader with sandbox detection, CPU checks, and sleep-timer evasion before downloading a legitimate DOCX decoy. It then executes a 1,454-byte SNOWLIGHT stager that connects to infrastructure, downloads... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: SNOWLIGHT, VShell.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a91a5a487efed140546d754",
+      "verification": "verified"
+    },
+    {
+      "title": "July 2026 Threat Trend Report on APT Attacks (South Korea)",
+      "content": "During July 2026, multiple APT campaigns targeted entities in South Korea primarily through spear phishing attacks utilizing LNK files. Seven distinct attack types (A through G) were identified, each employing different techniques including PowerShell scripts, AutoIt programs, curl.exe downloads, and DLL side-loading. Attackers distributed malware through platforms like GitHub, Google Drive, and... This pulse includes 5 indicators of compromise (IOCs). Associated malware: XenoRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a91687da8e6cd5cc16f64a6",
+      "verification": "verified"
+    }
+  ]
+}
