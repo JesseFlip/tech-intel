@@ -1,30 +1,30 @@
 [
   {
-    "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
-    "content": "GenieLocker is a new ransomware family active since March 2026, targeting organizations in the Russian Federation, primarily in manufacturing. Attributed to the financially motivated Toy Ghouls group (also known as Bearlyfy, Labubu, and Laboo.boo), this custom-designed ransomware marks a shift from their previous reliance on third-party encryption tools like RedAlert, LockBit, and Babuk.... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Manufacturing, Construction, Finance. Associated malware: GenieLocker, RedAlert, LockBit.",
+    "title": "Fake MP4 File Carries Malicious Payload",
+    "content": "A sophisticated infection chain leverages PowerShell loaders to deliver encrypted NetSupport client payloads concealed within fake MP4 files. The malicious MP4 containers appear valid to basic file-type checks but contain 6.5 MB of encrypted data in ISO Base Media File Format uuid extension boxes rather than playable video content. The attack begins with PowerShell delivered via... This pulse includes 76 indicators of compromise (IOCs). Associated malware: NetSupport Manager.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a6b1c3ea08dbc663eb8f4c0",
+    "url": "https://otx.alienvault.com/pulse/6a9226b8e222df2d7682db63",
     "verification": "verified"
   },
   {
-    "title": "11 Malicious NuGet Tools Pose as Game Cheats to Drop a Windows Host-Surveillance Payload",
-    "content": "Eleven malicious NuGet packages distributed as .NET command-line tools masquerade as game utilities and cheats for popular games including Albion Online, GTA5RP, GrandRP, and Throne and Liberty. Each package functions as a first-stage downloader that uses DNS-over-HTTPS to bypass local controls, requests UAC elevation to resync system time, and fetches a second-stage PyInstaller payload named... This pulse includes 36 indicators of compromise (IOCs). Associated malware: pepesoft.exe.",
+    "title": "Still Circling: Inside the Operator Behind the GitHub Loader",
+    "content": "An investigation into malware delivery infrastructure reveals an operator using GitHub repositories to stage malicious loaders and RAT payloads. Starting from commit metadata, researchers traced an email address to a compromised machine via stealer log databases. The infected workstation exposed a complete operational pipeline including multiple RAT families (AsyncRAT, DcRat, Remcos, XWorm),... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: AsyncRAT, DcRat, Remcos.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a57b568d98a7ae03ccd6071",
+    "url": "https://otx.alienvault.com/pulse/6a9226b8695b02a09a6160ef",
     "verification": "verified"
   },
   {
-    "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
-    "content": "A Chinese-language executable disguised as a resume claiming to be from a Beijing Institute of Technology graduate student delivers SNOWLIGHT and VShell RAT. The infection chain uses a custom Go loader with sandbox detection, CPU checks, and sleep-timer evasion before downloading a legitimate DOCX decoy. It then executes a 1,454-byte SNOWLIGHT stager that connects to infrastructure, downloads... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: SNOWLIGHT, VShell.",
+    "title": "Campaign deploys a reverse tunnel through multistage intrusion",
+    "content": "A sophisticated TerminalFix campaign, a variant of ClickFix, targets organizations by leveraging compromised websites displaying fake Cloudflare CAPTCHA overlays. Users are tricked into copying and executing malicious PowerShell commands in Windows Terminal. The attack deploys a complex multi-stage chain combining DLL sideloading via LockScreenContentServer.exe, steganographic payload extraction... This pulse includes 28 indicators of compromise (IOCs). Associated malware: TerminalFix, ClickFix.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a91a5a487efed140546d754",
+    "url": "https://otx.alienvault.com/pulse/6a94c765ccca1cbf809fc70f",
     "verification": "verified"
   },
   {
-    "title": "July 2026 Threat Trend Report on APT Attacks (South Korea)",
-    "content": "During July 2026, multiple APT campaigns targeted entities in South Korea primarily through spear phishing attacks utilizing LNK files. Seven distinct attack types (A through G) were identified, each employing different techniques including PowerShell scripts, AutoIt programs, curl.exe downloads, and DLL side-loading. Attackers distributed malware through platforms like GitHub, Google Drive, and... This pulse includes 5 indicators of compromise (IOCs). Associated malware: XenoRAT.",
+    "title": "Real-time Open Source Software Supply Chain Security",
+    "content": "On August 28, 2026, an attacker published 10 malicious versions of the npm package @7nohe/openapi-react-query-codegen by exploiting a flawed GitHub Actions workflow. The release pipeline contained an issue_comment trigger without author-association gates, allowing any GitHub user to trigger npm publishing from a forked repository. The attacker opened pull requests from a fork and used an npm... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Technology.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a91687da8e6cd5cc16f64a6",
+    "url": "https://otx.alienvault.com/pulse/6a9542b1777be9247d2c6ded",
     "verification": "verified"
   }
 ]

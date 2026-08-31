@@ -1,0 +1,35 @@
+{
+  "date": "2026-08-31",
+  "timestamp": "2026-08-31T12:38:46.381564",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Fake MP4 File Carries Malicious Payload",
+      "content": "A sophisticated infection chain leverages PowerShell loaders to deliver encrypted NetSupport client payloads concealed within fake MP4 files. The malicious MP4 containers appear valid to basic file-type checks but contain 6.5 MB of encrypted data in ISO Base Media File Format uuid extension boxes rather than playable video content. The attack begins with PowerShell delivered via... This pulse includes 76 indicators of compromise (IOCs). Associated malware: NetSupport Manager.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9226b8e222df2d7682db63",
+      "verification": "verified"
+    },
+    {
+      "title": "Still Circling: Inside the Operator Behind the GitHub Loader",
+      "content": "An investigation into malware delivery infrastructure reveals an operator using GitHub repositories to stage malicious loaders and RAT payloads. Starting from commit metadata, researchers traced an email address to a compromised machine via stealer log databases. The infected workstation exposed a complete operational pipeline including multiple RAT families (AsyncRAT, DcRat, Remcos, XWorm),... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: AsyncRAT, DcRat, Remcos.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9226b8695b02a09a6160ef",
+      "verification": "verified"
+    },
+    {
+      "title": "Campaign deploys a reverse tunnel through multistage intrusion",
+      "content": "A sophisticated TerminalFix campaign, a variant of ClickFix, targets organizations by leveraging compromised websites displaying fake Cloudflare CAPTCHA overlays. Users are tricked into copying and executing malicious PowerShell commands in Windows Terminal. The attack deploys a complex multi-stage chain combining DLL sideloading via LockScreenContentServer.exe, steganographic payload extraction... This pulse includes 28 indicators of compromise (IOCs). Associated malware: TerminalFix, ClickFix.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a94c765ccca1cbf809fc70f",
+      "verification": "verified"
+    },
+    {
+      "title": "Real-time Open Source Software Supply Chain Security",
+      "content": "On August 28, 2026, an attacker published 10 malicious versions of the npm package @7nohe/openapi-react-query-codegen by exploiting a flawed GitHub Actions workflow. The release pipeline contained an issue_comment trigger without author-association gates, allowing any GitHub user to trigger npm publishing from a forked repository. The attacker opened pull requests from a fork and used an npm... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9542b1777be9247d2c6ded",
+      "verification": "verified"
+    }
+  ]
+}

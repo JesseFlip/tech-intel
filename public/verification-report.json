@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "Toy Ghouls’ new toy: the GenieLocker ransomware",
-        "numbers_checked": 2,
+        "title": "Fake MP4 File Carries Malicious Payload",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "11 Malicious NuGet Tools Pose as Game Cheats to Drop a Windows Host-Surveillance Payload",
-        "numbers_checked": 3,
+        "title": "Still Circling: Inside the Operator Behind the GitHub Loader",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
-        "numbers_checked": 2,
+        "title": "Campaign deploys a reverse tunnel through multistage intrusion",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "July 2026 Threat Trend Report on APT Attacks (South Korea)",
-        "numbers_checked": 3,
+        "title": "Real-time Open Source Software Supply Chain Security",
+        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -123,10 +123,10 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-30T11:13:13.024621Z",
+    "verified_at": "2026-08-31T12:38:46.380769Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-08-30T11:13:14.672741Z",
+  "last_updated": "2026-08-31T12:38:49.001208Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -197,7 +197,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-08-30T11:13:13.349884Z",
+    "verified_at": "2026-08-31T12:38:47.005980Z",
     "llm_adversary": false
   },
   "macro": {
@@ -299,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-08-30T11:13:14.672741Z",
+    "verified_at": "2026-08-31T12:38:49.001208Z",
     "llm_adversary": false
   }
 }
