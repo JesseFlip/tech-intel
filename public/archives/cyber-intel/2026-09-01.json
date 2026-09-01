@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-01",
+  "timestamp": "2026-09-01T11:03:41.727314",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Anatomy of BraZetsu: How Cybercriminals Fuel the Underground Ecosystem",
+      "content": "BraZetsu is a sophisticated Python-based Windows malware framework attributed to the Brazilian threat actor Exilware, functioning as a comprehensive toolkit for Initial Access Brokers. Unlike standard infostealers, BraZetsu transforms compromised systems into commercial assets through deep reconnaissance capabilities targeting Iberian and Latin American corporate, financial, industrial, and law... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Finance, Government, Healthcare. Associated malware: BraZetsu, CNABHunter, Ousaban.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a95a0ec07977804896dcd7a",
+      "verification": "verified"
+    },
+    {
+      "title": "Shai-Hulud Trinitite Hits @7nohe/openapi-react-query-codegen",
+      "content": "A new Mini Shai-Hulud worm variant named Trinitite was detected on August 28, 2026, targeting the npm package @7nohe/openapi-react-query-codegen, a TanStack Query codegen tool with over 150K weekly downloads. The attacker exploited a workflow vulnerability that allowed any GitHub user to trigger npm publish via pull-request comments, publishing ten malicious versions in twenty minutes. The worm... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Shai-Hulud, Trinitite, Mini Shai-Hulud.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a959d3149cc19143a799af6",
+      "verification": "verified"
+    },
+    {
+      "title": "13 Malicious Packagist Themes Deliver iOS Spyware That Steals Crypto Wallet Seeds",
+      "content": "Thirteen malicious Composer theme packages published on Packagist across five vendor namespaces inject JavaScript into Vietnamese movie and comic streaming sites. The injected code executes two operations: a mobile ad-fraud and gambling redirect chain, and on iPhones, a WebKit-to-kernel exploit chain installing spyware. The iOS chain weaponizes CVE-2025-31277 and CVE-2025-43529, targeting devices... This pulse includes 34 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a95df86eed3f6fb54baef2d",
+      "verification": "verified"
+    },
+    {
+      "title": "Financially Motivated Threat Actor Targets Brazil",
+      "content": "Beginning in 2024, a financially motivated threat actor designated BREEZE COMET has conducted sophisticated operations targeting Brazilian financial services, retail, and eCommerce organizations. The group specializes in manipulating payment systems including Pix, STR, and Boleto to conduct fraudulent transfers worth tens of thousands of USD. Their evolved tactics leverage customized malware... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Technology. Associated malware: XWORM, REALBREEZE, COBALTSPIN.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9679441f068d4ee93916ae",
+      "verification": "verified"
+    }
+  ]
+}
