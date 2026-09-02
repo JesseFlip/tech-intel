@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 11,
     "items": [
       {
         "index": 0,
-        "title": "Anatomy of BraZetsu: How Cybercriminals Fuel the Underground Ecosystem",
-        "numbers_checked": 1,
+        "title": "A China-Nexus Campaign Against Government Infrastructure",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Shai-Hulud Trinitite Hits @7nohe/openapi-react-query-codegen",
+        "title": "A Deep Dive Into the Latest XCSSET Version",
         "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "13 Malicious Packagist Themes Deliver iOS Spyware That Steals Crypto Wallet Seeds",
-        "numbers_checked": 4,
+        "title": "Reversing a Windows Kernel Driver Rootkit",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Financially Motivated Threat Actor Targets Brazil",
-        "numbers_checked": 2,
+        "title": "Switches to Node.js and JavaScript malware",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -127,24 +127,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 11
     },
-    "verified_at": "2026-09-01T11:03:41.726321Z",
+    "verified_at": "2026-09-02T10:35:33.610832Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-01T11:03:59.089555Z",
+  "last_updated": "2026-09-02T10:35:35.580353Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -215,7 +206,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-09-01T11:03:42.247736Z",
+    "verified_at": "2026-09-02T10:35:34.091449Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +269,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.73,
+        "value": 4.75,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +296,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.39000000000000057,
+        "value": 0.41000000000000014,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-01T11:03:59.089555Z",
+    "verified_at": "2026-09-02T10:35:35.580353Z",
     "llm_adversary": false
   }
 }
