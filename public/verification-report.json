@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "A China-Nexus Campaign Against Government Infrastructure",
-        "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
-        "index": 1,
-        "title": "A Deep Dive Into the Latest XCSSET Version",
-        "numbers_checked": 5,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "Reversing a Windows Kernel Driver Rootkit",
+        "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
-        "index": 3,
-        "title": "Switches to Node.js and JavaScript malware",
+        "index": 1,
+        "title": "Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set",
         "numbers_checked": 1,
+        "status": "verified"
+      },
+      {
+        "index": 2,
+        "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+        "numbers_checked": 3,
+        "status": "verified"
+      },
+      {
+        "index": 3,
+        "title": "Inside The Gentlemen: Undisclosed TukTuk C2 Framework and EDR Neutralization Research",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -109,33 +109,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 9
     },
-    "verified_at": "2026-09-02T10:35:33.610832Z",
+    "verified_at": "2026-09-03T10:38:34.246840Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-02T10:35:35.580353Z",
+  "last_updated": "2026-09-03T10:38:36.556467Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -206,7 +188,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-09-02T10:35:34.091449Z",
+    "verified_at": "2026-09-03T10:38:34.949907Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +251,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.75,
+        "value": 4.79,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +260,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.34,
+        "value": 4.39,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +278,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.41000000000000014,
+        "value": 0.40000000000000036,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-02T10:35:35.580353Z",
+    "verified_at": "2026-09-03T10:38:36.556467Z",
     "llm_adversary": false
   }
 }

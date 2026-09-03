@@ -1,30 +1,30 @@
 [
   {
-    "title": "A China-Nexus Campaign Against Government Infrastructure",
-    "content": "China-nexus threat actors have deployed a highly opportunistic automated spray-and-check campaign to compromise global government and commercial infrastructure across more than 100 countries. The operation utilizes centralized multi-platform attack infrastructure featuring cracked Cobalt-Strike derivatives and a sophisticated loader ecosystem. Attackers leverage primary infrastructure at... This pulse includes 32 indicators of compromise (IOCs). Associated malware: GOCS, Meterpreter, Neo-reGeorg - S1189.",
+    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
+    "content": "Beginning in 2024, a financially motivated threat actor designated BREEZE COMET has conducted sophisticated operations targeting Brazilian financial services, retail, and eCommerce organizations. The group specializes in manipulating payment systems including Pix, STR, and Boleto to conduct fraudulent transfers worth tens of thousands of USD. Their evolved tactics leverage customized malware... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Technology. Associated malware: XWORM, REALBREEZE, COBALTSPIN.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a706203d3aa16bfed001a51",
+    "url": "https://otx.alienvault.com/pulse/6a9679441f068d4ee93916ae",
     "verification": "verified"
   },
   {
-    "title": "A Deep Dive Into the Latest XCSSET Version",
-    "content": "After months of dormancy, XCSSET malware version 40 emerged in April 2026 targeting macOS developers through supply chain attacks. The malware hides in Xcode projects of legitimate applications on GitHub, spreading through infected development environments. V40 features advanced detection evasion through polymorphic payload generation, fileless persistence, and in-memory execution while weakening... This pulse includes 64 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XCSSET - S0658, OSX.DubRobber, NETWIRE - S0198.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7059ccae49a160e5763d1d",
-    "verification": "verified"
-  },
-  {
-    "title": "Reversing a Windows Kernel Driver Rootkit",
-    "content": "A sophisticated Windows kernel-mode rootkit initially misidentified as Cobalt Strike Beacon operates from Ring 0 to compromise system security. The driver patches Event Tracing for Windows (ETW), employs Direct Kernel Object Manipulation (DKOM) to hide processes, hooks the NSI driver to conceal command-and-control ports, and manipulates Windows Filtering Platform to block security products. Its... This pulse includes 4 indicators of compromise (IOCs). Associated malware: SakDriver, CrackerDrv.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7059a9cb9e82a2a574651c",
-    "verification": "verified"
-  },
-  {
-    "title": "Switches to Node.js and JavaScript malware",
+    "title": "Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set",
     "content": "Mirage Kitten, an APT group historically focused on the Middle East and Africa, has deployed two previously undocumented cross-platform remote access trojans: NodeRabbit (Node.js-based) and PollCat (JavaScript-based). Both malware families mark the group's first departure from native malware toward scripting languages compatible with Windows, Linux, and macOS. Operators deliver these tools... This pulse includes 37 indicators of compromise (IOCs). Targeted industries: Finance, Aerospace. Associated malware: NodeRabbit, PollCat, Retrograde.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a96918b7f129c94fa473bb0",
+    "verification": "verified"
+  },
+  {
+    "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+    "content": "An active malware campaign utilizes fraudulent software-download websites impersonating trusted vendors to distribute malicious installers. The operation primarily targets China-based operations of multinational organizations and Chinese-speaking users across healthcare, manufacturing, gaming, technology, logistics, government, and education sectors. The malicious installers deploy malware... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Healthcare, Manufacturing, Technology. Associated malware: gh0st RAT - S0032, Mydoor, Moudoor.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a992140547fc1034bef07a8",
+    "verification": "verified"
+  },
+  {
+    "title": "Inside The Gentlemen: Undisclosed TukTuk C2 Framework and EDR Neutralization Research",
+    "content": "Analysis of server infrastructure revealed a complete TukTuk C2 framework (version 2.0) with cross-platform capabilities, including Windows and Linux agents, backend infrastructure, and management panel. The server contained eb.sys matching GentleKiller, along with comprehensive EDR neutralization training materials organized in four progressive lessons covering BYOVD techniques, vulnerable... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Defense, Healthcare, Technology. Associated malware: TukTuk, GentleKiller, EDRKiller.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a9869cb21bbf3f757424b7f",
     "verification": "verified"
   }
 ]
