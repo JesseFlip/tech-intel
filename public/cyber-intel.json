@@ -1,30 +1,30 @@
 [
   {
-    "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
-    "content": "Beginning in 2024, a financially motivated threat actor designated BREEZE COMET has conducted sophisticated operations targeting Brazilian financial services, retail, and eCommerce organizations. The group specializes in manipulating payment systems including Pix, STR, and Boleto to conduct fraudulent transfers worth tens of thousands of USD. Their evolved tactics leverage customized malware... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Technology. Associated malware: XWORM, REALBREEZE, COBALTSPIN.",
+    "title": "Security Update – August 2, 2026",
+    "content": "On July 31, 2026, Adlumin MDR solution detected unusual activity leading to discovery of a threat actor actively exploiting a zero-day vulnerability in N-central servers. The vulnerability affected all versions of N-central, allowing attackers to obtain administrative access remotely. Following exploitation, attackers leveraged the Take Control feature to connect to systems within managed... This pulse includes 2 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9679441f068d4ee93916ae",
+    "url": "https://otx.alienvault.com/pulse/6a722d8d3a70e4378b2ea51d",
     "verification": "verified"
   },
   {
-    "title": "Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set",
-    "content": "Mirage Kitten, an APT group historically focused on the Middle East and Africa, has deployed two previously undocumented cross-platform remote access trojans: NodeRabbit (Node.js-based) and PollCat (JavaScript-based). Both malware families mark the group's first departure from native malware toward scripting languages compatible with Windows, Linux, and macOS. Operators deliver these tools... This pulse includes 37 indicators of compromise (IOCs). Targeted industries: Finance, Aerospace. Associated malware: NodeRabbit, PollCat, Retrograde.",
+    "title": "QuickFox Supply Chain Attack Used to Deploy FDMTP Implant",
+    "content": "A long-running campaign compromised the QuickFox VPN application, primarily used by Chinese users to access Chinese resources and improve gaming experiences. Active since August 2025, the attack involved trojanized Windows installers (versions 3.0.51.0 through 3.59.5) that deployed malicious JavaScript through modified Electron renderer HTML files. The JavaScript loader fingerprinted victim... This pulse includes 105 indicators of compromise (IOCs). Associated malware: FDMTP.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a96918b7f129c94fa473bb0",
+    "url": "https://otx.alienvault.com/pulse/6a72f492ee9dc3fc24d86c17",
     "verification": "verified"
   },
   {
-    "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
-    "content": "An active malware campaign utilizes fraudulent software-download websites impersonating trusted vendors to distribute malicious installers. The operation primarily targets China-based operations of multinational organizations and Chinese-speaking users across healthcare, manufacturing, gaming, technology, logistics, government, and education sectors. The malicious installers deploy malware... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Healthcare, Manufacturing, Technology. Associated malware: gh0st RAT - S0032, Mydoor, Moudoor.",
+    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
+    "content": "An exposed open directory at a staging server revealed an active intrusion by operators linked to The Gentlemen ransomware group. The operation involved establishing persistent access through privileged account creation, credential theft via LSASS dumping, and lateral movement across a Windows domain. Attackers deployed multiple implants including EtherRAT, which retrieves command-and-control... This pulse includes 21 indicators of compromise (IOCs). Associated malware: EtherRAT, Sliver, Chisel.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a992140547fc1034bef07a8",
+    "url": "https://otx.alienvault.com/pulse/6a72f3bde4df792f5fa8956d",
     "verification": "verified"
   },
   {
-    "title": "Inside The Gentlemen: Undisclosed TukTuk C2 Framework and EDR Neutralization Research",
-    "content": "Analysis of server infrastructure revealed a complete TukTuk C2 framework (version 2.0) with cross-platform capabilities, including Windows and Linux agents, backend infrastructure, and management panel. The server contained eb.sys matching GentleKiller, along with comprehensive EDR neutralization training materials organized in four progressive lessons covering BYOVD techniques, vulnerable... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Defense, Healthcare, Technology. Associated malware: TukTuk, GentleKiller, EDRKiller.",
+    "title": "Fake AI Tools Deliver Infostealer",
+    "content": "In April 2026, a Malware-as-a-Service NodeJS infostealer campaign evolved its delivery methods, shifting from ClickFix social engineering to weaponized GitHub repositories. Attackers clone legitimate AI-related repositories and developer tools, subtly embedding malicious payloads that target developers and AI users. The campaign employs SmartLoader in a redundant two-stage loader chain, with both... This pulse includes 31 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: SmartLoader, NodeJS infostealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9869cb21bbf3f757424b7f",
+    "url": "https://otx.alienvault.com/pulse/6a722d8d66f65b167764ad69",
     "verification": "verified"
   }
 ]

@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 9,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Financially Motivated Threat Actor BREEZE COMET Targets Brazil",
-        "numbers_checked": 2,
+        "title": "Security Update – August 2, 2026",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Mirage Kitten targeting aviation and FinTech sectors across the Middle East and Africa with a new malware set",
-        "numbers_checked": 1,
+        "title": "QuickFox Supply Chain Attack Used to Deploy FDMTP Implant",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
-        "numbers_checked": 3,
+        "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Inside The Gentlemen: Undisclosed TukTuk C2 Framework and EDR Neutralization Research",
-        "numbers_checked": 3,
+        "title": "Fake AI Tools Deliver Infostealer",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -109,15 +109,69 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 9
+      "verified": 15
     },
-    "verified_at": "2026-09-03T10:38:34.246840Z",
+    "verified_at": "2026-09-04T10:33:19.350341Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-03T10:38:36.556467Z",
+  "last_updated": "2026-09-04T10:33:21.542642Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -136,14 +190,14 @@
       },
       {
         "index": 2,
-        "title": "Enterprise AI's real risk isn't autonomous agents. It's the complexity between them.",
-        "numbers_checked": 1,
+        "title": "This NAS company wants to run your local smart home",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "When agents act on their own, governance has to live in the data layer",
-        "numbers_checked": 0,
+        "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -188,7 +242,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-09-03T10:38:34.949907Z",
+    "verified_at": "2026-09-04T10:33:19.781160Z",
     "llm_adversary": false
   },
   "macro": {
@@ -290,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-03T10:38:36.556467Z",
+    "verified_at": "2026-09-04T10:33:21.542642Z",
     "llm_adversary": false
   }
 }

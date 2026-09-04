@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-04",
+  "timestamp": "2026-09-04T10:33:19.353291",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Security Update – August 2, 2026",
+      "content": "On July 31, 2026, Adlumin MDR solution detected unusual activity leading to discovery of a threat actor actively exploiting a zero-day vulnerability in N-central servers. The vulnerability affected all versions of N-central, allowing attackers to obtain administrative access remotely. Following exploitation, attackers leveraged the Take Control feature to connect to systems within managed... This pulse includes 2 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a722d8d3a70e4378b2ea51d",
+      "verification": "verified"
+    },
+    {
+      "title": "QuickFox Supply Chain Attack Used to Deploy FDMTP Implant",
+      "content": "A long-running campaign compromised the QuickFox VPN application, primarily used by Chinese users to access Chinese resources and improve gaming experiences. Active since August 2025, the attack involved trojanized Windows installers (versions 3.0.51.0 through 3.59.5) that deployed malicious JavaScript through modified Electron renderer HTML files. The JavaScript loader fingerprinted victim... This pulse includes 105 indicators of compromise (IOCs). Associated malware: FDMTP.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a72f492ee9dc3fc24d86c17",
+      "verification": "verified"
+    },
+    {
+      "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
+      "content": "An exposed open directory at a staging server revealed an active intrusion by operators linked to The Gentlemen ransomware group. The operation involved establishing persistent access through privileged account creation, credential theft via LSASS dumping, and lateral movement across a Windows domain. Attackers deployed multiple implants including EtherRAT, which retrieves command-and-control... This pulse includes 21 indicators of compromise (IOCs). Associated malware: EtherRAT, Sliver, Chisel.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a72f3bde4df792f5fa8956d",
+      "verification": "verified"
+    },
+    {
+      "title": "Fake AI Tools Deliver Infostealer",
+      "content": "In April 2026, a Malware-as-a-Service NodeJS infostealer campaign evolved its delivery methods, shifting from ClickFix social engineering to weaponized GitHub repositories. Attackers clone legitimate AI-related repositories and developer tools, subtly embedding malicious payloads that target developers and AI users. The campaign employs SmartLoader in a redundant two-stage loader chain, with both... This pulse includes 31 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: SmartLoader, NodeJS infostealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a722d8d66f65b167764ad69",
+      "verification": "verified"
+    }
+  ]
+}
