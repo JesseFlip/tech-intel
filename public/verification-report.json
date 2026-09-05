@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 15,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "Security Update – August 2, 2026",
+        "title": "Authentication Bypass Vulnerability in N-central Exploited In-The-Wild",
         "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "QuickFox Supply Chain Attack Used to Deploy FDMTP Implant",
-        "numbers_checked": 6,
+        "title": "ENDLESSDOORS Is Phoning Home. Pick Up.",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
-        "numbers_checked": 2,
+        "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Fake AI Tools Deliver Infostealer",
+        "title": "Contagious Interview steps outside the developer workflow",
         "numbers_checked": 2,
         "status": "verified"
       }
@@ -109,69 +109,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 15
+      "verified": 9
     },
-    "verified_at": "2026-09-04T10:33:19.350341Z",
+    "verified_at": "2026-09-05T09:55:52.512962Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-04T10:33:21.542642Z",
+  "last_updated": "2026-09-05T09:55:54.282565Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -190,14 +136,14 @@
       },
       {
         "index": 2,
-        "title": "This NAS company wants to run your local smart home",
-        "numbers_checked": 0,
+        "title": "Roland is getting into generative AI music with Melody Flip",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
-        "numbers_checked": 1,
+        "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -242,7 +188,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-09-04T10:33:19.781160Z",
+    "verified_at": "2026-09-05T09:55:52.822665Z",
     "llm_adversary": false
   },
   "macro": {
@@ -305,7 +251,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.79,
+        "value": 4.77,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +260,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.39,
+        "value": 4.34,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +278,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.40000000000000036,
+        "value": 0.4299999999999997,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -344,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-04T10:33:21.542642Z",
+    "verified_at": "2026-09-05T09:55:54.282565Z",
     "llm_adversary": false
   }
 }

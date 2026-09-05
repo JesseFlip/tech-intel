@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-05",
+  "timestamp": "2026-09-05T09:55:52.513846",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Authentication Bypass Vulnerability in N-central Exploited In-The-Wild",
+      "content": "An authentication bypass vulnerability, CVE-2026-18577, affecting N-able N-central Remote Monitoring and Management platform has been actively exploited since August 1, 2026. This vulnerability emerged after an incomplete fix for a previous authentication bypass issue CVE-2026-18556. The flaw allows remote unauthenticated attackers to bypass authentication mechanisms and gain administrative... This pulse includes 2 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a74564f0edb6c8f24fda004",
+      "verification": "verified"
+    },
+    {
+      "title": "ENDLESSDOORS Is Phoning Home. Pick Up.",
+      "content": "Zbtlink routers, manufactured by Shenzhen Zhibotong Electronics and sold globally under multiple brand names including Wiflyer, contain a pre-installed backdoor implant named ENDLESSDOORS. This implant, based on the open-source rctl tool, runs as disguised userland processes named 'kworker' and continuously attempts to contact command and control servers. The backdoor provides unauthenticated... This pulse includes 33 indicators of compromise (IOCs). Associated malware: ENDLESSDOORS, rctl.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a734a554923448bd690f87e",
+      "verification": "verified"
+    },
+    {
+      "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+      "content": "Attack campaigns targeting Korean users have been observed deploying remote control tools including Radmin and UltraVNC to compromise systems. The initial intrusion vector remains unidentified, but attackers download compressed files containing batch scripts and remote administration software. Following Radmin installation, threat actors leverage access to deploy UltraVNC alongside proxy tools... This pulse includes 19 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9a78c9a7a8e20715261f8c",
+      "verification": "verified"
+    },
+    {
+      "title": "Contagious Interview steps outside the developer workflow",
+      "content": "Jamf Threat Labs discovered a cluster of 14 trojanized macOS applications distributed as DMG and PKG files impersonating legitimate software like The Unarchiver, Sketch, and Bartender. These samples are linked to the Contagious Interview campaign, a DPRK-attributed operation using fake job interviews as a pretext. The malware chain begins with unsigned, modified applications containing hidden... This pulse includes 40 indicators of compromise (IOCs). Associated malware: OtterCookie.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a99efa1445d8ef021e25d53",
+      "verification": "verified"
+    }
+  ]
+}

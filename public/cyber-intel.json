@@ -1,30 +1,30 @@
 [
   {
-    "title": "Security Update – August 2, 2026",
-    "content": "On July 31, 2026, Adlumin MDR solution detected unusual activity leading to discovery of a threat actor actively exploiting a zero-day vulnerability in N-central servers. The vulnerability affected all versions of N-central, allowing attackers to obtain administrative access remotely. Following exploitation, attackers leveraged the Take Control feature to connect to systems within managed... This pulse includes 2 indicators of compromise (IOCs).",
+    "title": "Authentication Bypass Vulnerability in N-central Exploited In-The-Wild",
+    "content": "An authentication bypass vulnerability, CVE-2026-18577, affecting N-able N-central Remote Monitoring and Management platform has been actively exploited since August 1, 2026. This vulnerability emerged after an incomplete fix for a previous authentication bypass issue CVE-2026-18556. The flaw allows remote unauthenticated attackers to bypass authentication mechanisms and gain administrative... This pulse includes 2 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a722d8d3a70e4378b2ea51d",
+    "url": "https://otx.alienvault.com/pulse/6a74564f0edb6c8f24fda004",
     "verification": "verified"
   },
   {
-    "title": "QuickFox Supply Chain Attack Used to Deploy FDMTP Implant",
-    "content": "A long-running campaign compromised the QuickFox VPN application, primarily used by Chinese users to access Chinese resources and improve gaming experiences. Active since August 2025, the attack involved trojanized Windows installers (versions 3.0.51.0 through 3.59.5) that deployed malicious JavaScript through modified Electron renderer HTML files. The JavaScript loader fingerprinted victim... This pulse includes 105 indicators of compromise (IOCs). Associated malware: FDMTP.",
+    "title": "ENDLESSDOORS Is Phoning Home. Pick Up.",
+    "content": "Zbtlink routers, manufactured by Shenzhen Zhibotong Electronics and sold globally under multiple brand names including Wiflyer, contain a pre-installed backdoor implant named ENDLESSDOORS. This implant, based on the open-source rctl tool, runs as disguised userland processes named 'kworker' and continuously attempts to contact command and control servers. The backdoor provides unauthenticated... This pulse includes 33 indicators of compromise (IOCs). Associated malware: ENDLESSDOORS, rctl.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a72f492ee9dc3fc24d86c17",
+    "url": "https://otx.alienvault.com/pulse/6a734a554923448bd690f87e",
     "verification": "verified"
   },
   {
-    "title": "The Gentlemen Affiliate Deploys EtherRAT Across Windows Networks Using Ethereum Smart Contract C2",
-    "content": "An exposed open directory at a staging server revealed an active intrusion by operators linked to The Gentlemen ransomware group. The operation involved establishing persistent access through privileged account creation, credential theft via LSASS dumping, and lateral movement across a Windows domain. Attackers deployed multiple implants including EtherRAT, which retrieves command-and-control... This pulse includes 21 indicators of compromise (IOCs). Associated malware: EtherRAT, Sliver, Chisel.",
+    "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+    "content": "Attack campaigns targeting Korean users have been observed deploying remote control tools including Radmin and UltraVNC to compromise systems. The initial intrusion vector remains unidentified, but attackers download compressed files containing batch scripts and remote administration software. Following Radmin installation, threat actors leverage access to deploy UltraVNC alongside proxy tools... This pulse includes 19 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a72f3bde4df792f5fa8956d",
+    "url": "https://otx.alienvault.com/pulse/6a9a78c9a7a8e20715261f8c",
     "verification": "verified"
   },
   {
-    "title": "Fake AI Tools Deliver Infostealer",
-    "content": "In April 2026, a Malware-as-a-Service NodeJS infostealer campaign evolved its delivery methods, shifting from ClickFix social engineering to weaponized GitHub repositories. Attackers clone legitimate AI-related repositories and developer tools, subtly embedding malicious payloads that target developers and AI users. The campaign employs SmartLoader in a redundant two-stage loader chain, with both... This pulse includes 31 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: SmartLoader, NodeJS infostealer.",
+    "title": "Contagious Interview steps outside the developer workflow",
+    "content": "Jamf Threat Labs discovered a cluster of 14 trojanized macOS applications distributed as DMG and PKG files impersonating legitimate software like The Unarchiver, Sketch, and Bartender. These samples are linked to the Contagious Interview campaign, a DPRK-attributed operation using fake job interviews as a pretext. The malware chain begins with unsigned, modified applications containing hidden... This pulse includes 40 indicators of compromise (IOCs). Associated malware: OtterCookie.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a722d8d66f65b167764ad69",
+    "url": "https://otx.alienvault.com/pulse/6a99efa1445d8ef021e25d53",
     "verification": "verified"
   }
 ]
