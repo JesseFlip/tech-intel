@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 9,
+    "checked": 7,
     "items": [
       {
         "index": 0,
-        "title": "Authentication Bypass Vulnerability in N-central Exploited In-The-Wild",
-        "numbers_checked": 5,
+        "title": "Fake Zoom Installer Delivers Overlord RAT on macOS",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "ENDLESSDOORS Is Phoning Home. Pick Up.",
-        "numbers_checked": 1,
+        "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+        "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Contagious Interview steps outside the developer workflow",
-        "numbers_checked": 2,
+        "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -91,33 +91,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 9
+      "verified": 7
     },
-    "verified_at": "2026-09-05T09:55:52.512962Z",
+    "verified_at": "2026-09-06T10:14:00.654187Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-05T09:55:54.282565Z",
+  "last_updated": "2026-09-06T10:14:02.751388Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -136,14 +118,14 @@
       },
       {
         "index": 2,
-        "title": "Roland is getting into generative AI music with Melody Flip",
-        "numbers_checked": 1,
+        "title": "OpenAI admits to German wiki ‘incident’",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-        "numbers_checked": 0,
+        "title": "Roland is getting into generative AI music with Melody Flip",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -188,7 +170,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-09-05T09:55:52.822665Z",
+    "verified_at": "2026-09-06T10:14:01.151396Z",
     "llm_adversary": false
   },
   "macro": {
@@ -290,7 +272,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-05T09:55:54.282565Z",
+    "verified_at": "2026-09-06T10:14:02.751388Z",
     "llm_adversary": false
   }
 }

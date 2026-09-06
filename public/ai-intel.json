@@ -14,17 +14,17 @@
     "verification": "verified"
   },
   {
+    "title": "OpenAI admits to German wiki ‘incident’",
+    "content": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age",
+    "linkText": "Read Full Article →",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+    "verification": "verified"
+  },
+  {
     "title": "Roland is getting into generative AI music with Melody Flip",
     "content": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ide",
     "linkText": "Read Full Article →",
     "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
-    "verification": "verified"
-  },
-  {
-    "title": "Microsoft says virtually nobody was grabbing NYT articles through its chatbot",
-    "content": "Microsoft's Copilot rarely reproduces even full sentences from news articles and books, let alone substantive chunks that could substitute for the original, the company says in new legal filings as it fights copyright claims from publishers including The New York Times and book authors. As part of t",
-    "linkText": "Read Full Article →",
-    "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
     "verification": "verified"
   }
 ]
