@@ -14,17 +14,17 @@
     "verification": "verified"
   },
   {
+    "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
+    "content": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user qu",
+    "linkText": "Read Full Article →",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+    "verification": "verified"
+  },
+  {
     "title": "OpenAI admits to German wiki ‘incident’",
     "content": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site. Regarding the \"'wiki incident,' where our age",
     "linkText": "Read Full Article →",
     "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
-    "verification": "verified"
-  },
-  {
-    "title": "Roland is getting into generative AI music with Melody Flip",
-    "content": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ide",
-    "linkText": "Read Full Article →",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip",
     "verification": "verified"
   }
 ]

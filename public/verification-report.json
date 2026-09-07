@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 7,
+    "checked": 17,
     "items": [
       {
         "index": 0,
-        "title": "Fake Zoom Installer Delivers Overlord RAT on macOS",
+        "title": "Angry Birds: Toy Ghouls’ new toys",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "UNC6671 Rebrands: Multi-Brand Vishing Extortion Targets Financial Services and Enterprise Cloud Environments",
-        "numbers_checked": 3,
+        "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Mac Malware Drains Crypto Wallets Via Fake CAPTCHA Scam",
-        "numbers_checked": 1,
+        "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Token Jacking: Cybercriminals Could Be Stealing Your AI Resources",
-        "numbers_checked": 1,
+        "title": "BengalSEO Part 1: Anatomy of the Operation",
+        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -91,18 +91,108 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 17
     },
-    "verified_at": "2026-09-06T10:14:00.654187Z",
+    "verified_at": "2026-09-07T11:32:18.173404Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-06T10:14:02.751388Z",
+  "last_updated": "2026-09-07T11:32:19.859095Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -118,14 +208,14 @@
       },
       {
         "index": 2,
-        "title": "OpenAI admits to German wiki ‘incident’",
+        "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Roland is getting into generative AI music with Melody Flip",
-        "numbers_checked": 1,
+        "title": "OpenAI admits to German wiki ‘incident’",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -156,21 +246,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 3
     },
-    "verified_at": "2026-09-06T10:14:01.151396Z",
+    "verified_at": "2026-09-07T11:32:18.342426Z",
     "llm_adversary": false
   },
   "macro": {
@@ -272,7 +353,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-06T10:14:02.751388Z",
+    "verified_at": "2026-09-07T11:32:19.859095Z",
     "llm_adversary": false
   }
 }

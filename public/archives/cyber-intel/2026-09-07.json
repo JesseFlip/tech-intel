@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-07",
+  "timestamp": "2026-09-07T11:32:18.174568",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Angry Birds: Toy Ghouls’ new toys",
+      "content": "Toy Ghouls, a financially motivated group targeting Russian organizations since 2025, has deployed custom backdoors for the first time. Two versions were identified: mqtt-bird-agent using HiveMQ MQTT broker and matrix-bird-agent using Element messenger as command and control infrastructure. The backdoors are delivered via Windows Remote Management (WinRM) using tools like Evil-WinRM and WinRM-fs.... This pulse includes 3 indicators of compromise (IOCs). Associated malware: mqtt-bird-agent, matrix-bird-agent, GenieLocker.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9abac288231f0634632e30",
+      "verification": "verified"
+    },
+    {
+      "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
+      "content": "A previously undocumented Linux toolkit has been targeting South Korean automotive and media organizations with minimal detection since early 2025. The campaign employs a HAProxy instance called ted backdoor, compiled within the victim's existing HAProxy version 2.8.12, alongside trojanized versions of crond, agetty, atd, sshd, and polkitd. This sophisticated framework enables remote command... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Media, Automotive. Associated malware: ted backdoor, curlRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9af7a5158ae188847551b5",
+      "verification": "verified"
+    },
+    {
+      "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
+      "content": "StyleSmuggler is an unpatched zero-day vulnerability affecting all current versions of Magento and Adobe Commerce, including version 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on September 4th, 2026. The attack operates in two stages: injecting malicious PHP code through the styles properties to evade safeguards, then executing it via failed payment email... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Retail.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9c7c833376c19e92778b46",
+      "verification": "verified"
+    },
+    {
+      "title": "BengalSEO Part 1: Anatomy of the Operation",
+      "content": "In March 2026, a sophisticated SEO poisoning campaign was identified leading to malware distribution and tech support scams. Operating since at least 2015, this operation is attributed to individuals and IT service providers in Rajasthan, India, collectively tracked as BengalSEO. Two primary entities were identified: WeConnect Solutions LLC operates tech support call centers, while Garage2Global... This pulse includes 524 indicators of compromise (IOCs). Associated malware: MayaBot.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9d1727de29faddfa1c2a91",
+      "verification": "verified"
+    }
+  ]
+}
