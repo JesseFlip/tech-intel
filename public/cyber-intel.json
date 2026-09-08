@@ -1,30 +1,30 @@
 [
   {
-    "title": "Angry Birds: Toy Ghouls’ new toys",
-    "content": "Toy Ghouls, a financially motivated group targeting Russian organizations since 2025, has deployed custom backdoors for the first time. Two versions were identified: mqtt-bird-agent using HiveMQ MQTT broker and matrix-bird-agent using Element messenger as command and control infrastructure. The backdoors are delivered via Windows Remote Management (WinRM) using tools like Evil-WinRM and WinRM-fs.... This pulse includes 3 indicators of compromise (IOCs). Associated malware: mqtt-bird-agent, matrix-bird-agent, GenieLocker.",
+    "title": "Bypassing the Gatekeepers: How a Global Phishing Campaign Turns Google's Infrastructure into a Trust Proxy",
+    "content": "Cybercriminals are exploiting legitimate Google infrastructure in a sophisticated phishing operation that bypasses email security gateways and enterprise firewalls. The attack chains together six distinct Google properties including Meet, Search, DoubleClick, Custom Search, Tag Manager and Analytics to proxy malicious traffic through trusted domains. Victims' email addresses are encoded in URL... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Manufacturing, Government, Finance. Associated malware: ScreenConnect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9abac288231f0634632e30",
-    "verification": "verified"
-  },
-  {
-    "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
-    "content": "A previously undocumented Linux toolkit has been targeting South Korean automotive and media organizations with minimal detection since early 2025. The campaign employs a HAProxy instance called ted backdoor, compiled within the victim's existing HAProxy version 2.8.12, alongside trojanized versions of crond, agetty, atd, sshd, and polkitd. This sophisticated framework enables remote command... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Media, Automotive. Associated malware: ted backdoor, curlRAT.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9af7a5158ae188847551b5",
+    "url": "https://otx.alienvault.com/pulse/6a9ef40735b49c55dc7166c9",
     "verification": "verified"
   },
   {
     "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
-    "content": "StyleSmuggler is an unpatched zero-day vulnerability affecting all current versions of Magento and Adobe Commerce, including version 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on September 4th, 2026. The attack operates in two stages: injecting malicious PHP code through the styles properties to evade safeguards, then executing it via failed payment email... This pulse includes 16 indicators of compromise (IOCs). Targeted industries: Retail.",
+    "content": "An unpatched zero-day vulnerability dubbed StyleSmuggler affects all current versions of Magento and Adobe Commerce, including 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on September 4th, 2026. The attack operates in two stages: injecting malicious PHP code into Magento's template system using styles properties to evade safeguards, then executing the poisoned... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: StyleSmuggler.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9c7c833376c19e92778b46",
+    "url": "https://otx.alienvault.com/pulse/6a9ef14fbc62257cff38357b",
     "verification": "verified"
   },
   {
-    "title": "BengalSEO Part 1: Anatomy of the Operation",
-    "content": "In March 2026, a sophisticated SEO poisoning campaign was identified leading to malware distribution and tech support scams. Operating since at least 2015, this operation is attributed to individuals and IT service providers in Rajasthan, India, collectively tracked as BengalSEO. Two primary entities were identified: WeConnect Solutions LLC operates tech support call centers, while Garage2Global... This pulse includes 524 indicators of compromise (IOCs). Associated malware: MayaBot.",
+    "title": "Tracking BigBear 2.0 Evilginx2 Phishing Campaign",
+    "content": "In June 2026, researchers uncovered BigBear 2.0, a rebranded Evilginx2-based phishing-as-a-service framework targeting Microsoft 365 credentials globally. The operation, managed by operator 'General Boss', deployed 42 VPS nodes primarily hosted on Vultr infrastructure, utilizing the 'offy' phishlet configuration. The platform employed adversary-in-the-middle techniques with geo-matched... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Technology, Energy, Healthcare. Associated malware: BigBear 2.0, Evilginx2.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9d1727de29faddfa1c2a91",
+    "url": "https://otx.alienvault.com/pulse/6a9ef10da8f75f1218af678c",
+    "verification": "verified"
+  },
+  {
+    "title": "PEEP: A Browser RAT Posing as a Chrome Extension",
+    "content": "PEEP is a Chromium-based post-exploitation toolkit disguised as 'Smart Bookmarks' that transforms Chrome and Edge browsers into persistent backdoors. Requiring prior administrative access, it bypasses Web Store security by forging Chromium integrity values and uses native-messaging to extend beyond browser telemetry to full host-level command execution. The malware beacons every 30 seconds over... This pulse includes 14 indicators of compromise (IOCs). Associated malware: PEEP.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a9eb13dfccfac432c46d96e",
     "verification": "verified"
   }
 ]

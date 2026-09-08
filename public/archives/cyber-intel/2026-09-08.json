@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-08",
+  "timestamp": "2026-09-08T10:32:53.857392",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Bypassing the Gatekeepers: How a Global Phishing Campaign Turns Google's Infrastructure into a Trust Proxy",
+      "content": "Cybercriminals are exploiting legitimate Google infrastructure in a sophisticated phishing operation that bypasses email security gateways and enterprise firewalls. The attack chains together six distinct Google properties including Meet, Search, DoubleClick, Custom Search, Tag Manager and Analytics to proxy malicious traffic through trusted domains. Victims' email addresses are encoded in URL... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Manufacturing, Government, Finance. Associated malware: ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9ef40735b49c55dc7166c9",
+      "verification": "verified"
+    },
+    {
+      "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
+      "content": "An unpatched zero-day vulnerability dubbed StyleSmuggler affects all current versions of Magento and Adobe Commerce, including 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on September 4th, 2026. The attack operates in two stages: injecting malicious PHP code into Magento's template system using styles properties to evade safeguards, then executing the poisoned... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: StyleSmuggler.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9ef14fbc62257cff38357b",
+      "verification": "verified"
+    },
+    {
+      "title": "Tracking BigBear 2.0 Evilginx2 Phishing Campaign",
+      "content": "In June 2026, researchers uncovered BigBear 2.0, a rebranded Evilginx2-based phishing-as-a-service framework targeting Microsoft 365 credentials globally. The operation, managed by operator 'General Boss', deployed 42 VPS nodes primarily hosted on Vultr infrastructure, utilizing the 'offy' phishlet configuration. The platform employed adversary-in-the-middle techniques with geo-matched... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Technology, Energy, Healthcare. Associated malware: BigBear 2.0, Evilginx2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9ef10da8f75f1218af678c",
+      "verification": "verified"
+    },
+    {
+      "title": "PEEP: A Browser RAT Posing as a Chrome Extension",
+      "content": "PEEP is a Chromium-based post-exploitation toolkit disguised as 'Smart Bookmarks' that transforms Chrome and Edge browsers into persistent backdoors. Requiring prior administrative access, it bypasses Web Store security by forging Chromium integrity values and uses native-messaging to extend beyond browser telemetry to full host-level command execution. The malware beacons every 30 seconds over... This pulse includes 14 indicators of compromise (IOCs). Associated malware: PEEP.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9eb13dfccfac432c46d96e",
+      "verification": "verified"
+    }
+  ]
+}

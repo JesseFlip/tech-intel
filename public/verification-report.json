@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 17,
+    "checked": 16,
     "items": [
       {
         "index": 0,
-        "title": "Angry Birds: Toy Ghouls’ new toys",
-        "numbers_checked": 2,
+        "title": "Bypassing the Gatekeepers: How a Global Phishing Campaign Turns Google's Infrastructure into a Trust Proxy",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
-        "numbers_checked": 4,
-        "status": "verified"
-      },
-      {
-        "index": 2,
         "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
         "numbers_checked": 6,
         "status": "verified"
       },
       {
+        "index": 2,
+        "title": "Tracking BigBear 2.0 Evilginx2 Phishing Campaign",
+        "numbers_checked": 7,
+        "status": "verified"
+      },
+      {
         "index": 3,
-        "title": "BengalSEO Part 1: Anatomy of the Operation",
-        "numbers_checked": 5,
+        "title": "PEEP: A Browser RAT Posing as a Chrome Extension",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -172,24 +172,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 17
+      "verified": 16
     },
-    "verified_at": "2026-09-07T11:32:18.173404Z",
+    "verified_at": "2026-09-08T10:32:53.856524Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-07T11:32:19.859095Z",
+  "last_updated": "2026-09-08T10:32:56.583559Z",
   "ai": {
     "feed": "ai",
     "checked": 3,
@@ -251,7 +242,7 @@
     "status_counts": {
       "verified": 3
     },
-    "verified_at": "2026-09-07T11:32:18.342426Z",
+    "verified_at": "2026-09-08T10:32:54.175588Z",
     "llm_adversary": false
   },
   "macro": {
@@ -353,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-07T11:32:19.859095Z",
+    "verified_at": "2026-09-08T10:32:56.583559Z",
     "llm_adversary": false
   }
 }
