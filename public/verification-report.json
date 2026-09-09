@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "Bypassing the Gatekeepers: How a Global Phishing Campaign Turns Google's Infrastructure into a Trust Proxy",
+        "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
-        "numbers_checked": 6,
+        "title": "MacSync: The Evasive macOS Stealer Exploiting ClickFix Lures",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Tracking BigBear 2.0 Evilginx2 Phishing Campaign",
-        "numbers_checked": 7,
+        "title": "Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "PEEP: A Browser RAT Posing as a Chrome Extension",
-        "numbers_checked": 2,
+        "title": "Inside a Packed Android RAT Loader",
+        "numbers_checked": 7,
         "status": "verified"
       }
     ],
@@ -177,13 +177,13 @@
     "status_counts": {
       "verified": 16
     },
-    "verified_at": "2026-09-08T10:32:53.856524Z",
+    "verified_at": "2026-09-09T10:44:09.034535Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-08T10:32:56.583559Z",
+  "last_updated": "2026-09-09T10:44:10.987285Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 7,
     "items": [
       {
         "index": 0,
@@ -199,14 +199,14 @@
       },
       {
         "index": 2,
-        "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
-        "numbers_checked": 0,
+        "title": "Worried Anthropic researchers warn that AI &#8216;could kill all humans&#8217;",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI admits to German wiki ‘incident’",
-        "numbers_checked": 0,
+        "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -237,12 +237,48 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 7
     },
-    "verified_at": "2026-09-08T10:32:54.175588Z",
+    "verified_at": "2026-09-09T10:44:09.334675Z",
     "llm_adversary": false
   },
   "macro": {
@@ -305,7 +341,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.77,
+        "value": 4.78,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +350,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.34,
+        "value": 4.37,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +368,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.4299999999999997,
+        "value": 0.41000000000000014,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -344,7 +380,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-08T10:32:56.583559Z",
+    "verified_at": "2026-09-09T10:44:10.987285Z",
     "llm_adversary": false
   }
 }

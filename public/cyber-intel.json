@@ -1,30 +1,30 @@
 [
   {
-    "title": "Bypassing the Gatekeepers: How a Global Phishing Campaign Turns Google's Infrastructure into a Trust Proxy",
-    "content": "Cybercriminals are exploiting legitimate Google infrastructure in a sophisticated phishing operation that bypasses email security gateways and enterprise firewalls. The attack chains together six distinct Google properties including Meet, Search, DoubleClick, Custom Search, Tag Manager and Analytics to proxy malicious traffic through trusted domains. Victims' email addresses are encoded in URL... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Manufacturing, Government, Finance. Associated malware: ScreenConnect.",
+    "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
+    "content": "An investigation revealed a sophisticated cryptocurrency and credential-stealing operation using Amatera stealer as the primary payload. The attack chain leverages Cloudflare Workers to inject JavaScript stored on BNB Smart Chain, presenting fake Google CAPTCHA prompts that lead to WebDAV-based DLL execution. Two parallel infection chains were identified, one loading through a DLL named 'pf.ch'... This pulse includes 85 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Amatera, ZigCryptoStealer, NetSupport Manager.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9ef40735b49c55dc7166c9",
+    "url": "https://otx.alienvault.com/pulse/6a9ffe054812bce013827753",
     "verification": "verified"
   },
   {
-    "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
-    "content": "An unpatched zero-day vulnerability dubbed StyleSmuggler affects all current versions of Magento and Adobe Commerce, including 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on September 4th, 2026. The attack operates in two stages: injecting malicious PHP code into Magento's template system using styles properties to evade safeguards, then executing the poisoned... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: StyleSmuggler.",
+    "title": "MacSync: The Evasive macOS Stealer Exploiting ClickFix Lures",
+    "content": "MacSync Stealer is a macOS information stealer and remote-access stager delivered through ClickFix social engineering and malvertising campaigns. Operating under a malware-as-a-service model, it employs sophisticated evasion techniques including process daemonization, single-byte XOR obfuscation, and in-memory AppleScript execution to bypass Apple Gatekeeper, XProtect, and EDR solutions. The... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Government. Associated malware: MacSync, LummaC2, Stealc.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9ef14fbc62257cff38357b",
+    "url": "https://otx.alienvault.com/pulse/6a9fff8d4e576223ee6f9b4e",
     "verification": "verified"
   },
   {
-    "title": "Tracking BigBear 2.0 Evilginx2 Phishing Campaign",
-    "content": "In June 2026, researchers uncovered BigBear 2.0, a rebranded Evilginx2-based phishing-as-a-service framework targeting Microsoft 365 credentials globally. The operation, managed by operator 'General Boss', deployed 42 VPS nodes primarily hosted on Vultr infrastructure, utilizing the 'offy' phishlet configuration. The platform employed adversary-in-the-middle techniques with geo-matched... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Technology, Energy, Healthcare. Associated malware: BigBear 2.0, Evilginx2.",
+    "title": "Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
+    "content": "An exposed directory at 188.245.99.156 revealed a comprehensive cryptomining toolkit containing 147 files including Python exploit source code, campaign logs, and Windows registry hives. Analysis confirms 3,562 Redis servers were compromised across two campaign runs targeting 12,966 hosts. The operation exploited unauthenticated Redis instances using rogue replication techniques to inject cron... This pulse includes 5 indicators of compromise (IOCs). Associated malware: XMRig, Meterpreter.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9ef10da8f75f1218af678c",
+    "url": "https://otx.alienvault.com/pulse/6aa03edde73b7cd2b94b199e",
     "verification": "verified"
   },
   {
-    "title": "PEEP: A Browser RAT Posing as a Chrome Extension",
-    "content": "PEEP is a Chromium-based post-exploitation toolkit disguised as 'Smart Bookmarks' that transforms Chrome and Edge browsers into persistent backdoors. Requiring prior administrative access, it bypasses Web Store security by forging Chromium integrity values and uses native-messaging to extend beyond browser telemetry to full host-level command execution. The malware beacons every 30 seconds over... This pulse includes 14 indicators of compromise (IOCs). Associated malware: PEEP.",
+    "title": "Inside a Packed Android RAT Loader",
+    "content": "Hagaseca is an Android malware cluster linked to exposed Android Debug Bridge (ADB) services, focusing on the THost9 RAT loader variant. The malware conceals executable code within an APK that loads tc9.dex, a stage providing shell access, file transfer, and ADB propagation capabilities. Public incidents connect THost4 and THost9 to exposed Android and Redroid systems from October 2024 through... This pulse includes 28 indicators of compromise (IOCs). Associated malware: Hagaseca, THost9, THost4.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9eb13dfccfac432c46d96e",
+    "url": "https://otx.alienvault.com/pulse/6aa03edd0fe4e4f76a331977",
     "verification": "verified"
   }
 ]

@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-09",
+  "timestamp": "2026-09-09T10:44:09.035379",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
+      "content": "An investigation revealed a sophisticated cryptocurrency and credential-stealing operation using Amatera stealer as the primary payload. The attack chain leverages Cloudflare Workers to inject JavaScript stored on BNB Smart Chain, presenting fake Google CAPTCHA prompts that lead to WebDAV-based DLL execution. Two parallel infection chains were identified, one loading through a DLL named 'pf.ch'... This pulse includes 85 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Amatera, ZigCryptoStealer, NetSupport Manager.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9ffe054812bce013827753",
+      "verification": "verified"
+    },
+    {
+      "title": "MacSync: The Evasive macOS Stealer Exploiting ClickFix Lures",
+      "content": "MacSync Stealer is a macOS information stealer and remote-access stager delivered through ClickFix social engineering and malvertising campaigns. Operating under a malware-as-a-service model, it employs sophisticated evasion techniques including process daemonization, single-byte XOR obfuscation, and in-memory AppleScript execution to bypass Apple Gatekeeper, XProtect, and EDR solutions. The... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Government. Associated malware: MacSync, LummaC2, Stealc.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9fff8d4e576223ee6f9b4e",
+      "verification": "verified"
+    },
+    {
+      "title": "Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
+      "content": "An exposed directory at 188.245.99.156 revealed a comprehensive cryptomining toolkit containing 147 files including Python exploit source code, campaign logs, and Windows registry hives. Analysis confirms 3,562 Redis servers were compromised across two campaign runs targeting 12,966 hosts. The operation exploited unauthenticated Redis instances using rogue replication techniques to inject cron... This pulse includes 5 indicators of compromise (IOCs). Associated malware: XMRig, Meterpreter.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa03edde73b7cd2b94b199e",
+      "verification": "verified"
+    },
+    {
+      "title": "Inside a Packed Android RAT Loader",
+      "content": "Hagaseca is an Android malware cluster linked to exposed Android Debug Bridge (ADB) services, focusing on the THost9 RAT loader variant. The malware conceals executable code within an APK that loads tc9.dex, a stage providing shell access, file transfer, and ADB propagation capabilities. Public incidents connect THost4 and THost9 to exposed Android and Redroid systems from October 2024 through... This pulse includes 28 indicators of compromise (IOCs). Associated malware: Hagaseca, THost9, THost4.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa03edd0fe4e4f76a331977",
+      "verification": "verified"
+    }
+  ]
+}
