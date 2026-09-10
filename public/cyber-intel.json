@@ -1,30 +1,30 @@
 [
   {
-    "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
-    "content": "An investigation revealed a sophisticated cryptocurrency and credential-stealing operation using Amatera stealer as the primary payload. The attack chain leverages Cloudflare Workers to inject JavaScript stored on BNB Smart Chain, presenting fake Google CAPTCHA prompts that lead to WebDAV-based DLL execution. Two parallel infection chains were identified, one loading through a DLL named 'pf.ch'... This pulse includes 85 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Amatera, ZigCryptoStealer, NetSupport Manager.",
+    "title": "Malicious Chrome and Firefox Extensions Steal Crypto Traders' Session and Wallet Data",
+    "content": "Six Chrome and Firefox extensions linked through shared code, C2 infrastructure, and publishing history have been identified targeting cryptocurrency traders. Four malicious extensions steal authenticated session tokens and wallet data from Axiom Trade and Padre users, while two earlier extensions reveal a pattern of repackaging crypto trading tools. The extensions J7Tracker, VREO, and Orbit... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: J7Tracker, VREO, Orbit Tracker.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9ffe054812bce013827753",
+    "url": "https://otx.alienvault.com/pulse/6aa21686ffabe101cf6b37c5",
     "verification": "verified"
   },
   {
-    "title": "MacSync: The Evasive macOS Stealer Exploiting ClickFix Lures",
-    "content": "MacSync Stealer is a macOS information stealer and remote-access stager delivered through ClickFix social engineering and malvertising campaigns. Operating under a malware-as-a-service model, it employs sophisticated evasion techniques including process daemonization, single-byte XOR obfuscation, and in-memory AppleScript execution to bypass Apple Gatekeeper, XProtect, and EDR solutions. The... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Government. Associated malware: MacSync, LummaC2, Stealc.",
+    "title": "Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows",
+    "content": "In September 2026, two Chinese threat actors, UTA0560 and JungleBamboo, were observed exploiting an identical Chrome zero-day vulnerability chain targeting NGOs and other organizations. The exploitation leveraged CVE-2026-85046 and CVE-2026-87491 in Chrome alongside CVE-2026-85880 in Windows kernel. These vulnerabilities had been patched in Chromium source code but not yet released to Chrome... This pulse includes 31 indicators of compromise (IOCs). Targeted industries: NGO. Associated malware: GRIMWEDGE, SUPERSTOMP, LONGTALE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9fff8d4e576223ee6f9b4e",
+    "url": "https://otx.alienvault.com/pulse/6aa2707076e8a9dd36706bde",
     "verification": "verified"
   },
   {
-    "title": "Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
-    "content": "An exposed directory at 188.245.99.156 revealed a comprehensive cryptomining toolkit containing 147 files including Python exploit source code, campaign logs, and Windows registry hives. Analysis confirms 3,562 Redis servers were compromised across two campaign runs targeting 12,966 hosts. The operation exploited unauthenticated Redis instances using rogue replication techniques to inject cron... This pulse includes 5 indicators of compromise (IOCs). Associated malware: XMRig, Meterpreter.",
+    "title": "Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration",
+    "content": "A sophisticated mobile threat linked to Indonesian actors combines ransomware and spyware capabilities in a single attack vector. The malware is distributed via third-party file-sharing platforms through social engineering, targeting Android devices. It requests extensive permissions including device administrator, SMS, contacts, and accessibility access. The threat encrypts files using AES on... This pulse includes 404 indicators of compromise (IOCs). Associated malware: Mantax Otax, ToxicPanda.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa03edde73b7cd2b94b199e",
+    "url": "https://otx.alienvault.com/pulse/6aa1c8a04d40933ab841482f",
     "verification": "verified"
   },
   {
-    "title": "Inside a Packed Android RAT Loader",
-    "content": "Hagaseca is an Android malware cluster linked to exposed Android Debug Bridge (ADB) services, focusing on the THost9 RAT loader variant. The malware conceals executable code within an APK that loads tc9.dex, a stage providing shell access, file transfer, and ADB propagation capabilities. Public incidents connect THost4 and THost9 to exposed Android and Redroid systems from October 2024 through... This pulse includes 28 indicators of compromise (IOCs). Associated malware: Hagaseca, THost9, THost4.",
+    "title": "Passkey-themed social engineering leads to identity and cloud compromise",
+    "content": "Multiple cloud accounts have been compromised through passkey-themed social engineering campaigns since May 2026. Attackers impersonate IT helpdesk staff via phone calls or SMS, directing victims to phishing sites that mimic Microsoft sign-in pages. After obtaining credentials through adversary-in-the-middle or device code authentication flows, attackers establish persistence by adding... This pulse includes 19 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa03edd0fe4e4f76a331977",
+    "url": "https://otx.alienvault.com/pulse/6aa1c27fd351a18fbe0a8219",
     "verification": "verified"
   }
 ]

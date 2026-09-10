@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-10",
+  "timestamp": "2026-09-10T10:35:04.253507",
+  "items": [
+    {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "verification": "verified"
+    },
+    {
+      "title": "Data center demand drives 66% surge in natural gas power plant costs",
+      "content": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
+      "verification": "verified"
+    },
+    {
+      "title": "Suno releases its first AI music model made with record industry help",
+      "content": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed [&#",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help",
+      "verification": "verified"
+    },
+    {
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "content": "OpenAI's announcement Tuesday that it has solved one of mathematics' legendary Millennium Prize problems should have been a moment of triumph. The result is both an undeniable achievement and a striking demonstration of just how rapidly AI is transforming mathematics. But before it was even formally",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes",
+      "verification": "verified"
+    }
+  ]
+}
