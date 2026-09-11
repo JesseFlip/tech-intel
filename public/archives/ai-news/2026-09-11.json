@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-11",
+  "timestamp": "2026-09-11T10:34:41.319829",
+  "items": [
+    {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "verification": "verified"
+    },
+    {
+      "title": "Data center demand drives 66% surge in natural gas power plant costs",
+      "content": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
+      "verification": "verified"
+    },
+    {
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
+      "content": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations ",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch",
+      "verification": "verified"
+    },
+    {
+      "title": "Schools are catching on to Big Tech’s playbook",
+      "content": "It's the hot new thing in tech, and it's where all the jobs are. Students who don't learn to use it fall behind. And to help them catch up in time, its creators are graciously providing the resources and curriculum for learning it, often pro bono. That's the narrative AI companies are pitching schoo",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+      "verification": "verified"
+    }
+  ]
+}

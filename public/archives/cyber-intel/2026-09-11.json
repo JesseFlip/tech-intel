@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-11",
+  "timestamp": "2026-09-11T10:34:40.738323",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "SloppyRAT: A New Tool For Ransomware Attacks",
+      "content": "In June 2026, a new malware family named SloppyRAT was identified, likely used by ransomware-related threat actors to establish footholds for lateral movement. Delivered through multi-stage ClickFix infection chains, the malware features encrypted code blocks, EtherHiding for command-and-control resolution via Polygon JSON-RPC protocol, and multiple anti-analysis techniques including junk code... This pulse includes 38 indicators of compromise (IOCs). Associated malware: SloppyRAT, CastleLoader, CastleRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa2ea5fc313035064df8d21",
+      "verification": "verified"
+    },
+    {
+      "title": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
+      "content": "In August 2026, a Casbaneiro campaign targeted Latin American users through phishing emails and PDFs themed as fake invoices and legal notices. The multi-stage infection chain includes HTA downloaders and AutoIt loaders, employing geofencing to filter victims by IP address location. The malware exhibits sophisticated evasion techniques, including distributed data-receiving servers, deliberate... This pulse includes 35 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Metamorfo - S0455, Casbaneiro, Ousaban.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa2e892c25022290bdb9420",
+      "verification": "verified"
+    },
+    {
+      "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
+      "content": "Active exploitation of three critical vulnerabilities in JFrog Artifactory has been identified, with attackers chaining CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329 to bypass authentication and gain administrative control. CVE-2026-42018 exposes internal anonymous-user tokens, CVE-2026-42016 enables privilege escalation through insufficient token validation, and CVE-2026-82329 allows... This pulse includes 18 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa3a8516fc630e89143079a",
+      "verification": "verified"
+    },
+    {
+      "title": "737 Chrome VPN Extensions Linked to Brand Impersonation and Browser Traffic Redirection",
+      "content": "Socket's Threat Research Team identified a campaign of 737 malicious VPN and proxy extensions in the Chrome Web Store, accumulating over 75,000 installs. The extensions, published across 40 developer accounts, target Russian-speaking users seeking access to blocked services. 274 extensions impersonate 66 established VPN brands including Proton VPN, NordVPN, and AmneziaVPN. The extensions route... This pulse includes 69 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7c183cfe509b035144c5a6",
+      "verification": "verified"
+    }
+  ]
+}

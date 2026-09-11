@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 13,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Malicious Chrome and Firefox Extensions Steal Crypto Traders' Session and Wallet Data",
-        "numbers_checked": 3,
+        "title": "SloppyRAT: A New Tool For Ransomware Attacks",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows",
-        "numbers_checked": 7,
+        "title": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration",
-        "numbers_checked": 1,
+        "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Passkey-themed social engineering leads to identity and cloud compromise",
-        "numbers_checked": 2,
+        "title": "737 Chrome VPN Extensions Linked to Brand Impersonation and Browser Traffic Redirection",
+        "numbers_checked": 6,
         "status": "verified"
       }
     ],
@@ -145,18 +145,36 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 13
+      "verified": 15
     },
-    "verified_at": "2026-09-10T10:35:03.454019Z",
+    "verified_at": "2026-09-11T10:34:40.737132Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-10T10:35:05.975027Z",
+  "last_updated": "2026-09-11T10:34:42.902433Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -172,13 +190,13 @@
       },
       {
         "index": 2,
-        "title": "Suno releases its first AI music model made with record industry help",
-        "numbers_checked": 1,
+        "title": "Slack can now vibe-code interactive charts and reports inside chats",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+        "title": "Schools are catching on to Big Tech’s playbook",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -210,21 +228,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 3
     },
-    "verified_at": "2026-09-10T10:35:04.247362Z",
+    "verified_at": "2026-09-11T10:34:41.313649Z",
     "llm_adversary": false
   },
   "macro": {
@@ -287,7 +296,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.8,
+        "value": 4.83,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +305,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.39,
+        "value": 4.43,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +323,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.41000000000000014,
+        "value": 0.40000000000000036,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -326,7 +335,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-10T10:35:05.975027Z",
+    "verified_at": "2026-09-11T10:34:42.902433Z",
     "llm_adversary": false
   }
 }
