@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 15,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "SloppyRAT: A New Tool For Ransomware Attacks",
+        "title": "Inside a Ukrainian IP Camera Toolkit",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
+        "title": "Project CAV3RN uses Google Apps Script for stealthy C2 in Israel",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
-        "numbers_checked": 4,
+        "title": "Cl0p Ransomware: Attack Pattern in Threat Intelligence",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "737 Chrome VPN Extensions Linked to Brand Impersonation and Browser Traffic Redirection",
-        "numbers_checked": 6,
+        "title": "Hits Safe Mode: Ransomware Rebooting Around EDR",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -109,72 +109,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 15
+      "verified": 9
     },
-    "verified_at": "2026-09-11T10:34:40.737132Z",
+    "verified_at": "2026-09-12T10:03:17.350370Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-11T10:34:42.902433Z",
+  "last_updated": "2026-09-12T10:03:22.882040Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 5,
     "items": [
       {
         "index": 0,
@@ -190,18 +136,36 @@
       },
       {
         "index": 2,
-        "title": "Slack can now vibe-code interactive charts and reports inside chats",
-        "numbers_checked": 0,
+        "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Schools are catching on to Big Tech’s playbook",
+        "title": "Anthropic spent this week in hot water over cybersecurity",
         "numbers_checked": 0,
         "status": "verified"
       }
     ],
     "verdicts": [
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
       {
         "metric": "text:ai",
         "value": null,
@@ -231,9 +195,9 @@
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 5
     },
-    "verified_at": "2026-09-11T10:34:41.313649Z",
+    "verified_at": "2026-09-12T10:03:17.874927Z",
     "llm_adversary": false
   },
   "macro": {
@@ -242,7 +206,7 @@
     "verdicts": [
       {
         "metric": "cpi_yoy",
-        "value": 3.303856050706308,
+        "value": 3.353016322755652,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +224,7 @@
       },
       {
         "metric": "cpi_value",
-        "value": 332.813,
+        "value": 334.131,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +260,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.83,
+        "value": 4.95,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +269,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.43,
+        "value": 4.56,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -323,7 +287,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.40000000000000036,
+        "value": 0.39000000000000057,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -335,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-11T10:34:42.902433Z",
+    "verified_at": "2026-09-12T10:03:22.882040Z",
     "llm_adversary": false
   }
 }

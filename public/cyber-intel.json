@@ -1,30 +1,30 @@
 [
   {
-    "title": "SloppyRAT: A New Tool For Ransomware Attacks",
-    "content": "In June 2026, a new malware family named SloppyRAT was identified, likely used by ransomware-related threat actors to establish footholds for lateral movement. Delivered through multi-stage ClickFix infection chains, the malware features encrypted code blocks, EtherHiding for command-and-control resolution via Polygon JSON-RPC protocol, and multiple anti-analysis techniques including junk code... This pulse includes 38 indicators of compromise (IOCs). Associated malware: SloppyRAT, CastleLoader, CastleRAT.",
+    "title": "Inside a Ukrainian IP Camera Toolkit",
+    "content": "Two open directories hosted on Russian bulletproof infrastructure revealed coordinated operations targeting Ukrainian IP cameras, routers, and government websites. The first server exposed tools exploiting SQL injection against a Ukrainian e-commerce site, used as a proxy for Tor-routed attacks against government councils and military domains. A custom Docker platform named 'camview' cataloged 58... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Government, Retail.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa2ea5fc313035064df8d21",
+    "url": "https://otx.alienvault.com/pulse/6a7d8d2b3a8a65f2b1dc0cda",
     "verification": "verified"
   },
   {
-    "title": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
-    "content": "In August 2026, a Casbaneiro campaign targeted Latin American users through phishing emails and PDFs themed as fake invoices and legal notices. The multi-stage infection chain includes HTA downloaders and AutoIt loaders, employing geofencing to filter victims by IP address location. The malware exhibits sophisticated evasion techniques, including distributed data-receiving servers, deliberate... This pulse includes 35 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Metamorfo - S0455, Casbaneiro, Ousaban.",
+    "title": "Project CAV3RN uses Google Apps Script for stealthy C2 in Israel",
+    "content": "A modular espionage framework targeting entities in Israel has evolved to incorporate sophisticated command-and-control capabilities. The framework employs DNS A-record responses to dynamically select between direct HTTPS connections and a Google Apps Script relay for each transaction, enabling operators to rotate communication channels and deployment identifiers. The communication module uses... This pulse includes 25 indicators of compromise (IOCs). Associated malware: GoogleService.dll, CommunicationUxTheme.dll, net.dll.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa2e892c25022290bdb9420",
+    "url": "https://otx.alienvault.com/pulse/6a7d8cc2109e73821519b31d",
     "verification": "verified"
   },
   {
-    "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
-    "content": "Active exploitation of three critical vulnerabilities in JFrog Artifactory has been identified, with attackers chaining CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329 to bypass authentication and gain administrative control. CVE-2026-42018 exposes internal anonymous-user tokens, CVE-2026-42016 enables privilege escalation through insufficient token validation, and CVE-2026-82329 allows... This pulse includes 18 indicators of compromise (IOCs).",
+    "title": "Cl0p Ransomware: Attack Pattern in Threat Intelligence",
+    "content": "A comprehensive analysis of Cl0p ransomware operations spanning six years reveals a sophisticated threat actor with systematic focus on managed file transfer infrastructure. The group has exploited zero-day vulnerabilities in nine distinct campaigns targeting platforms including Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere, MOVEit Transfer, and Oracle E-Business Suite. Cl0p demonstrates... This pulse includes 3 indicators of compromise (IOCs). Associated malware: LEMURLOOT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa3a8516fc630e89143079a",
+    "url": "https://otx.alienvault.com/pulse/6a7ca263ee7777102409724c",
     "verification": "verified"
   },
   {
-    "title": "737 Chrome VPN Extensions Linked to Brand Impersonation and Browser Traffic Redirection",
-    "content": "Socket's Threat Research Team identified a campaign of 737 malicious VPN and proxy extensions in the Chrome Web Store, accumulating over 75,000 installs. The extensions, published across 40 developer accounts, target Russian-speaking users seeking access to blocked services. 274 extensions impersonate 66 established VPN brands including Proton VPN, NordVPN, and AmneziaVPN. The extensions route... This pulse includes 69 indicators of compromise (IOCs).",
+    "title": "Hits Safe Mode: Ransomware Rebooting Around EDR",
+    "content": "An Akira ransomware affiliate gained initial access through an exposed SonicWall VPN without multi-factor authentication via credential spraying. After compromising the domain controller, the attacker performed Active Directory enumeration, collected and exfiltrated data using WinRAR and s5cmd to cloud storage. The affiliate employed a novel evasion technique by rebooting the victim host into... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Akira, AnyDesk.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7c183cfe509b035144c5a6",
+    "url": "https://otx.alienvault.com/pulse/6a7ca262c4921e41ead16a57",
     "verification": "verified"
   }
 ]

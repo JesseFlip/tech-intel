@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-12",
+  "timestamp": "2026-09-12T10:03:17.351240",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside a Ukrainian IP Camera Toolkit",
+      "content": "Two open directories hosted on Russian bulletproof infrastructure revealed coordinated operations targeting Ukrainian IP cameras, routers, and government websites. The first server exposed tools exploiting SQL injection against a Ukrainian e-commerce site, used as a proxy for Tor-routed attacks against government councils and military domains. A custom Docker platform named 'camview' cataloged 58... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Government, Retail.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7d8d2b3a8a65f2b1dc0cda",
+      "verification": "verified"
+    },
+    {
+      "title": "Project CAV3RN uses Google Apps Script for stealthy C2 in Israel",
+      "content": "A modular espionage framework targeting entities in Israel has evolved to incorporate sophisticated command-and-control capabilities. The framework employs DNS A-record responses to dynamically select between direct HTTPS connections and a Google Apps Script relay for each transaction, enabling operators to rotate communication channels and deployment identifiers. The communication module uses... This pulse includes 25 indicators of compromise (IOCs). Associated malware: GoogleService.dll, CommunicationUxTheme.dll, net.dll.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7d8cc2109e73821519b31d",
+      "verification": "verified"
+    },
+    {
+      "title": "Cl0p Ransomware: Attack Pattern in Threat Intelligence",
+      "content": "A comprehensive analysis of Cl0p ransomware operations spanning six years reveals a sophisticated threat actor with systematic focus on managed file transfer infrastructure. The group has exploited zero-day vulnerabilities in nine distinct campaigns targeting platforms including Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere, MOVEit Transfer, and Oracle E-Business Suite. Cl0p demonstrates... This pulse includes 3 indicators of compromise (IOCs). Associated malware: LEMURLOOT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7ca263ee7777102409724c",
+      "verification": "verified"
+    },
+    {
+      "title": "Hits Safe Mode: Ransomware Rebooting Around EDR",
+      "content": "An Akira ransomware affiliate gained initial access through an exposed SonicWall VPN without multi-factor authentication via credential spraying. After compromising the domain controller, the attacker performed Active Directory enumeration, collected and exfiltrated data using WinRAR and s5cmd to cloud storage. The affiliate employed a novel evasion technique by rebooting the victim host into... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Akira, AnyDesk.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7ca262c4921e41ead16a57",
+      "verification": "verified"
+    }
+  ]
+}

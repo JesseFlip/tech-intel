@@ -1,9 +1,9 @@
 {
   "inflation": {
     "cpi": {
-      "value": 332.813,
-      "yoy": 3.303856050706308,
-      "date": "2026-07-01"
+      "value": 334.131,
+      "yoy": 3.353016322755652,
+      "date": "2026-08-01"
     },
     "core_pce": {
       "value": 130.658,
@@ -20,17 +20,17 @@
     "date": "2026-08-01"
   },
   "yield_curve": {
-    "ten_year": 4.83,
-    "two_year": 4.43,
-    "spread": 0.40000000000000036,
+    "ten_year": 4.95,
+    "two_year": 4.56,
+    "spread": 0.39000000000000057,
     "inverted": false,
-    "date": "2026-09-09"
+    "date": "2026-09-10"
   },
   "sentiment": {
     "consumer_sentiment": 55.2,
     "date": "2026-07-01"
   },
-  "last_updated": "2026-09-11T10:34:42.901959Z",
+  "last_updated": "2026-09-12T10:03:22.881515Z",
   "_verification": {
     "status_counts": {
       "verified": 10
