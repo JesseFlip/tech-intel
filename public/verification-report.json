@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "Inside a Ukrainian IP Camera Toolkit",
+        "title": "New Armored Likho tools target Telegram and eavesdropping",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Project CAV3RN uses Google Apps Script for stealthy C2 in Israel",
-        "numbers_checked": 3,
+        "title": "Multi-Functional Linux Botnet \"Evooo1Bot\"",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Cl0p Ransomware: Attack Pattern in Threat Intelligence",
+        "title": "PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Hits Safe Mode: Ransomware Rebooting Around EDR",
-        "numbers_checked": 2,
+        "title": "Jewelbug: APT Group Runs Espionage and Crypto Fraud Operations Side by Side",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -114,10 +114,10 @@
     "status_counts": {
       "verified": 9
     },
-    "verified_at": "2026-09-12T10:03:17.350370Z",
+    "verified_at": "2026-09-13T11:03:35.696795Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-12T10:03:22.882040Z",
+  "last_updated": "2026-09-13T11:03:38.210457Z",
   "ai": {
     "feed": "ai",
     "checked": 5,
@@ -136,14 +136,14 @@
       },
       {
         "index": 2,
-        "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
-        "numbers_checked": 2,
+        "title": "OpenAI’s rogue AI tried to hack another company in May",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Anthropic spent this week in hot water over cybersecurity",
-        "numbers_checked": 0,
+        "title": "Sam Altman says OpenAI going public in 2026 would be ‘ill-advised’",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -197,7 +197,7 @@
     "status_counts": {
       "verified": 5
     },
-    "verified_at": "2026-09-12T10:03:17.874927Z",
+    "verified_at": "2026-09-13T11:03:36.496707Z",
     "llm_adversary": false
   },
   "macro": {
@@ -299,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-12T10:03:22.882040Z",
+    "verified_at": "2026-09-13T11:03:38.210457Z",
     "llm_adversary": false
   }
 }

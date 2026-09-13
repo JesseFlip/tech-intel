@@ -1,30 +1,30 @@
 [
   {
-    "title": "Inside a Ukrainian IP Camera Toolkit",
-    "content": "Two open directories hosted on Russian bulletproof infrastructure revealed coordinated operations targeting Ukrainian IP cameras, routers, and government websites. The first server exposed tools exploiting SQL injection against a Ukrainian e-commerce site, used as a proxy for Tor-routed attacks against government councils and military domains. A custom Docker platform named 'camview' cataloged 58... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Government, Retail.",
+    "title": "New Armored Likho tools target Telegram and eavesdropping",
+    "content": "In May 2026, a cyber-espionage campaign by the Armored Likho group (also known as Eagle Werewolf) targeted private individuals and organizations across Russia, including major corporations, public sector entities, IT companies, and educational institutions. The attackers employed fake donation service applications as initial infection vectors. The campaign introduced the Still Toolkit, comprising... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government, IT, Education. Associated malware: Still Sync, Still Audio, AquilaRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7d8d2b3a8a65f2b1dc0cda",
+    "url": "https://otx.alienvault.com/pulse/6a7eef664b5b3aa69c6a38b3",
     "verification": "verified"
   },
   {
-    "title": "Project CAV3RN uses Google Apps Script for stealthy C2 in Israel",
-    "content": "A modular espionage framework targeting entities in Israel has evolved to incorporate sophisticated command-and-control capabilities. The framework employs DNS A-record responses to dynamically select between direct HTTPS connections and a Google Apps Script relay for each transaction, enabling operators to rotate communication channels and deployment identifiers. The communication module uses... This pulse includes 25 indicators of compromise (IOCs). Associated malware: GoogleService.dll, CommunicationUxTheme.dll, net.dll.",
+    "title": "Multi-Functional Linux Botnet \"Evooo1Bot\"",
+    "content": "A previously undocumented Linux botnet named Evooo1Bot has been discovered, actively targeting Internet-facing devices since July 2026. Built upon Mirai's DDoS engine, it extends functionality with encrypted C2 communications, SSH brute-force scanning, SOCKS relay capabilities, credential sniffing, and an integrated exploit arsenal. The malware employs multi-layer string encryption using... This pulse includes 23 indicators of compromise (IOCs). Associated malware: Evooo1Bot, Mirai.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7d8cc2109e73821519b31d",
+    "url": "https://otx.alienvault.com/pulse/6a7e2be6ba37cc87ae552659",
     "verification": "verified"
   },
   {
-    "title": "Cl0p Ransomware: Attack Pattern in Threat Intelligence",
-    "content": "A comprehensive analysis of Cl0p ransomware operations spanning six years reveals a sophisticated threat actor with systematic focus on managed file transfer infrastructure. The group has exploited zero-day vulnerabilities in nine distinct campaigns targeting platforms including Accellion FTA, SolarWinds Serv-U, Fortra GoAnywhere, MOVEit Transfer, and Oracle E-Business Suite. Cl0p demonstrates... This pulse includes 3 indicators of compromise (IOCs). Associated malware: LEMURLOOT.",
+    "title": "PATCHCORD: New malware cluster targets Afghan telecom and South Asian critical infrastructure",
+    "content": "A previously undocumented custom backdoor called PATCHCORD has been identified targeting Afghan telecom providers and South Asian critical infrastructure organizations. The C/C++ implant is delivered through sector-specific lures including fake VPN installers impersonating Afghan Telecom and telecom management tools. Infrastructure analysis uncovered SHEETCORD, a Go-based implant using Google... This pulse includes 36 indicators of compromise (IOCs). Targeted industries: Telecommunications, Government, Defense. Associated malware: PATCHCORD, SHEETCORD, HACKERAI C2 Agent.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7ca263ee7777102409724c",
+    "url": "https://otx.alienvault.com/pulse/6a7deb5e9423f6d0a5c5166d",
     "verification": "verified"
   },
   {
-    "title": "Hits Safe Mode: Ransomware Rebooting Around EDR",
-    "content": "An Akira ransomware affiliate gained initial access through an exposed SonicWall VPN without multi-factor authentication via credential spraying. After compromising the domain controller, the attacker performed Active Directory enumeration, collected and exfiltrated data using WinRAR and s5cmd to cloud storage. The affiliate employed a novel evasion technique by rebooting the victim host into... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Akira, AnyDesk.",
+    "title": "Jewelbug: APT Group Runs Espionage and Crypto Fraud Operations Side by Side",
+    "content": "Jewelbug is a China-based hackers-for-hire group conducting parallel operations: espionage campaigns targeting government ministries and militaries across the Middle East, Southeast Asia, and South Asia, alongside a cryptocurrency fraud business. Both missions operate from a single control panel called XG-Web, a browser-centric remote-access framework. The group's main implant is the Antino... This pulse includes 43 indicators of compromise (IOCs). Targeted industries: Government, Defense, Telecommunications. Associated malware: Antino, ClientKing, PDF Viewer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a7ca262c4921e41ead16a57",
+    "url": "https://otx.alienvault.com/pulse/6a7daa9c80273555f3d3ccd1",
     "verification": "verified"
   }
 ]
