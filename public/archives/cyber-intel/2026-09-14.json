@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-14",
+  "timestamp": "2026-09-14T11:44:51.137392",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "KATARU: IoT Malware Adopts Public LPE Exploits",
+      "content": "KATARU is an IoT malware variant discovered in August 2026 through Telnet credential brute-forcing against a honeypot from Vietnam. While maintaining traditional Mirai-style botnet capabilities, it distinguishes itself through an extensive feature set including multiple Linux local privilege escalation exploits, comprehensive persistence mechanisms across Linux and embedded platforms, encrypted... This pulse includes 17 indicators of compromise (IOCs). Associated malware: KATARU, Mirai.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa4409a4290cc035d81500c",
+      "verification": "verified"
+    },
+    {
+      "title": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
+      "content": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy servers. The extension, with approximately 30,000 Chrome users and 552 Firefox users, markets itself as a quality-of-life tool for blocking ads and unlocking streams. While delivering... This pulse includes 27 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa4432cfc2e960cdf6ac1e0",
+      "verification": "verified"
+    },
+    {
+      "title": "New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies",
+      "content": "A sophisticated Linux botnet named Evooo1Bot has been actively targeting internet-facing devices since July 2026, exploiting multiple vulnerabilities in edge devices across diverse regions. Built on the leaked Mirai source code, this modular botnet features significantly enhanced capabilities including encrypted command-and-control communications, SSH brute-force scanning, and a reverse SOCKS... This pulse includes 10 indicators of compromise (IOCs). Associated malware: Evooo1Bot, Mirai.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7f349eb2e90e5a682c7e6f",
+      "verification": "verified"
+    },
+    {
+      "title": "New Armored Likho tools target Telegram and eavesdropping",
+      "content": "In May 2026, a cyber-espionage campaign by the Armored Likho group (also known as Eagle Werewolf) targeted private individuals and organizations across Russia, including major corporations, public sector entities, IT companies, and educational institutions. The attackers employed fake donation service applications as initial infection vectors. The campaign introduced the Still Toolkit, comprising... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government, IT, Education. Associated malware: Still Sync, Still Audio, AquilaRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a7eef664b5b3aa69c6a38b3",
+      "verification": "verified"
+    }
+  ]
+}
