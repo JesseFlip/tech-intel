@@ -123,10 +123,10 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-14T11:44:51.030404Z",
+    "verified_at": "2026-09-15T11:02:20.154770Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-14T11:45:06.651908Z",
+  "last_updated": "2026-09-15T11:02:51.872080Z",
   "ai": {
     "feed": "ai",
     "checked": 3,
@@ -145,13 +145,13 @@
       },
       {
         "index": 2,
-        "title": "Trump and Mike Johnson think the AI industry is overreacting",
+        "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI’s rogue AI tried to hack another company in May",
+        "title": "What execs and politicians are saying about slowing down AI development",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -188,7 +188,7 @@
     "status_counts": {
       "verified": 3
     },
-    "verified_at": "2026-09-14T11:44:51.816314Z",
+    "verified_at": "2026-09-15T11:02:20.326773Z",
     "llm_adversary": false
   },
   "macro": {
@@ -251,7 +251,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.95,
+        "value": 4.96,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +260,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.56,
+        "value": 4.63,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +278,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.39000000000000057,
+        "value": 0.33000000000000007,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -290,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-14T11:45:06.651908Z",
+    "verified_at": "2026-09-15T11:02:51.872080Z",
     "llm_adversary": false
   }
 }
