@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-16",
+  "timestamp": "2026-09-16T10:49:07.392069",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
+      "content": "Brazilian banking malware operation REF9334 has been deploying KREMLIN toolkit since May 2025, targeting Brazilian financial institutions through malicious browser extensions. The operation uses multi-stage JavaScript loaders, custom C++ installers, and exploits Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs. Infrastructure leverages Ethereum... This pulse includes 366 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Virus:DOS/Kremlin, Trojan:Win32/DoublePulsar, Remcos - S0332.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aaa6f52c8d835e24adb63f7",
+      "verification": "verified"
+    },
+    {
+      "title": "Red Heron exploits Gitea n-day flaw in multinational campaign, exposing new Linux rootkit",
+      "content": "A Chinese-speaking threat actor tracked as Red Heron rapidly weaponized CVE-2026-60004, a critical Gitea remote code execution vulnerability, within days of public disclosure in July 2026. The actor scanned 1,386 Gitea instances across seven countries, successfully compromising organizations in Canada, Argentina, Taiwan, the United States, and Sri Lanka. Activities included source code theft,... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Defense, Government, Energy. Associated malware: JITTERLY, SIXZUT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa942aeb8beed53be78ec12",
+      "verification": "verified"
+    },
+    {
+      "title": "Search results are sending people to fake Bitrefill checkouts",
+      "content": "Cybercriminals have created numerous fake websites mimicking Bitrefill, a legitimate cryptocurrency-based gift card and eSIM retailer. These fraudulent sites appear in search engine results and use lookalike domains incorporating the Bitrefill brand name with added words or character substitutions, including internationalized domain names using Punycode. Victims are guided through convincing... This pulse includes 28 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa93d9fc976f18bcd2f1409",
+      "verification": "verified"
+    },
+    {
+      "title": "GrelosGTM group abuses Google Tag Manager to attack e-commerce websites",
+      "content": "A cybercriminal group dubbed GrelosGTM has been exploiting Google Tag Manager's legitimate functionality to compromise e-commerce websites. First detected in early April 2020, the group evolved their tactics by February 2021 to inject malicious Google Tag Manager scripts into targeted sites. The campaign affected at least seven websites running Magento CMS across Belgium, Italy, the United... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: JavaScript sniffer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aa8feaea12952dc69b265df",
+      "verification": "verified"
+    }
+  ]
+}

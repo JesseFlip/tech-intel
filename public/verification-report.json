@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 13,
     "items": [
       {
         "index": 0,
-        "title": "KATARU: IoT Malware Adopts Public LPE Exploits",
-        "numbers_checked": 2,
+        "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
-        "numbers_checked": 3,
+        "title": "Red Heron exploits Gitea n-day flaw in multinational campaign, exposing new Linux rootkit",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "New Mirai-Based Linux Botnet 'Evooo1Bot' Turns Victims Into Proxies",
-        "numbers_checked": 3,
+        "title": "Search results are sending people to fake Bitrefill checkouts",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "New Armored Likho tools target Telegram and eavesdropping",
-        "numbers_checked": 2,
+        "title": "GrelosGTM group abuses Google Tag Manager to attack e-commerce websites",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -118,18 +118,45 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 13
     },
-    "verified_at": "2026-09-15T11:02:20.154770Z",
+    "verified_at": "2026-09-16T10:49:07.391167Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-15T11:02:51.872080Z",
+  "last_updated": "2026-09-16T10:49:09.816296Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 6,
     "items": [
       {
         "index": 0,
@@ -145,14 +172,14 @@
       },
       {
         "index": 2,
-        "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
-        "numbers_checked": 0,
+        "title": "AI and data centers are incredibly unpopular in every poll",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "What execs and politicians are saying about slowing down AI development",
-        "numbers_checked": 0,
+        "title": "Meta&#8217;s new One subscriptions put a price on social media and AI",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -183,12 +210,39 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 6
     },
-    "verified_at": "2026-09-15T11:02:20.326773Z",
+    "verified_at": "2026-09-16T10:49:08.144461Z",
     "llm_adversary": false
   },
   "macro": {
@@ -251,7 +305,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.96,
+        "value": 4.97,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +314,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.63,
+        "value": 4.65,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +332,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.33000000000000007,
+        "value": 0.3199999999999994,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -290,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-15T11:02:51.872080Z",
+    "verified_at": "2026-09-16T10:49:09.816296Z",
     "llm_adversary": false
   }
 }
