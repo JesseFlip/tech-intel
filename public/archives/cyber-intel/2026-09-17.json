@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-17",
+  "timestamp": "2026-09-17T10:55:46.690395",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia",
+      "content": "Infrastructure analysis reveals a cluster of SpiceRAT command and control servers active from late 2025 through August 2026, linked through shared TLS certificates, domain registrations, and a cloned RTX Corporation webpage. The infrastructure connects to multiple threat families including SpiceRAT, NodeEdgeRAT, NomadRAT, and BloodAlchemy, suggesting either a single operator managing multiple... This pulse includes 102 indicators of compromise (IOCs). Targeted industries: Government, Energy, Telecommunications. Associated malware: SpiceRAT, NodeEdgeRAT, NomadRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aaacff0ea056cea51165b6b",
+      "verification": "verified"
+    },
+    {
+      "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
+      "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 38 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
+      "verification": "verified"
+    },
+    {
+      "title": "Noodle RAT: A Recipe for Cross Platform Espionage",
+      "content": "Noodle RAT, also known as ANGRYREBEL or Nood RAT, is a modular remote access trojan with dual versions for Windows and Linux, actively used by Chinese-speaking threat actors since at least mid-2016. Previously misclassified as variants of Gh0st RAT or Rekoobe, it is now recognized as a distinct backdoor family. The malware has been deployed in espionage and cybercrime campaigns targeting entities... This pulse includes 59 indicators of compromise (IOCs). Associated malware: Noodle RAT, ANGRYREBEL, Nood RAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aaacbc380f9fb21de37cdd2",
+      "verification": "verified"
+    },
+    {
+      "title": "Operation RapidRust: APT36 Deploys RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH",
+      "content": "In August 2026, the Pakistan-nexus threat actor APT36 launched Operation RapidRust, targeting government and defense organizations in India and Afghanistan with an updated arsenal of custom tools. The campaign introduced RUSTYSHADE, a Rust-based backdoor leveraging private GitHub repositories for command-and-control with AES-256-GCM encryption. Additional tools included RUSTYMOVE for USB-based... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: RUSTYSHADE, RUSTYMOVE, PSNATCH.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aaaca963a639dd0475e8462",
+      "verification": "verified"
+    }
+  ]
+}

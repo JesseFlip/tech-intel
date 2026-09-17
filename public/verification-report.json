@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 13,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
-        "numbers_checked": 5,
+        "title": "SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Red Heron exploits Gitea n-day flaw in multinational campaign, exposing new Linux rootkit",
+        "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Search results are sending people to fake Bitrefill checkouts",
-        "numbers_checked": 1,
+        "title": "Noodle RAT: A Recipe for Cross Platform Espionage",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "GrelosGTM group abuses Google Tag Manager to attack e-commerce websites",
-        "numbers_checked": 3,
+        "title": "Operation RapidRust: APT36 Deploys RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -145,18 +145,27 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 13
+      "verified": 14
     },
-    "verified_at": "2026-09-16T10:49:07.391167Z",
+    "verified_at": "2026-09-17T10:55:46.689289Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-16T10:49:09.816296Z",
+  "last_updated": "2026-09-17T10:55:48.791028Z",
   "ai": {
     "feed": "ai",
-    "checked": 6,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -172,13 +181,13 @@
       },
       {
         "index": 2,
-        "title": "AI and data centers are incredibly unpopular in every poll",
-        "numbers_checked": 2,
+        "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Meta&#8217;s new One subscriptions put a price on social media and AI",
+        "title": "The 2.5-hour AI-generated Odyssey movie is 2.5 hours too long",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -219,30 +228,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 4
     },
-    "verified_at": "2026-09-16T10:49:08.144461Z",
+    "verified_at": "2026-09-17T10:55:47.300774Z",
     "llm_adversary": false
   },
   "macro": {
@@ -305,7 +296,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.97,
+        "value": 5.0,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +305,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.65,
+        "value": 4.67,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +323,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3199999999999994,
+        "value": 0.33000000000000007,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -344,7 +335,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-16T10:49:09.816296Z",
+    "verified_at": "2026-09-17T10:55:48.791028Z",
     "llm_adversary": false
   }
 }

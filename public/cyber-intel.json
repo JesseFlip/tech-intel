@@ -1,30 +1,30 @@
 [
   {
-    "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
-    "content": "Brazilian banking malware operation REF9334 has been deploying KREMLIN toolkit since May 2025, targeting Brazilian financial institutions through malicious browser extensions. The operation uses multi-stage JavaScript loaders, custom C++ installers, and exploits Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs. Infrastructure leverages Ethereum... This pulse includes 366 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Virus:DOS/Kremlin, Trojan:Win32/DoublePulsar, Remcos - S0332.",
+    "title": "SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia",
+    "content": "Infrastructure analysis reveals a cluster of SpiceRAT command and control servers active from late 2025 through August 2026, linked through shared TLS certificates, domain registrations, and a cloned RTX Corporation webpage. The infrastructure connects to multiple threat families including SpiceRAT, NodeEdgeRAT, NomadRAT, and BloodAlchemy, suggesting either a single operator managing multiple... This pulse includes 102 indicators of compromise (IOCs). Targeted industries: Government, Energy, Telecommunications. Associated malware: SpiceRAT, NodeEdgeRAT, NomadRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaa6f52c8d835e24adb63f7",
+    "url": "https://otx.alienvault.com/pulse/6aaacff0ea056cea51165b6b",
     "verification": "verified"
   },
   {
-    "title": "Red Heron exploits Gitea n-day flaw in multinational campaign, exposing new Linux rootkit",
-    "content": "A Chinese-speaking threat actor tracked as Red Heron rapidly weaponized CVE-2026-60004, a critical Gitea remote code execution vulnerability, within days of public disclosure in July 2026. The actor scanned 1,386 Gitea instances across seven countries, successfully compromising organizations in Canada, Argentina, Taiwan, the United States, and Sri Lanka. Activities included source code theft,... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Defense, Government, Energy. Associated malware: JITTERLY, SIXZUT.",
+    "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
+    "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 38 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa942aeb8beed53be78ec12",
+    "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
     "verification": "verified"
   },
   {
-    "title": "Search results are sending people to fake Bitrefill checkouts",
-    "content": "Cybercriminals have created numerous fake websites mimicking Bitrefill, a legitimate cryptocurrency-based gift card and eSIM retailer. These fraudulent sites appear in search engine results and use lookalike domains incorporating the Bitrefill brand name with added words or character substitutions, including internationalized domain names using Punycode. Victims are guided through convincing... This pulse includes 28 indicators of compromise (IOCs).",
+    "title": "Noodle RAT: A Recipe for Cross Platform Espionage",
+    "content": "Noodle RAT, also known as ANGRYREBEL or Nood RAT, is a modular remote access trojan with dual versions for Windows and Linux, actively used by Chinese-speaking threat actors since at least mid-2016. Previously misclassified as variants of Gh0st RAT or Rekoobe, it is now recognized as a distinct backdoor family. The malware has been deployed in espionage and cybercrime campaigns targeting entities... This pulse includes 59 indicators of compromise (IOCs). Associated malware: Noodle RAT, ANGRYREBEL, Nood RAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa93d9fc976f18bcd2f1409",
+    "url": "https://otx.alienvault.com/pulse/6aaacbc380f9fb21de37cdd2",
     "verification": "verified"
   },
   {
-    "title": "GrelosGTM group abuses Google Tag Manager to attack e-commerce websites",
-    "content": "A cybercriminal group dubbed GrelosGTM has been exploiting Google Tag Manager's legitimate functionality to compromise e-commerce websites. First detected in early April 2020, the group evolved their tactics by February 2021 to inject malicious Google Tag Manager scripts into targeted sites. The campaign affected at least seven websites running Magento CMS across Belgium, Italy, the United... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: JavaScript sniffer.",
+    "title": "Operation RapidRust: APT36 Deploys RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH",
+    "content": "In August 2026, the Pakistan-nexus threat actor APT36 launched Operation RapidRust, targeting government and defense organizations in India and Afghanistan with an updated arsenal of custom tools. The campaign introduced RUSTYSHADE, a Rust-based backdoor leveraging private GitHub repositories for command-and-control with AES-256-GCM encryption. Additional tools included RUSTYMOVE for USB-based... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: RUSTYSHADE, RUSTYMOVE, PSNATCH.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa8feaea12952dc69b265df",
+    "url": "https://otx.alienvault.com/pulse/6aaaca963a639dd0475e8462",
     "verification": "verified"
   }
 ]
