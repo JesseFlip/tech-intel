@@ -1,30 +1,30 @@
 [
   {
-    "title": "SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia",
-    "content": "Infrastructure analysis reveals a cluster of SpiceRAT command and control servers active from late 2025 through August 2026, linked through shared TLS certificates, domain registrations, and a cloned RTX Corporation webpage. The infrastructure connects to multiple threat families including SpiceRAT, NodeEdgeRAT, NomadRAT, and BloodAlchemy, suggesting either a single operator managing multiple... This pulse includes 102 indicators of compromise (IOCs). Targeted industries: Government, Energy, Telecommunications. Associated malware: SpiceRAT, NodeEdgeRAT, NomadRAT.",
+    "title": "BlackCore’s Influence Operations for Hire",
+    "content": "An Israeli influence-for-hire company called BlackCore has been identified conducting digital manipulation campaigns across multiple countries. The company operates through a sophisticated infrastructure offering services including discourse dominance, organic engagement manipulation, and counter-operations. Researchers identified a specific campaign involving a 14-week training program delivered... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Media.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaacff0ea056cea51165b6b",
+    "url": "https://otx.alienvault.com/pulse/6aac55695dba12834e959f52",
     "verification": "verified"
   },
   {
-    "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
-    "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 38 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
+    "title": "Brevo supply chain attack hits 100k+ sites with Wordpress backdoors and Clickfix malware",
+    "content": "A significant supply chain attack compromised Brevo's infrastructure on September 14, 2026, affecting over 100,000 customer websites. Attackers injected malicious code into Brevo's JavaScript assets and widgets, delivering two distinct payloads: a WordPress plugin backdoor automatically installed when site administrators visited their own sites while logged in, and ClickFix overlays targeting... This pulse includes 17 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
+    "url": "https://otx.alienvault.com/pulse/6aac5377abf1f1d1674825a9",
     "verification": "verified"
   },
   {
-    "title": "Noodle RAT: A Recipe for Cross Platform Espionage",
-    "content": "Noodle RAT, also known as ANGRYREBEL or Nood RAT, is a modular remote access trojan with dual versions for Windows and Linux, actively used by Chinese-speaking threat actors since at least mid-2016. Previously misclassified as variants of Gh0st RAT or Rekoobe, it is now recognized as a distinct backdoor family. The malware has been deployed in espionage and cybercrime campaigns targeting entities... This pulse includes 59 indicators of compromise (IOCs). Associated malware: Noodle RAT, ANGRYREBEL, Nood RAT.",
+    "title": "T-Mobile rewards points expiry texts are a phishing scam",
+    "content": "Since early May 2026, a large-scale phishing campaign has targeted individuals with fraudulent text messages claiming their T-Mobile rewards points are about to expire. The messages create urgency by stating that point balances, typically cited as 18,400 points, will expire imminently if not redeemed. Recipients are directed to click on phishing links using rotating domains designed to mimic... This pulse includes 12 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaacbc380f9fb21de37cdd2",
+    "url": "https://otx.alienvault.com/pulse/6aac141e2773119436b98523",
     "verification": "verified"
   },
   {
-    "title": "Operation RapidRust: APT36 Deploys RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH",
-    "content": "In August 2026, the Pakistan-nexus threat actor APT36 launched Operation RapidRust, targeting government and defense organizations in India and Afghanistan with an updated arsenal of custom tools. The campaign introduced RUSTYSHADE, a Rust-based backdoor leveraging private GitHub repositories for command-and-control with AES-256-GCM encryption. Additional tools included RUSTYMOVE for USB-based... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Government, Defense. Associated malware: RUSTYSHADE, RUSTYMOVE, PSNATCH.",
+    "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
+    "content": "A previously unknown modular multi-stage framework named MovieReaper has been discovered targeting users through compromised torrent files. Attackers compromised the public torrent repository itorrents[.]org, enabling them to distribute malicious loaders disguised as popular movies, including \"The Odyssey.\" The campaign began in mid-August 2026 and affected hundreds of victims across multiple... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Government, Technology, Retail. Associated malware: MovieReaper.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaaca963a639dd0475e8462",
+    "url": "https://otx.alienvault.com/pulse/6aac13f8b67f38a3496d4d1d",
     "verification": "verified"
   }
 ]
