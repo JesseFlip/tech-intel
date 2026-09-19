@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 11,
     "items": [
       {
         "index": 0,
-        "title": "BlackCore’s Influence Operations for Hire",
-        "numbers_checked": 2,
+        "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Brevo supply chain attack hits 100k+ sites with Wordpress backdoors and Clickfix malware",
-        "numbers_checked": 5,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "T-Mobile rewards points expiry texts are a phishing scam",
+        "title": "77 Firefox Extensions Linked to Crypto Wallet and Credential Theft",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
+        "index": 2,
+        "title": "Balonx Sistema: The Face Behind the PhaaS Affecting Mexican Banking",
+        "numbers_checked": 4,
+        "status": "verified"
+      },
+      {
         "index": 3,
-        "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
-        "numbers_checked": 2,
+        "title": "WeaselBiscuit Strips BeaverTail and OtterCookie Down to Essentials",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -127,27 +127,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 11
     },
-    "verified_at": "2026-09-18T10:32:00.685207Z",
+    "verified_at": "2026-09-19T10:16:44.186052Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-18T10:32:03.570196Z",
+  "last_updated": "2026-09-19T10:16:46.878623Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -163,14 +154,14 @@
       },
       {
         "index": 2,
-        "title": "The AI Superintelligence Slowdown",
+        "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-        "numbers_checked": 0,
+        "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -201,12 +192,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-09-18T10:32:01.337623Z",
+    "verified_at": "2026-09-19T10:16:44.733356Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +269,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.01,
+        "value": 4.94,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +278,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.74,
+        "value": 4.67,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +296,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.2699999999999996,
+        "value": 0.27000000000000046,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-18T10:32:03.570196Z",
+    "verified_at": "2026-09-19T10:16:46.878623Z",
     "llm_adversary": false
   }
 }

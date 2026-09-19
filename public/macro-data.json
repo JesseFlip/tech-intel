@@ -20,17 +20,17 @@
     "date": "2026-08-01"
   },
   "yield_curve": {
-    "ten_year": 5.01,
-    "two_year": 4.74,
-    "spread": 0.2699999999999996,
+    "ten_year": 4.94,
+    "two_year": 4.67,
+    "spread": 0.27000000000000046,
     "inverted": false,
-    "date": "2026-09-16"
+    "date": "2026-09-17"
   },
   "sentiment": {
     "consumer_sentiment": 55.2,
     "date": "2026-07-01"
   },
-  "last_updated": "2026-09-18T10:32:03.569765Z",
+  "last_updated": "2026-09-19T10:16:46.878193Z",
   "_verification": {
     "status_counts": {
       "verified": 10

@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-19",
+  "timestamp": "2026-09-19T10:16:44.186621",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
+      "content": "SilkParasite is a cyberespionage operation assessed with medium confidence as China-nexus that targeted government bodies across Central Asia. Seven remote access tool families were deployed, five of which were previously undocumented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. The toolset is small, modular, and professionally engineered with traces of AI-assisted... This pulse includes 105 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: DriveSilkRAT, SpiceRAT, CookiETagRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a86a70eb8b57f155e62d4f7",
+      "verification": "verified"
+    },
+    {
+      "title": "77 Firefox Extensions Linked to Crypto Wallet and Credential Theft",
+      "content": "Socket identified a coordinated campaign involving 77 Firefox extensions designed to steal cryptocurrency wallet secrets and credentials. The operation, tracked as 'Offside Wallet Theft Factory', includes 40 confirmed malicious extensions that exfiltrate recovery phrases, private keys, and credentials through Supabase-controlled remote switches, Cloudflare Workers, and hardcoded... This pulse includes 163 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a865251c21fa835e97512b4",
+      "verification": "verified"
+    },
+    {
+      "title": "Balonx Sistema: The Face Behind the PhaaS Affecting Mexican Banking",
+      "content": "A sophisticated Phishing-as-a-Service platform called Balonx Sistema, operated from Mexico, targets over 20 financial institutions through tiered subscriptions. The platform employs real-time WebSocket session hijacking to defeat multi-factor authentication, distributing a Spyroid-based Android RAT via fake security alerts. Since October 2025, over 1,100 victims' credentials have been harvested.... This pulse includes 8 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Spyroid.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a85ce6194c0be6ceb256c93",
+      "verification": "verified"
+    },
+    {
+      "title": "WeaselBiscuit Strips BeaverTail and OtterCookie Down to Essentials",
+      "content": "A new JavaScript infostealer dubbed WeaselBiscuit has been discovered hidden in 11 malicious npm packages. This lean malware shares operational similarities with DPRK-linked BeaverTail and OtterCookie families but features a stripped-down architecture. WeaselBiscuit deploys through npm imports, executes a detached Node process, retrieves its payload from Npoint URLs, and communicates with a C2... This pulse includes 10 indicators of compromise (IOCs). Associated malware: WeaselBiscuit, BeaverTail, OtterCookie.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aad3e7f8cc155ff864b444b",
+      "verification": "verified"
+    }
+  ]
+}

@@ -14,17 +14,17 @@
     "verification": "verified"
   },
   {
-    "title": "The AI Superintelligence Slowdown",
-    "content": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too. But after a summer where rogue AI agents became reality, and researchers warned that AI could kill us all, a number of leading US AI companies are publicly suggesting it’",
+    "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+    "content": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor i",
     "linkText": "Read Full Article →",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero",
     "verification": "verified"
   },
   {
-    "title": "Claude Code relaunches Projects to manage multiple AI agents in the cloud",
-    "content": "The revamped projects feature in Claude Code allows users to run multiple agents under the same roof, with a shared memory, goals, and library of files and artifacts. Similar to Grok Bot and other tools that manage groups of AI agents, each project has \"threads\" running different tasks in parallel, ",
+    "title": "Virginia governor creates an AI task force and moves to restrain data centers",
+    "content": "Virginia Gov. Abigail Spanberger ordered the state government to take steps that could empower local communities to have a larger say in data center development and slow down approvals in a state that is already home to the data center capital of the world. Executive Order 22 bans executive branch o",
     "linkText": "Read Full Article →",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/997134/anthropic-claude-code-projects",
+    "url": "https://www.theverge.com/policy/997573/virginia-governor-spanberger-data-center-ai-task-force",
     "verification": "verified"
   }
 ]
