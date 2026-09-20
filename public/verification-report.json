@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
+        "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
+        "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
+        "numbers_checked": 1,
+        "status": "verified"
+      },
+      {
+        "index": 2,
         "title": "77 Firefox Extensions Linked to Crypto Wallet and Credential Theft",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
-        "index": 2,
+        "index": 3,
         "title": "Balonx Sistema: The Face Behind the PhaaS Affecting Mexican Banking",
         "numbers_checked": 4,
-        "status": "verified"
-      },
-      {
-        "index": 3,
-        "title": "WeaselBiscuit Strips BeaverTail and OtterCookie Down to Essentials",
-        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -109,36 +109,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 9
     },
-    "verified_at": "2026-09-19T10:16:44.186052Z",
+    "verified_at": "2026-09-20T10:35:23.251428Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-19T10:16:46.878623Z",
+  "last_updated": "2026-09-20T10:35:26.099252Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -154,14 +136,14 @@
       },
       {
         "index": 2,
-        "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+        "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Virginia governor creates an AI task force and moves to restrain data centers",
-        "numbers_checked": 1,
+        "title": "Gemini went rogue, hacked three companies, and Google hid it",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -192,21 +174,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 3
     },
-    "verified_at": "2026-09-19T10:16:44.733356Z",
+    "verified_at": "2026-09-20T10:35:24.005536Z",
     "llm_adversary": false
   },
   "macro": {
@@ -308,7 +281,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-19T10:16:46.878623Z",
+    "verified_at": "2026-09-20T10:35:26.099252Z",
     "llm_adversary": false
   }
 }

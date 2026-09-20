@@ -1,5 +1,12 @@
 [
   {
+    "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
+    "content": "The Head Mare APT group exploited two vulnerabilities in TrueConf video conferencing servers to deliver PhantomCore malware to conference participants. Attackers used these vulnerabilities to execute arbitrary code, replace legitimate client installers with malicious versions, and deploy web shells. When participants downloaded the TrueConf client from compromised servers, they received infected... This pulse includes 40 indicators of compromise (IOCs). Associated malware: PhantomCore, PhantomGraph.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6a87ffab05b89766cd6c1700",
+    "verification": "verified"
+  },
+  {
     "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
     "content": "SilkParasite is a cyberespionage operation assessed with medium confidence as China-nexus that targeted government bodies across Central Asia. Seven remote access tool families were deployed, five of which were previously undocumented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. The toolset is small, modular, and professionally engineered with traces of AI-assisted... This pulse includes 105 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: DriveSilkRAT, SpiceRAT, CookiETagRAT.",
     "linkText": "View on AlienVault OTX →",
@@ -18,13 +25,6 @@
     "content": "A sophisticated Phishing-as-a-Service platform called Balonx Sistema, operated from Mexico, targets over 20 financial institutions through tiered subscriptions. The platform employs real-time WebSocket session hijacking to defeat multi-factor authentication, distributing a Spyroid-based Android RAT via fake security alerts. Since October 2025, over 1,100 victims' credentials have been harvested.... This pulse includes 8 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Spyroid.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6a85ce6194c0be6ceb256c93",
-    "verification": "verified"
-  },
-  {
-    "title": "WeaselBiscuit Strips BeaverTail and OtterCookie Down to Essentials",
-    "content": "A new JavaScript infostealer dubbed WeaselBiscuit has been discovered hidden in 11 malicious npm packages. This lean malware shares operational similarities with DPRK-linked BeaverTail and OtterCookie families but features a stripped-down architecture. WeaselBiscuit deploys through npm imports, executes a detached Node process, retrieves its payload from Npoint URLs, and communicates with a C2... This pulse includes 10 indicators of compromise (IOCs). Associated malware: WeaselBiscuit, BeaverTail, OtterCookie.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aad3e7f8cc155ff864b444b",
     "verification": "verified"
   }
 ]

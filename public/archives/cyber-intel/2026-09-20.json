@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-20",
+  "timestamp": "2026-09-20T10:35:23.252441",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
+      "content": "The Head Mare APT group exploited two vulnerabilities in TrueConf video conferencing servers to deliver PhantomCore malware to conference participants. Attackers used these vulnerabilities to execute arbitrary code, replace legitimate client installers with malicious versions, and deploy web shells. When participants downloaded the TrueConf client from compromised servers, they received infected... This pulse includes 40 indicators of compromise (IOCs). Associated malware: PhantomCore, PhantomGraph.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a87ffab05b89766cd6c1700",
+      "verification": "verified"
+    },
+    {
+      "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
+      "content": "SilkParasite is a cyberespionage operation assessed with medium confidence as China-nexus that targeted government bodies across Central Asia. Seven remote access tool families were deployed, five of which were previously undocumented: DriveSilkRAT, CookiETagRAT, NomadRAT, GoginRAT, and NodeEdgeRAT. The toolset is small, modular, and professionally engineered with traces of AI-assisted... This pulse includes 105 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: DriveSilkRAT, SpiceRAT, CookiETagRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a86a70eb8b57f155e62d4f7",
+      "verification": "verified"
+    },
+    {
+      "title": "77 Firefox Extensions Linked to Crypto Wallet and Credential Theft",
+      "content": "Socket identified a coordinated campaign involving 77 Firefox extensions designed to steal cryptocurrency wallet secrets and credentials. The operation, tracked as 'Offside Wallet Theft Factory', includes 40 confirmed malicious extensions that exfiltrate recovery phrases, private keys, and credentials through Supabase-controlled remote switches, Cloudflare Workers, and hardcoded... This pulse includes 163 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a865251c21fa835e97512b4",
+      "verification": "verified"
+    },
+    {
+      "title": "Balonx Sistema: The Face Behind the PhaaS Affecting Mexican Banking",
+      "content": "A sophisticated Phishing-as-a-Service platform called Balonx Sistema, operated from Mexico, targets over 20 financial institutions through tiered subscriptions. The platform employs real-time WebSocket session hijacking to defeat multi-factor authentication, distributing a Spyroid-based Android RAT via fake security alerts. Since October 2025, over 1,100 victims' credentials have been harvested.... This pulse includes 8 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Spyroid.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a85ce6194c0be6ceb256c93",
+      "verification": "verified"
+    }
+  ]
+}
