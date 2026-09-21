@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-21",
+  "timestamp": "2026-09-21T11:57:46.269897",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+      "content": "In 2026, the DPRK-sponsored Lazarus subgroup TraderTraitor continued campaigns targeting cryptocurrency entities, including a high-profile attack on LayerZero resulting in $292 million theft from KelpDAO. Following this disclosure, an additional victim was identified: a smaller IT services provider in India with no cryptocurrency connections. The compromise involved a DevOps engineer targeted... This pulse includes 42 indicators of compromise (IOCs). Targeted industries: Technology, Finance. Associated malware: FLATROOF, ROOFDECK, macOS.Gaslight.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aae4b5f7a0d5f15edf2a5f1",
+      "verification": "verified"
+    },
+    {
+      "title": "Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company",
+      "content": "ESET researchers uncovered a Lazarus attack against a Spanish aerospace company where attackers masqueraded as Meta recruiters on LinkedIn, sending trojanized coding challenges to employees. The campaign deployed multiple tools including LightlessCan, a previously undocumented backdoor that mimics native Windows commands to evade detection. Initial access was achieved through spearphishing via... This pulse includes 43 indicators of compromise (IOCs). Targeted industries: Aerospace. Associated malware: LightlessCan, NickelLoader, miniBlindingCan.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aadad46b23f435094676848",
+      "verification": "verified"
+    },
+    {
+      "title": "ChainScript: Tracing a Node.js RAT Through the Blockchain",
+      "content": "Blackpoint's Adversary Pursuit Group identified ChainScript, a previously unnamed Node.js remote access trojan discovered during ClickFix investigation. The malware disguises itself as legitimate software including Spotify, Zoom Workplace, and Microsoft Teams through malicious Windows Installer packages. ChainScript employs an EtherHiding-style C2 discovery technique utilizing a Polygon smart... This pulse includes 21 indicators of compromise (IOCs). Associated malware: ChainScript, Tsundere, EtherRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aadb1d95b011345c9fea41b",
+      "verification": "verified"
+    },
+    {
+      "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
+      "content": "The Head Mare APT group exploited two vulnerabilities in TrueConf video conferencing servers to deliver PhantomCore malware to conference participants. Attackers used these vulnerabilities to execute arbitrary code, replace legitimate client installers with malicious versions, and deploy web shells. When participants downloaded the TrueConf client from compromised servers, they received infected... This pulse includes 40 indicators of compromise (IOCs). Associated malware: PhantomCore, PhantomGraph.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a87ffab05b89766cd6c1700",
+      "verification": "verified"
+    }
+  ]
+}

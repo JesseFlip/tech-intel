@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 9,
+    "checked": 7,
     "items": [
       {
         "index": 0,
-        "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
-        "numbers_checked": 1,
+        "title": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "SilkParasite: Tracking a China-Nexus APT Across Central Asia",
+        "title": "Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "77 Firefox Extensions Linked to Crypto Wallet and Credential Theft",
-        "numbers_checked": 3,
+        "title": "ChainScript: Tracing a Node.js RAT Through the Blockchain",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Balonx Sistema: The Face Behind the PhaaS Affecting Mexican Banking",
-        "numbers_checked": 4,
+        "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -91,33 +91,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 9
+      "verified": 7
     },
-    "verified_at": "2026-09-20T10:35:23.251428Z",
+    "verified_at": "2026-09-21T11:57:46.269055Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-20T10:35:26.099252Z",
+  "last_updated": "2026-09-21T11:57:48.828229Z",
   "ai": {
     "feed": "ai",
     "checked": 3,
@@ -136,13 +118,13 @@
       },
       {
         "index": 2,
-        "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+        "title": "UN says AI safeguards can’t wait for certainty",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Gemini went rogue, hacked three companies, and Google hid it",
+        "title": "Amazon doesn’t trust Meta’s Muse AI agent",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -179,7 +161,7 @@
     "status_counts": {
       "verified": 3
     },
-    "verified_at": "2026-09-20T10:35:24.005536Z",
+    "verified_at": "2026-09-21T11:57:46.624863Z",
     "llm_adversary": false
   },
   "macro": {
@@ -281,7 +263,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-20T10:35:26.099252Z",
+    "verified_at": "2026-09-21T11:57:48.828229Z",
     "llm_adversary": false
   }
 }
