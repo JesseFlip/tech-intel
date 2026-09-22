@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 7,
+    "checked": 12,
     "items": [
       {
         "index": 0,
-        "title": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+        "title": "North Korea's Hangro Revisited",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Lazarus luring employees with trojanized coding challenges: The case of a Spanish aerospace company",
-        "numbers_checked": 1,
+        "title": "The Tale of Two INC Ransom Notes: A Ransomware Timeline",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "ChainScript: Tracing a Node.js RAT Through the Blockchain",
-        "numbers_checked": 2,
+        "title": "Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Head Mare APT Group exploits vulnerabilities in unpatched TrueConf server to deliver PhantomCore malware to conference participants",
+        "title": "Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -91,18 +91,63 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 12
     },
-    "verified_at": "2026-09-21T11:57:46.269055Z",
+    "verified_at": "2026-09-22T10:56:56.656348Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-21T11:57:48.828229Z",
+  "last_updated": "2026-09-22T10:56:58.936558Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -118,14 +163,14 @@
       },
       {
         "index": 2,
-        "title": "UN says AI safeguards can’t wait for certainty",
+        "title": "California tightens rules on AI data center energy and water use",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Amazon doesn’t trust Meta’s Muse AI agent",
-        "numbers_checked": 0,
+        "title": "Can John Ternus find Apple’s next big thing?",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -156,12 +201,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-09-21T11:57:46.624863Z",
+    "verified_at": "2026-09-22T10:56:57.363665Z",
     "llm_adversary": false
   },
   "macro": {
@@ -224,7 +278,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.94,
+        "value": 5.01,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -233,7 +287,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.67,
+        "value": 4.76,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -251,7 +305,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.27000000000000046,
+        "value": 0.25,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -263,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-21T11:57:48.828229Z",
+    "verified_at": "2026-09-22T10:56:58.936558Z",
     "llm_adversary": false
   }
 }
