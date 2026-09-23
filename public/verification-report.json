@@ -141,13 +141,13 @@
     "status_counts": {
       "verified": 12
     },
-    "verified_at": "2026-09-22T10:56:56.656348Z",
+    "verified_at": "2026-09-23T10:44:30.467356Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-22T10:56:58.936558Z",
+  "last_updated": "2026-09-23T10:44:32.078454Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 5,
     "items": [
       {
         "index": 0,
@@ -163,14 +163,14 @@
       },
       {
         "index": 2,
-        "title": "California tightens rules on AI data center energy and water use",
+        "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Can John Ternus find Apple’s next big thing?",
-        "numbers_checked": 1,
+        "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -210,12 +210,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 5
     },
-    "verified_at": "2026-09-22T10:56:57.363665Z",
+    "verified_at": "2026-09-23T10:44:30.878901Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +287,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.01,
+        "value": 4.96,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +314,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.25,
+        "value": 0.20000000000000018,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +326,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-22T10:56:58.936558Z",
+    "verified_at": "2026-09-23T10:44:32.078454Z",
     "llm_adversary": false
   }
 }

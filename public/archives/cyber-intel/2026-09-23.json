@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-23",
+  "timestamp": "2026-09-23T10:44:30.468029",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "North Korea's Hangro Revisited",
+      "content": "A deep technical analysis reveals updates to Hangro, North Korea's state VPN and mail product, operating on servers in Pyongyang and the Russian Far East. A new certificate hierarchy deployed in July 2026 differs significantly from the 2024 version, with both containing cryptographic anomalies where signatures fail verification. Investigation uncovered six network assignments in Chinese address... This pulse includes 47 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab15e0fe200afb0f82b8895",
+      "verification": "verified"
+    },
+    {
+      "title": "The Tale of Two INC Ransom Notes: A Ransomware Timeline",
+      "content": "In late August, an organization was compromised by INC ransomware across at least 175 endpoints. The attack timeline spanned from early to late August with a 17-day gap, suggesting involvement of an initial access broker and a separate ransomware affiliate. Early August activity included scheduled tasks with randomized names and lateral movement via RDP using a compromised account. After the... This pulse includes 2 indicators of compromise (IOCs). Associated malware: Brave Prince - S0252.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab15cd97e805a1f35130341",
+      "verification": "verified"
+    },
+    {
+      "title": "Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation",
+      "content": "Vidar is an information stealer first observed in 2018 that has continuously evolved its string obfuscation techniques to evade detection and analysis. Between May and September 2026, the malware progressed from basic XOR encryption to ChaCha20-based algorithms, and most recently implemented a custom virtual machine executed via a lightweight bytecode interpreter combined with custom stream... This pulse includes 10 indicators of compromise (IOCs). Associated malware: Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab15f3f1d05b3fb6ae23973",
+      "verification": "verified"
+    },
+    {
+      "title": "Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign",
+      "content": "A sophisticated six-month campaign targeting quantitative and DeFi developers through malicious npm packages disguised as legitimate mathematics libraries. The operation employs encrypted loaders that trigger only when specific cryptographic operations are performed, specifically when solving linear equations with predetermined matrices. Command and control infrastructure uses Ethereum Sepolia... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab22e89f1e0c549443c6917",
+      "verification": "verified"
+    }
+  ]
+}
