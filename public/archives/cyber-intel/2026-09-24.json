@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-24",
+  "timestamp": "2026-09-24T11:05:03.915117",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "CARBONATO: a botnet built around an AI agent",
+      "content": "ThreatDown researchers discovered CARBONATO, a Docker botnet that exploits exposed Docker daemons on port 2375. The operation was uncovered through an unauthenticated Docker registry exposed since May 2026, revealing two parallel activities: distribution of trojanized cryptocurrency wallet applications and a botnet infrastructure. The botnet leverages Hermes Agent, an MIT-licensed open-source AI... This pulse includes 5 indicators of compromise (IOCs). Associated malware: CARBONATO, Hermes Agent.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab4d79db2222977d275954f",
+      "verification": "verified"
+    },
+    {
+      "title": "Tracking PavinLoader across ClickFix and fake download campaigns",
+      "content": "A sophisticated multi-stage loader dubbed PavinLoader has been identified across multiple distribution campaigns including ClickFix attacks, fake software downloads, and malicious RenPy games. The loader employs heavily obfuscated .NET DLLs, abuses legitimate Windows tools like MSBuild, and utilizes EtherHiding technique to retrieve command-and-control domains via blockchain. The infection chain... This pulse includes 42 indicators of compromise (IOCs). Associated malware: PavinLoader, Amatera Stealer, HijackLoader.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8d406a23f75e32b69c2029",
+      "verification": "verified"
+    },
+    {
+      "title": "Ten Minutes to Containment: How Agentic MXDR Scoped a Fake Claude Desktop Intrusion",
+      "content": "A masqueraded scheduled task alert triggered an aggressive threat hunt that uncovered a complete FakeAgent intrusion campaign within ten minutes using an automated threat hunting agent. The campaign leveraged malvertising on Bing to distribute trojanized Claude Desktop installers hosted on legitimate Anthropic infrastructure. The attack chain featured DLL sideloading via Java Chromium Embedded... This pulse includes 1 indicators of compromise (IOCs). Associated malware: SectopRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a8cb55752ef1f23f4813908",
+      "verification": "verified"
+    },
+    {
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "content": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is. This pulse includes 18 indicators of compromise (IOCs). Associated malware: CLOSEDQUORUM.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab431db415b8cd13de69a7e",
+      "verification": "verified"
+    }
+  ]
+}

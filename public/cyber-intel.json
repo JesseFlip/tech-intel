@@ -1,30 +1,30 @@
 [
   {
-    "title": "North Korea's Hangro Revisited",
-    "content": "A deep technical analysis reveals updates to Hangro, North Korea's state VPN and mail product, operating on servers in Pyongyang and the Russian Far East. A new certificate hierarchy deployed in July 2026 differs significantly from the 2024 version, with both containing cryptographic anomalies where signatures fail verification. Investigation uncovered six network assignments in Chinese address... This pulse includes 47 indicators of compromise (IOCs).",
+    "title": "CARBONATO: a botnet built around an AI agent",
+    "content": "ThreatDown researchers discovered CARBONATO, a Docker botnet that exploits exposed Docker daemons on port 2375. The operation was uncovered through an unauthenticated Docker registry exposed since May 2026, revealing two parallel activities: distribution of trojanized cryptocurrency wallet applications and a botnet infrastructure. The botnet leverages Hermes Agent, an MIT-licensed open-source AI... This pulse includes 5 indicators of compromise (IOCs). Associated malware: CARBONATO, Hermes Agent.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab15e0fe200afb0f82b8895",
+    "url": "https://otx.alienvault.com/pulse/6ab4d79db2222977d275954f",
     "verification": "verified"
   },
   {
-    "title": "The Tale of Two INC Ransom Notes: A Ransomware Timeline",
-    "content": "In late August, an organization was compromised by INC ransomware across at least 175 endpoints. The attack timeline spanned from early to late August with a 17-day gap, suggesting involvement of an initial access broker and a separate ransomware affiliate. Early August activity included scheduled tasks with randomized names and lateral movement via RDP using a compromised account. After the... This pulse includes 2 indicators of compromise (IOCs). Associated malware: Brave Prince - S0252.",
+    "title": "Tracking PavinLoader across ClickFix and fake download campaigns",
+    "content": "A sophisticated multi-stage loader dubbed PavinLoader has been identified across multiple distribution campaigns including ClickFix attacks, fake software downloads, and malicious RenPy games. The loader employs heavily obfuscated .NET DLLs, abuses legitimate Windows tools like MSBuild, and utilizes EtherHiding technique to retrieve command-and-control domains via blockchain. The infection chain... This pulse includes 42 indicators of compromise (IOCs). Associated malware: PavinLoader, Amatera Stealer, HijackLoader.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab15cd97e805a1f35130341",
+    "url": "https://otx.alienvault.com/pulse/6a8d406a23f75e32b69c2029",
     "verification": "verified"
   },
   {
-    "title": "Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation",
-    "content": "Vidar is an information stealer first observed in 2018 that has continuously evolved its string obfuscation techniques to evade detection and analysis. Between May and September 2026, the malware progressed from basic XOR encryption to ChaCha20-based algorithms, and most recently implemented a custom virtual machine executed via a lightweight bytecode interpreter combined with custom stream... This pulse includes 10 indicators of compromise (IOCs). Associated malware: Vidar.",
+    "title": "Ten Minutes to Containment: How Agentic MXDR Scoped a Fake Claude Desktop Intrusion",
+    "content": "A masqueraded scheduled task alert triggered an aggressive threat hunt that uncovered a complete FakeAgent intrusion campaign within ten minutes using an automated threat hunting agent. The campaign leveraged malvertising on Bing to distribute trojanized Claude Desktop installers hosted on legitimate Anthropic infrastructure. The attack chain featured DLL sideloading via Java Chromium Embedded... This pulse includes 1 indicators of compromise (IOCs). Associated malware: SectopRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab15f3f1d05b3fb6ae23973",
+    "url": "https://otx.alienvault.com/pulse/6a8cb55752ef1f23f4813908",
     "verification": "verified"
   },
   {
-    "title": "Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign",
-    "content": "A sophisticated six-month campaign targeting quantitative and DeFi developers through malicious npm packages disguised as legitimate mathematics libraries. The operation employs encrypted loaders that trigger only when specific cryptographic operations are performed, specifically when solving linear equations with predetermined matrices. Command and control infrastructure uses Ethereum Sepolia... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Technology.",
+    "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+    "content": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22. The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is. This pulse includes 18 indicators of compromise (IOCs). Associated malware: CLOSEDQUORUM.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab22e89f1e0c549443c6917",
+    "url": "https://otx.alienvault.com/pulse/6ab431db415b8cd13de69a7e",
     "verification": "verified"
   }
 ]

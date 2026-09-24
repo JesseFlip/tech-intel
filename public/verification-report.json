@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 7,
     "items": [
       {
         "index": 0,
-        "title": "North Korea's Hangro Revisited",
+        "title": "CARBONATO: a botnet built around an AI agent",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "The Tale of Two INC Ransom Notes: A Ransomware Timeline",
-        "numbers_checked": 4,
+        "title": "Tracking PavinLoader across ClickFix and fake download campaigns",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Vidar Adds Virtual Machine and Custom Stream Ciphers For String Obfuscation",
-        "numbers_checked": 4,
+        "title": "Ten Minutes to Containment: How Agentic MXDR Scoped a Fake Claude Desktop Intrusion",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Equation of Compromise: Anatomy of a Live npm Supply-Chain Campaign",
-        "numbers_checked": 1,
+        "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -91,63 +91,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 7
     },
-    "verified_at": "2026-09-23T10:44:30.467356Z",
+    "verified_at": "2026-09-24T11:05:03.914427Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-23T10:44:32.078454Z",
+  "last_updated": "2026-09-24T11:05:24.652674Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -163,14 +118,14 @@
       },
       {
         "index": 2,
-        "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
-        "numbers_checked": 0,
+        "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Rabbit’s new AI agent doesn’t need an R1 to run",
-        "numbers_checked": 2,
+        "title": "Meta is making a standalone Muse AI gadget",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -210,21 +165,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 4
     },
-    "verified_at": "2026-09-23T10:44:30.878901Z",
+    "verified_at": "2026-09-24T11:05:04.537765Z",
     "llm_adversary": false
   },
   "macro": {
@@ -296,7 +242,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.76,
+        "value": 4.71,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +260,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.20000000000000018,
+        "value": 0.25,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -326,7 +272,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-23T10:44:32.078454Z",
+    "verified_at": "2026-09-24T11:05:24.652674Z",
     "llm_adversary": false
   }
 }
