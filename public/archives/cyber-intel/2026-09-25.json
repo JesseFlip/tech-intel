@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-25",
+  "timestamp": "2026-09-25T11:06:06.119502",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "third-party.com Placeholder Domain Now Serves ClickFix",
+      "content": "The domain third-party[.]com, historically used as a documentation placeholder similar to example.com, has been compromised and now serves ClickFix lures to Windows users while displaying harmless content to other operating systems. Since at least June 2026, Windows visitors receive a fake Cloudflare verification page that poisons the clipboard with a malicious PowerShell command, instructing... This pulse includes 5 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab559662b978ca478cf0b21",
+      "verification": "verified"
+    },
+    {
+      "title": "OpenSUpdater Hides in Recompiled 7zip SFX, Evading Analysts",
+      "content": "Threat actors are recompiling open source software, specifically the 7zip self-extracting archive stub, to embed a reflective loader that evades detection. The malicious code is inserted into the ExtractArchive function of the 7zip SFX module, making it difficult for analysts to identify since they typically focus on configuration files and embedded executables rather than the decompression stub... This pulse includes 5 indicators of compromise (IOCs). Associated malware: OpenSUpdater, Snackarcin.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab524f82bf3c05dfa346cb8",
+      "verification": "verified"
+    },
+    {
+      "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
+      "content": "North Korea-linked threat actors are conducting Operation Conflict Compass, targeting individuals and organizations focused on Ukraine using spear-phishing emails with malicious ZIP attachments. These contain LNK files disguised as PDFs with themes related to Russia-Ukraine peace plans, Ukrainian research, and geopolitical issues. When executed, the shortcuts retrieve malicious files from GitHub,... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, NGO. Associated malware: VelvetCake.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab51a43ec94931b637c0607",
+      "verification": "verified"
+    },
+    {
+      "title": "New RemControl Android Banking Trojan Steals PINs Using AI-Built Phishing Overlays",
+      "content": "RemControl is an Android banking trojan first observed in July 2026 that targets financial institutions across Western Europe, the Middle East, and Canada. The malware is distributed through fake Google Play Store pages advertising TVTap, an IPTV application, using malvertising campaigns with geo-targeted delivery. Once installed, the dropper creates a local VPN to block Play Protect checks and... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: RemControl.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab51a6d40cabb350f8e954b",
+      "verification": "verified"
+    }
+  ]
+}

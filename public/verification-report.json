@@ -5,25 +5,25 @@
     "items": [
       {
         "index": 0,
-        "title": "CARBONATO: a botnet built around an AI agent",
-        "numbers_checked": 3,
+        "title": "third-party.com Placeholder Domain Now Serves ClickFix",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Tracking PavinLoader across ClickFix and fake download campaigns",
-        "numbers_checked": 1,
+        "title": "OpenSUpdater Hides in Recompiled 7zip SFX, Evading Analysts",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Ten Minutes to Containment: How Agentic MXDR Scoped a Fake Claude Desktop Intrusion",
+        "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+        "title": "New RemControl Android Banking Trojan Steals PINs Using AI-Built Phishing Overlays",
         "numbers_checked": 2,
         "status": "verified"
       }
@@ -96,13 +96,13 @@
     "status_counts": {
       "verified": 7
     },
-    "verified_at": "2026-09-24T11:05:03.914427Z",
+    "verified_at": "2026-09-25T11:06:06.118855Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-24T11:05:24.652674Z",
+  "last_updated": "2026-09-25T11:06:29.651212Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 6,
     "items": [
       {
         "index": 0,
@@ -118,14 +118,14 @@
       },
       {
         "index": 2,
-        "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
-        "numbers_checked": 1,
+        "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Meta is making a standalone Muse AI gadget",
-        "numbers_checked": 0,
+        "title": "Jensen Huang talks about AI and climate change like a supervillain",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -165,12 +165,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 6
     },
-    "verified_at": "2026-09-24T11:05:04.537765Z",
+    "verified_at": "2026-09-25T11:06:06.333892Z",
     "llm_adversary": false
   },
   "macro": {
@@ -233,7 +251,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.96,
+        "value": 5.11,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -242,7 +260,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.71,
+        "value": 4.85,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +278,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.25,
+        "value": 0.2600000000000007,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -272,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-24T11:05:24.652674Z",
+    "verified_at": "2026-09-25T11:06:29.651212Z",
     "llm_adversary": false
   }
 }
