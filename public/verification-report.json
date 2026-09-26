@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 7,
+    "checked": 18,
     "items": [
       {
         "index": 0,
-        "title": "third-party.com Placeholder Domain Now Serves ClickFix",
-        "numbers_checked": 2,
+        "title": "AI-Powered PhaaS Supply Chain",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "OpenSUpdater Hides in Recompiled 7zip SFX, Evading Analysts",
-        "numbers_checked": 2,
+        "title": "Inhospitable: Tracking Russian Cyber Espionage Infrastructure",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
-        "numbers_checked": 1,
+        "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "New RemControl Android Banking Trojan Steals PINs Using AI-Built Phishing Overlays",
-        "numbers_checked": 2,
+        "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -91,18 +91,117 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 18
     },
-    "verified_at": "2026-09-25T11:06:06.118855Z",
+    "verified_at": "2026-09-26T10:47:07.814768Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-25T11:06:29.651212Z",
+  "last_updated": "2026-09-26T10:47:09.962173Z",
   "ai": {
     "feed": "ai",
-    "checked": 6,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -118,13 +217,13 @@
       },
       {
         "index": 2,
-        "title": "Gemini 3.8 Live with Live Avatar gives Google&#8217;s AI a face",
-        "numbers_checked": 2,
+        "title": "Meta makes the Muse filesystem even more accessible",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Jensen Huang talks about AI and climate change like a supervillain",
+        "title": "Sony and UMG are suing Suno again",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -165,30 +264,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 4
     },
-    "verified_at": "2026-09-25T11:06:06.333892Z",
+    "verified_at": "2026-09-26T10:47:08.574809Z",
     "llm_adversary": false
   },
   "macro": {
@@ -251,7 +332,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.11,
+        "value": 5.18,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +341,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.85,
+        "value": 4.87,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -269,7 +350,7 @@
       },
       {
         "metric": "consumer_sentiment",
-        "value": 55.2,
+        "value": 51.7,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +359,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.2600000000000007,
+        "value": 0.3099999999999996,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -290,7 +371,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-25T11:06:29.651212Z",
+    "verified_at": "2026-09-26T10:47:09.962173Z",
     "llm_adversary": false
   }
 }

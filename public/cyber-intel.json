@@ -1,30 +1,30 @@
 [
   {
-    "title": "third-party.com Placeholder Domain Now Serves ClickFix",
-    "content": "The domain third-party[.]com, historically used as a documentation placeholder similar to example.com, has been compromised and now serves ClickFix lures to Windows users while displaying harmless content to other operating systems. Since at least June 2026, Windows visitors receive a fake Cloudflare verification page that poisons the clipboard with a malicious PowerShell command, instructing... This pulse includes 5 indicators of compromise (IOCs).",
+    "title": "AI-Powered PhaaS Supply Chain",
+    "content": "AnonyMousKIT is an AI-powered Phishing-as-a-Service platform engineered to disable Apple's Activation Lock on stolen devices. Operating as a credit-metered system, it automates credential harvesting through email, SMS, WhatsApp, and AI-driven voice phishing calls. The investigation exposed a reseller supply chain spanning 506 domains and 168 storefront brands active since early 2024. The platform... This pulse includes 41 indicators of compromise (IOCs). Targeted industries: Government, Education.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab559662b978ca478cf0b21",
+    "url": "https://otx.alienvault.com/pulse/6a8fefa73dcdd0e3c18df580",
     "verification": "verified"
   },
   {
-    "title": "OpenSUpdater Hides in Recompiled 7zip SFX, Evading Analysts",
-    "content": "Threat actors are recompiling open source software, specifically the 7zip self-extracting archive stub, to embed a reflective loader that evades detection. The malicious code is inserted into the ExtractArchive function of the 7zip SFX module, making it difficult for analysts to identify since they typically focus on configuration files and embedded executables rather than the decompression stub... This pulse includes 5 indicators of compromise (IOCs). Associated malware: OpenSUpdater, Snackarcin.",
+    "title": "Inhospitable: Tracking Russian Cyber Espionage Infrastructure",
+    "content": "This analysis examines infrastructure used by multiple Russian cyber espionage clusters targeting individuals in academia, think tanks, and organizations across Europe and the United States. The investigation expands on three threat clusters (UNC6293, UNC7005, and UNC5976) that employed OAuth phishing, Microsoft device code phishing, and WhatsApp targeting. UNC6293 utilized lure domains... This pulse includes 38 indicators of compromise (IOCs). Targeted industries: Education, Government. Associated malware: Evilginx.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab524f82bf3c05dfa346cb8",
+    "url": "https://otx.alienvault.com/pulse/6a8f61a3ebc215465ad2ccff",
     "verification": "verified"
   },
   {
-    "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
-    "content": "North Korea-linked threat actors are conducting Operation Conflict Compass, targeting individuals and organizations focused on Ukraine using spear-phishing emails with malicious ZIP attachments. These contain LNK files disguised as PDFs with themes related to Russia-Ukraine peace plans, Ukrainian research, and geopolitical issues. When executed, the shortcuts retrieve malicious files from GitHub,... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, NGO. Associated malware: VelvetCake.",
+    "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
+    "content": "A suspected Chinese-speaking threat actor conducted targeted intrusions against Philippine nuclear research and defense organizations. On August 13, 2026, an open directory on a VPS exposed custom Python scripts exploiting CVE-2023-49105 in ownCloud and CVE-2024-28000 in WordPress LiteSpeed Cache. The operator exfiltrated approximately 9 GB from a nuclear agency, including reactor core databases,... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Defense, Energy. Associated malware: Sliver, Metasploit, Mettle.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab51a43ec94931b637c0607",
+    "url": "https://otx.alienvault.com/pulse/6a8f1fe1d950c245b840741b",
     "verification": "verified"
   },
   {
-    "title": "New RemControl Android Banking Trojan Steals PINs Using AI-Built Phishing Overlays",
-    "content": "RemControl is an Android banking trojan first observed in July 2026 that targets financial institutions across Western Europe, the Middle East, and Canada. The malware is distributed through fake Google Play Store pages advertising TVTap, an IPTV application, using malvertising campaigns with geo-targeted delivery. Once installed, the dropper creates a local VPN to block Play Protect checks and... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: RemControl.",
+    "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
+    "content": "During a targeted intrusion investigation in June 2026, investigators uncovered GoCaracal, a previously undocumented modular framework written in Go. This sophisticated toolkit exists in two operational profiles: a lightweight implant for establishing access and delivering payloads, and an extended build for sustained intelligence collection with capabilities including keylogging, browser... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: GoCaracal, Bandook - S0234, AsioGate.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab51a6d40cabb350f8e954b",
+    "url": "https://otx.alienvault.com/pulse/6a8f1fe07f5ffb26e71db532",
     "verification": "verified"
   }
 ]
