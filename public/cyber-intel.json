@@ -1,30 +1,30 @@
 [
   {
-    "title": "AI-Powered PhaaS Supply Chain",
-    "content": "AnonyMousKIT is an AI-powered Phishing-as-a-Service platform engineered to disable Apple's Activation Lock on stolen devices. Operating as a credit-metered system, it automates credential harvesting through email, SMS, WhatsApp, and AI-driven voice phishing calls. The investigation exposed a reseller supply chain spanning 506 domains and 168 storefront brands active since early 2024. The platform... This pulse includes 41 indicators of compromise (IOCs). Targeted industries: Government, Education.",
+    "title": "Open Directory Exposes Moobot Source Code and Ongoing Activity Post 2024 Court-Authorized Disruption",
+    "content": "A misconfigured open directory on IP address 86.53.111[.]212:8080 exposed critical details of an active cybercrime operation, including Moobot botnet source code, denial of service tools with attack records, and a fraudulent Chinese identity verification service. The exposed directory also contained StresD Pro+, a multi-user DDoS panel with 16 registered accounts and 32 recorded attacks on the... This pulse includes 1 indicators of compromise (IOCs). Associated malware: Moobot, Mirai.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8fefa73dcdd0e3c18df580",
+    "url": "https://otx.alienvault.com/pulse/6a90f19bbcdbb55af3412789",
     "verification": "verified"
   },
   {
-    "title": "Inhospitable: Tracking Russian Cyber Espionage Infrastructure",
-    "content": "This analysis examines infrastructure used by multiple Russian cyber espionage clusters targeting individuals in academia, think tanks, and organizations across Europe and the United States. The investigation expands on three threat clusters (UNC6293, UNC7005, and UNC5976) that employed OAuth phishing, Microsoft device code phishing, and WhatsApp targeting. UNC6293 utilized lure domains... This pulse includes 38 indicators of compromise (IOCs). Targeted industries: Education, Government. Associated malware: Evilginx.",
+    "title": "Attacks on AI Infrastructure: 90-Day Honeypot Telemetry",
+    "content": "Wiz Threat Research deployed honeypots across AI and ML services including LiteLLM, Flowise, LangChain, Langflow, ChromaDB, and Ollama, observing sustained attack activity over 90 days. Three distinct attack patterns emerged: exploitation of Internet-facing MCP servers for remote code execution through authentication bypass and command injection vulnerabilities; blind prompt injection attacks... This pulse includes 6 indicators of compromise (IOCs). Associated malware: XMRig.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8f61a3ebc215465ad2ccff",
+    "url": "https://otx.alienvault.com/pulse/6a90b73a3cf4e349584c8d6d",
     "verification": "verified"
   },
   {
-    "title": "Philippine Nuclear Agency and Naval Contractor Targeted by Suspected Chinese-Speaking Operator Using Known Vulnerabilities",
-    "content": "A suspected Chinese-speaking threat actor conducted targeted intrusions against Philippine nuclear research and defense organizations. On August 13, 2026, an open directory on a VPS exposed custom Python scripts exploiting CVE-2023-49105 in ownCloud and CVE-2024-28000 in WordPress LiteSpeed Cache. The operator exfiltrated approximately 9 GB from a nuclear agency, including reactor core databases,... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Defense, Energy. Associated malware: Sliver, Metasploit, Mettle.",
+    "title": "Implants in the Supply Chain",
+    "content": "Three distinct implants—SPEAKINGSTONE, DARKLANTERN, and ENDLESSDOORS—have been discovered embedded in ZBT router firmware distributed through a global supply chain reaching the United States, Canada, Australia, Philippines, Germany, and Russia. DARKLANTERN is an unauthenticated UDP backdoor listening on port 9992, offering root shell access from the internet with trivial MAC address bypass.... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Technology, Telecommunications. Associated malware: SPEAKINGSTONE, DARKLANTERN, ENDLESSDOORS.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8f1fe1d950c245b840741b",
+    "url": "https://otx.alienvault.com/pulse/6a90b7387fc31b76fc1f2e4c",
     "verification": "verified"
   },
   {
-    "title": "Dark Caracal Reloaded: New Malware, Same Hunting Grounds",
-    "content": "During a targeted intrusion investigation in June 2026, investigators uncovered GoCaracal, a previously undocumented modular framework written in Go. This sophisticated toolkit exists in two operational profiles: a lightweight implant for establishing access and delivering payloads, and an extended build for sustained intelligence collection with capabilities including keylogging, browser... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: GoCaracal, Bandook - S0234, AsioGate.",
+    "title": "Inside the AsyncAPI Supply Chain Compromise",
+    "content": "In July 2026, Microsoft Threat Intelligence uncovered a supply chain attack targeting the official AsyncAPI NPM organization. Attackers published malicious versions of multiple packages under the trusted AsyncAPI namespace, exploiting developer dependencies to distribute malware. The compromised packages deployed a multi-stage Remote Access Trojan through obfuscated lifecycle hooks that executed... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: sync.js.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a8f1fe07f5ffb26e71db532",
+    "url": "https://otx.alienvault.com/pulse/6a90b738237841eddd8428c7",
     "verification": "verified"
   }
 ]
