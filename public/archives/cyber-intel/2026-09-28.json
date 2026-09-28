@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-28",
+  "timestamp": "2026-09-28T12:53:29.246956",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Fake MP4 File Carries Malicious Payload",
+      "content": "A sophisticated infection chain leverages PowerShell loaders to deliver encrypted NetSupport client payloads concealed within fake MP4 files. The malicious MP4 containers appear valid to basic file-type checks but contain 6.5 MB of encrypted data in ISO Base Media File Format uuid extension boxes rather than playable video content. The attack begins with PowerShell delivered via... This pulse includes 64 indicators of compromise (IOCs). Associated malware: NetSupport Manager.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9226b8e222df2d7682db63",
+      "verification": "verified"
+    },
+    {
+      "title": "Still Circling: Inside the Operator Behind the GitHub Loader",
+      "content": "An investigation into malware delivery infrastructure reveals an operator using GitHub repositories to stage malicious loaders and RAT payloads. Starting from commit metadata, researchers traced an email address to a compromised machine via stealer log databases. The infected workstation exposed a complete operational pipeline including multiple RAT families (AsyncRAT, DcRat, Remcos, XWorm),... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: AsyncRAT, DcRat, Remcos.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9226b8695b02a09a6160ef",
+      "verification": "verified"
+    },
+    {
+      "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
+      "content": "A Chinese-language executable disguised as a resume claiming to be from a Beijing Institute of Technology graduate student delivers SNOWLIGHT and VShell RAT. The infection chain uses a custom Go loader with sandbox detection, CPU checks, and sleep-timer evasion before downloading a legitimate DOCX decoy. It then executes a 1,454-byte SNOWLIGHT stager that connects to infrastructure, downloads... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: SNOWLIGHT, VShell.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a91a5a487efed140546d754",
+      "verification": "verified"
+    },
+    {
+      "title": "Open Directory Exposes Moobot Source Code and Ongoing Activity Post 2024 Court-Authorized Disruption",
+      "content": "A misconfigured open directory on IP address 86.53.111[.]212:8080 exposed critical details of an active cybercrime operation, including Moobot botnet source code, denial of service tools with attack records, and a fraudulent Chinese identity verification service. The exposed directory also contained StresD Pro+, a multi-user DDoS panel with 16 registered accounts and 32 recorded attacks on the... This pulse includes 1 indicators of compromise (IOCs). Associated malware: Moobot, Mirai.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a90f19bbcdbb55af3412789",
+      "verification": "verified"
+    }
+  ]
+}
