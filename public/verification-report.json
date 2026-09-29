@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 14,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Fake MP4 File Carries Malicious Payload",
-        "numbers_checked": 3,
+        "title": "PureRAT and PureLogs Campaign Targeting Japanese Organizations",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Still Circling: Inside the Operator Behind the GitHub Loader",
-        "numbers_checked": 1,
+        "title": "Telerik UI Exploitation Leads to Webshell Install and Scanner Execution",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "A fake resume invoked China's defence-tech elite, then installed VShell",
+        "title": "Kothamine malware uses Tailscale's tailcat to evade network detection",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Open Directory Exposes Moobot Source Code and Ongoing Activity Post 2024 Court-Authorized Disruption",
-        "numbers_checked": 8,
+        "title": "Operation Master: Deconstructing a Multi-Tiered Intrusion and Monetization Pipeline",
+        "numbers_checked": 7,
         "status": "verified"
       }
     ],
@@ -154,18 +154,27 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 14
+      "verified": 15
     },
-    "verified_at": "2026-09-28T12:53:29.245908Z",
+    "verified_at": "2026-09-29T12:07:17.255351Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-28T12:53:31.401440Z",
+  "last_updated": "2026-09-29T12:07:28.657487Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 7,
     "items": [
       {
         "index": 0,
@@ -181,14 +190,14 @@
       },
       {
         "index": 2,
-        "title": "Engram is a sampler that turns broken AI hallucinations into music",
+        "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-        "numbers_checked": 1,
+        "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -228,12 +237,39 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 7
     },
-    "verified_at": "2026-09-28T12:53:29.511488Z",
+    "verified_at": "2026-09-29T12:07:17.571184Z",
     "llm_adversary": false
   },
   "macro": {
@@ -296,7 +332,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.18,
+        "value": 5.17,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +341,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.87,
+        "value": 4.81,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -323,7 +359,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3099999999999996,
+        "value": 0.3600000000000003,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -335,7 +371,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-28T12:53:31.401440Z",
+    "verified_at": "2026-09-29T12:07:28.657487Z",
     "llm_adversary": false
   }
 }

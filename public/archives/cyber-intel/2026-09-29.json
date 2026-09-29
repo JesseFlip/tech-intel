@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-29",
+  "timestamp": "2026-09-29T12:07:17.256531",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "PureRAT and PureLogs Campaign Targeting Japanese Organizations",
+      "content": "Between July and August 2026, a sophisticated campaign targeted organizations across East and Southeast Asia using Japanese and Korean-language phishing emails disguised as product damage complaints. Recipients were directed to fake document-sharing websites that delivered ZIP files containing malware. The archives contained executables with double extensions and DLLs implementing various loader... This pulse includes 75 indicators of compromise (IOCs). Associated malware: PureRAT, PureLogs.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab69627dd56b82f3b52796d",
+      "verification": "verified"
+    },
+    {
+      "title": "Telerik UI Exploitation Leads to Webshell Install and Scanner Execution",
+      "content": "Multiple attack campaigns exploiting CVE-2019-18935, a remote code execution vulnerability in unpatched Telerik UI for ASP.NET AJAX servers, have been identified. The first case involved exploiting the vulnerability to execute a reverse shell connecting to 206.82.6.22, attempting privilege escalation using Potato-family tools like SweetPotato, and installing a Godzilla-style memory-based web... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Godzilla, SweetPotato.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aba1398c736673eae22c865",
+      "verification": "verified"
+    },
+    {
+      "title": "Kothamine malware uses Tailscale's tailcat to evade network detection",
+      "content": "An undocumented remote-access Trojan named Kothamine Agent has been discovered with support for over 30 commands, enabling attackers to control infected Windows systems through command execution, file manipulation, and capability extension. Some variants include browser data theft and camera/microphone recording functionality. The malware has been distributed through malicious npm packages and... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Kothamine Agent.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab7c5997e2556d7c00c86e6",
+      "verification": "verified"
+    },
+    {
+      "title": "Operation Master: Deconstructing a Multi-Tiered Intrusion and Monetization Pipeline",
+      "content": "A sophisticated cybercrime operation compromised enterprise networks across multiple countries by exploiting a GlobalProtect authentication bypass vulnerability (CVE-2026-0257), executed advanced web application attacks, and deployed the AdaptixC2 framework. The operation scanned 277.5 million addresses to curate 81 high-value targets, stole databases from 9+ instances via SQL injection with... This pulse includes 29 indicators of compromise (IOCs). Targeted industries: Energy, Technology, Finance. Associated malware: AdaptixC2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aba46a30e26418fb09c6000",
+      "verification": "verified"
+    }
+  ]
+}

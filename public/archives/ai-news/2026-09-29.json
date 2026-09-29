@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-29",
+  "timestamp": "2026-09-29T12:07:17.578900",
+  "items": [
+    {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "verification": "verified"
+    },
+    {
+      "title": "Data center demand drives 66% surge in natural gas power plant costs",
+      "content": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
+      "verification": "verified"
+    },
+    {
+      "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+      "content": "As Anthropic gears up for its greatly anticipated public debut, a preview of the company's IPO filing reportedly details its mounting losses, leadership proposals to retain power, and how its AI development plans could \"further increase the risk that our models cause harm.\" These disclosures come as",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1001838/anthropic-ipo-prospectus-ai-safety-threat",
+      "verification": "verified"
+    },
+    {
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "content": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months. The startup launched its first commerci",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "verification": "verified"
+    }
+  ]
+}
