@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-30",
+  "timestamp": "2026-09-30T11:55:34.398736",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "ValleyRAT is spreading disguised as adware",
+      "content": "Attackers are distributing the ValleyRAT backdoor disguised as legitimate Chinese adware called QN Wallpaper. The malicious installer deploys a modified version of the wallpaper management tool and uses DLL sideloading techniques to execute malicious code under a signed process. ValleyRAT is a sophisticated backdoor capable of keylogging, clipboard monitoring, screenshot capture, and delivering... This pulse includes 3 indicators of compromise (IOCs). Associated malware: ValleyRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9561756240dfd1ccd91f80",
+      "verification": "verified"
+    },
+    {
+      "title": "An Inside Look at Voice Phishing Campaigns in Microsoft Teams",
+      "content": "Between January and April 2026, a coordinated social engineering operation named Spring Ring leveraged external Microsoft Teams accounts to impersonate IT help desk personnel, targeting over 150 employees across at least 10 companies. Adversaries initiated voice phishing calls to coerce victims into executing remote monitoring and management tools or custom malware. In advanced variants,... This pulse includes 2 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a95603cd2ee92923d1e1dff",
+      "verification": "verified"
+    },
+    {
+      "title": "Fake iPhone Duo preorder scam triggers DarkSword attack",
+      "content": "Scammers have weaponized fake iPhone Duo preorder pages to deploy the DarkSword exploit chain against vulnerable iPhones. The fraudulent pages mimic Apple's design and offer a $500 voucher to lure victims, but simply opening the page in Safari triggers an exploitation attempt without requiring user interaction. The attack targets iPhones running unpatched iOS versions, attempting to bypass... This pulse includes 1 indicators of compromise (IOCs). Associated malware: DarkSword.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abbc428d397735970a34334",
+      "verification": "verified"
+    },
+    {
+      "title": "Beware of Phishing Emails That Disguise Themselves as Project Material Purchase Requests",
+      "content": "ASEC identified a phishing campaign targeting organizations in Korea through emails impersonating company employees. The emails contain malicious XLS files disguised as project material purchase request forms. When opened, the documents exploit CVE-2017-0199, an OLE2Link vulnerability in Microsoft Office, to download HTA files from a C2 server. The HTA file executes an obfuscated PowerShell... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Remcos.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abbbd28cb7e4cac7c679e36",
+      "verification": "verified"
+    }
+  ]
+}

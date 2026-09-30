@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 15,
+    "checked": 10,
     "items": [
       {
         "index": 0,
-        "title": "PureRAT and PureLogs Campaign Targeting Japanese Organizations",
-        "numbers_checked": 2,
+        "title": "ValleyRAT is spreading disguised as adware",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Telerik UI Exploitation Leads to Webshell Install and Scanner Execution",
+        "title": "An Inside Look at Voice Phishing Campaigns in Microsoft Teams",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Kothamine malware uses Tailscale's tailcat to evade network detection",
+        "title": "Fake iPhone Duo preorder scam triggers DarkSword attack",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Operation Master: Deconstructing a Multi-Tiered Intrusion and Monetization Pipeline",
-        "numbers_checked": 7,
+        "title": "Beware of Phishing Emails That Disguise Themselves as Project Material Purchase Requests",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -118,63 +118,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 15
+      "verified": 10
     },
-    "verified_at": "2026-09-29T12:07:17.255351Z",
+    "verified_at": "2026-09-30T11:55:34.397663Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-29T12:07:28.657487Z",
+  "last_updated": "2026-09-30T11:55:36.309423Z",
   "ai": {
     "feed": "ai",
-    "checked": 7,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -190,14 +145,14 @@
       },
       {
         "index": 2,
-        "title": "Anthropic warns of ‘catastrophic’ AI risks in its own IPO filing",
+        "title": "Sam Altman says OpenAI won’t go public until its models are safe",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-        "numbers_checked": 4,
+        "title": "Trump orders US government to call AI ‘Super Intelligence’",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -228,48 +183,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 3
     },
-    "verified_at": "2026-09-29T12:07:17.571184Z",
+    "verified_at": "2026-09-30T11:55:34.764317Z",
     "llm_adversary": false
   },
   "macro": {
@@ -332,7 +251,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.17,
+        "value": 5.24,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -341,7 +260,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.81,
+        "value": 4.92,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -359,7 +278,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3600000000000003,
+        "value": 0.3200000000000003,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -371,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-29T12:07:28.657487Z",
+    "verified_at": "2026-09-30T11:55:36.309423Z",
     "llm_adversary": false
   }
 }
