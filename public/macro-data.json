@@ -6,9 +6,9 @@
       "date": "2026-08-01"
     },
     "core_pce": {
-      "value": 130.658,
-      "yoy": 3.3441430040338367,
-      "date": "2026-07-01"
+      "value": 130.455,
+      "yoy": 3.0075959761855975,
+      "date": "2026-08-01"
     }
   },
   "labor": {
@@ -20,17 +20,17 @@
     "date": "2026-08-01"
   },
   "yield_curve": {
-    "ten_year": 5.24,
-    "two_year": 4.92,
-    "spread": 0.3200000000000003,
+    "ten_year": 5.26,
+    "two_year": 4.89,
+    "spread": 0.3700000000000001,
     "inverted": false,
-    "date": "2026-09-28"
+    "date": "2026-09-29"
   },
   "sentiment": {
     "consumer_sentiment": 51.7,
     "date": "2026-08-01"
   },
-  "last_updated": "2026-09-30T11:55:36.308980Z",
+  "last_updated": "2026-10-01T12:25:07.712930Z",
   "_verification": {
     "status_counts": {
       "verified": 10

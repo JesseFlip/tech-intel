@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 12,
     "items": [
       {
         "index": 0,
-        "title": "ValleyRAT is spreading disguised as adware",
-        "numbers_checked": 1,
-        "status": "verified"
-      },
-      {
-        "index": 1,
-        "title": "An Inside Look at Voice Phishing Campaigns in Microsoft Teams",
+        "title": "13 Malicious Packagist Themes Deliver iOS Spyware That Steals Crypto Wallet Seeds",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
-        "index": 2,
-        "title": "Fake iPhone Duo preorder scam triggers DarkSword attack",
+        "index": 1,
+        "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
+        "index": 2,
+        "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
+        "numbers_checked": 3,
+        "status": "verified"
+      },
+      {
         "index": 3,
-        "title": "Beware of Phishing Emails That Disguise Themselves as Project Material Purchase Requests",
+        "title": "Phishing Abuses RMM Tools for Persistent Access",
         "numbers_checked": 3,
         "status": "verified"
       }
@@ -118,18 +118,36 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 12
     },
-    "verified_at": "2026-09-30T11:55:34.397663Z",
+    "verified_at": "2026-10-01T12:25:05.611262Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-09-30T11:55:36.309423Z",
+  "last_updated": "2026-10-01T12:25:07.713456Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 7,
     "items": [
       {
         "index": 0,
@@ -145,14 +163,14 @@
       },
       {
         "index": 2,
-        "title": "Sam Altman says OpenAI won’t go public until its models are safe",
-        "numbers_checked": 0,
+        "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Trump orders US government to call AI ‘Super Intelligence’",
-        "numbers_checked": 0,
+        "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -183,12 +201,48 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 7
     },
-    "verified_at": "2026-09-30T11:55:34.764317Z",
+    "verified_at": "2026-10-01T12:25:05.805897Z",
     "llm_adversary": false
   },
   "macro": {
@@ -206,7 +260,7 @@
       },
       {
         "metric": "core_pce_yoy",
-        "value": 3.3441430040338367,
+        "value": 3.0075959761855975,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -224,7 +278,7 @@
       },
       {
         "metric": "core_pce_value",
-        "value": 130.658,
+        "value": 130.455,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -251,7 +305,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.24,
+        "value": 5.26,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -260,7 +314,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.92,
+        "value": 4.89,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +332,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3200000000000003,
+        "value": 0.3700000000000001,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -290,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-09-30T11:55:36.309423Z",
+    "verified_at": "2026-10-01T12:25:07.713456Z",
     "llm_adversary": false
   }
 }
