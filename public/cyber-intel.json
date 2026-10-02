@@ -1,30 +1,30 @@
 [
   {
-    "title": "13 Malicious Packagist Themes Deliver iOS Spyware That Steals Crypto Wallet Seeds",
-    "content": "Thirteen malicious Composer theme packages published on Packagist across five vendor namespaces inject JavaScript into Vietnamese movie and comic streaming sites. The injected code executes two operations: a mobile ad-fraud and gambling redirect chain, and on iPhones, a WebKit-to-kernel exploit chain installing spyware. The iOS chain weaponizes CVE-2025-31277 and CVE-2025-43529, targeting devices... This pulse includes 32 indicators of compromise (IOCs).",
+    "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
+    "content": "This pulse includes 2 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a95df86eed3f6fb54baef2d",
+    "url": "https://otx.alienvault.com/pulse/6a97f37014181775b84892a1",
     "verification": "verified"
   },
   {
-    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-    "content": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique that Microsoft tracks as “RedFlick”. These changes represent a notable shift in the actor’s operational tradecraft and support ongoing... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Government, Media, Financial. Associated malware: RedFlick, CosmicPulse.",
+    "title": "New PamStealer variant targets macOS via fake crypto wallet",
+    "content": "A third variant of PamStealer has been identified, distributed through a fake Wavel cryptocurrency wallet application. The malware employs a sophisticated server-side decryption chain using a purpose-built utility called pkgunpack that performs live ECIES key exchange with command-and-control infrastructure, making offline payload decryption impossible. The second stage has been rewritten from... This pulse includes 16 indicators of compromise (IOCs). Associated malware: PamStealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abd5b434cf09d69f0ee2e48",
+    "url": "https://otx.alienvault.com/pulse/6ab2e69de1b172350066344d",
     "verification": "verified"
   },
   {
-    "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
-    "content": "A China-nexus threat cluster designated UAT-11587 has been targeting government and policy organizations across eight Asian countries since September 2025, delivering a previously undocumented Rust-compiled backdoor called Antino. The campaign primarily affected Taiwan, India, Philippines, Cambodia, Pakistan, Thailand, Myanmar, and Syria through sophisticated spear-phishing operations using... This pulse includes 90 indicators of compromise (IOCs). Targeted industries: Defense, Government, Education. Associated malware: Antino.",
+    "title": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
+    "content": "A threat actor compromised three web servers hosting recreation management software for municipalities and parks organizations by exploiting a file upload vulnerability. After multiple failed exploitation attempts, the attacker registered legitimate accounts and abused the member file upload function to deploy webshells. The attacker enumerated systems, extracted database credentials, and... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abd2800997dc4232dd91d1d",
+    "url": "https://otx.alienvault.com/pulse/6abf5aa04b47ef1458d7472a",
     "verification": "verified"
   },
   {
-    "title": "Phishing Abuses RMM Tools for Persistent Access",
-    "content": "In July 2026, phishing campaigns targeted organizations across multiple industries by distributing a masqueraded MSP360 Remote Monitoring and Management installer through meeting invitations, PDF-themed lures, and software update prompts. Once executed, the legitimate MSP360 installer established remote management access on affected devices, providing threat actors with an initial foothold using... This pulse includes 54 indicators of compromise (IOCs). Associated malware: MSP360 RMM, ScreenConnect, WindVerify.",
+    "title": "August 2026 Threat Trend Report on APT Attacks (South Korea)",
+    "content": "During August 2026, multiple APT campaigns targeted South Korean entities primarily through spear phishing attacks utilizing LNK files. Six distinct attack types were identified, employing various techniques including PowerShell scripts, AutoIt programs, and DLL side-loading. Type A used HEX data extraction with PubNub command and control, while Type B leveraged curl.exe to download HTA files... This pulse includes 7 indicators of compromise (IOCs). Associated malware: XenoRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abc4e4a5d637b2853f15ac1",
+    "url": "https://otx.alienvault.com/pulse/6abf5a5d160f0149844cd8c1",
     "verification": "verified"
   }
 ]

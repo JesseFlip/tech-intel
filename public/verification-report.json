@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 6,
     "items": [
       {
         "index": 0,
-        "title": "13 Malicious Packagist Themes Deliver iOS Spyware That Steals Crypto Wallet Seeds",
-        "numbers_checked": 4,
+        "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-        "numbers_checked": 2,
+        "title": "New PamStealer variant targets macOS via fake crypto wallet",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "China-nexus UAT-11587 targets government and policy organizations across Asia with Antino backdoor",
-        "numbers_checked": 3,
+        "title": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Phishing Abuses RMM Tools for Persistent Access",
+        "title": "August 2026 Threat Trend Report on APT Attacks (South Korea)",
         "numbers_checked": 3,
         "status": "verified"
       }
@@ -82,72 +82,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 6
     },
-    "verified_at": "2026-10-01T12:25:05.611262Z",
+    "verified_at": "2026-10-02T11:51:01.951767Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-01T12:25:07.713456Z",
+  "last_updated": "2026-10-02T11:51:05.115058Z",
   "ai": {
     "feed": "ai",
-    "checked": 7,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -163,14 +109,14 @@
       },
       {
         "index": 2,
-        "title": "Elon Musk’s Grokipedia has a ‘newly refreshed’ design",
-        "numbers_checked": 1,
+        "title": "AI music maker Suno now generates spoken words",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Google announces Gemini 4 and says it&#8217;s so capable that only &#8216;trusted cyber defenders&#8217; can have it right now",
-        "numbers_checked": 3,
+        "title": "Google’s new Guided Vision feature can help you read the fine print",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -201,48 +147,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 3
     },
-    "verified_at": "2026-10-01T12:25:05.805897Z",
+    "verified_at": "2026-10-02T11:51:02.701849Z",
     "llm_adversary": false
   },
   "macro": {
@@ -296,7 +206,7 @@
       },
       {
         "metric": "fed_funds_rate",
-        "value": 3.63,
+        "value": 3.75,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +215,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.26,
+        "value": 5.29,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +224,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.89,
+        "value": 4.88,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +242,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3700000000000001,
+        "value": 0.41000000000000014,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -344,7 +254,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-01T12:25:07.713456Z",
+    "verified_at": "2026-10-02T11:51:05.115058Z",
     "llm_adversary": false
   }
 }

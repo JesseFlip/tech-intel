@@ -16,21 +16,21 @@
     "date": "2026-08-01"
   },
   "fed_policy": {
-    "funds_rate": 3.63,
-    "date": "2026-08-01"
+    "funds_rate": 3.75,
+    "date": "2026-09-01"
   },
   "yield_curve": {
-    "ten_year": 5.26,
-    "two_year": 4.89,
-    "spread": 0.3700000000000001,
+    "ten_year": 5.29,
+    "two_year": 4.88,
+    "spread": 0.41000000000000014,
     "inverted": false,
-    "date": "2026-09-29"
+    "date": "2026-09-30"
   },
   "sentiment": {
     "consumer_sentiment": 51.7,
     "date": "2026-08-01"
   },
-  "last_updated": "2026-10-01T12:25:07.712930Z",
+  "last_updated": "2026-10-02T11:51:05.114520Z",
   "_verification": {
     "status_counts": {
       "verified": 10

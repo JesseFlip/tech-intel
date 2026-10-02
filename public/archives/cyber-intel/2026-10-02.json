@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-02",
+  "timestamp": "2026-10-02T11:51:01.952775",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
+      "content": "This pulse includes 2 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a97f37014181775b84892a1",
+      "verification": "verified"
+    },
+    {
+      "title": "New PamStealer variant targets macOS via fake crypto wallet",
+      "content": "A third variant of PamStealer has been identified, distributed through a fake Wavel cryptocurrency wallet application. The malware employs a sophisticated server-side decryption chain using a purpose-built utility called pkgunpack that performs live ECIES key exchange with command-and-control infrastructure, making offline payload decryption impossible. The second stage has been rewritten from... This pulse includes 16 indicators of compromise (IOCs). Associated malware: PamStealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab2e69de1b172350066344d",
+      "verification": "verified"
+    },
+    {
+      "title": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
+      "content": "A threat actor compromised three web servers hosting recreation management software for municipalities and parks organizations by exploiting a file upload vulnerability. After multiple failed exploitation attempts, the attacker registered legitimate accounts and abused the member file upload function to deploy webshells. The attacker enumerated systems, extracted database credentials, and... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Government.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abf5aa04b47ef1458d7472a",
+      "verification": "verified"
+    },
+    {
+      "title": "August 2026 Threat Trend Report on APT Attacks (South Korea)",
+      "content": "During August 2026, multiple APT campaigns targeted South Korean entities primarily through spear phishing attacks utilizing LNK files. Six distinct attack types were identified, employing various techniques including PowerShell scripts, AutoIt programs, and DLL side-loading. Type A used HEX data extraction with PubNub command and control, while Type B leveraged curl.exe to download HTA files... This pulse includes 7 indicators of compromise (IOCs). Associated malware: XenoRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abf5a5d160f0149844cd8c1",
+      "verification": "verified"
+    }
+  ]
+}
