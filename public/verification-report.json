@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 6,
+    "checked": 8,
     "items": [
       {
         "index": 0,
-        "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
-        "numbers_checked": 1,
+        "title": "Rogue ScreenConnect Installations Across Unrelated Hosts Suggest Worm-Like Activity",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "New PamStealer variant targets macOS via fake crypto wallet",
-        "numbers_checked": 1,
+        "title": "Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Determined Attacker Uploads Malicious Webshells to Parks and Rec Management Platform Servers",
-        "numbers_checked": 1,
+        "title": "Uncovering StreamRat: From Meta Ads to Full Device Takeover",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "August 2026 Threat Trend Report on APT Attacks (South Korea)",
-        "numbers_checked": 3,
+        "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -82,18 +82,36 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 8
     },
-    "verified_at": "2026-10-02T11:51:01.951767Z",
+    "verified_at": "2026-10-03T11:04:03.172194Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-02T11:51:05.115058Z",
+  "last_updated": "2026-10-03T11:04:05.430959Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -109,13 +127,13 @@
       },
       {
         "index": 2,
-        "title": "AI music maker Suno now generates spoken words",
-        "numbers_checked": 0,
+        "title": "Meta open sources code to let you make Muse AI gadgets",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Google’s new Guided Vision feature can help you read the fine print",
+        "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -147,12 +165,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-10-02T11:51:02.701849Z",
+    "verified_at": "2026-10-03T11:04:03.544035Z",
     "llm_adversary": false
   },
   "macro": {
@@ -197,7 +224,7 @@
       },
       {
         "metric": "unemployment_rate",
-        "value": 4.1,
+        "value": 4.2,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -215,7 +242,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.29,
+        "value": 5.24,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -224,7 +251,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.88,
+        "value": 4.78,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -242,7 +269,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.41000000000000014,
+        "value": 0.45999999999999996,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -254,7 +281,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-02T11:51:05.115058Z",
+    "verified_at": "2026-10-03T11:04:05.430959Z",
     "llm_adversary": false
   }
 }

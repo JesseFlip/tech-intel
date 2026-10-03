@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-03",
+  "timestamp": "2026-10-03T11:04:03.551689",
+  "items": [
+    {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "verification": "verified"
+    },
+    {
+      "title": "Data center demand drives 66% surge in natural gas power plant costs",
+      "content": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
+      "verification": "verified"
+    },
+    {
+      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "content": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or [&#8230;]",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
+      "verification": "verified"
+    },
+    {
+      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+      "content": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch. In an update on Friday, Apple says it's rolling out new controls to \"ensure that users who genuinely wish to grant an app this extraordinary level of access can only do",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
+      "verification": "verified"
+    }
+  ]
+}
