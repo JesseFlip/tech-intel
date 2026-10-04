@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "Rogue ScreenConnect Installations Across Unrelated Hosts Suggest Worm-Like Activity",
-        "numbers_checked": 3,
+        "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon",
+        "title": "Contagious Interview steps outside the developer workflow",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Uncovering StreamRat: From Meta Ads to Full Device Takeover",
-        "numbers_checked": 2,
+        "title": "Chinese-Speaking Operator Uses AI Agents to Target Government and Education Systems Across Asia",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
-        "numbers_checked": 1,
+        "title": "Node.js: Old Technique Makes a Comeback",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -105,10 +105,10 @@
     "status_counts": {
       "verified": 8
     },
-    "verified_at": "2026-10-03T11:04:03.172194Z",
+    "verified_at": "2026-10-04T11:45:52.311068Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-03T11:04:05.430959Z",
+  "last_updated": "2026-10-04T11:45:54.811248Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -127,13 +127,13 @@
       },
       {
         "index": 2,
-        "title": "Meta open sources code to let you make Muse AI gadgets",
+        "title": "Capcom is preparing for a ‘future where we create games together with AI’",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
+        "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -179,7 +179,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-10-03T11:04:03.544035Z",
+    "verified_at": "2026-10-04T11:45:53.052866Z",
     "llm_adversary": false
   },
   "macro": {
@@ -281,7 +281,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-03T11:04:05.430959Z",
+    "verified_at": "2026-10-04T11:45:54.811248Z",
     "llm_adversary": false
   }
 }

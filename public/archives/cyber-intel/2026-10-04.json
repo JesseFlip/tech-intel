@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-04",
+  "timestamp": "2026-10-04T11:45:52.312100",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+      "content": "Attack campaigns targeting Korean users have been observed deploying remote control tools including Radmin and UltraVNC to compromise systems. The initial intrusion vector remains unidentified, but attackers download compressed files containing batch scripts and remote administration software. Following Radmin installation, threat actors leverage access to deploy UltraVNC alongside proxy tools... This pulse includes 18 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9a78c9a7a8e20715261f8c",
+      "verification": "verified"
+    },
+    {
+      "title": "Contagious Interview steps outside the developer workflow",
+      "content": "Jamf Threat Labs discovered a cluster of 14 trojanized macOS applications distributed as DMG and PKG files impersonating legitimate software like The Unarchiver, Sketch, and Bartender. These samples are linked to the Contagious Interview campaign, a DPRK-attributed operation using fake job interviews as a pretext. The malware chain begins with unsigned, modified applications containing hidden... This pulse includes 38 indicators of compromise (IOCs). Associated malware: OtterCookie.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a99efa1445d8ef021e25d53",
+      "verification": "verified"
+    },
+    {
+      "title": "Chinese-Speaking Operator Uses AI Agents to Target Government and Education Systems Across Asia",
+      "content": "A Chinese-speaking threat operator deployed an AI orchestration framework called SecFlow to conduct intrusions across Taiwan, Indonesia, China, Vietnam, and Afghanistan. The campaign utilized commercial AI models (Claude, Qwen, DeepSeek) as operational components for reconnaissance, exploitation, and data collection. The most significant compromise affected a Fengtai District government... This pulse includes 50 indicators of compromise (IOCs). Targeted industries: Government, Education, Telecommunications. Associated malware: SecBox, GLUTTON.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a99adbec32d94dc6cd05ee1",
+      "verification": "verified"
+    },
+    {
+      "title": "Node.js: Old Technique Makes a Comeback",
+      "content": "A resurgence in Node.js abuse has been observed since February 2026, targeting government departments, technology companies, and hotels. Attackers leverage the legitimate, signed node.exe binary to execute malicious JavaScript payloads, evading signature-based detection. In one intrusion at an Asian technology company, attackers downloaded the official Node.js installer after repeated payload... This pulse includes 172 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Government. Associated malware: ModeloRAT, C2Looper, AdaptixC2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a996ed3562f794a642feaaf",
+      "verification": "verified"
+    }
+  ]
+}

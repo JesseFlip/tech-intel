@@ -1,30 +1,30 @@
 [
   {
-    "title": "Rogue ScreenConnect Installations Across Unrelated Hosts Suggest Worm-Like Activity",
-    "content": "Multiple organizations experienced attacks beginning with social engineering that led to rogue ScreenConnect installations executing suspicious VBScript files. The attack chain involved four sequential VBScript payloads (1.vbs through 4.vbs) used to profile systems, check for security products, establish persistence, and deploy additional tools. Modified ScreenConnect clients enabled worm-like... This pulse includes 10 indicators of compromise (IOCs). Associated malware: XMRig.",
+    "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+    "content": "Attack campaigns targeting Korean users have been observed deploying remote control tools including Radmin and UltraVNC to compromise systems. The initial intrusion vector remains unidentified, but attackers download compressed files containing batch scripts and remote administration software. Following Radmin installation, threat actors leverage access to deploy UltraVNC alongside proxy tools... This pulse includes 18 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a992d01f9c5b93e1a1c58b6",
+    "url": "https://otx.alienvault.com/pulse/6a9a78c9a7a8e20715261f8c",
     "verification": "verified"
   },
   {
-    "title": "Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon",
-    "content": "A Chinese-speaking cybercrime group dubbed Gambling Goblin has conducted a sustained campaign against Brazilian organizations since mid-2025, primarily targeting government and educational institutions. The attackers compromise web servers and install malicious Apache modules that silently reverse-proxy visitors to phishing pages while appearing to originate from legitimate domains. These... This pulse includes 115 indicators of compromise (IOCs). Targeted industries: Government, Education. Associated malware: DownPro, AlphaAgent, oRAT.",
+    "title": "Contagious Interview steps outside the developer workflow",
+    "content": "Jamf Threat Labs discovered a cluster of 14 trojanized macOS applications distributed as DMG and PKG files impersonating legitimate software like The Unarchiver, Sketch, and Bartender. These samples are linked to the Contagious Interview campaign, a DPRK-attributed operation using fake job interviews as a pretext. The malware chain begins with unsigned, modified applications containing hidden... This pulse includes 38 indicators of compromise (IOCs). Associated malware: OtterCookie.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a982735d832e36397a5fad9",
+    "url": "https://otx.alienvault.com/pulse/6a99efa1445d8ef021e25d53",
     "verification": "verified"
   },
   {
-    "title": "Uncovering StreamRat: From Meta Ads to Full Device Takeover",
-    "content": "ThreatFabric researchers discovered StreamRat, a sophisticated Android banking trojan distributed through Meta and TikTok advertisements disguised as a free TV-streaming service targeting Spanish-speaking users. The campaign reached approximately 570,000 potential victims, primarily in Spain. StreamRat employs a two-stage installation process, utilizing a dropper that implements internet-blocking... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: StreamRat, Mirax, GodFather.",
+    "title": "Chinese-Speaking Operator Uses AI Agents to Target Government and Education Systems Across Asia",
+    "content": "A Chinese-speaking threat operator deployed an AI orchestration framework called SecFlow to conduct intrusions across Taiwan, Indonesia, China, Vietnam, and Afghanistan. The campaign utilized commercial AI models (Claude, Qwen, DeepSeek) as operational components for reconnaissance, exploitation, and data collection. The most significant compromise affected a Fengtai District government... This pulse includes 50 indicators of compromise (IOCs). Targeted industries: Government, Education, Telecommunications. Associated malware: SecBox, GLUTTON.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9826f869eb70a6b15298ec",
+    "url": "https://otx.alienvault.com/pulse/6a99adbec32d94dc6cd05ee1",
     "verification": "verified"
   },
   {
-    "title": "Hackers Weaponize Microsoft Teams Help Desk Calls for Malware and Network Lateral Movement",
-    "content": "This pulse includes 2 indicators of compromise (IOCs).",
+    "title": "Node.js: Old Technique Makes a Comeback",
+    "content": "A resurgence in Node.js abuse has been observed since February 2026, targeting government departments, technology companies, and hotels. Attackers leverage the legitimate, signed node.exe binary to execute malicious JavaScript payloads, evading signature-based detection. In one intrusion at an Asian technology company, attackers downloaded the official Node.js installer after repeated payload... This pulse includes 172 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Government. Associated malware: ModeloRAT, C2Looper, AdaptixC2.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a97f37014181775b84892a1",
+    "url": "https://otx.alienvault.com/pulse/6a996ed3562f794a642feaaf",
     "verification": "verified"
   }
 ]
