@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 8,
+    "checked": 11,
     "items": [
       {
         "index": 0,
-        "title": "Attack Cases in Korea Involving the Installation of Radmin and UltraVNC",
+        "title": "Anatomy of BraZetsu: How Cybercriminals Supply the Underground Ecosystem",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Contagious Interview steps outside the developer workflow",
+        "title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Chinese-Speaking Operator Uses AI Agents to Target Government and Education Systems Across Asia",
-        "numbers_checked": 1,
+        "title": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
+        "numbers_checked": 7,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Node.js: Old Technique Makes a Comeback",
-        "numbers_checked": 4,
+        "title": "Pretty Themes, Hidden Loaders: GlassWorm-Linked Extensions Span VS Code Marketplace and Open VSX",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -100,18 +100,45 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 8
+      "verified": 11
     },
-    "verified_at": "2026-10-04T11:45:52.311068Z",
+    "verified_at": "2026-10-05T13:33:33.284387Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-04T11:45:54.811248Z",
+  "last_updated": "2026-10-05T13:33:36.377487Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -127,13 +154,13 @@
       },
       {
         "index": 2,
-        "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-        "numbers_checked": 1,
+        "title": "OpenAI is sticking more ads in ChatGPT",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+        "title": "Our minds aren’t equipped to handle AI",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -165,21 +192,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 3
     },
-    "verified_at": "2026-10-04T11:45:53.052866Z",
+    "verified_at": "2026-10-05T13:33:33.697105Z",
     "llm_adversary": false
   },
   "macro": {
@@ -281,7 +299,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-04T11:45:54.811248Z",
+    "verified_at": "2026-10-05T13:33:36.377487Z",
     "llm_adversary": false
   }
 }

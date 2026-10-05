@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-05",
+  "timestamp": "2026-10-05T13:33:33.285039",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Anatomy of BraZetsu: How Cybercriminals Supply the Underground Ecosystem",
+      "content": "BraZetsu is a sophisticated Python-based Windows malware framework attributed to the Brazilian threat actor Exilware. Unlike standard infostealers, it functions as a comprehensive toolkit for Initial Access Brokers, converting compromised systems into high-value commercial assets. The framework employs modular architecture, advanced evasion techniques, and AI-enhanced reconnaissance capabilities... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance, Government, Healthcare. Associated malware: BraZetsu, CNABHunter, Ousaban.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abfae3085404615c3cf7a32",
+      "verification": "verified"
+    },
+    {
+      "title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+      "content": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages SMTP traffic on port 25 to blend command-and-control communications with legitimate mail relay activity, exploiting the trust environments of targeted systems. Attackers deploy a... This pulse includes 37 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: BPFDoor, AVERAT, Rekoobe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8",
+      "verification": "verified"
+    },
+    {
+      "title": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
+      "content": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix chain convinced victims to manually execute msiexec.exe commands via the Windows Run dialog, achieving a 14 percent completion rate (79 infections from 426 clicks). The payload,... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Healthcare, Manufacturing, Media. Associated malware: Psychedelic, psychedeliclove.exe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09",
+      "verification": "verified"
+    },
+    {
+      "title": "Pretty Themes, Hidden Loaders: GlassWorm-Linked Extensions Span VS Code Marketplace and Open VSX",
+      "content": "Socket identified a malicious cluster of Visual Studio Code extensions spanning both VS Code Marketplace and Open VSX registries. Two confirmed malicious themes were discovered: Aurora Nocturne Night Theme, which downloaded and executed threat actor-controlled batch files, and Cosmic Nebula Themes, containing a staged loader that decrypts embedded JavaScript, performs Russian-language gating, and... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac07308bd5cef8481adcf61",
+      "verification": "verified"
+    }
+  ]
+}
