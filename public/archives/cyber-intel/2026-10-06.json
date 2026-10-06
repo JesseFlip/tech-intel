@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-06",
+  "timestamp": "2026-10-06T12:43:19.686110",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Lunex Uses BYOVD to Disable Security Monitoring and Deploy Persistent Stealer",
+      "content": "The Lunex Malware-as-a-Service platform targets Ukrainian users through fake CAPTCHA lures, deploying a sophisticated loader that exploits AMD's vulnerable PDFWKRNL.sys driver (CVE-2023-20598) to disable endpoint security products. The loader retrieves Windows kernel debugging symbols from Microsoft's Symbol Server to dynamically identify and zero security-related kernel callbacks, making the... This pulse includes 40 indicators of compromise (IOCs). Associated malware: LunexLoader, LunexStealer, PDFWKRNL.sys.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac4b1c8431cd87d87aa1784",
+      "verification": "verified"
+    },
+    {
+      "title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
+      "content": "A Linux malware strain named ClingSTUN exploits unpatched vulnerabilities in Internet-facing devices to establish persistent footholds and functions as a back-connect proxy backdoor. The campaign targets IoT devices through multiple CVEs including command injection and code execution flaws in various vendors' products. ClingSTUN abuses legitimate public STUN infrastructure to discover externally... This pulse includes 83 indicators of compromise (IOCs). Associated malware: ClingSTUN.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac4285a7c6e1cd492e8b2cf",
+      "verification": "verified"
+    },
+    {
+      "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
+      "content": "StyleSmuggler is an unpatched zero-day vulnerability affecting all current versions of Magento and Adobe Commerce, including version 2.4.9, enabling unauthenticated remote code execution. Active exploitation began on September 4th, 2026. The attack operates in two stages: injecting malicious PHP code through the styles properties to evade safeguards, then executing it via failed payment email... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Retail.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9c7c833376c19e92778b46",
+      "verification": "verified"
+    },
+    {
+      "title": "Caught in 4K: The Gentlemen Files",
+      "content": "A Russian-speaking affiliate of the Gentlemen ransomware group, identifying as Azazel, compromised over two dozen organizations across six countries while simultaneously betraying the RaaS operator. The threat actor deployed independent leak site LEAKNED, keeping all extortion proceeds. Attack chains primarily exploited CI/CD secrets from GitLab instances, with one deep compromise involving an AI... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Logistics, Finance, Healthcare.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac3a6d89aeb3e3d383d6d06",
+      "verification": "verified"
+    }
+  ]
+}
