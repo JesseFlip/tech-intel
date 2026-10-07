@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "Lunex Uses BYOVD to Disable Security Monitoring and Deploy Persistent Stealer",
+        "title": "Akira Ransomware Attack Investigation",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "ClingSTUN Linux Backdoor Abuses Public STUN Infrastructure",
-        "numbers_checked": 1,
+        "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "StyleSmuggler: Magento and Adobe Commerce 0-day RCE under active attack",
-        "numbers_checked": 6,
+        "title": "Beyond valid credentials: How exposed AWS keys are tested for Amazon Bedrock access",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Caught in 4K: The Gentlemen Files",
-        "numbers_checked": 2,
+        "title": "Attackers Target AI Development Platform Langflow",
+        "numbers_checked": 6,
         "status": "verified"
       }
     ],
@@ -127,18 +127,45 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 14
     },
-    "verified_at": "2026-10-06T12:43:19.685324Z",
+    "verified_at": "2026-10-07T12:37:06.398392Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-06T12:43:22.012208Z",
+  "last_updated": "2026-10-07T12:37:08.745713Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 7,
     "items": [
       {
         "index": 0,
@@ -154,13 +181,13 @@
       },
       {
         "index": 2,
-        "title": "Gemini Call for Me might tell your mom you&#8217;re running late",
-        "numbers_checked": 2,
+        "title": "AI could upend food delivery",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "This startup is issuing AI-generated acne prescriptions",
+        "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -210,12 +237,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 7
     },
-    "verified_at": "2026-10-06T12:43:20.096375Z",
+    "verified_at": "2026-10-07T12:37:07.124829Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +323,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.28,
+        "value": 5.31,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +332,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.83,
+        "value": 4.84,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +350,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.4500000000000002,
+        "value": 0.46999999999999975,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +362,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-06T12:43:22.012208Z",
+    "verified_at": "2026-10-07T12:37:08.745713Z",
     "llm_adversary": false
   }
 }

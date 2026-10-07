@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-07",
+  "timestamp": "2026-10-07T12:37:06.399246",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Akira Ransomware Attack Investigation",
+      "content": "In September, an organization experienced an Akira ransomware attack, with investigation revealing the threat actor's tactics and tools. The attacker gained access through Remote Desktop Protocol, subsequently disabling antivirus protections on the compromised endpoint. The adversary deployed Rclone for data exfiltration purposes and utilized a GOST tunneling tool to maintain persistence within... This pulse includes 3 indicators of compromise (IOCs). Associated malware: Akira - S1129, Rclone, GOST.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac614ca291abbad48bc40de",
+      "verification": "verified"
+    },
+    {
+      "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
+      "content": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active since November 2025 with attacks intensifying in March 2026, primarily targeted Iraqi critical infrastructure. The operation employs a three-step attack chain exploiting legitimate... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Energy, Government. Associated malware: ShelbyLoader V2, RuntimeBroker.dll, PsProxy.dll.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac6152430b84019d1fded71",
+      "verification": "verified"
+    },
+    {
+      "title": "Beyond valid credentials: How exposed AWS keys are tested for Amazon Bedrock access",
+      "content": "Attackers who gain access to AWS credentials perform validation to determine their usefulness, particularly for Amazon Bedrock access. Multiple credential harvesting platforms, including KMON_NOC, have been identified that specifically test stolen AWS keys for LLM capabilities. These platforms validate credentials using GetCallerIdentity, then test Bedrock access through ListFoundationModels and... This pulse includes 36 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac52c8896a61ee777d4aee5",
+      "verification": "verified"
+    },
+    {
+      "title": "Attackers Target AI Development Platform Langflow",
+      "content": "In September 2026, F5 Labs detected 405 exploitation attempts targeting CVE-2026-0768, an unauthenticated remote code execution vulnerability in Langflow AI application-building platform, originating from 55 distinct IP addresses. This marks the first observation of an AI/ML development platform RCE in opportunistic internet-wide scanning. Captured payloads included capability probing with unique... This pulse includes 17 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac5f1632c72bc95740deede",
+      "verification": "verified"
+    }
+  ]
+}
