@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-08",
+  "timestamp": "2026-10-08T12:46:54.352788",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
+      "content": "An investigation revealed a sophisticated cryptocurrency and credential-stealing operation using Amatera stealer as the primary payload. The attack chain leverages Cloudflare Workers to inject JavaScript stored on BNB Smart Chain, presenting fake Google CAPTCHA prompts that lead to WebDAV-based DLL execution. Two parallel infection chains were identified, one loading through a DLL named 'pf.ch'... This pulse includes 82 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Amatera, ZigCryptoStealer, NetSupport Manager.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6a9ffe054812bce013827753",
+      "verification": "verified"
+    },
+    {
+      "title": "Phishing Campaign Abuses Microsoft Power BI to Deploy Rogue RMMs",
+      "content": "In September, a phishing campaign exploited legitimate Microsoft Power BI domains to distribute rogue ScreenConnect remote monitoring tools. Attackers sent phishing emails with embedded links redirecting victims to fake reference documents hosted on Power BI infrastructure. Clicking 'Download Reference' opened attacker-controlled websites that fingerprinted victims' systems and browsers before... This pulse includes 13 indicators of compromise (IOCs). Associated malware: ScreenConnect, HideUL_x64.exe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac6796b14fb153d2a5f5a04",
+      "verification": "verified"
+    },
+    {
+      "title": "FortiBleed Operations Continue Targeting Exposed Systems Leading to Reports of Lockouts",
+      "content": "FortiBleed is an active global credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways, with over 86,644 compromised devices verified across 194 countries. The campaign exploits reused or leaked credentials and legacy SHA-256 password storage, enabling threat actors to harvest and crack authentication data at scale using distributed GPU clusters.... This pulse includes 13 indicators of compromise (IOCs). Associated malware: INC/Lynx, Payload.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac679e7bbe47190f9ffce7a",
+      "verification": "verified"
+    },
+    {
+      "title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
+      "content": "A coordinated campaign of 16 malicious Firefox extensions has been identified targeting cryptocurrency wallet users. The extensions masquerade as wallet portals, desktop utilities, and browser tools while intercepting recovery phrases and private keys during wallet import flows. Four large extensions clone Rabby Wallet (misspelled as Raabby WaIIet), while twelve smaller extensions impersonate OKX... This pulse includes 21 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac74668a88744f8ef47c332",
+      "verification": "verified"
+    }
+  ]
+}
