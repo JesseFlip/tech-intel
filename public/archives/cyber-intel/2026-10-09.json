@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-09",
+  "timestamp": "2026-10-09T12:33:47.630997",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data",
+      "content": "Warden Stealer is an emerging Rust-based infostealer-as-a-service that has rapidly become one of the most prevalent threats, distributed via malware-as-a-service model since August 2026. Unlike most competitors, it includes a dedicated loader and built-in cryptocurrency clipper. The malware targets over 200 cryptocurrency wallet extensions, 360+ applications across 13 categories, and is notably... This pulse includes 77 indicators of compromise (IOCs). Associated malware: Warden Stealer, CallbackBeaver, Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac89a6e10be1d80cdf57417",
+      "verification": "verified"
+    },
+    {
+      "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
+      "content": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The attackers chained these vulnerabilities together, first bypassing authentication and then executing code with SYSTEM privileges. Post-exploitation activities included deploying JSP... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7",
+      "verification": "verified"
+    },
+    {
+      "title": "MATCHBOIL: New tricks, same old evil intentions",
+      "content": "ESET researchers documented the evolution of MATCHBOIL, a custom C# downloader used by Russia-aligned APT group UAC-0099. The malware downloads payloads from command-and-control servers, installs them, and establishes persistence on victim machines. Development traces back to April 2024, with continuous improvements through April 2026. Early versions used Unicode symbol obfuscation and custom... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Transportation, Manufacturing, Energy. Associated malware: MATCHBOIL, MATCHWOK, LONEPAGE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2",
+      "verification": "verified"
+    },
+    {
+      "title": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
+      "content": "The FBI seized seven web domains linked to Integrity Technology Group, a Chinese security firm allegedly providing hacking tools to Beijing-backed operatives. These tools enabled attacks on critical infrastructure, including a South Carolina power company and universities in Taiwan. The Flax Typhoon group utilized a Mirai-based botnet from 2021 to infect internet-connected devices, scan networks,... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Energy, Education, Government. Associated malware: Mirai, FishHub.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac84a155bb626a3710179b9",
+      "verification": "verified"
+    }
+  ]
+}

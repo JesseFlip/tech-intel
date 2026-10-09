@@ -1,30 +1,30 @@
 [
   {
-    "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
-    "content": "An investigation revealed a sophisticated cryptocurrency and credential-stealing operation using Amatera stealer as the primary payload. The attack chain leverages Cloudflare Workers to inject JavaScript stored on BNB Smart Chain, presenting fake Google CAPTCHA prompts that lead to WebDAV-based DLL execution. Two parallel infection chains were identified, one loading through a DLL named 'pf.ch'... This pulse includes 82 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Amatera, ZigCryptoStealer, NetSupport Manager.",
+    "title": "Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data",
+    "content": "Warden Stealer is an emerging Rust-based infostealer-as-a-service that has rapidly become one of the most prevalent threats, distributed via malware-as-a-service model since August 2026. Unlike most competitors, it includes a dedicated loader and built-in cryptocurrency clipper. The malware targets over 200 cryptocurrency wallet extensions, 360+ applications across 13 categories, and is notably... This pulse includes 77 indicators of compromise (IOCs). Associated malware: Warden Stealer, CallbackBeaver, Vidar.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9ffe054812bce013827753",
+    "url": "https://otx.alienvault.com/pulse/6ac89a6e10be1d80cdf57417",
     "verification": "verified"
   },
   {
-    "title": "Phishing Campaign Abuses Microsoft Power BI to Deploy Rogue RMMs",
-    "content": "In September, a phishing campaign exploited legitimate Microsoft Power BI domains to distribute rogue ScreenConnect remote monitoring tools. Attackers sent phishing emails with embedded links redirecting victims to fake reference documents hosted on Power BI infrastructure. Clicking 'Download Reference' opened attacker-controlled websites that fingerprinted victims' systems and browsers before... This pulse includes 13 indicators of compromise (IOCs). Associated malware: ScreenConnect, HideUL_x64.exe.",
+    "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
+    "content": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The attackers chained these vulnerabilities together, first bypassing authentication and then executing code with SYSTEM privileges. Post-exploitation activities included deploying JSP... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XMRig.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac6796b14fb153d2a5f5a04",
+    "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7",
     "verification": "verified"
   },
   {
-    "title": "FortiBleed Operations Continue Targeting Exposed Systems Leading to Reports of Lockouts",
-    "content": "FortiBleed is an active global credential-compromise campaign targeting internet-facing Fortinet FortiGate firewalls and SSL VPN gateways, with over 86,644 compromised devices verified across 194 countries. The campaign exploits reused or leaked credentials and legacy SHA-256 password storage, enabling threat actors to harvest and crack authentication data at scale using distributed GPU clusters.... This pulse includes 13 indicators of compromise (IOCs). Associated malware: INC/Lynx, Payload.",
+    "title": "MATCHBOIL: New tricks, same old evil intentions",
+    "content": "ESET researchers documented the evolution of MATCHBOIL, a custom C# downloader used by Russia-aligned APT group UAC-0099. The malware downloads payloads from command-and-control servers, installs them, and establishes persistence on victim machines. Development traces back to April 2024, with continuous improvements through April 2026. Early versions used Unicode symbol obfuscation and custom... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Transportation, Manufacturing, Energy. Associated malware: MATCHBOIL, MATCHWOK, LONEPAGE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac679e7bbe47190f9ffce7a",
+    "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2",
     "verification": "verified"
   },
   {
-    "title": "16 Malicious Firefox Extensions Steal Cryptocurrency Wallet Credentials",
-    "content": "A coordinated campaign of 16 malicious Firefox extensions has been identified targeting cryptocurrency wallet users. The extensions masquerade as wallet portals, desktop utilities, and browser tools while intercepting recovery phrases and private keys during wallet import flows. Four large extensions clone Rabby Wallet (misspelled as Raabby WaIIet), while twelve smaller extensions impersonate OKX... This pulse includes 21 indicators of compromise (IOCs).",
+    "title": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
+    "content": "The FBI seized seven web domains linked to Integrity Technology Group, a Chinese security firm allegedly providing hacking tools to Beijing-backed operatives. These tools enabled attacks on critical infrastructure, including a South Carolina power company and universities in Taiwan. The Flax Typhoon group utilized a Mirai-based botnet from 2021 to infect internet-connected devices, scan networks,... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Energy, Education, Government. Associated malware: Mirai, FishHub.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac74668a88744f8ef47c332",
+    "url": "https://otx.alienvault.com/pulse/6ac84a155bb626a3710179b9",
     "verification": "verified"
   }
 ]
