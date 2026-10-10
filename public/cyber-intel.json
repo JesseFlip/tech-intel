@@ -1,30 +1,30 @@
 [
   {
-    "title": "Warden Stealer: The Rapid Rise of an Infostealer with an Appetite for AI Agent Data",
-    "content": "Warden Stealer is an emerging Rust-based infostealer-as-a-service that has rapidly become one of the most prevalent threats, distributed via malware-as-a-service model since August 2026. Unlike most competitors, it includes a dedicated loader and built-in cryptocurrency clipper. The malware targets over 200 cryptocurrency wallet extensions, 360+ applications across 13 categories, and is notably... This pulse includes 77 indicators of compromise (IOCs). Associated malware: Warden Stealer, CallbackBeaver, Vidar.",
+    "title": "Mantax Otax: Indonesian Mobile Ransomware with Spyware Integration",
+    "content": "A sophisticated mobile threat linked to Indonesian actors combines ransomware and spyware capabilities in a single attack vector. The malware is distributed via third-party file-sharing platforms through social engineering, targeting Android devices. It requests extensive permissions including device administrator, SMS, contacts, and accessibility access. The threat encrypts files using AES on... This pulse includes 402 indicators of compromise (IOCs). Associated malware: Mantax Otax, ToxicPanda.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac89a6e10be1d80cdf57417",
+    "url": "https://otx.alienvault.com/pulse/6aa1c8a04d40933ab841482f",
     "verification": "verified"
   },
   {
-    "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
-    "content": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The attackers chained these vulnerabilities together, first bypassing authentication and then executing code with SYSTEM privileges. Post-exploitation activities included deploying JSP... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XMRig.",
+    "title": "Mind the (Patch) Gap: Multiple Chinese Threat Actors Chain 0-day Exploits in Chrome & Windows",
+    "content": "In September 2026, two Chinese threat actors, UTA0560 and JungleBamboo, were observed exploiting an identical Chrome zero-day vulnerability chain targeting NGOs and other organizations. The exploitation leveraged CVE-2026-85046 and CVE-2026-87491 in Chrome alongside CVE-2026-85880 in Windows kernel. These vulnerabilities had been patched in Chromium source code but not yet released to Chrome... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: NGO. Associated malware: GRIMWEDGE, SUPERSTOMP, LONGTALE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7",
+    "url": "https://otx.alienvault.com/pulse/6aa2707076e8a9dd36706bde",
     "verification": "verified"
   },
   {
-    "title": "MATCHBOIL: New tricks, same old evil intentions",
-    "content": "ESET researchers documented the evolution of MATCHBOIL, a custom C# downloader used by Russia-aligned APT group UAC-0099. The malware downloads payloads from command-and-control servers, installs them, and establishes persistence on victim machines. Development traces back to April 2024, with continuous improvements through April 2026. Early versions used Unicode symbol obfuscation and custom... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Transportation, Manufacturing, Energy. Associated malware: MATCHBOIL, MATCHWOK, LONEPAGE.",
+    "title": "Active exploitation of Cisco Secure Firewall Management Center vulnerabilities",
+    "content": "Cisco Talos is tracking active exploitation of two vulnerabilities in Secure Firewall Management Center (FMC) Software. CVE-2026-20079 is a critical authentication bypass vulnerability allowing remote attackers to execute scripts and obtain root access. CVE-2026-20316 enables remote login using low-privileged accounts and can be chained with other vulnerabilities for privilege escalation. Three... This pulse includes 8 indicators of compromise (IOCs). Associated malware: Cyclops Blink - S0687, Qilin.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2",
+    "url": "https://otx.alienvault.com/pulse/6aa1c2281252d98a241ae632",
     "verification": "verified"
   },
   {
-    "title": "US disrupts Chinese hacking tools as 7 govts warn of PRC spies stealing sensitive data worldwide",
-    "content": "The FBI seized seven web domains linked to Integrity Technology Group, a Chinese security firm allegedly providing hacking tools to Beijing-backed operatives. These tools enabled attacks on critical infrastructure, including a South Carolina power company and universities in Taiwan. The Flax Typhoon group utilized a Mirai-based botnet from 2021 to infect internet-connected devices, scan networks,... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Energy, Education, Government. Associated malware: Mirai, FishHub.",
+    "title": "Agents Gone Wild: An AI-Orchestrated Global Campaign Against PaperCut NG/MF",
+    "content": "A likely Russian-speaking malicious cyber actor leveraged artificial intelligence to orchestrate a global campaign exploiting PaperCut NG/MF print management software via CVE-2026-81578 and CVE-2026-82078. Using AI agents powered by DeepSeek models and OpenAI's Codex, the adversary moved from empty workspace to first remote code execution in under four hours, compromising at least 440 PaperCut... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Education, Retail, Hospitality.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac84a155bb626a3710179b9",
+    "url": "https://otx.alienvault.com/pulse/6aa17d032b2537347f416f22",
     "verification": "verified"
   }
 ]
