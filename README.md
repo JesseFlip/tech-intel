@@ -390,12 +390,6 @@ tech-intel/
 
 ---
 
-## 📞 Contact & Links
-
-**Live Demo**: https://jesseflip.github.io/tech-intel/  
-**GitHub**: https://github.com/JesseFlip/tech-intel  
-**Email**: jss.flppn@gmail.com
-
 ---
 
 ## 📄 License
