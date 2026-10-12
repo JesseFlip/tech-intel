@@ -1,5 +1,19 @@
 [
   {
+    "title": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
+    "content": "A malicious browser extension called 'Twitch Enhanced Viewer | JeetBot' distributed on Chrome Web Store and Firefox Add-ons captures and forwards users' live Twitch OAuth session tokens to Russian-controlled proxy servers. The extension, with approximately 30,000 Chrome users and 552 Firefox users, markets itself as a quality-of-life tool for blocking ads and unlocking streams. While delivering... This pulse includes 25 indicators of compromise (IOCs).",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6aa4432cfc2e960cdf6ac1e0",
+    "verification": "verified"
+  },
+  {
+    "title": "KATARU: IoT Malware Adopts Public LPE Exploits",
+    "content": "KATARU is an IoT malware variant discovered in August 2026 through Telnet credential brute-forcing against a honeypot from Vietnam. While maintaining traditional Mirai-style botnet capabilities, it distinguishes itself through an extensive feature set including multiple Linux local privilege escalation exploits, comprehensive persistence mechanisms across Linux and embedded platforms, encrypted... This pulse includes 16 indicators of compromise (IOCs). Associated malware: KATARU, Mirai.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6aa4409a4290cc035d81500c",
+    "verification": "verified"
+  },
+  {
     "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
     "content": "Active exploitation of three critical vulnerabilities in JFrog Artifactory has been identified, with attackers chaining CVE-2026-42016, CVE-2026-42018, and CVE-2026-82329 to bypass authentication and gain administrative control. CVE-2026-42018 exposes internal anonymous-user tokens, CVE-2026-42016 enables privilege escalation through insufficient token validation, and CVE-2026-82329 allows... This pulse includes 8 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
@@ -11,20 +25,6 @@
     "content": "Three years after its initial discovery, the Melofee Linux implant has evolved with sophisticated new capabilities. The malware now features modularized architecture with hot-loadable components for shell functionality, file management, and command execution. New versions incorporate remote C2 infrastructure reconfiguration and enhanced stealth through a kernel rootkit based on the Reptile... This pulse includes 32 indicators of compromise (IOCs). Associated malware: Melofee, ShadowPad - S0596, POISONPLUG.SHADOW.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6aa32c68adf3f06777eb0318",
-    "verification": "verified"
-  },
-  {
-    "title": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
-    "content": "In August 2026, a Casbaneiro campaign targeted Latin American users through phishing emails and PDFs themed as fake invoices and legal notices. The multi-stage infection chain includes HTA downloaders and AutoIt loaders, employing geofencing to filter victims by IP address location. The malware exhibits sophisticated evasion techniques, including distributed data-receiving servers, deliberate... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Metamorfo - S0455, Casbaneiro, Ousaban.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa2e892c25022290bdb9420",
-    "verification": "verified"
-  },
-  {
-    "title": "Threat Snapshot: Djinn Stealer",
-    "content": "Djinn Stealer is a cross-platform information stealer delivered as a second-stage payload by the TaskWeaver Node.js loader. It employs a rules-based collection engine to harvest credentials and configuration data from cloud platforms, source control systems, package registries, infrastructure tooling, AI development assistants, browsers, SSH, and cryptocurrency wallets. The stolen data is... This pulse includes 2 indicators of compromise (IOCs). Associated malware: Djinn Stealer, TaskWeaver.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aa2a776820639d68513f654",
     "verification": "verified"
   }
 ]

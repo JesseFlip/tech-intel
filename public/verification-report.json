@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 12,
     "items": [
       {
         "index": 0,
+        "title": "Malicious Twitch Browser Extension Exposes 30,000 Users' OAuth Tokens to Russian Bot Service",
+        "numbers_checked": 3,
+        "status": "verified"
+      },
+      {
+        "index": 1,
+        "title": "KATARU: IoT Malware Adopts Public LPE Exploits",
+        "numbers_checked": 2,
+        "status": "verified"
+      },
+      {
+        "index": 2,
         "title": "Artifactory Under Attack: In-the-Wild Exploitation of CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
-        "index": 1,
+        "index": 3,
         "title": "Melofee: a look back at a Linux implant and its new variants",
         "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "Casbaneiro: A Banking Trojan with Distributed Data-Receiving Servers",
-        "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
-        "index": 3,
-        "title": "Threat Snapshot: Djinn Stealer",
-        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -127,18 +127,27 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 12
     },
-    "verified_at": "2026-10-11T12:04:39.328567Z",
+    "verified_at": "2026-10-12T14:22:43.699987Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-11T12:04:41.989205Z",
+  "last_updated": "2026-10-12T14:22:46.946404Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -154,14 +163,14 @@
       },
       {
         "index": 2,
-        "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+        "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-        "numbers_checked": 1,
+        "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -201,21 +210,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 4
     },
-    "verified_at": "2026-10-11T12:04:39.802871Z",
+    "verified_at": "2026-10-12T14:22:44.121701Z",
     "llm_adversary": false
   },
   "macro": {
@@ -317,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-11T12:04:41.989205Z",
+    "verified_at": "2026-10-12T14:22:46.946404Z",
     "llm_adversary": false
   }
 }
