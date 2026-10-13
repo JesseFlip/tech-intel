@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-13",
+  "timestamp": "2026-10-13T13:31:50.222143",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
+      "content": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain involves multi-stage scripts including Batch, VBS, and PowerShell, leading to Quasar RAT installation before deploying the final ransomware payload. The campaign shares significant... This pulse includes 7 indicators of compromise (IOCs). Associated malware: Funhouse, Endpoint, Quasar RAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5",
+      "verification": "verified"
+    },
+    {
+      "title": "Inside a brand deal scam targeting YouTube creators",
+      "content": "A sophisticated phishing campaign targets YouTube content creators through personalized sponsorship emails impersonating legitimate brands like Hollyland, Nike, and Spotify. Attackers send customized collaboration offers referencing specific videos from targets' channels, then direct them to fraudulent platforms that appear legitimate with campaign metrics and income calculators. The scheme... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Media.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acc3823ee551dd1565f0a27",
+      "verification": "verified"
+    },
+    {
+      "title": "Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30)",
+      "content": "Two critical zero-day vulnerabilities in NetScaler ADC and Gateway systems are being actively exploited in the wild. CVE-2026-88771 is a remote code execution vulnerability allowing unauthenticated command injection, while CVE-2026-88772 is a DTLS memory overflow flaw enabling RCE or DoS attacks. Threat actors deployed webshells through these vulnerabilities to establish initial access and... This pulse includes 23 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac9eef4bcc05a59cd402770",
+      "verification": "verified"
+    },
+    {
+      "title": "DNS as C2 in Noir, An AI-Developed Crypto Wallet Drainer",
+      "content": "A cryptocurrency wallet-drainer kit called Noir uses DNS TXT records and DNS-over-HTTPS (DoH) as a dynamic command-and-control mechanism. The loader queries public DoH services to discover active infrastructure hosted on Cloudflare Pages, allowing operators to redirect deployed lures by changing a single DNS record. The drainer does not require victims to enter seed phrases or private keys;... This pulse includes 2 indicators of compromise (IOCs). Associated malware: Noir.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac964afdcc4acb43c3ef335",
+      "verification": "verified"
+    }
+  ]
+}
