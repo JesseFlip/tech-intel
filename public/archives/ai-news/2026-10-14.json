@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-14",
+  "timestamp": "2026-10-14T11:08:59.282768",
+  "items": [
+    {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "verification": "verified"
+    },
+    {
+      "title": "Data center demand drives 66% surge in natural gas power plant costs",
+      "content": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
+      "verification": "verified"
+    },
+    {
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "content": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral commu",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "verification": "verified"
+    },
+    {
+      "title": "Shopify opens its catalog up to more AI agents",
+      "content": "More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents access to over a billion ",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "verification": "verified"
+    }
+  ]
+}

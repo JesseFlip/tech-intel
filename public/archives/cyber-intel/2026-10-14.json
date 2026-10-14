@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-14",
+  "timestamp": "2026-10-14T11:08:58.881787",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "RSVP to Disaster: How One Click Installs a RAT",
+      "content": "Cybercriminals are exploiting digital event invitations to distribute remote access trojans. Victims receive legitimate-looking emails with generic subject lines about special gatherings and celebrations. The messages contain download buttons that redirect users through fake CAPTCHA verification pages hosted on recently created domains. After verification, users encounter another generic... This pulse includes 4 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ace7dbf73fb0a8d1beeba9b",
+      "verification": "verified"
+    },
+    {
+      "title": "Clean Install, Stolen Creds: Fake WatchGuard VPN Site Serves Genuine Signed Client",
+      "content": "In early October, a sophisticated credential phishing campaign targeted WatchGuard Mobile VPN users through a fake download site at watchguard-vpn[.]net. The attack used SEO poisoning to appear in search results and deployed a unique technique: after collecting victim credentials twice through browser pop-ups, it downloaded the genuine, validly signed WatchGuard installer directly from... This pulse includes 6 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acec272f01b1f0cac6ecb2a",
+      "verification": "verified"
+    },
+    {
+      "title": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
+      "content": "During the third quarter of 2026, multiple attack campaigns targeted poorly managed Linux SSH servers using brute force, dictionary attacks, and vulnerability exploits. Threat actors deployed ShellBot, a Perl-based DDoS bot, utilizing C&C servers at specific IP addresses with capabilities including port scanning and UDP flooding. A sophisticated attack chain involved launcher malware that... This pulse includes 17 indicators of compromise (IOCs). Associated malware: ShellBot, PerlBot, Fisieredoor.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf002e7c7fddeb927af2d8",
+      "verification": "verified"
+    },
+    {
+      "title": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
+      "content": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration requests. This operation, dubbed GitPower, leverages legitimate development platforms like GitHub for malware distribution and data exfiltration. Attack vectors include malicious LNK... This pulse includes 135 indicators of compromise (IOCs). Targeted industries: Government.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf",
+      "verification": "verified"
+    }
+  ]
+}

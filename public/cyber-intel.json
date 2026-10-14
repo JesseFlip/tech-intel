@@ -1,30 +1,30 @@
 [
   {
-    "title": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
-    "content": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain involves multi-stage scripts including Batch, VBS, and PowerShell, leading to Quasar RAT installation before deploying the final ransomware payload. The campaign shares significant... This pulse includes 7 indicators of compromise (IOCs). Associated malware: Funhouse, Endpoint, Quasar RAT.",
+    "title": "RSVP to Disaster: How One Click Installs a RAT",
+    "content": "Cybercriminals are exploiting digital event invitations to distribute remote access trojans. Victims receive legitimate-looking emails with generic subject lines about special gatherings and celebrations. The messages contain download buttons that redirect users through fake CAPTCHA verification pages hosted on recently created domains. After verification, users encounter another generic... This pulse includes 4 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5",
+    "url": "https://otx.alienvault.com/pulse/6ace7dbf73fb0a8d1beeba9b",
     "verification": "verified"
   },
   {
-    "title": "Inside a brand deal scam targeting YouTube creators",
-    "content": "A sophisticated phishing campaign targets YouTube content creators through personalized sponsorship emails impersonating legitimate brands like Hollyland, Nike, and Spotify. Attackers send customized collaboration offers referencing specific videos from targets' channels, then direct them to fraudulent platforms that appear legitimate with campaign metrics and income calculators. The scheme... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Media.",
+    "title": "Clean Install, Stolen Creds: Fake WatchGuard VPN Site Serves Genuine Signed Client",
+    "content": "In early October, a sophisticated credential phishing campaign targeted WatchGuard Mobile VPN users through a fake download site at watchguard-vpn[.]net. The attack used SEO poisoning to appear in search results and deployed a unique technique: after collecting victim credentials twice through browser pop-ups, it downloaded the genuine, validly signed WatchGuard installer directly from... This pulse includes 6 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acc3823ee551dd1565f0a27",
+    "url": "https://otx.alienvault.com/pulse/6acec272f01b1f0cac6ecb2a",
     "verification": "verified"
   },
   {
-    "title": "Threat Overview: NetScaler Zero Days CVE-2026-88771 and CVE-2026-88772 Being Exploited in Production Environments (Updated September 30)",
-    "content": "Two critical zero-day vulnerabilities in NetScaler ADC and Gateway systems are being actively exploited in the wild. CVE-2026-88771 is a remote code execution vulnerability allowing unauthenticated command injection, while CVE-2026-88772 is a DTLS memory overflow flaw enabling RCE or DoS attacks. Threat actors deployed webshells through these vulnerabilities to establish initial access and... This pulse includes 23 indicators of compromise (IOCs).",
+    "title": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
+    "content": "During the third quarter of 2026, multiple attack campaigns targeted poorly managed Linux SSH servers using brute force, dictionary attacks, and vulnerability exploits. Threat actors deployed ShellBot, a Perl-based DDoS bot, utilizing C&C servers at specific IP addresses with capabilities including port scanning and UDP flooding. A sophisticated attack chain involved launcher malware that... This pulse includes 17 indicators of compromise (IOCs). Associated malware: ShellBot, PerlBot, Fisieredoor.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac9eef4bcc05a59cd402770",
+    "url": "https://otx.alienvault.com/pulse/6acf002e7c7fddeb927af2d8",
     "verification": "verified"
   },
   {
-    "title": "DNS as C2 in Noir, An AI-Developed Crypto Wallet Drainer",
-    "content": "A cryptocurrency wallet-drainer kit called Noir uses DNS TXT records and DNS-over-HTTPS (DoH) as a dynamic command-and-control mechanism. The loader queries public DoH services to discover active infrastructure hosted on Cloudflare Pages, allowing operators to redirect deployed lures by changing a single DNS record. The drainer does not require victims to enter seed phrases or private keys;... This pulse includes 2 indicators of compromise (IOCs). Associated malware: Noir.",
+    "title": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
+    "content": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration requests. This operation, dubbed GitPower, leverages legitimate development platforms like GitHub for malware distribution and data exfiltration. Attack vectors include malicious LNK... This pulse includes 135 indicators of compromise (IOCs). Targeted industries: Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac964afdcc4acb43c3ef335",
+    "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf",
     "verification": "verified"
   }
 ]
