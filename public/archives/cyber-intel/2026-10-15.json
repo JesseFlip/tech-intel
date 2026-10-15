@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-15",
+  "timestamp": "2026-10-15T10:49:55.961898",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Hirudo: From Fake Updates to Patched Banking Apps",
+      "content": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing the trojan as a separate package behind fake update prompts. The malware replaces legitimate banking applications with patched versions that disable security checks from within the... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Hirudo.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759",
+      "verification": "verified"
+    },
+    {
+      "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
+      "content": "Ivanti has released emergency security updates after attackers exploited a chain of three zero-day vulnerabilities in Connect Secure VPN appliances to gain root-level access without authentication. The attack began on October 3, targeting an appliance running version 22.8R2.4. Two vulnerabilities are tracked as CVE-2026-104935 with a CVSS score of 8.6, involving an authentication bypass and... This pulse includes 2 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf8533a44062761084826c",
+      "verification": "verified"
+    },
+    {
+      "title": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
+      "content": "A wave of fraudulent websites mimicking Calendly booking pages for Meta job interviews has been identified, targeting job seekers to steal credentials. Victims select interview time slots, provide personal information, and complete fake CAPTCHA verifications before being prompted to log into Facebook and Google accounts. The sophisticated phishing kit captures login credentials and bypasses... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf8607ba5b3757d207eb86",
+      "verification": "verified"
+    },
+    {
+      "title": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
+      "content": "A coordinated disruption action targeted Chinese-speaking cybercriminals operating three major phishing kits: CoGUI, CoAceV, and CoFish_Ws, which collectively distributed hundreds of millions of credential phishing messages primarily targeting Japanese organizations. These operations impersonated 66 well-known brands, mainly consumer and finance companies, to steal usernames, passwords, and... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare, Government.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a",
+      "verification": "verified"
+    }
+  ]
+}

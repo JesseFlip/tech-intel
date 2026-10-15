@@ -1,30 +1,30 @@
 [
   {
-    "title": "RSVP to Disaster: How One Click Installs a RAT",
-    "content": "Cybercriminals are exploiting digital event invitations to distribute remote access trojans. Victims receive legitimate-looking emails with generic subject lines about special gatherings and celebrations. The messages contain download buttons that redirect users through fake CAPTCHA verification pages hosted on recently created domains. After verification, users encounter another generic... This pulse includes 4 indicators of compromise (IOCs). Associated malware: ScreenConnect.",
+    "title": "Hirudo: From Fake Updates to Patched Banking Apps",
+    "content": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing the trojan as a separate package behind fake update prompts. The malware replaces legitimate banking applications with patched versions that disable security checks from within the... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Hirudo.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ace7dbf73fb0a8d1beeba9b",
+    "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759",
     "verification": "verified"
   },
   {
-    "title": "Clean Install, Stolen Creds: Fake WatchGuard VPN Site Serves Genuine Signed Client",
-    "content": "In early October, a sophisticated credential phishing campaign targeted WatchGuard Mobile VPN users through a fake download site at watchguard-vpn[.]net. The attack used SEO poisoning to appear in search results and deployed a unique technique: after collecting victim credentials twice through browser pop-ups, it downloaded the genuine, validly signed WatchGuard installer directly from... This pulse includes 6 indicators of compromise (IOCs).",
+    "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
+    "content": "Ivanti has released emergency security updates after attackers exploited a chain of three zero-day vulnerabilities in Connect Secure VPN appliances to gain root-level access without authentication. The attack began on October 3, targeting an appliance running version 22.8R2.4. Two vulnerabilities are tracked as CVE-2026-104935 with a CVSS score of 8.6, involving an authentication bypass and... This pulse includes 2 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acec272f01b1f0cac6ecb2a",
+    "url": "https://otx.alienvault.com/pulse/6acf8533a44062761084826c",
     "verification": "verified"
   },
   {
-    "title": "Statistical Report on Malware Targeting Linux SSH Servers in the Third Quarter of 2026",
-    "content": "During the third quarter of 2026, multiple attack campaigns targeted poorly managed Linux SSH servers using brute force, dictionary attacks, and vulnerability exploits. Threat actors deployed ShellBot, a Perl-based DDoS bot, utilizing C&C servers at specific IP addresses with capabilities including port scanning and UDP flooding. A sophisticated attack chain involved launcher malware that... This pulse includes 17 indicators of compromise (IOCs). Associated malware: ShellBot, PerlBot, Fisieredoor.",
+    "title": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
+    "content": "A wave of fraudulent websites mimicking Calendly booking pages for Meta job interviews has been identified, targeting job seekers to steal credentials. Victims select interview time slots, provide personal information, and complete fake CAPTCHA verifications before being prompted to log into Facebook and Google accounts. The sophisticated phishing kit captures login credentials and bypasses... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acf002e7c7fddeb927af2d8",
+    "url": "https://otx.alienvault.com/pulse/6acf8607ba5b3757d207eb86",
     "verification": "verified"
   },
   {
-    "title": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
-    "content": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration requests. This operation, dubbed GitPower, leverages legitimate development platforms like GitHub for malware distribution and data exfiltration. Attack vectors include malicious LNK... This pulse includes 135 indicators of compromise (IOCs). Targeted industries: Government.",
+    "title": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
+    "content": "A coordinated disruption action targeted Chinese-speaking cybercriminals operating three major phishing kits: CoGUI, CoAceV, and CoFish_Ws, which collectively distributed hundreds of millions of credential phishing messages primarily targeting Japanese organizations. These operations impersonated 66 well-known brands, mainly consumer and finance companies, to steal usernames, passwords, and... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare, Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf",
+    "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a",
     "verification": "verified"
   }
 ]
