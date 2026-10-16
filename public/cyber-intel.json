@@ -1,30 +1,30 @@
 [
   {
-    "title": "Hirudo: From Fake Updates to Patched Banking Apps",
-    "content": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing the trojan as a separate package behind fake update prompts. The malware replaces legitimate banking applications with patched versions that disable security checks from within the... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Hirudo.",
+    "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
+    "content": "Brazilian banking malware operation REF9334 has been deploying KREMLIN toolkit since May 2025, targeting Brazilian financial institutions through malicious browser extensions. The operation uses multi-stage JavaScript loaders, custom C++ installers, and exploits Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs. Infrastructure leverages Ethereum... This pulse includes 360 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Virus:DOS/Kremlin, Trojan:Win32/DoublePulsar, Remcos - S0332.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759",
+    "url": "https://otx.alienvault.com/pulse/6aaa6f52c8d835e24adb63f7",
     "verification": "verified"
   },
   {
-    "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
-    "content": "Ivanti has released emergency security updates after attackers exploited a chain of three zero-day vulnerabilities in Connect Secure VPN appliances to gain root-level access without authentication. The attack began on October 3, targeting an appliance running version 22.8R2.4. Two vulnerabilities are tracked as CVE-2026-104935 with a CVSS score of 8.6, involving an authentication bypass and... This pulse includes 2 indicators of compromise (IOCs).",
+    "title": "The banana stand: brokering and managing infections across Asia using MQTT",
+    "content": "BambooToken is an emerging multiplatform malware family active since at least February 2023, utilizing the Message Queueing and Telemetry Transport (MQTT) protocol for covert command and control operations. The campaign targets Windows and Linux systems across Asia and South America, with infections observed on backend servers for mobile applications, legal and financial services, software... This pulse includes 47 indicators of compromise (IOCs). Targeted industries: Finance, Government, Technology. Associated malware: BambooToken, IOCONTROL, PlugX - S0013.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acf8533a44062761084826c",
+    "url": "https://otx.alienvault.com/pulse/6aaa65422d840de7e08ecf44",
     "verification": "verified"
   },
   {
-    "title": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
-    "content": "A wave of fraudulent websites mimicking Calendly booking pages for Meta job interviews has been identified, targeting job seekers to steal credentials. Victims select interview time slots, provide personal information, and complete fake CAPTCHA verifications before being prompted to log into Facebook and Google accounts. The sophisticated phishing kit captures login credentials and bypasses... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology.",
+    "title": "Fake MP4 File Carries Malicious Payload",
+    "content": "A sophisticated infection chain leverages PowerShell loaders to deliver encrypted NetSupport client payloads concealed within fake MP4 files. The malicious MP4 containers appear valid to basic file-type checks but contain 6.5 MB of encrypted data in ISO Base Media File Format uuid extension boxes rather than playable video content. The attack begins with PowerShell delivered via... This pulse includes 63 indicators of compromise (IOCs). Associated malware: NetSupport Manager.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acf8607ba5b3757d207eb86",
+    "url": "https://otx.alienvault.com/pulse/6a9226b8e222df2d7682db63",
     "verification": "verified"
   },
   {
-    "title": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
-    "content": "A coordinated disruption action targeted Chinese-speaking cybercriminals operating three major phishing kits: CoGUI, CoAceV, and CoFish_Ws, which collectively distributed hundreds of millions of credential phishing messages primarily targeting Japanese organizations. These operations impersonated 66 well-known brands, mainly consumer and finance companies, to steal usernames, passwords, and... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Finance, Healthcare, Government.",
+    "title": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
+    "content": "A malicious cyber actor conducted a proxyjacking campaign, compromising at least 143 network edge devices across 34 countries to force them into residential proxy networks. The attacker exploited vulnerabilities in D-Link ShareCenter NAS devices, Ubiquiti UniFi Video NVR systems, and SAP NetWeaver Visual Composer, also targeting DVR/NVR devices from Hikvision and Dahua. The compromised devices... This pulse includes 11 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6acf8736e6d91800bcdb734a",
+    "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2",
     "verification": "verified"
   }
 ]

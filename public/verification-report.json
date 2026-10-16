@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Hirudo: From Fake Updates to Patched Banking Apps",
-        "numbers_checked": 1,
+        "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
-        "numbers_checked": 6,
+        "title": "The banana stand: brokering and managing infections across Asia using MQTT",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Fake Calendly \"Meta Careers\" pages steal Facebook and Google logins",
-        "numbers_checked": 1,
+        "title": "Fake MP4 File Carries Malicious Payload",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Disruption Targets Major Chinese-Language Phishing Kits with Japanese Focus",
-        "numbers_checked": 2,
+        "title": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -118,18 +118,63 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 15
     },
-    "verified_at": "2026-10-15T10:49:55.961252Z",
+    "verified_at": "2026-10-16T10:39:40.693110Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-15T10:49:58.423860Z",
+  "last_updated": "2026-10-16T10:39:43.724796Z",
   "ai": {
     "feed": "ai",
-    "checked": 7,
+    "checked": 5,
     "items": [
       {
         "index": 0,
@@ -145,14 +190,14 @@
       },
       {
         "index": 2,
-        "title": "McKinsey is making job applicants spar with a fake AI client",
-        "numbers_checked": 3,
+        "title": "ChatGPT can peek at your Chrome tabs now",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Eight states sue OpenAI, saying ChatGPT isn&#8217;t safe for kids",
-        "numbers_checked": 1,
+        "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -201,30 +246,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 5
     },
-    "verified_at": "2026-10-15T10:49:56.492641Z",
+    "verified_at": "2026-10-16T10:39:41.152746Z",
     "llm_adversary": false
   },
   "macro": {
@@ -287,7 +314,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.21,
+        "value": 5.19,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +323,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.79,
+        "value": 4.82,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +341,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.41999999999999993,
+        "value": 0.3700000000000001,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -326,7 +353,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-15T10:49:58.423860Z",
+    "verified_at": "2026-10-16T10:39:43.724796Z",
     "llm_adversary": false
   }
 }
