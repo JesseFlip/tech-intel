@@ -1,30 +1,30 @@
 [
   {
-    "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
-    "content": "Brazilian banking malware operation REF9334 has been deploying KREMLIN toolkit since May 2025, targeting Brazilian financial institutions through malicious browser extensions. The operation uses multi-stage JavaScript loaders, custom C++ installers, and exploits Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs. Infrastructure leverages Ethereum... This pulse includes 360 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Virus:DOS/Kremlin, Trojan:Win32/DoublePulsar, Remcos - S0332.",
+    "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
+    "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 36 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaa6f52c8d835e24adb63f7",
+    "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
     "verification": "verified"
   },
   {
-    "title": "The banana stand: brokering and managing infections across Asia using MQTT",
-    "content": "BambooToken is an emerging multiplatform malware family active since at least February 2023, utilizing the Message Queueing and Telemetry Transport (MQTT) protocol for covert command and control operations. The campaign targets Windows and Linux systems across Asia and South America, with infections observed on backend servers for mobile applications, legal and financial services, software... This pulse includes 47 indicators of compromise (IOCs). Targeted industries: Finance, Government, Technology. Associated malware: BambooToken, IOCONTROL, PlugX - S0013.",
+    "title": "SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia",
+    "content": "Infrastructure analysis reveals a cluster of SpiceRAT command and control servers active from late 2025 through August 2026, linked through shared TLS certificates, domain registrations, and a cloned RTX Corporation webpage. The infrastructure connects to multiple threat families including SpiceRAT, NodeEdgeRAT, NomadRAT, and BloodAlchemy, suggesting either a single operator managing multiple... This pulse includes 60 indicators of compromise (IOCs). Targeted industries: Government, Energy, Telecommunications. Associated malware: SpiceRAT, NodeEdgeRAT, NomadRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaa65422d840de7e08ecf44",
+    "url": "https://otx.alienvault.com/pulse/6aaacff0ea056cea51165b6b",
     "verification": "verified"
   },
   {
-    "title": "Fake MP4 File Carries Malicious Payload",
-    "content": "A sophisticated infection chain leverages PowerShell loaders to deliver encrypted NetSupport client payloads concealed within fake MP4 files. The malicious MP4 containers appear valid to basic file-type checks but contain 6.5 MB of encrypted data in ISO Base Media File Format uuid extension boxes rather than playable video content. The attack begins with PowerShell delivered via... This pulse includes 63 indicators of compromise (IOCs). Associated malware: NetSupport Manager.",
+    "title": "Noodle RAT: A Recipe for Cross Platform Espionage",
+    "content": "Noodle RAT, also known as ANGRYREBEL or Nood RAT, is a modular remote access trojan with dual versions for Windows and Linux, actively used by Chinese-speaking threat actors since at least mid-2016. Previously misclassified as variants of Gh0st RAT or Rekoobe, it is now recognized as a distinct backdoor family. The malware has been deployed in espionage and cybercrime campaigns targeting entities... This pulse includes 54 indicators of compromise (IOCs). Associated malware: Noodle RAT, ANGRYREBEL, Nood RAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6a9226b8e222df2d7682db63",
+    "url": "https://otx.alienvault.com/pulse/6aaacbc380f9fb21de37cdd2",
     "verification": "verified"
   },
   {
-    "title": "skynox7: Proxyjacking Edge Devices Into Residential Proxies",
-    "content": "A malicious cyber actor conducted a proxyjacking campaign, compromising at least 143 network edge devices across 34 countries to force them into residential proxy networks. The attacker exploited vulnerabilities in D-Link ShareCenter NAS devices, Ubiquiti UniFi Video NVR systems, and SAP NetWeaver Visual Composer, also targeting DVR/NVR devices from Hikvision and Dahua. The compromised devices... This pulse includes 11 indicators of compromise (IOCs).",
+    "title": "How Money Laundering, Scams, and Espionage Hide in a Web Full of Casino Garbage",
+    "content": "Illegal online gambling infrastructure spans three distinct cybercrime categories that defenders often overlook. First, over 1.7 million Chinese-language casino domains facilitate illegal gambling and transnational money laundering, primarily operated by triad-aligned syndicates. Second, thousands of \"scambling\" websites target global audiences with rigged games and withdrawal fraud, using... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Education, Finance, Government. Associated malware: PeckBirdy.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad0e1295c816b236074f6a2",
+    "url": "https://otx.alienvault.com/pulse/6aaa8c11b806c524e6298745",
     "verification": "verified"
   }
 ]
