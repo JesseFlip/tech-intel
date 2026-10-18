@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-18",
+  "timestamp": "2026-10-18T10:21:32.715161",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
+      "content": "A previously unknown modular multi-stage framework named MovieReaper has been discovered targeting users through compromised torrent files. Attackers compromised the public torrent repository itorrents[.]org, enabling them to distribute malicious loaders disguised as popular movies, including \"The Odyssey.\" The campaign began in mid-August 2026 and affected hundreds of victims across multiple... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Government, Technology, Retail. Associated malware: MovieReaper.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aac13f8b67f38a3496d4d1d",
+      "verification": "verified"
+    },
+    {
+      "title": "Beware the SparroWock: The backdoor that bites, the commands that catch",
+      "content": "ESET researchers have documented SparroWocky, a sophisticated C++ backdoor deployed by the FamousSparrow APT group since August 2025. This China-aligned threat actor has shifted focus to extensively targeting governmental organizations across Latin America, likely in response to increased US interest in the region. SparroWocky replaced the group's previous SparrowDoor backdoor and demonstrates... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SparroWocky, SparrowDoor.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aac12f6c8ffca0418768251",
+      "verification": "verified"
+    },
+    {
+      "title": "Ready, Settra, Go: New Settra Ransomware Variant Deploys MeshAgent RMM",
+      "content": "Settra is a ransomware variant first observed in June 2026 that targets organizations through VPNs or compromised credentials. Two incidents were investigated in July and September 2026, affecting the consumer services, retail, and manufacturing sectors. Attackers deployed MeshAgent RMM for persistence, naming ransomware executables after victim domain names. The malicious activity included file... Targeted industries: Retail, Manufacturing. Associated malware: Settra, MeshAgent.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aac12f5c4711bca5a63128a",
+      "verification": "verified"
+    },
+    {
+      "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
+      "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 36 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
+      "verification": "verified"
+    }
+  ]
+}

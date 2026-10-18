@@ -1,30 +1,30 @@
 [
   {
+    "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
+    "content": "A previously unknown modular multi-stage framework named MovieReaper has been discovered targeting users through compromised torrent files. Attackers compromised the public torrent repository itorrents[.]org, enabling them to distribute malicious loaders disguised as popular movies, including \"The Odyssey.\" The campaign began in mid-August 2026 and affected hundreds of victims across multiple... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Government, Technology, Retail. Associated malware: MovieReaper.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6aac13f8b67f38a3496d4d1d",
+    "verification": "verified"
+  },
+  {
+    "title": "Beware the SparroWock: The backdoor that bites, the commands that catch",
+    "content": "ESET researchers have documented SparroWocky, a sophisticated C++ backdoor deployed by the FamousSparrow APT group since August 2025. This China-aligned threat actor has shifted focus to extensively targeting governmental organizations across Latin America, likely in response to increased US interest in the region. SparroWocky replaced the group's previous SparrowDoor backdoor and demonstrates... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SparroWocky, SparrowDoor.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6aac12f6c8ffca0418768251",
+    "verification": "verified"
+  },
+  {
+    "title": "Ready, Settra, Go: New Settra Ransomware Variant Deploys MeshAgent RMM",
+    "content": "Settra is a ransomware variant first observed in June 2026 that targets organizations through VPNs or compromised credentials. Two incidents were investigated in July and September 2026, affecting the consumer services, retail, and manufacturing sectors. Attackers deployed MeshAgent RMM for persistence, naming ransomware executables after victim domain names. The malicious activity included file... Targeted industries: Retail, Manufacturing. Associated malware: Settra, MeshAgent.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6aac12f5c4711bca5a63128a",
+    "verification": "verified"
+  },
+  {
     "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
     "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 36 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
-    "verification": "verified"
-  },
-  {
-    "title": "SilkParasite Infrastructure: SpiceRAT Servers Tied to Energy and Government Targets Across Central Asia",
-    "content": "Infrastructure analysis reveals a cluster of SpiceRAT command and control servers active from late 2025 through August 2026, linked through shared TLS certificates, domain registrations, and a cloned RTX Corporation webpage. The infrastructure connects to multiple threat families including SpiceRAT, NodeEdgeRAT, NomadRAT, and BloodAlchemy, suggesting either a single operator managing multiple... This pulse includes 60 indicators of compromise (IOCs). Targeted industries: Government, Energy, Telecommunications. Associated malware: SpiceRAT, NodeEdgeRAT, NomadRAT.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaacff0ea056cea51165b6b",
-    "verification": "verified"
-  },
-  {
-    "title": "Noodle RAT: A Recipe for Cross Platform Espionage",
-    "content": "Noodle RAT, also known as ANGRYREBEL or Nood RAT, is a modular remote access trojan with dual versions for Windows and Linux, actively used by Chinese-speaking threat actors since at least mid-2016. Previously misclassified as variants of Gh0st RAT or Rekoobe, it is now recognized as a distinct backdoor family. The malware has been deployed in espionage and cybercrime campaigns targeting entities... This pulse includes 54 indicators of compromise (IOCs). Associated malware: Noodle RAT, ANGRYREBEL, Nood RAT.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaacbc380f9fb21de37cdd2",
-    "verification": "verified"
-  },
-  {
-    "title": "How Money Laundering, Scams, and Espionage Hide in a Web Full of Casino Garbage",
-    "content": "Illegal online gambling infrastructure spans three distinct cybercrime categories that defenders often overlook. First, over 1.7 million Chinese-language casino domains facilitate illegal gambling and transnational money laundering, primarily operated by triad-aligned syndicates. Second, thousands of \"scambling\" websites target global audiences with rigged games and withdrawal fraud, using... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Education, Finance, Government. Associated malware: PeckBirdy.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaa8c11b806c524e6298745",
     "verification": "verified"
   }
 ]
