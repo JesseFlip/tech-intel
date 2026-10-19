@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 12,
     "items": [
       {
         "index": 0,
-        "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
-        "numbers_checked": 2,
+        "title": "QuartzLine: A working PDF viewer with a backdoor inside",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Beware the SparroWock: The backdoor that bites, the commands that catch",
-        "numbers_checked": 2,
+        "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Ready, Settra, Go: New Settra Ransomware Variant Deploys MeshAgent RMM",
-        "numbers_checked": 2,
+        "title": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
-        "numbers_checked": 4,
+        "title": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -118,18 +118,36 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 12
     },
-    "verified_at": "2026-10-18T10:21:32.714373Z",
+    "verified_at": "2026-10-19T12:05:09.612451Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-18T10:21:34.918343Z",
+  "last_updated": "2026-10-19T12:05:12.459376Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -145,14 +163,14 @@
       },
       {
         "index": 2,
-        "title": "Meta removes language that may have allowed it to scrape news sites",
+        "title": "Democrats think cracking down on AI could give them an edge",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Websites are closing their doors to AI agents",
-        "numbers_checked": 0,
+        "title": "A woman was arrested in Philly for blocking a delivery robot",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -183,12 +201,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-10-18T10:21:33.177310Z",
+    "verified_at": "2026-10-19T12:05:09.886808Z",
     "llm_adversary": false
   },
   "macro": {
@@ -290,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-18T10:21:34.918343Z",
+    "verified_at": "2026-10-19T12:05:12.459376Z",
     "llm_adversary": false
   }
 }

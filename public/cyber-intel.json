@@ -1,30 +1,30 @@
 [
   {
-    "title": "The Odyssey and trojans again: MovieReaper attacks users in multiple countries via compromised torrents",
-    "content": "A previously unknown modular multi-stage framework named MovieReaper has been discovered targeting users through compromised torrent files. Attackers compromised the public torrent repository itorrents[.]org, enabling them to distribute malicious loaders disguised as popular movies, including \"The Odyssey.\" The campaign began in mid-August 2026 and affected hundreds of victims across multiple... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Government, Technology, Retail. Associated malware: MovieReaper.",
+    "title": "QuartzLine: A working PDF viewer with a backdoor inside",
+    "content": "QuartzLine, also tracked as CLOUDHAZE by Mandiant, is malicious software disguised as a functional Windows PDF viewer that conceals a backdoor enabling attackers to execute commands and deploy additional malware. The malware has appeared as paperline.exe and fielddesk.exe, signed with a legitimate but now-revoked EV code-signing certificate. Distribution occurs through malicious advertising,... This pulse includes 18 indicators of compromise (IOCs). Associated malware: QuartzLine, CLOUDHAZE, Caira.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aac13f8b67f38a3496d4d1d",
+    "url": "https://otx.alienvault.com/pulse/6ad220cc0811c90b23c261eb",
     "verification": "verified"
   },
   {
-    "title": "Beware the SparroWock: The backdoor that bites, the commands that catch",
-    "content": "ESET researchers have documented SparroWocky, a sophisticated C++ backdoor deployed by the FamousSparrow APT group since August 2025. This China-aligned threat actor has shifted focus to extensively targeting governmental organizations across Latin America, likely in response to increased US interest in the region. SparroWocky replaced the group's previous SparrowDoor backdoor and demonstrates... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SparroWocky, SparrowDoor.",
+    "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
+    "content": "A Microsoft 365 API credential belonging to ConnectWise Cloud Backup (formerly SkyKick) was compromised and used to gain unauthorized access to customer M365 environments. The threat actor authenticated from IP address 144.172.64.128 on October 15, obtaining Microsoft Graph access tokens across hundreds of tenants. The attacker moved through tenants in sorted GUID order, suggesting automated... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology, Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aac12f6c8ffca0418768251",
+    "url": "https://otx.alienvault.com/pulse/6ad5e7f75d4f869db2238e26",
     "verification": "verified"
   },
   {
-    "title": "Ready, Settra, Go: New Settra Ransomware Variant Deploys MeshAgent RMM",
-    "content": "Settra is a ransomware variant first observed in June 2026 that targets organizations through VPNs or compromised credentials. Two incidents were investigated in July and September 2026, affecting the consumer services, retail, and manufacturing sectors. Attackers deployed MeshAgent RMM for persistence, naming ransomware executables after victim domain names. The malicious activity included file... Targeted industries: Retail, Manufacturing. Associated malware: Settra, MeshAgent.",
+    "title": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
+    "content": "On September 27, 2026, Citrix disclosed CVE-2026-88771, a critical remote code execution vulnerability affecting NetScaler Application Delivery Controller and NetScaler Gateway with a CVSS score of 9.8. The vulnerability enables unauthenticated attackers to execute arbitrary commands without requiring optional features. CISA added it to the Known Exploited Vulnerabilities catalog following... This pulse includes 33 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aac12f5c4711bca5a63128a",
+    "url": "https://otx.alienvault.com/pulse/6ad2ca008bd3199ee7bb0b83",
     "verification": "verified"
   },
   {
-    "title": "VectraRAT: An Undocumented Full-Stack MaaS Built From Scratch",
-    "content": "VectraRAT is a previously undocumented Malware-as-a-Service platform combining a Go-based control server (VectraHub) with a native C++ Windows implant, renting from $250 monthly. The developer, operating under the handle 'Vectra' (formerly 'Nyxel'), has been active since August 2022 without prior public documentation. The platform offers hidden desktop control, keylogging, clipboard hijacking... This pulse includes 36 indicators of compromise (IOCs). Targeted industries: Finance, Government. Associated malware: VectraRAT, Amadey - S1025, Vidar.",
+    "title": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
+    "content": "YuanKong is a multi-tenant Android remote access trojan whose dropper stores decryption keys in cleartext configuration files. The malware uses a two-key XOR scheme to unpack payloads signed with a shared certificate across all operator builds. Each build embeds operator account identifiers as hardcoded string constants, including account IDs, operator handles, and enrollment codes that are... This pulse includes 15 indicators of compromise (IOCs). Associated malware: YuanKong.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaacbc43d4293c72220717b",
+    "url": "https://otx.alienvault.com/pulse/6ad241d9f4cd3e84da0dbd3c",
     "verification": "verified"
   }
 ]
