@@ -1,5 +1,19 @@
 [
   {
+    "title": "AOMEI Backupper update servers hijacked to push malware: Check your PC",
+    "content": "Between April and July 2026, attackers compromised AOMEI Technology's update and notification infrastructure to distribute malware to users of AOMEI Backupper, backup software used by over 100 million people worldwide. During three confirmed tampering windows lasting ten, six, and five minutes, attackers modified download instructions to deliver a malicious ZIP archive containing an initial... This pulse includes 3 indicators of compromise (IOCs). Associated malware: upgrade-now.exe.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6ad632287e9fae87583d6526",
+    "verification": "verified"
+  },
+  {
+    "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
+    "content": "Multiple Plex Media Server vulnerabilities announced in September 2026 are being actively exploited to deploy cryptominers and proxy software. The exploitation chains together four CVEs to achieve remote code execution on vulnerable Plex servers. A honeypot deployment captured exploitation attempts from multiple IP addresses starting October 17, 2026. Attackers deployed XMRig cryptominer and... This pulse includes 15 indicators of compromise (IOCs). Associated malware: XMRig, myawesomeproxy.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6ad5b2c95417d4d1ac959070",
+    "verification": "verified"
+  },
+  {
     "title": "QuartzLine: A working PDF viewer with a backdoor inside",
     "content": "QuartzLine, also tracked as CLOUDHAZE by Mandiant, is malicious software disguised as a functional Windows PDF viewer that conceals a backdoor enabling attackers to execute commands and deploy additional malware. The malware has appeared as paperline.exe and fielddesk.exe, signed with a legitimate but now-revoked EV code-signing certificate. Distribution occurs through malicious advertising,... This pulse includes 18 indicators of compromise (IOCs). Associated malware: QuartzLine, CLOUDHAZE, Caira.",
     "linkText": "View on AlienVault OTX →",
@@ -11,20 +25,6 @@
     "content": "A Microsoft 365 API credential belonging to ConnectWise Cloud Backup (formerly SkyKick) was compromised and used to gain unauthorized access to customer M365 environments. The threat actor authenticated from IP address 144.172.64.128 on October 15, obtaining Microsoft Graph access tokens across hundreds of tenants. The attacker moved through tenants in sorted GUID order, suggesting automated... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology, Government.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6ad5e7f75d4f869db2238e26",
-    "verification": "verified"
-  },
-  {
-    "title": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
-    "content": "On September 27, 2026, Citrix disclosed CVE-2026-88771, a critical remote code execution vulnerability affecting NetScaler Application Delivery Controller and NetScaler Gateway with a CVSS score of 9.8. The vulnerability enables unauthenticated attackers to execute arbitrary commands without requiring optional features. CISA added it to the Known Exploited Vulnerabilities catalog following... This pulse includes 33 indicators of compromise (IOCs).",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad2ca008bd3199ee7bb0b83",
-    "verification": "verified"
-  },
-  {
-    "title": "YuanKong RAT: the Android remote-control service that stamps its operators' names into every build",
-    "content": "YuanKong is a multi-tenant Android remote access trojan whose dropper stores decryption keys in cleartext configuration files. The malware uses a two-key XOR scheme to unpack payloads signed with a shared certificate across all operator builds. Each build embeds operator account identifiers as hardcoded string constants, including account IDs, operator handles, and enrollment codes that are... This pulse includes 15 indicators of compromise (IOCs). Associated malware: YuanKong.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad241d9f4cd3e84da0dbd3c",
     "verification": "verified"
   }
 ]
