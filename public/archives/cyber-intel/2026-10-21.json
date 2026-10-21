@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "timestamp": "2026-10-21T11:07:51.407182",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "PAYLOAD ransomware attacks through Active Directory GPO",
+      "content": "In April 2026, a manufacturing organization in the Middle East suffered a ransomware attack where threat actors with domain admin privileges weaponized Active Directory Group Policy Objects to achieve domain-wide impact without deploying ransomware binaries on Windows endpoints. The attackers created malicious GPOs linked at the domain root, delivering ransom notes, hijacking wallpapers and lock... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Manufacturing. Associated malware: PAYLOAD.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab11ae202d2117effed327a",
+      "verification": "verified"
+    },
+    {
+      "title": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+      "content": "In 2026, the DPRK-sponsored Lazarus subgroup TraderTraitor continued campaigns targeting cryptocurrency entities, including a high-profile attack on LayerZero resulting in $292 million theft from KelpDAO. Following this disclosure, an additional victim was identified: a smaller IT services provider in India with no cryptocurrency connections. The compromise involved a DevOps engineer targeted... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Technology, Finance. Associated malware: FLATROOF, ROOFDECK, macOS.Gaslight.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aae4b5f7a0d5f15edf2a5f1",
+      "verification": "verified"
+    },
+    {
+      "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
+      "content": "Active exploitation of PAN-OS vulnerability CVE-2026-0257 has been observed, targeting GlobalProtect portal and gateway components. The authentication bypass flaw allows unauthorized attackers to circumvent security controls and establish VPN connections. Ransomware operators including Spikey Scorpius (Qilin) and Tarnished Scorpius (Inc), along with Settra ransomware actors, are exploiting this... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Education, Finance, Healthcare. Associated malware: Qilin, Brave Prince - S0252, Settra.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad79104128abd6fe9532c09",
+      "verification": "verified"
+    },
+    {
+      "title": "Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell",
+      "content": "Between May and September 2026, a Russian-speaking operator systematically targeted Ukraine's state data-exchange infrastructure by exploiting Log4Shell vulnerabilities in Graylog servers. The attacker swept 9.1 million Ukrainian IP addresses, filtering 7,576 live hosts to identify systems running UXP Verifier, a component of the national data-exchange platform. Using a two-stage... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Hospitality.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad791051c8d94c4c32e8ad7",
+      "verification": "verified"
+    }
+  ]
+}

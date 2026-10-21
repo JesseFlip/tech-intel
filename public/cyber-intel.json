@@ -1,30 +1,30 @@
 [
   {
-    "title": "AOMEI Backupper update servers hijacked to push malware: Check your PC",
-    "content": "Between April and July 2026, attackers compromised AOMEI Technology's update and notification infrastructure to distribute malware to users of AOMEI Backupper, backup software used by over 100 million people worldwide. During three confirmed tampering windows lasting ten, six, and five minutes, attackers modified download instructions to deliver a malicious ZIP archive containing an initial... This pulse includes 3 indicators of compromise (IOCs). Associated malware: upgrade-now.exe.",
+    "title": "PAYLOAD ransomware attacks through Active Directory GPO",
+    "content": "In April 2026, a manufacturing organization in the Middle East suffered a ransomware attack where threat actors with domain admin privileges weaponized Active Directory Group Policy Objects to achieve domain-wide impact without deploying ransomware binaries on Windows endpoints. The attackers created malicious GPOs linked at the domain root, delivering ransom notes, hijacking wallpapers and lock... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Manufacturing. Associated malware: PAYLOAD.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad632287e9fae87583d6526",
+    "url": "https://otx.alienvault.com/pulse/6ab11ae202d2117effed327a",
     "verification": "verified"
   },
   {
-    "title": "Plex vulnerabilities being exploited in the wild to drop a cryptominer",
-    "content": "Multiple Plex Media Server vulnerabilities announced in September 2026 are being actively exploited to deploy cryptominers and proxy software. The exploitation chains together four CVEs to achieve remote code execution on vulnerable Plex servers. A honeypot deployment captured exploitation attempts from multiple IP addresses starting October 17, 2026. Attackers deployed XMRig cryptominer and... This pulse includes 15 indicators of compromise (IOCs). Associated malware: XMRig, myawesomeproxy.",
+    "title": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
+    "content": "In 2026, the DPRK-sponsored Lazarus subgroup TraderTraitor continued campaigns targeting cryptocurrency entities, including a high-profile attack on LayerZero resulting in $292 million theft from KelpDAO. Following this disclosure, an additional victim was identified: a smaller IT services provider in India with no cryptocurrency connections. The compromise involved a DevOps engineer targeted... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Technology, Finance. Associated malware: FLATROOF, ROOFDECK, macOS.Gaslight.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad5b2c95417d4d1ac959070",
+    "url": "https://otx.alienvault.com/pulse/6aae4b5f7a0d5f15edf2a5f1",
     "verification": "verified"
   },
   {
-    "title": "QuartzLine: A working PDF viewer with a backdoor inside",
-    "content": "QuartzLine, also tracked as CLOUDHAZE by Mandiant, is malicious software disguised as a functional Windows PDF viewer that conceals a backdoor enabling attackers to execute commands and deploy additional malware. The malware has appeared as paperline.exe and fielddesk.exe, signed with a legitimate but now-revoked EV code-signing certificate. Distribution occurs through malicious advertising,... This pulse includes 18 indicators of compromise (IOCs). Associated malware: QuartzLine, CLOUDHAZE, Caira.",
+    "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
+    "content": "Active exploitation of PAN-OS vulnerability CVE-2026-0257 has been observed, targeting GlobalProtect portal and gateway components. The authentication bypass flaw allows unauthorized attackers to circumvent security controls and establish VPN connections. Ransomware operators including Spikey Scorpius (Qilin) and Tarnished Scorpius (Inc), along with Settra ransomware actors, are exploiting this... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Education, Finance, Healthcare. Associated malware: Qilin, Brave Prince - S0252, Settra.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad220cc0811c90b23c261eb",
+    "url": "https://otx.alienvault.com/pulse/6ad79104128abd6fe9532c09",
     "verification": "verified"
   },
   {
-    "title": "ConnectWise (SkyKick) Vendor Credentials Abused in M365 Attacks",
-    "content": "A Microsoft 365 API credential belonging to ConnectWise Cloud Backup (formerly SkyKick) was compromised and used to gain unauthorized access to customer M365 environments. The threat actor authenticated from IP address 144.172.64.128 on October 15, obtaining Microsoft Graph access tokens across hundreds of tenants. The attacker moved through tenants in sorted GUID order, suggesting automated... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Technology, Government.",
+    "title": "Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell",
+    "content": "Between May and September 2026, a Russian-speaking operator systematically targeted Ukraine's state data-exchange infrastructure by exploiting Log4Shell vulnerabilities in Graylog servers. The attacker swept 9.1 million Ukrainian IP addresses, filtering 7,576 live hosts to identify systems running UXP Verifier, a component of the national data-exchange platform. Using a two-stage... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Hospitality.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad5e7f75d4f869db2238e26",
+    "url": "https://otx.alienvault.com/pulse/6ad791051c8d94c4c32e8ad7",
     "verification": "verified"
   }
 ]
