@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-22",
+  "timestamp": "2026-10-22T11:07:37.627995",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Open Season on Kapibala: Attacker Steals Over 18,000 Government Records Through WordPress Exploitation",
+      "content": "A suspected Chinese-speaking threat actor, operating from UTC+8 timezone and linked to Red Heron, conducted extensive exploitation campaigns from May through September 2026. The adversary maintained persistent use of a single IP address to target multiple technologies including WordPress, ZyXEL switches, and various enterprise platforms. In the most severe incident, the attacker exploited... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Government, Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab2691621023818faaf620e",
+      "verification": "verified"
+    },
+    {
+      "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+      "content": "Amazon Threat Intelligence discovered PHP2Shell exploitation attempts in MadPot honeypot telemetry on October 17, 2026, four days before the public disclosure of CVE-2026-109618 and CVE-2026-109619. The initial exploit originated from a commercial anonymization network, suggesting threat actor involvement during the embargo period. Multiple proof-of-concept exploits emerged on the disclosure... This pulse includes 8 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+      "verification": "verified"
+    },
+    {
+      "title": "New BlackX UEFI bootkit exploiting Baton Drop",
+      "content": "In early 2026, a sophisticated APT campaign targeting diplomatic agencies in Tajikistan, Uzbekistan, and Turkmenistan deployed BlackX, a UEFI bootkit similar to the notorious BlackLotus. The bootkit exploits the Baton Drop vulnerability (CVE-2022-21894) to bypass Secure Boot and install malicious drivers into the Windows kernel. Despite patches being available since 2023, victims remained... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: BlackX, BlackLotus, OxiDLLRunner.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad9df071ab39972490f947b",
+      "verification": "verified"
+    },
+    {
+      "title": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials",
+      "content": "LiteLLM version 1.107.0 was compromised through a supply chain attack affecting both PyPI packages and Docker images. The malicious release contains Python startup files that automatically execute upon Python initialization, stealing cloud credentials, private keys, browser data, and AI development tool authentication. Socket's AI scanner detected the compromise seven minutes after publication.... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: privcollect.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad91a62b48f2e8558fd4787",
+      "verification": "verified"
+    }
+  ]
+}

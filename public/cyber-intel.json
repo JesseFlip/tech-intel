@@ -1,30 +1,30 @@
 [
   {
-    "title": "PAYLOAD ransomware attacks through Active Directory GPO",
-    "content": "In April 2026, a manufacturing organization in the Middle East suffered a ransomware attack where threat actors with domain admin privileges weaponized Active Directory Group Policy Objects to achieve domain-wide impact without deploying ransomware binaries on Windows endpoints. The attackers created malicious GPOs linked at the domain root, delivering ransom notes, hijacking wallpapers and lock... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Manufacturing. Associated malware: PAYLOAD.",
+    "title": "Open Season on Kapibala: Attacker Steals Over 18,000 Government Records Through WordPress Exploitation",
+    "content": "A suspected Chinese-speaking threat actor, operating from UTC+8 timezone and linked to Red Heron, conducted extensive exploitation campaigns from May through September 2026. The adversary maintained persistent use of a single IP address to target multiple technologies including WordPress, ZyXEL switches, and various enterprise platforms. In the most severe incident, the attacker exploited... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Government, Technology.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab11ae202d2117effed327a",
+    "url": "https://otx.alienvault.com/pulse/6ab2691621023818faaf620e",
     "verification": "verified"
   },
   {
-    "title": "Don't Call Us, We'll Call Your APIs | TraderTraitor Backdoors Resurface on Victim With No Crypto Ties",
-    "content": "In 2026, the DPRK-sponsored Lazarus subgroup TraderTraitor continued campaigns targeting cryptocurrency entities, including a high-profile attack on LayerZero resulting in $292 million theft from KelpDAO. Following this disclosure, an additional victim was identified: a smaller IT services provider in India with no cryptocurrency connections. The compromise involved a DevOps engineer targeted... This pulse includes 32 indicators of compromise (IOCs). Targeted industries: Technology, Finance. Associated malware: FLATROOF, ROOFDECK, macOS.Gaslight.",
+    "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
+    "content": "Amazon Threat Intelligence discovered PHP2Shell exploitation attempts in MadPot honeypot telemetry on October 17, 2026, four days before the public disclosure of CVE-2026-109618 and CVE-2026-109619. The initial exploit originated from a commercial anonymization network, suggesting threat actor involvement during the embargo period. Multiple proof-of-concept exploits emerged on the disclosure... This pulse includes 8 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aae4b5f7a0d5f15edf2a5f1",
+    "url": "https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
     "verification": "verified"
   },
   {
-    "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257",
-    "content": "Active exploitation of PAN-OS vulnerability CVE-2026-0257 has been observed, targeting GlobalProtect portal and gateway components. The authentication bypass flaw allows unauthorized attackers to circumvent security controls and establish VPN connections. Ransomware operators including Spikey Scorpius (Qilin) and Tarnished Scorpius (Inc), along with Settra ransomware actors, are exploiting this... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Education, Finance, Healthcare. Associated malware: Qilin, Brave Prince - S0252, Settra.",
+    "title": "New BlackX UEFI bootkit exploiting Baton Drop",
+    "content": "In early 2026, a sophisticated APT campaign targeting diplomatic agencies in Tajikistan, Uzbekistan, and Turkmenistan deployed BlackX, a UEFI bootkit similar to the notorious BlackLotus. The bootkit exploits the Baton Drop vulnerability (CVE-2022-21894) to bypass Secure Boot and install malicious drivers into the Windows kernel. Despite patches being available since 2023, victims remained... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: BlackX, BlackLotus, OxiDLLRunner.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad79104128abd6fe9532c09",
+    "url": "https://otx.alienvault.com/pulse/6ad9df071ab39972490f947b",
     "verification": "verified"
   },
   {
-    "title": "Ukraine's State Data-Exchange System Targeted by Russian-Speaking Operator via Graylog Log4Shell",
-    "content": "Between May and September 2026, a Russian-speaking operator systematically targeted Ukraine's state data-exchange infrastructure by exploiting Log4Shell vulnerabilities in Graylog servers. The attacker swept 9.1 million Ukrainian IP addresses, filtering 7,576 live hosts to identify systems running UXP Verifier, a component of the national data-exchange platform. Using a two-stage... This pulse includes 12 indicators of compromise (IOCs). Targeted industries: Government, Hospitality.",
+    "title": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials",
+    "content": "LiteLLM version 1.107.0 was compromised through a supply chain attack affecting both PyPI packages and Docker images. The malicious release contains Python startup files that automatically execute upon Python initialization, stealing cloud credentials, private keys, browser data, and AI development tool authentication. Socket's AI scanner detected the compromise seven minutes after publication.... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: privcollect.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad791051c8d94c4c32e8ad7",
+    "url": "https://otx.alienvault.com/pulse/6ad91a62b48f2e8558fd4787",
     "verification": "verified"
   }
 ]
