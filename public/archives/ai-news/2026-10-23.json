@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-23",
+  "timestamp": "2026-10-23T10:58:47.521758",
+  "items": [
+    {
+      "title": "As AI safety concerns mount, three pioneers make the case for staying open",
+      "content": "At Ai4, three of the world's most respected AI experts — Geoffrey Hinton, Fei-Fei Li, and Andrew Ng — debated regulation, open source access, and how America can compete as China advances in Asia.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/08/12/as-ai-safety-concerns-mount-three-pioneers-make-the-case-for-staying-open/",
+      "verification": "verified"
+    },
+    {
+      "title": "Data center demand drives 66% surge in natural gas power plant costs",
+      "content": "Natural gas power plant costs have nearly doubled in two years and take 23% longer to build as data center electricity demand skyrockets.",
+      "linkText": "Read Full Article →",
+      "url": "https://techcrunch.com/2026/04/27/data-center-demand-drives-66-surge-in-natural-gas-power-plant-costs/",
+      "verification": "verified"
+    },
+    {
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "content": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precis",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "verification": "verified"
+    },
+    {
+      "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
+      "content": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [lang",
+      "linkText": "Read Full Article →",
+      "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "verification": "verified"
+    }
+  ]
+}

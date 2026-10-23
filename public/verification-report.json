@@ -186,13 +186,13 @@
     "status_counts": {
       "verified": 17
     },
-    "verified_at": "2026-10-22T11:07:37.627091Z",
+    "verified_at": "2026-10-23T10:58:47.193736Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-22T11:07:39.890433Z",
+  "last_updated": "2026-10-23T10:58:49.312380Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -208,13 +208,13 @@
       },
       {
         "index": 2,
-        "title": "Eiliko maker says it&#8217;s hiring an ‘&#8217;independent security firm’ after Verge report on its insecure robots",
-        "numbers_checked": 1,
+        "title": "Canva’s first AI image model plans designs before generating them",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Data centers could erase decades of air quality gains",
+        "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
         "numbers_checked": 1,
         "status": "verified"
       }
@@ -255,21 +255,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 4
     },
-    "verified_at": "2026-10-22T11:07:38.095582Z",
+    "verified_at": "2026-10-23T10:58:47.513473Z",
     "llm_adversary": false
   },
   "macro": {
@@ -332,7 +323,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.12,
+        "value": 5.13,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -341,7 +332,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.79,
+        "value": 4.81,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -359,7 +350,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.33000000000000007,
+        "value": 0.3200000000000003,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -371,7 +362,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-22T11:07:39.890433Z",
+    "verified_at": "2026-10-23T10:58:49.312380Z",
     "llm_adversary": false
   }
 }
