@@ -14,17 +14,17 @@
     "verification": "verified"
   },
   {
-    "title": "Canva’s first AI image model plans designs before generating them",
-    "content": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precis",
+    "title": "OpenAI now trains its frontier AI models with no internet access",
+    "content": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external",
     "linkText": "Read Full Article →",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
     "verification": "verified"
   },
   {
-    "title": "Meta&#8217;s AI could still scrape news sites, legal experts say",
-    "content": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to restrict the 'associated with your products or services' [lang",
+    "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+    "content": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncanny. Take this one, for example, shared by Dessa lead Ragavan",
     "linkText": "Read Full Article →",
-    "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
     "verification": "verified"
   }
 ]

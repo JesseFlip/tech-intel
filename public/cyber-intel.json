@@ -1,30 +1,30 @@
 [
   {
-    "title": "Open Season on Kapibala: Attacker Steals Over 18,000 Government Records Through WordPress Exploitation",
-    "content": "A suspected Chinese-speaking threat actor, operating from UTC+8 timezone and linked to Red Heron, conducted extensive exploitation campaigns from May through September 2026. The adversary maintained persistent use of a single IP address to target multiple technologies including WordPress, ZyXEL switches, and various enterprise platforms. In the most severe incident, the attacker exploited... This pulse includes 18 indicators of compromise (IOCs). Targeted industries: Government, Technology.",
+    "title": "CARBONATO: a botnet built around an AI agent",
+    "content": "ThreatDown researchers discovered CARBONATO, a Docker botnet that exploits exposed Docker daemons on port 2375. The operation was uncovered through an unauthenticated Docker registry exposed since May 2026, revealing two parallel activities: distribution of trojanized cryptocurrency wallet applications and a botnet infrastructure. The botnet leverages Hermes Agent, an MIT-licensed open-source AI... Associated malware: CARBONATO, Hermes Agent.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ab2691621023818faaf620e",
+    "url": "https://otx.alienvault.com/pulse/6ab4d79db2222977d275954f",
     "verification": "verified"
   },
   {
-    "title": "Amazon Threat Intelligence identifies PHP2Shell exploitation prior to public disclosure in MadPot",
-    "content": "Amazon Threat Intelligence discovered PHP2Shell exploitation attempts in MadPot honeypot telemetry on October 17, 2026, four days before the public disclosure of CVE-2026-109618 and CVE-2026-109619. The initial exploit originated from a commercial anonymization network, suggesting threat actor involvement during the embargo period. Multiple proof-of-concept exploits emerged on the disclosure... This pulse includes 8 indicators of compromise (IOCs).",
+    "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
+    "content": "North Korea-linked threat actors are conducting Operation Conflict Compass, targeting individuals and organizations focused on Ukraine using spear-phishing emails with malicious ZIP attachments. These contain LNK files disguised as PDFs with themes related to Russia-Ukraine peace plans, Ukrainian research, and geopolitical issues. When executed, the shortcuts retrieve malicious files from GitHub,... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Government, NGO. Associated malware: VelvetCake.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad9eb3e5a8fa9121e8ab038",
+    "url": "https://otx.alienvault.com/pulse/6ab51a43ec94931b637c0607",
     "verification": "verified"
   },
   {
-    "title": "New BlackX UEFI bootkit exploiting Baton Drop",
-    "content": "In early 2026, a sophisticated APT campaign targeting diplomatic agencies in Tajikistan, Uzbekistan, and Turkmenistan deployed BlackX, a UEFI bootkit similar to the notorious BlackLotus. The bootkit exploits the Baton Drop vulnerability (CVE-2022-21894) to bypass Secure Boot and install malicious drivers into the Windows kernel. Despite patches being available since 2023, victims remained... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: BlackX, BlackLotus, OxiDLLRunner.",
+    "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
+    "content": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise Read Only role can exploit this flaw to access privileged internal functionality, potentially compromising the confidentiality, integrity, and availability of the orchestrator and... This pulse includes 3 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad9df071ab39972490f947b",
+    "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917",
     "verification": "verified"
   },
   {
-    "title": "LiteLLM PyPI Package and Docker Images Compromised to Steal Cloud and AI Credentials",
-    "content": "LiteLLM version 1.107.0 was compromised through a supply chain attack affecting both PyPI packages and Docker images. The malicious release contains Python startup files that automatically execute upon Python initialization, stealing cloud credentials, private keys, browser data, and AI development tool authentication. Socket's AI scanner detected the compromise seven minutes after publication.... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: privcollect.",
+    "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
+    "content": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software installation commands were presented with malicious PowerShell scripts that deployed Python-based malware protected by Pyarmor. The malware consists of three main components: a remote... This pulse includes 31 indicators of compromise (IOCs). Associated malware: Armorsteal.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad91a62b48f2e8558fd4787",
+    "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6",
     "verification": "verified"
   }
 ]
