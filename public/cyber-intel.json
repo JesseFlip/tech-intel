@@ -1,5 +1,19 @@
 [
   {
+    "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
+    "content": "A threat actor exploited a Samsung MagicINFO vulnerability (CVE-2025-4632) to gain initial access to victim endpoints. After three attempts, they successfully deployed a rogue AnyDesk instance using various download methods including certutil and PowerShell. The actor created a new local administrator account named 'oldadministrator' and disabled Microsoft Defender protections. Uniquely, instead... This pulse includes 5 indicators of compromise (IOCs). Associated malware: SilentXMRMiner.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6ab561550075cd5f0b500b25",
+    "verification": "verified"
+  },
+  {
+    "title": "RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft",
+    "content": "Two previously undocumented .NET malware components were delivered through a ClickFix infection chain. RemotePanel establishes persistent remote access by masquerading as the Windows Time service, providing operators with PowerShell control, file and process management, screen access, modular HVNC, and fleet management capabilities. It uses a BNB Smart Chain contract to dynamically resolve its... This pulse includes 8 indicators of compromise (IOCs). Associated malware: RemotePanel, BoundSiphon.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6ab561541d94721ef4ce040e",
+    "verification": "verified"
+  },
+  {
     "title": "CARBONATO: a botnet built around an AI agent",
     "content": "ThreatDown researchers discovered CARBONATO, a Docker botnet that exploits exposed Docker daemons on port 2375. The operation was uncovered through an unauthenticated Docker registry exposed since May 2026, revealing two parallel activities: distribution of trojanized cryptocurrency wallet applications and a botnet infrastructure. The botnet leverages Hermes Agent, an MIT-licensed open-source AI... Associated malware: CARBONATO, Hermes Agent.",
     "linkText": "View on AlienVault OTX →",
@@ -11,20 +25,6 @@
     "content": "North Korea-linked threat actors are conducting Operation Conflict Compass, targeting individuals and organizations focused on Ukraine using spear-phishing emails with malicious ZIP attachments. These contain LNK files disguised as PDFs with themes related to Russia-Ukraine peace plans, Ukrainian research, and geopolitical issues. When executed, the shortcuts retrieve malicious files from GitHub,... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Government, NGO. Associated malware: VelvetCake.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6ab51a43ec94931b637c0607",
-    "verification": "verified"
-  },
-  {
-    "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
-    "content": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise Read Only role can exploit this flaw to access privileged internal functionality, potentially compromising the confidentiality, integrity, and availability of the orchestrator and... This pulse includes 3 indicators of compromise (IOCs).",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917",
-    "verification": "verified"
-  },
-  {
-    "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
-    "content": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software installation commands were presented with malicious PowerShell scripts that deployed Python-based malware protected by Pyarmor. The malware consists of three main components: a remote... This pulse includes 31 indicators of compromise (IOCs). Associated malware: Armorsteal.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6",
     "verification": "verified"
   }
 ]

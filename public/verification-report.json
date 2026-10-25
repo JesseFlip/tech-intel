@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "CARBONATO: a botnet built around an AI agent",
+        "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
+        "title": "RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
-        "numbers_checked": 1,
+        "title": "CARBONATO: a botnet built around an AI agent",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
-        "numbers_checked": 2,
+        "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -87,10 +87,10 @@
     "status_counts": {
       "verified": 6
     },
-    "verified_at": "2026-10-24T10:15:21.230022Z",
+    "verified_at": "2026-10-25T10:40:50.718798Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-24T10:15:23.297031Z",
+  "last_updated": "2026-10-25T10:40:53.659514Z",
   "ai": {
     "feed": "ai",
     "checked": 3,
@@ -109,13 +109,13 @@
       },
       {
         "index": 2,
-        "title": "OpenAI now trains its frontier AI models with no internet access",
+        "title": "Blue Planet III is keeping the rough edges in the age of AI",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+        "title": "Pennsylvania will require labels on AI-generated ads",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -152,7 +152,7 @@
     "status_counts": {
       "verified": 3
     },
-    "verified_at": "2026-10-24T10:15:21.436229Z",
+    "verified_at": "2026-10-25T10:40:51.203968Z",
     "llm_adversary": false
   },
   "macro": {
@@ -254,7 +254,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-24T10:15:23.297031Z",
+    "verified_at": "2026-10-25T10:40:53.659514Z",
     "llm_adversary": false
   }
 }
