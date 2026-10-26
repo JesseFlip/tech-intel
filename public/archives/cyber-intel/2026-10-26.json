@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-26",
+  "timestamp": "2026-10-26T12:13:32.612709",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
+      "content": "Since September 15, 2026, an automated campaign named Gheist has been performing mass abuse of compromised GitHub tokens. The attack commits a workflow named sync-check to every accessible repository, designed to print repository secrets into workflow logs. These secrets are then exfiltrated through GitHub's API and the logs deleted seconds later. Over 13,500 planted branches from more than 850... This pulse includes 5 indicators of compromise (IOCs). Associated malware: PolinRider.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ade9b49eed172cd38ff41e7",
+      "verification": "verified"
+    },
+    {
+      "title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+      "content": "A criminal group has compromised 953 online stores, predominantly Magento shops, since July 2025 by injecting malicious JavaScript loaders into CMS blocks. The latest domain, deepveindrilling.com, was registered in October 2026 and employs sophisticated bot detection using browser fingerprinting to evade security scanners. The loader stores malicious code in visitors' localStorage for persistent... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: PolyShell, SessionReaper, GSocket.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6add9cbb9d565685946f59b0",
+      "verification": "verified"
+    },
+    {
+      "title": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
+      "content": "A Korean-speaking threat actor, tracked as the June 2026 Minjun campaign and linked with moderate confidence to North Korea's Lazarus Group, is actively planning targeted exploitation of two critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that enable unauthenticated remote code execution. The campaign prioritizes government agencies, financial institutions, manufacturing,... This pulse includes 27 indicators of compromise (IOCs). Targeted industries: Government, Finance, Manufacturing.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50",
+      "verification": "verified"
+    },
+    {
+      "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+      "content": "On October 21, 2026, LiteLLM version 1.107.0 was compromised and distributed through PyPI and official container images. The malicious package leveraged Python startup mechanisms to execute credential-stealing payloads automatically, without requiring applications to actively import LiteLLM. Attackers utilized stolen developer GitHub credentials to redirect the release workflow to a lookalike... This pulse includes 34 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: PRIVCOLLECT, ARTEX.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6adbc9083a47da5843e87e6a",
+      "verification": "verified"
+    }
+  ]
+}

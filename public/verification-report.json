@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 6,
+    "checked": 19,
     "items": [
       {
         "index": 0,
-        "title": "The Not So Silent Miner: Threat Actor Compiles Cryptominer on the Endpoint",
-        "numbers_checked": 2,
+        "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "RemotePanel and BoundSiphon: A Dual-Payload Toolkit for Persistent Access and Browser Theft",
-        "numbers_checked": 1,
+        "title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "CARBONATO: a botnet built around an AI agent",
-        "numbers_checked": 2,
+        "title": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Konni Hackers Target Ukraine With Malicious LNK Files and VelvetCake PowerShell Malware",
-        "numbers_checked": 1,
+        "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -82,18 +82,135 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 19
     },
-    "verified_at": "2026-10-25T10:40:50.718798Z",
+    "verified_at": "2026-10-26T12:13:32.612038Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-25T10:40:53.659514Z",
+  "last_updated": "2026-10-26T12:13:34.274609Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -109,14 +226,14 @@
       },
       {
         "index": 2,
-        "title": "Blue Planet III is keeping the rough edges in the age of AI",
+        "title": "r/opensource just banned AI, non-English speakers, and more",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Pennsylvania will require labels on AI-generated ads",
-        "numbers_checked": 0,
+        "title": "Google’s AI search changes upended online publishing",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -147,12 +264,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-10-25T10:40:51.203968Z",
+    "verified_at": "2026-10-26T12:13:33.022938Z",
     "llm_adversary": false
   },
   "macro": {
@@ -254,7 +380,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-25T10:40:53.659514Z",
+    "verified_at": "2026-10-26T12:13:34.274609Z",
     "llm_adversary": false
   }
 }
