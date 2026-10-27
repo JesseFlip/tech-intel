@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "timestamp": "2026-10-27T11:34:32.028614",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
+      "content": "A sophisticated four-stage attack chain delivers the Lunex information stealer to Ukrainian-speaking users through fake CAPTCHA pages. The malware employs Bring Your Own Vulnerable Driver (BYOVD) techniques using AMD's PDFWKRNL.sys to disable kernel-level security monitoring before deploying the final payload. The stealer targets seven Chromium-based browsers, extracts credentials using custom... This pulse includes 40 indicators of compromise (IOCs). Associated malware: LunexStealer, LunexLoader, PDFWKRNL.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ab83188fddeab6ca23aeafc",
+      "verification": "verified"
+    },
+    {
+      "title": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
+      "content": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to use compiled native addons that decrypt hidden payloads at runtime, evading detection in CI environments through extensive anti-analysis checks. Attackers deployed polymorphic... This pulse includes 12 indicators of compromise (IOCs). Associated malware: Shai-Hulud, Miasma.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6adf5e8931168a2a5042c62f",
+      "verification": "verified"
+    },
+    {
+      "title": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
+      "content": "Adversaries are exploiting Microsoft Teams' default external chat functionality to conduct social engineering attacks and deliver malicious payloads. Analysis of over 400 incidents reveals threat actors consistently impersonate IT support personnel using throwaway Microsoft 365 tenants with IT-themed display names marked as \"(Internal)\" to bypass external-user warnings. Attacks frequently begin... This pulse includes 44 indicators of compromise (IOCs). Associated malware: QakBot - S0650, Pinkslipbot, QuackBot.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6adf5e6a54877322e0ed8a09",
+      "verification": "verified"
+    },
+    {
+      "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
+      "content": "Since September 15, 2026, an automated campaign named Gheist has been performing mass abuse of compromised GitHub tokens. The attack commits a workflow named sync-check to every accessible repository, designed to print repository secrets into workflow logs. These secrets are then exfiltrated through GitHub's API and the logs deleted seconds later. Over 13,500 planted branches from more than 850... This pulse includes 5 indicators of compromise (IOCs). Associated malware: PolinRider.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ade9b49eed172cd38ff41e7",
+      "verification": "verified"
+    }
+  ]
+}

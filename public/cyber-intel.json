@@ -1,30 +1,30 @@
 [
   {
+    "title": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
+    "content": "A sophisticated four-stage attack chain delivers the Lunex information stealer to Ukrainian-speaking users through fake CAPTCHA pages. The malware employs Bring Your Own Vulnerable Driver (BYOVD) techniques using AMD's PDFWKRNL.sys to disable kernel-level security monitoring before deploying the final payload. The stealer targets seven Chromium-based browsers, extracts credentials using custom... This pulse includes 40 indicators of compromise (IOCs). Associated malware: LunexStealer, LunexLoader, PDFWKRNL.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6ab83188fddeab6ca23aeafc",
+    "verification": "verified"
+  },
+  {
+    "title": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
+    "content": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to use compiled native addons that decrypt hidden payloads at runtime, evading detection in CI environments through extensive anti-analysis checks. Attackers deployed polymorphic... This pulse includes 12 indicators of compromise (IOCs). Associated malware: Shai-Hulud, Miasma.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6adf5e8931168a2a5042c62f",
+    "verification": "verified"
+  },
+  {
+    "title": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
+    "content": "Adversaries are exploiting Microsoft Teams' default external chat functionality to conduct social engineering attacks and deliver malicious payloads. Analysis of over 400 incidents reveals threat actors consistently impersonate IT support personnel using throwaway Microsoft 365 tenants with IT-themed display names marked as \"(Internal)\" to bypass external-user warnings. Attacks frequently begin... This pulse includes 44 indicators of compromise (IOCs). Associated malware: QakBot - S0650, Pinkslipbot, QuackBot.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6adf5e6a54877322e0ed8a09",
+    "verification": "verified"
+  },
+  {
     "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
     "content": "Since September 15, 2026, an automated campaign named Gheist has been performing mass abuse of compromised GitHub tokens. The attack commits a workflow named sync-check to every accessible repository, designed to print repository secrets into workflow logs. These secrets are then exfiltrated through GitHub's API and the logs deleted seconds later. Over 13,500 planted branches from more than 850... This pulse includes 5 indicators of compromise (IOCs). Associated malware: PolinRider.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6ade9b49eed172cd38ff41e7",
-    "verification": "verified"
-  },
-  {
-    "title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
-    "content": "A criminal group has compromised 953 online stores, predominantly Magento shops, since July 2025 by injecting malicious JavaScript loaders into CMS blocks. The latest domain, deepveindrilling.com, was registered in October 2026 and employs sophisticated bot detection using browser fingerprinting to evade security scanners. The loader stores malicious code in visitors' localStorage for persistent... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Retail. Associated malware: PolyShell, SessionReaper, GSocket.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6add9cbb9d565685946f59b0",
-    "verification": "verified"
-  },
-  {
-    "title": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
-    "content": "A Korean-speaking threat actor, tracked as the June 2026 Minjun campaign and linked with moderate confidence to North Korea's Lazarus Group, is actively planning targeted exploitation of two critical PHP vulnerabilities (CVE-2026-109618 and CVE-2026-109619) that enable unauthenticated remote code execution. The campaign prioritizes government agencies, financial institutions, manufacturing,... This pulse includes 27 indicators of compromise (IOCs). Targeted industries: Government, Finance, Manufacturing.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6adc07f41102c5c37a64cd50",
-    "verification": "verified"
-  },
-  {
-    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
-    "content": "On October 21, 2026, LiteLLM version 1.107.0 was compromised and distributed through PyPI and official container images. The malicious package leveraged Python startup mechanisms to execute credential-stealing payloads automatically, without requiring applications to actively import LiteLLM. Attackers utilized stolen developer GitHub credentials to redirect the release workflow to a lookalike... This pulse includes 34 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: PRIVCOLLECT, ARTEX.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6adbc9083a47da5843e87e6a",
     "verification": "verified"
   }
 ]

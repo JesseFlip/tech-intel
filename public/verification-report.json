@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 19,
+    "checked": 13,
     "items": [
       {
         "index": 0,
-        "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
-        "numbers_checked": 5,
+        "title": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "deepveindrilling.com: Magento CMS block loader hits 953 stores",
-        "numbers_checked": 4,
+        "title": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Suspected DPRK Campaign staging PHP2Shell Targeting against Global PHP infrastructure",
-        "numbers_checked": 5,
+        "title": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
+        "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
         "numbers_checked": 5,
         "status": "verified"
       }
@@ -145,69 +145,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 19
+      "verified": 13
     },
-    "verified_at": "2026-10-26T12:13:32.612038Z",
+    "verified_at": "2026-10-27T11:34:32.027735Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-26T12:13:34.274609Z",
+  "last_updated": "2026-10-27T11:34:33.958239Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -226,14 +172,14 @@
       },
       {
         "index": 2,
-        "title": "r/opensource just banned AI, non-English speakers, and more",
-        "numbers_checked": 0,
+        "title": "Data center backlash is uniting America",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Google’s AI search changes upended online publishing",
-        "numbers_checked": 1,
+        "title": "OpenAI announces three big science discoveries and a new way to work with academics",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -278,7 +224,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-10-26T12:13:33.022938Z",
+    "verified_at": "2026-10-27T11:34:32.389915Z",
     "llm_adversary": false
   },
   "macro": {
@@ -341,7 +287,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.96,
+        "value": 5.0,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -350,7 +296,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.65,
+        "value": 4.69,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -380,7 +326,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-26T12:13:34.274609Z",
+    "verified_at": "2026-10-27T11:34:33.958239Z",
     "llm_adversary": false
   }
 }
