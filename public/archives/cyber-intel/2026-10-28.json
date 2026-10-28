@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-28",
+  "timestamp": "2026-10-28T12:05:01.965966",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
+      "content": "A sophisticated Android Malware-as-a-Service operation called MR ROBOT is actively targeting Indian bank customers through a subscription-based model. The platform enables cybercriminals to rent customized banking trojans distributed via fake Play Store pages and messaging apps. The operation uses a multi-stage dropper that decrypts encrypted payloads to deploy banking trojans capable of... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Government, Energy. Associated malware: MR ROBOT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae1c2df52dc75787f8e7d74",
+      "verification": "verified"
+    },
+    {
+      "title": "Malicious Firefox Extensions Impersonate Phantom, Jupiter, and Bitget to Steal Wallet Secrets",
+      "content": "Three malicious Firefox extensions impersonating popular cryptocurrency wallets—Phantom, Jupiter, and Bitget—were discovered stealing recovery phrases and private keys from users. The extensions use Unicode homoglyphs to mimic legitimate wallet names and route stolen credentials to brand-named subdomains of bonto[.]io. The Phantom impersonator employs a two-stage approach: a loader fetches... This pulse includes 19 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae1b031bb4673daca05fd52",
+      "verification": "verified"
+    },
+    {
+      "title": "September 2026 Infostealer Trend Report",
+      "content": "During September 2026, infostealers were primarily distributed through SEO poisoning, disguised as illegal software such as cracks and keygens. Major distribution platforms included Mediafire, AWS S3, Mega, and Cloudflare Storage. EXE files comprised 90.8% of samples, while DLL side-loading accounted for 9.2%, utilizing legitimate files like python37.dll and POWRPROF.dll. A new infostealer named... This pulse includes 9 indicators of compromise (IOCs). Associated malware: Lzveil, DarkCloud, AgentTesla.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae1affbaef99b0bc3777283",
+      "verification": "verified"
+    },
+    {
+      "title": "Inside Qilin ransomware: ESXi attacks, affiliate networks and double extortion",
+      "content": "Qilin, also known as Agenda, is a Russian-speaking ransomware-as-a-service operation active since 2022 that became one of the most prolific groups by 2025 with over 1,000 claimed victims. The operation employs a flexible platform allowing affiliates to customize attacks targeting local files, network shares, and virtual machine infrastructure. Affiliates typically gain initial access through... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Healthcare. Associated malware: Qilin, Agenda.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae185cf23690a9648c6f503",
+      "verification": "verified"
+    }
+  ]
+}

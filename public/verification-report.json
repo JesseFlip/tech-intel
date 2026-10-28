@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "Lunex Unmasked: A New Information Stealer Deployed Through BYOVD",
+        "title": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
-        "numbers_checked": 3,
+        "title": "Malicious Firefox Extensions Impersonate Phantom, Jupiter, and Bitget to Steal Wallet Secrets",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Beyond the Inbox: How Threat Actors Abuse Microsoft Teams External Chat for Initial Access",
-        "numbers_checked": 4,
+        "title": "September 2026 Infostealer Trend Report",
+        "numbers_checked": 7,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
-        "numbers_checked": 5,
+        "title": "Inside Qilin ransomware: ESXi attacks, affiliate networks and double extortion",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -150,13 +150,13 @@
     "status_counts": {
       "verified": 13
     },
-    "verified_at": "2026-10-27T11:34:32.027735Z",
+    "verified_at": "2026-10-28T12:05:01.964948Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-27T11:34:33.958239Z",
+  "last_updated": "2026-10-28T12:05:06.337104Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 6,
     "items": [
       {
         "index": 0,
@@ -172,14 +172,14 @@
       },
       {
         "index": 2,
-        "title": "Data center backlash is uniting America",
-        "numbers_checked": 1,
+        "title": "Voters in Texas agree: They hate data centers",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI announces three big science discoveries and a new way to work with academics",
-        "numbers_checked": 0,
+        "title": "Meta quietly launched an &#8216;AI pet journal&#8217; app",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -219,12 +219,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 6
     },
-    "verified_at": "2026-10-27T11:34:32.389915Z",
+    "verified_at": "2026-10-28T12:05:02.434421Z",
     "llm_adversary": false
   },
   "macro": {
@@ -296,7 +314,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.69,
+        "value": 4.68,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +332,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3099999999999996,
+        "value": 0.3200000000000003,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -326,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-27T11:34:33.958239Z",
+    "verified_at": "2026-10-28T12:05:06.337104Z",
     "llm_adversary": false
   }
 }
