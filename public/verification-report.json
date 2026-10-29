@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 13,
+    "checked": 17,
     "items": [
       {
         "index": 0,
-        "title": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
-        "numbers_checked": 1,
+        "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Malicious Firefox Extensions Impersonate Phantom, Jupiter, and Bitget to Steal Wallet Secrets",
+        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "September 2026 Infostealer Trend Report",
-        "numbers_checked": 7,
+        "title": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Inside Qilin ransomware: ESXi attacks, affiliate networks and double extortion",
-        "numbers_checked": 4,
+        "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+        "numbers_checked": 6,
         "status": "verified"
       }
     ],
@@ -145,18 +145,54 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 13
+      "verified": 17
     },
-    "verified_at": "2026-10-28T12:05:01.964948Z",
+    "verified_at": "2026-10-29T12:15:44.989692Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-28T12:05:06.337104Z",
+  "last_updated": "2026-10-29T12:15:46.765280Z",
   "ai": {
     "feed": "ai",
-    "checked": 6,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -172,14 +208,14 @@
       },
       {
         "index": 2,
-        "title": "Voters in Texas agree: They hate data centers",
+        "title": "AI has come for Arizona’s water",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Meta quietly launched an &#8216;AI pet journal&#8217; app",
-        "numbers_checked": 3,
+        "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -210,39 +246,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 3
     },
-    "verified_at": "2026-10-28T12:05:02.434421Z",
+    "verified_at": "2026-10-29T12:15:45.451683Z",
     "llm_adversary": false
   },
   "macro": {
@@ -305,7 +314,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.0,
+        "value": 4.99,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +323,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.68,
+        "value": 4.7,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +341,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3200000000000003,
+        "value": 0.29000000000000004,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -344,7 +353,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-28T12:05:06.337104Z",
+    "verified_at": "2026-10-29T12:15:46.765280Z",
     "llm_adversary": false
   }
 }

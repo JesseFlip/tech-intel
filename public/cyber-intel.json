@@ -1,30 +1,30 @@
 [
   {
-    "title": "Inside \"MR ROBOT\" - Anatomy of a Malware-as-a-Service Operation Targeting Indian Bank Customers",
-    "content": "A sophisticated Android Malware-as-a-Service operation called MR ROBOT is actively targeting Indian bank customers through a subscription-based model. The platform enables cybercriminals to rent customized banking trojans distributed via fake Play Store pages and messaging apps. The operation uses a multi-stage dropper that decrypts encrypted payloads to deploy banking trojans capable of... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Government, Energy. Associated malware: MR ROBOT.",
+    "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+    "content": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry, some private exploits have been shared that work against various targets. Telemetry shows a 67% decrease in exposed vulnerable machines and a 47.9% reduction in significantly affected... This pulse includes 8 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae1c2df52dc75787f8e7d74",
+    "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e",
     "verification": "verified"
   },
   {
-    "title": "Malicious Firefox Extensions Impersonate Phantom, Jupiter, and Bitget to Steal Wallet Secrets",
-    "content": "Three malicious Firefox extensions impersonating popular cryptocurrency wallets—Phantom, Jupiter, and Bitget—were discovered stealing recovery phrases and private keys from users. The extensions use Unicode homoglyphs to mimic legitimate wallet names and route stolen credentials to brand-named subdomains of bonto[.]io. The Phantom impersonator employs a two-stage approach: a loader fetches... This pulse includes 19 indicators of compromise (IOCs).",
+    "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
+    "content": "Threat actors are exploiting ChatGPT Custom GPTs and Google Sites to deliver remote access trojans through a sophisticated multi-stage attack chain. The campaign uses sponsored Google search results to direct victims to attacker-created Custom GPTs that impersonate legitimate ChatGPT models. Victims are then redirected to a malicious Google Sites page presenting a fake CloudFlare CAPTCHA that... This pulse includes 22 indicators of compromise (IOCs). Associated malware: Lumma Stealer, MacSync, SectopRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae1b031bb4673daca05fd52",
+    "url": "https://otx.alienvault.com/pulse/6abb0c55e0fed2d6a1f7e51a",
     "verification": "verified"
   },
   {
-    "title": "September 2026 Infostealer Trend Report",
-    "content": "During September 2026, infostealers were primarily distributed through SEO poisoning, disguised as illegal software such as cracks and keygens. Major distribution platforms included Mediafire, AWS S3, Mega, and Cloudflare Storage. EXE files comprised 90.8% of samples, while DLL side-loading accounted for 9.2%, utilizing legitimate files like python37.dll and POWRPROF.dll. A new infostealer named... This pulse includes 9 indicators of compromise (IOCs). Associated malware: Lzveil, DarkCloud, AgentTesla.",
+    "title": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
+    "content": "An out-of-bounds write vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497 and known as Node2Shell or HTTP2Shell, affects Node.js and various other software packages. The critical flaw (CVSS 9.2) can be triggered when vulnerable processes decompress attacker-controlled Brotli data, potentially leading to crashes, memory disclosure, or remote code execution. The vulnerability... This pulse includes 8 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae1affbaef99b0bc3777283",
+    "url": "https://otx.alienvault.com/pulse/6ae2424aa801637ecf4942df",
     "verification": "verified"
   },
   {
-    "title": "Inside Qilin ransomware: ESXi attacks, affiliate networks and double extortion",
-    "content": "Qilin, also known as Agenda, is a Russian-speaking ransomware-as-a-service operation active since 2022 that became one of the most prolific groups by 2025 with over 1,000 claimed victims. The operation employs a flexible platform allowing affiliates to customize attacks targeting local files, network shares, and virtual machine infrastructure. Affiliates typically gain initial access through... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Healthcare. Associated malware: Qilin, Agenda.",
+    "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+    "content": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent environment with over $7,000 in paid LLM API usage. The investigation identified at least 23 victim organizations across 14 countries spanning multiple sectors. Every documented... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Retail, Technology, Education. Associated malware: n0n.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae185cf23690a9648c6f503",
+    "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0",
     "verification": "verified"
   }
 ]

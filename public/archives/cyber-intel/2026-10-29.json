@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-29",
+  "timestamp": "2026-10-29T12:15:44.990383",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+      "content": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry, some private exploits have been shared that work against various targets. Telemetry shows a 67% decrease in exposed vulnerable machines and a 47.9% reduction in significantly affected... This pulse includes 8 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e",
+      "verification": "verified"
+    },
+    {
+      "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
+      "content": "Threat actors are exploiting ChatGPT Custom GPTs and Google Sites to deliver remote access trojans through a sophisticated multi-stage attack chain. The campaign uses sponsored Google search results to direct victims to attacker-created Custom GPTs that impersonate legitimate ChatGPT models. Victims are then redirected to a malicious Google Sites page presenting a fake CloudFlare CAPTCHA that... This pulse includes 22 indicators of compromise (IOCs). Associated malware: Lumma Stealer, MacSync, SectopRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abb0c55e0fed2d6a1f7e51a",
+      "verification": "verified"
+    },
+    {
+      "title": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
+      "content": "An out-of-bounds write vulnerability in Google's Brotli decoder, tracked as CVE-2026-111497 and known as Node2Shell or HTTP2Shell, affects Node.js and various other software packages. The critical flaw (CVSS 9.2) can be triggered when vulnerable processes decompress attacker-controlled Brotli data, potentially leading to crashes, memory disclosure, or remote code execution. The vulnerability... This pulse includes 8 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae2424aa801637ecf4942df",
+      "verification": "verified"
+    },
+    {
+      "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+      "content": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent environment with over $7,000 in paid LLM API usage. The investigation identified at least 23 victim organizations across 14 countries spanning multiple sectors. Every documented... This pulse includes 4 indicators of compromise (IOCs). Targeted industries: Retail, Technology, Education. Associated malware: n0n.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0",
+      "verification": "verified"
+    }
+  ]
+}
