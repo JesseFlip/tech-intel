@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 17,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+        "title": "Inside Coruna and DarkSword Chains: From Web Lures to iOS Exploitation",
         "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix",
+        "title": "Kairos Hold'em: Dissecting a New Go-Based DDoS Botnet",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
-        "numbers_checked": 4,
+        "title": "Trojanized Claude Code Extension Plants an SSH Backdoor",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
-        "numbers_checked": 6,
+        "title": "Polymarket Breach Alert: Wallet-Draining Code Found in a Third-Party Script",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -154,42 +154,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 17
+      "verified": 14
     },
-    "verified_at": "2026-10-29T12:15:44.989692Z",
+    "verified_at": "2026-10-30T12:05:55.086959Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-29T12:15:46.765280Z",
+  "last_updated": "2026-10-30T12:05:57.303290Z",
   "ai": {
     "feed": "ai",
     "checked": 3,
@@ -208,13 +181,13 @@
       },
       {
         "index": 2,
-        "title": "AI has come for Arizona’s water",
+        "title": "Maine’s data center revolt will decide who controls the Senate",
         "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+        "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -251,7 +224,7 @@
     "status_counts": {
       "verified": 3
     },
-    "verified_at": "2026-10-29T12:15:45.451683Z",
+    "verified_at": "2026-10-30T12:05:55.412315Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +242,7 @@
       },
       {
         "metric": "core_pce_yoy",
-        "value": 3.0075959761855975,
+        "value": 3.1211596029620208,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +260,7 @@
       },
       {
         "metric": "core_pce_value",
-        "value": 130.455,
+        "value": 130.902,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +287,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.99,
+        "value": 5.05,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -323,7 +296,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.7,
+        "value": 4.67,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -341,7 +314,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.29000000000000004,
+        "value": 0.3799999999999999,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -353,7 +326,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-29T12:15:46.765280Z",
+    "verified_at": "2026-10-30T12:05:57.303290Z",
     "llm_adversary": false
   }
 }

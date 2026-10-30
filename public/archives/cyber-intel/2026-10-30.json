@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-30",
+  "timestamp": "2026-10-30T12:05:55.087968",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside Coruna and DarkSword Chains: From Web Lures to iOS Exploitation",
+      "content": "Seven months after initial disclosure, the Coruna iOS exploit framework continues to evolve, now deploying two distinct chains based on device operating system version. Targets running iOS 17.2.1 or earlier receive the legacy Coruna framework, while later builds receive DarkSword-derived chains. Analysis identified 608 domains delivering Coruna-family code, with 93 sites mapping to 21 distinct... This pulse includes 229 indicators of compromise (IOCs). Associated malware: Coruna, DarkSword.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae45373ec45a11f4f945be7",
+      "verification": "verified"
+    },
+    {
+      "title": "Kairos Hold'em: Dissecting a New Go-Based DDoS Botnet",
+      "content": "Kairos is a newly documented DDoS botnet for Linux written in Go, designed to transform compromised machines into attack nodes. The bot establishes hundreds to thousands of TCP connections to operator-specified targets, maintaining them with minimal keepalive bytes every few seconds to exhaust victim services. Initial access occurs via Telnet using default root credentials with empty passwords.... This pulse includes 16 indicators of compromise (IOCs). Associated malware: Kairos.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae4664dc4882837d4aa5670",
+      "verification": "verified"
+    },
+    {
+      "title": "Trojanized Claude Code Extension Plants an SSH Backdoor",
+      "content": "Version 2.1.313 of the Claude Code extension in the Cursor Marketplace was compromised on October 29th, 2026. A malicious 66-line loader was inserted before legitimate extension code in the extension.js file. Upon activation, it adds an attacker-controlled SSH key labeled 'svc-telemetry' to the victim's authorized_keys, attempts to enable local SSH services, and establishes a reverse SSH tunnel... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae463fa75713227e9492efc",
+      "verification": "verified"
+    },
+    {
+      "title": "Polymarket Breach Alert: Wallet-Draining Code Found in a Third-Party Script",
+      "content": "A malicious JavaScript file was discovered in a third-party performance monitoring integration on Polymarket. The script, hosted on a DebugBear CDN URL, contained sophisticated code designed to access authenticated trading sessions, inspect user portfolios, and transfer cryptocurrency assets to attacker-controlled addresses. The payload searches for active trading clients and signers within the... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae4564eb479948d2335e8d1",
+      "verification": "verified"
+    }
+  ]
+}
