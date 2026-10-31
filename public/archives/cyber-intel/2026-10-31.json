@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-31",
+  "timestamp": "2026-10-31T11:39:39.803700",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
+      "content": "CVE-2026-88771 is a critical pre-authentication command-injection vulnerability affecting Citrix NetScaler ADC and NetScaler Gateway. LevelBlue's Threat Hunt Operations & Research (THOR) team identified active exploitation across multiple customer environments featuring malicious authentication events with attacker-controlled usernames containing pitboss and NSPPE strings. Observed activities... This pulse includes 5 indicators of compromise (IOCs). Associated malware: main.py, update_c08937.pl.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abde7dd3f829cf6b721cfaa",
+      "verification": "verified"
+    },
+    {
+      "title": "PaperCut MF Zero-Day Intrusion: Java Loader, Web Shell, and AdaptixC2 via CVE-2026-82078 and CVE-2026-81578",
+      "content": "On August 31, 2026, threat actors exploited two zero-day vulnerabilities in PaperCut MF affecting a customer in the Education sector. The attackers targeted an internet-facing print server running vulnerable PaperCut MF version 24.0.2, deploying an in-memory Java loader that established a web shell. Through this web shell, they delivered a trojanized Microsoft Copilot binary containing an... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: AdaptixC2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abde39c863acdfda74e5d84",
+      "verification": "verified"
+    },
+    {
+      "title": "Swarming Against Citrix 0-Day Exploitation",
+      "content": "A malicious cyber actor exploited a Citrix NetScaler Gateway zero-day vulnerability on September 24, 2026, three days before public disclosure. The attacker, using IP address 149.104.78.141, attempted exploitation that was detected through behavioral analysis despite no CVE-specific signatures existing at the time. The exploitation chain aimed to establish persistence through a password-protected... This pulse includes 3 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abde373c68b5d048accac49",
+      "verification": "verified"
+    },
+    {
+      "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+      "content": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique that Microsoft tracks as “RedFlick”. These changes represent a notable shift in the actor’s operational tradecraft and support ongoing... This pulse includes 20 indicators of compromise (IOCs). Targeted industries: Government, Media, Financial. Associated malware: RedFlick, CosmicPulse.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abd5b434cf09d69f0ee2e48",
+      "verification": "verified"
+    }
+  ]
+}

@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 14,
+    "checked": 20,
     "items": [
       {
         "index": 0,
-        "title": "Inside Coruna and DarkSword Chains: From Web Lures to iOS Exploitation",
-        "numbers_checked": 6,
+        "title": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Kairos Hold'em: Dissecting a New Go-Based DDoS Botnet",
-        "numbers_checked": 1,
+        "title": "PaperCut MF Zero-Day Intrusion: Java Loader, Web Shell, and AdaptixC2 via CVE-2026-82078 and CVE-2026-81578",
+        "numbers_checked": 9,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Trojanized Claude Code Extension Plants an SSH Backdoor",
+        "title": "Swarming Against Citrix 0-Day Exploitation",
         "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Polymarket Breach Alert: Wallet-Draining Code Found in a Third-Party Script",
-        "numbers_checked": 1,
+        "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -154,18 +154,72 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 14
+      "verified": 20
     },
-    "verified_at": "2026-10-30T12:05:55.086959Z",
+    "verified_at": "2026-10-31T11:39:39.802607Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-30T12:05:57.303290Z",
+  "last_updated": "2026-10-31T11:39:41.604944Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 5,
     "items": [
       {
         "index": 0,
@@ -181,13 +235,13 @@
       },
       {
         "index": 2,
-        "title": "Maine’s data center revolt will decide who controls the Senate",
-        "numbers_checked": 0,
+        "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+        "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -219,12 +273,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 5
     },
-    "verified_at": "2026-10-30T12:05:55.412315Z",
+    "verified_at": "2026-10-31T11:39:40.218019Z",
     "llm_adversary": false
   },
   "macro": {
@@ -287,7 +359,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.05,
+        "value": 4.98,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +368,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.67,
+        "value": 4.61,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +386,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3799999999999999,
+        "value": 0.3700000000000001,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -326,7 +398,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-30T12:05:57.303290Z",
+    "verified_at": "2026-10-31T11:39:41.604944Z",
     "llm_adversary": false
   }
 }
