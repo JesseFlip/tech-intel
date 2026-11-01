@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
-        "numbers_checked": 3,
-        "status": "verified"
-      },
-      {
-        "index": 1,
-        "title": "PaperCut MF Zero-Day Intrusion: Java Loader, Web Shell, and AdaptixC2 via CVE-2026-82078 and CVE-2026-81578",
-        "numbers_checked": 9,
-        "status": "verified"
-      },
-      {
-        "index": 2,
-        "title": "Swarming Against Citrix 0-Day Exploitation",
+        "title": "$100k in Crypto Drained by the Underground Operation",
         "numbers_checked": 6,
         "status": "verified"
       },
       {
+        "index": 1,
+        "title": "PSIRT",
+        "numbers_checked": 10,
+        "status": "verified"
+      },
+      {
+        "index": 2,
+        "title": "TIKTOUK: Tracing a WordPress Credential Collection Toolkit",
+        "numbers_checked": 1,
+        "status": "verified"
+      },
+      {
         "index": 3,
-        "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-        "numbers_checked": 2,
+        "title": "Citrix NetScaler CVE-2026-88771: Observed Exploitation Artifacts and Hunt Indicators",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -213,13 +213,13 @@
     "status_counts": {
       "verified": 20
     },
-    "verified_at": "2026-10-31T11:39:39.802607Z",
+    "verified_at": "2026-11-01T12:39:00.921664Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-10-31T11:39:41.604944Z",
+  "last_updated": "2026-11-01T12:39:02.779195Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 6,
     "items": [
       {
         "index": 0,
@@ -235,14 +235,14 @@
       },
       {
         "index": 2,
-        "title": "Apple Intelligence is finally coming to China with iOS 27.3",
-        "numbers_checked": 2,
+        "title": "I built an AI Tamagotchi before Meta could",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
-        "numbers_checked": 0,
+        "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -291,12 +291,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 6
     },
-    "verified_at": "2026-10-31T11:39:40.218019Z",
+    "verified_at": "2026-11-01T12:39:01.412795Z",
     "llm_adversary": false
   },
   "macro": {
@@ -398,7 +407,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-10-31T11:39:41.604944Z",
+    "verified_at": "2026-11-01T12:39:02.779195Z",
     "llm_adversary": false
   }
 }
