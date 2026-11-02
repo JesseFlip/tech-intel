@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-02",
+  "timestamp": "2026-11-02T14:43:37.628682",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
+      "content": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix chain convinced victims to manually execute msiexec.exe commands via the Windows Run dialog, achieving a 14 percent completion rate (79 infections from 426 clicks). The payload,... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Healthcare, Manufacturing, Media. Associated malware: Psychedelic, psychedeliclove.exe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09",
+      "verification": "verified"
+    },
+    {
+      "title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
+      "content": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages SMTP traffic on port 25 to blend command-and-control communications with legitimate mail relay activity, exploiting the trust environments of targeted systems. Attackers deploy a... This pulse includes 34 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: BPFDoor, AVERAT, Rekoobe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8",
+      "verification": "verified"
+    },
+    {
+      "title": "$100k in Crypto Drained by the Underground Operation",
+      "content": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder, dubbed Underground, has been active since October 2023. The operation employs seven gate domains and has drained approximately $100,000 across 80+ destination addresses on 23... This pulse includes 9 indicators of compromise (IOCs). Associated malware: Aotera, Tedy, Vidar.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45",
+      "verification": "verified"
+    },
+    {
+      "title": "PSIRT",
+      "content": "A critical path traversal vulnerability combined with improper NULL byte neutralization in FortiMail versions 7.2 through 8.0 allows unauthenticated attackers to write arbitrary files on the underlying system through crafted HTTP or HTTPS requests. This vulnerability is actively exploited in the wild. Affected versions include FortiMail 8.0.0-8.0.1, 7.6.0-7.6.6, 7.4.0-7.4.8, and 7.2.0-7.2.9.... This pulse includes 15 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6abf0b86fb14812f2dc84fb2",
+      "verification": "verified"
+    }
+  ]
+}
