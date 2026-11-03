@@ -1,30 +1,30 @@
 [
   {
-    "title": "The Psychedelic Stealer: When the CAPTCHA Is the Installer",
-    "content": "Between September 9 and September 14, 2026, an unattributed Russian-speaking operator compromised at least six legitimate Ukrainian small-business websites to deliver a fake Cloudflare verification page. The ClickFix chain convinced victims to manually execute msiexec.exe commands via the Windows Run dialog, achieving a 14 percent completion rate (79 infections from 426 clicks). The payload,... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Healthcare, Manufacturing, Media. Associated malware: Psychedelic, psychedeliclove.exe.",
+    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
+    "content": "Threat actors are hijacking enterprise access to Large Language Models through a tactic called LLMJacking, impacting organizations across North America, South America, and Asia Pacific in financial services, retail, technology, and transportation sectors. Unlike cryptojacking's gradual consumption, LLMJacking generates massive spikes in fraudulent cloud charges, with incidents exceeding $100,000... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Technology. Associated malware: Bankshot - S0239, Trojan Manuscript.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abfb63a870eec5021127b09",
+    "url": "https://otx.alienvault.com/pulse/6ae8e4db45e485be0d9c99d9",
     "verification": "verified"
   },
   {
-    "title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
-    "content": "A sophisticated multi-component campaign targeting telecommunications and network-edge appliances has been discovered, featuring BPFDoor variants and a newly identified implant designated AVERAT. The operation leverages SMTP traffic on port 25 to blend command-and-control communications with legitimate mail relay activity, exploiting the trust environments of targeted systems. Attackers deploy a... This pulse includes 34 indicators of compromise (IOCs). Targeted industries: Telecommunications. Associated malware: BPFDoor, AVERAT, Rekoobe.",
+    "title": "DarkBlinders: Active Espionage Campaign",
+    "content": "A sophisticated cyberespionage operation targeting Israel and the Kurdistan Region of Iraq was conducted by DarkBlinders, the threat actor behind the Blinder Tunnel campaign. Active between August and October 2026, the campaign compromised a high-profile Israeli individual associated with the security sector and a government cloud environment in the Kurdistan Region. The operation employed... This pulse includes 169 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SHELBYLOADER, SHELBYC2, HOTAIR.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abfb61b65922c3229d35cf8",
+    "url": "https://otx.alienvault.com/pulse/6ae9a41c3b21a1b31d13d6b6",
     "verification": "verified"
   },
   {
-    "title": "$100k in Crypto Drained by the Underground Operation",
-    "content": "A cryptocurrency-stealing operation utilizing an Aotera/Tedy loader injects a Vidar-class stealer into Windows processes, launching Chrome or Edge to inject malicious scripts into victim sessions. The malware builder, dubbed Underground, has been active since October 2023. The operation employs seven gate domains and has drained approximately $100,000 across 80+ destination addresses on 23... This pulse includes 9 indicators of compromise (IOCs). Associated malware: Aotera, Tedy, Vidar.",
+    "title": "Exploitation Targeting Node-RED, a Tool Embedded in ICS Products",
+    "content": "On October 30, 2026, exploitation activity was detected targeting CVE-2026-58115, an unauthenticated Node-RED admin API vulnerability. Attackers deployed malicious flows that automatically download and execute Linux bots through three layers of encoding. The exploit originated from IP 4.201.105.116 in Microsoft's network and utilized Node-RED's inject and exec nodes to execute commands without... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Manufacturing, Energy, Healthcare.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abf599ea3419c5518645c45",
+    "url": "https://otx.alienvault.com/pulse/6ae9ac6e66c89c6be4d99928",
     "verification": "verified"
   },
   {
-    "title": "PSIRT",
-    "content": "A critical path traversal vulnerability combined with improper NULL byte neutralization in FortiMail versions 7.2 through 8.0 allows unauthenticated attackers to write arbitrary files on the underlying system through crafted HTTP or HTTPS requests. This vulnerability is actively exploited in the wild. Affected versions include FortiMail 8.0.0-8.0.1, 7.6.0-7.6.6, 7.4.0-7.4.8, and 7.2.0-7.2.9.... This pulse includes 15 indicators of compromise (IOCs).",
+    "title": "BITTER Expands Its Arsenal with PapRAT",
+    "content": "A cyberespionage group known as BITTER has been conducting campaigns targeting South Asian organizations using PowerShell scripts and a custom remote access trojan called PapRAT. Three distinct infection chains have been identified: one exploiting Windows ftp.exe with malicious LNK files, another using VHDX disk images containing MSI installers, and a third combining URL shortcuts with WebDAV to... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: PapRAT, WmRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6abf0b86fb14812f2dc84fb2",
+    "url": "https://otx.alienvault.com/pulse/6ae9981a0b51502b1e8d1e4f",
     "verification": "verified"
   }
 ]
