@@ -1,30 +1,30 @@
 [
   {
-    "title": "The Rise of LLMJacking: How Threat Actors Monetize Compromised Cloud and Model Resources",
-    "content": "Threat actors are hijacking enterprise access to Large Language Models through a tactic called LLMJacking, impacting organizations across North America, South America, and Asia Pacific in financial services, retail, technology, and transportation sectors. Unlike cryptojacking's gradual consumption, LLMJacking generates massive spikes in fraudulent cloud charges, with incidents exceeding $100,000... This pulse includes 3 indicators of compromise (IOCs). Targeted industries: Finance, Retail, Technology. Associated malware: Bankshot - S0239, Trojan Manuscript.",
+    "title": "Caught in 4K: The Gentlemen Files",
+    "content": "A Russian-speaking affiliate of the Gentlemen ransomware group, identifying as Azazel, compromised over two dozen organizations across six countries while simultaneously betraying the RaaS operator. The threat actor deployed independent leak site LEAKNED, keeping all extortion proceeds. Attack chains primarily exploited CI/CD secrets from GitLab instances, with one deep compromise involving an AI... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Logistics, Finance, Healthcare.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae8e4db45e485be0d9c99d9",
+    "url": "https://otx.alienvault.com/pulse/6ac3a6d89aeb3e3d383d6d06",
     "verification": "verified"
   },
   {
-    "title": "DarkBlinders: Active Espionage Campaign",
-    "content": "A sophisticated cyberespionage operation targeting Israel and the Kurdistan Region of Iraq was conducted by DarkBlinders, the threat actor behind the Blinder Tunnel campaign. Active between August and October 2026, the campaign compromised a high-profile Israeli individual associated with the security sector and a government cloud environment in the Kurdistan Region. The operation employed... This pulse includes 169 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SHELBYLOADER, SHELBYC2, HOTAIR.",
+    "title": "A STUNning Disguise: Cling Malware Masquerades as Google",
+    "content": "A sophisticated IoT botnet dubbed Cling has been discovered exploiting vulnerable internet-exposed devices through CVE-2021-35394 and other command-injection flaws. The malware distinguishes itself by abusing STUN protocol traffic and public STUN infrastructure for command-and-control communications, making malicious activity appear as legitimate NAT-traversal behavior. Cling propagates through... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: Cling.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae9a41c3b21a1b31d13d6b6",
+    "url": "https://otx.alienvault.com/pulse/6ac368846173b592a85473db",
     "verification": "verified"
   },
   {
-    "title": "Exploitation Targeting Node-RED, a Tool Embedded in ICS Products",
-    "content": "On October 30, 2026, exploitation activity was detected targeting CVE-2026-58115, an unauthenticated Node-RED admin API vulnerability. Attackers deployed malicious flows that automatically download and execute Linux bots through three layers of encoding. The exploit originated from IP 4.201.105.116 in Microsoft's network and utilized Node-RED's inject and exec nodes to execute commands without... This pulse includes 6 indicators of compromise (IOCs). Targeted industries: Manufacturing, Energy, Healthcare.",
+    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
+    "content": "A compromised version of the Claude Code extension (anthropic.claude-code, versions 2.1.313 and 2.1.312) was distributed through the Cursor extension marketplace from October 29, 2026, between 2:27 AM and 1:35 PM PDT. The malicious extension contained injected JavaScript that executed during module loading to establish persistent backdoor access. The loader collected host reconnaissance data,... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Trojan:MacOS/SmtShellMal.A, Trojan:JS/CredTheft.MS!MTB, Trojan:MacOS/MalPlistSysmond.A.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae9ac6e66c89c6be4d99928",
+    "url": "https://otx.alienvault.com/pulse/6ae5840cdfe1ad1c249b6e63",
     "verification": "verified"
   },
   {
-    "title": "BITTER Expands Its Arsenal with PapRAT",
-    "content": "A cyberespionage group known as BITTER has been conducting campaigns targeting South Asian organizations using PowerShell scripts and a custom remote access trojan called PapRAT. Three distinct infection chains have been identified: one exploiting Windows ftp.exe with malicious LNK files, another using VHDX disk images containing MSI installers, and a third combining URL shortcuts with WebDAV to... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: Government, Energy. Associated malware: PapRAT, WmRAT.",
+    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+    "content": "Microsoft Threat Intelligence identified an evolving campaign targeting users searching for cracked commercial software, free games, activators, and unofficial utilities. The operation uses trojanized Inno Setup-style installers to distribute multiple monetized software payloads through a per-offer callback and status-tracking system. Three downstream monetization branches transform affected... This pulse includes 26 indicators of compromise (IOCs). Associated malware: WorldProxyPool, CharityEngine, BOINC.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae9981a0b51502b1e8d1e4f",
+    "url": "https://otx.alienvault.com/pulse/6aea24c415c16b64650d5689",
     "verification": "verified"
   }
 ]
