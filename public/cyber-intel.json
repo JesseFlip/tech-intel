@@ -1,30 +1,30 @@
 [
   {
-    "title": "Caught in 4K: The Gentlemen Files",
-    "content": "A Russian-speaking affiliate of the Gentlemen ransomware group, identifying as Azazel, compromised over two dozen organizations across six countries while simultaneously betraying the RaaS operator. The threat actor deployed independent leak site LEAKNED, keeping all extortion proceeds. Attack chains primarily exploited CI/CD secrets from GitLab instances, with one deep compromise involving an AI... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Logistics, Finance, Healthcare.",
+    "title": "Grand Theft Auto VI Release Phishing Lures",
+    "content": "Ahead of the highly anticipated Grand Theft Auto VI release on November 19, 2026, threat actors are exploiting consumer hype through phishing campaigns and fraudulent schemes. Analysis of 121 newly registered domains containing 'cyberleek' and other GTA VI-themed domains revealed four primary lure categories: fake downloads impersonating popular leaker CyberLeek, false early access offers,... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Media.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac3a6d89aeb3e3d383d6d06",
+    "url": "https://otx.alienvault.com/pulse/6aec39f1c741f78d03f95337",
     "verification": "verified"
   },
   {
-    "title": "A STUNning Disguise: Cling Malware Masquerades as Google",
-    "content": "A sophisticated IoT botnet dubbed Cling has been discovered exploiting vulnerable internet-exposed devices through CVE-2021-35394 and other command-injection flaws. The malware distinguishes itself by abusing STUN protocol traffic and public STUN infrastructure for command-and-control communications, making malicious activity appear as legitimate NAT-traversal behavior. Cling propagates through... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Education. Associated malware: Cling.",
+    "title": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
+    "content": "SkyW4lker is an active device-code phishing kit targeting Microsoft 365 users primarily in the United States, Europe, and other regions. By exploiting Microsoft's legitimate authentication process, attackers gain access to corporate accounts without stealing passwords or bypassing MFA. Between June and October 2026, 618 sandbox analyses identified related activity, with submissions increasing... This pulse includes 185 indicators of compromise (IOCs). Targeted industries: Technology, Manufacturing, Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac368846173b592a85473db",
+    "url": "https://otx.alienvault.com/pulse/6aeb9ec5f0df7c45eb2cdd32",
     "verification": "verified"
   },
   {
-    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-    "content": "A compromised version of the Claude Code extension (anthropic.claude-code, versions 2.1.313 and 2.1.312) was distributed through the Cursor extension marketplace from October 29, 2026, between 2:27 AM and 1:35 PM PDT. The malicious extension contained injected JavaScript that executed during module loading to establish persistent backdoor access. The loader collected host reconnaissance data,... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Trojan:MacOS/SmtShellMal.A, Trojan:JS/CredTheft.MS!MTB, Trojan:MacOS/MalPlistSysmond.A.",
+    "title": "Binance heist: what we know, and what we see in TraderTraitor's toolkit",
+    "content": "In October 2026, attackers stole approximately $6.34 billion from Binance in one of the largest cryptocurrency thefts on record. The FBI attributed the attack to North Korea's TraderTraitor operation. The multi-stage compromise involved malicious software delivered through a fake job interview, where engineers were tricked into downloading trojanized developer tools including a weaponized... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: FLATROOF, ROOFDECK, MacOS.Trojan.Multiverze.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae5840cdfe1ad1c249b6e63",
+    "url": "https://otx.alienvault.com/pulse/6aec3ce29e33d6b94efd4c0f",
     "verification": "verified"
   },
   {
-    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
-    "content": "Microsoft Threat Intelligence identified an evolving campaign targeting users searching for cracked commercial software, free games, activators, and unofficial utilities. The operation uses trojanized Inno Setup-style installers to distribute multiple monetized software payloads through a per-offer callback and status-tracking system. Three downstream monetization branches transform affected... This pulse includes 26 indicators of compromise (IOCs). Associated malware: WorldProxyPool, CharityEngine, BOINC.",
+    "title": "Hackers exploited iOS and Android flaws to infect phones",
+    "content": "Hackers potentially linked to Russia's Foreign Intelligence Service exploited previously patched iOS and Android vulnerabilities to target visitors of multiple websites. The operation included impersonating america250.org, a site celebrating American independence, and a luxury UK hotel website near sensitive government institutions where Ukrainian President Zelenskyy stayed. Attackers used... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, Hospitality, Energy. Associated malware: DarkSword.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aea24c415c16b64650d5689",
+    "url": "https://otx.alienvault.com/pulse/6aebe661b7e5525aa39d6ba8",
     "verification": "verified"
   }
 ]

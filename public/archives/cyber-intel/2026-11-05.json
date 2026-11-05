@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-05",
+  "timestamp": "2026-11-05T13:57:30.226344",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Grand Theft Auto VI Release Phishing Lures",
+      "content": "Ahead of the highly anticipated Grand Theft Auto VI release on November 19, 2026, threat actors are exploiting consumer hype through phishing campaigns and fraudulent schemes. Analysis of 121 newly registered domains containing 'cyberleek' and other GTA VI-themed domains revealed four primary lure categories: fake downloads impersonating popular leaker CyberLeek, false early access offers,... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Media.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aec39f1c741f78d03f95337",
+      "verification": "verified"
+    },
+    {
+      "title": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
+      "content": "SkyW4lker is an active device-code phishing kit targeting Microsoft 365 users primarily in the United States, Europe, and other regions. By exploiting Microsoft's legitimate authentication process, attackers gain access to corporate accounts without stealing passwords or bypassing MFA. Between June and October 2026, 618 sandbox analyses identified related activity, with submissions increasing... This pulse includes 185 indicators of compromise (IOCs). Targeted industries: Technology, Manufacturing, Government.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aeb9ec5f0df7c45eb2cdd32",
+      "verification": "verified"
+    },
+    {
+      "title": "Binance heist: what we know, and what we see in TraderTraitor's toolkit",
+      "content": "In October 2026, attackers stole approximately $6.34 billion from Binance in one of the largest cryptocurrency thefts on record. The FBI attributed the attack to North Korea's TraderTraitor operation. The multi-stage compromise involved malicious software delivered through a fake job interview, where engineers were tricked into downloading trojanized developer tools including a weaponized... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: FLATROOF, ROOFDECK, MacOS.Trojan.Multiverze.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aec3ce29e33d6b94efd4c0f",
+      "verification": "verified"
+    },
+    {
+      "title": "Hackers exploited iOS and Android flaws to infect phones",
+      "content": "Hackers potentially linked to Russia's Foreign Intelligence Service exploited previously patched iOS and Android vulnerabilities to target visitors of multiple websites. The operation included impersonating america250.org, a site celebrating American independence, and a luxury UK hotel website near sensitive government institutions where Ukrainian President Zelenskyy stayed. Attackers used... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, Hospitality, Energy. Associated malware: DarkSword.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aebe661b7e5525aa39d6ba8",
+      "verification": "verified"
+    }
+  ]
+}
