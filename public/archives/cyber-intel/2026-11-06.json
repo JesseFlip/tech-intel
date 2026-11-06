@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-06",
+  "timestamp": "2026-11-06T13:42:44.507536",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "A Dish Served Lukewarm: The Refrigerator Botnet",
+      "content": "Exposed Dixell/Copeland XWEB PRO refrigeration controllers are being exploited as abuse infrastructure. The STRIKE Team discovered a suspected SMTP botnet comprising nine IP addresses, with three confirmed as refrigeration controllers. These devices, used in supermarkets and cold storage facilities, remain exposed on the internet with unpatched vulnerabilities, particularly CVE-2026-25085.... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Retail.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aed32c8b1c53b811aaa8bb0",
+      "verification": "verified"
+    },
+    {
+      "title": "ARTEX: Agentic Asbestos",
+      "content": "ARTEX is an open-source, LLM-driven autonomous penetration testing framework released in July 2026 that integrates AI agents with reconnaissance and exploitation capabilities. As of November 2026, 1,465 hosts run exposed ARTEX consoles globally, with approximately 815 distinct deployments. CrowdStrike linked ARTEX usage to attacks against South Korean financial institutions, while Microsoft... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Cobalt Strike - S0154, Vshell, Adaptix C2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aed89b36eddd48d6b209367",
+      "verification": "verified"
+    },
+    {
+      "title": "Email threat landscape: Q3 2026 trends and insights",
+      "content": "From July through September 2026, approximately 7.3 billion email-based phishing threats were detected, with September reaching nearly 3 billion attacks—a 41% increase from August. The quarter demonstrated significant shifts in attack techniques, including a sharp decline in QR code phishing, a recovery in CAPTCHA-gated attacks driven by SVG attachments, and persistent domain spoofing affecting... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Legal, Retail, Manufacturing. Associated malware: Agent Tesla - S0331.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aeceaf8cfe0e0287c9a54a1",
+      "verification": "verified"
+    },
+    {
+      "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
+      "content": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active since November 2025 with attacks intensifying in March 2026, primarily targeted Iraqi critical infrastructure. The operation employs a three-step attack chain exploiting legitimate... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: Energy, Government. Associated malware: ShelbyLoader V2, RuntimeBroker.dll, PsProxy.dll.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac6152430b84019d1fded71",
+      "verification": "verified"
+    }
+  ]
+}

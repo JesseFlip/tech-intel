@@ -1,30 +1,30 @@
 [
   {
-    "title": "Grand Theft Auto VI Release Phishing Lures",
-    "content": "Ahead of the highly anticipated Grand Theft Auto VI release on November 19, 2026, threat actors are exploiting consumer hype through phishing campaigns and fraudulent schemes. Analysis of 121 newly registered domains containing 'cyberleek' and other GTA VI-themed domains revealed four primary lure categories: fake downloads impersonating popular leaker CyberLeek, false early access offers,... This pulse includes 25 indicators of compromise (IOCs). Targeted industries: Media.",
+    "title": "A Dish Served Lukewarm: The Refrigerator Botnet",
+    "content": "Exposed Dixell/Copeland XWEB PRO refrigeration controllers are being exploited as abuse infrastructure. The STRIKE Team discovered a suspected SMTP botnet comprising nine IP addresses, with three confirmed as refrigeration controllers. These devices, used in supermarkets and cold storage facilities, remain exposed on the internet with unpatched vulnerabilities, particularly CVE-2026-25085.... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Retail.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aec39f1c741f78d03f95337",
+    "url": "https://otx.alienvault.com/pulse/6aed32c8b1c53b811aaa8bb0",
     "verification": "verified"
   },
   {
-    "title": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
-    "content": "SkyW4lker is an active device-code phishing kit targeting Microsoft 365 users primarily in the United States, Europe, and other regions. By exploiting Microsoft's legitimate authentication process, attackers gain access to corporate accounts without stealing passwords or bypassing MFA. Between June and October 2026, 618 sandbox analyses identified related activity, with submissions increasing... This pulse includes 185 indicators of compromise (IOCs). Targeted industries: Technology, Manufacturing, Government.",
+    "title": "ARTEX: Agentic Asbestos",
+    "content": "ARTEX is an open-source, LLM-driven autonomous penetration testing framework released in July 2026 that integrates AI agents with reconnaissance and exploitation capabilities. As of November 2026, 1,465 hosts run exposed ARTEX consoles globally, with approximately 815 distinct deployments. CrowdStrike linked ARTEX usage to attacks against South Korean financial institutions, while Microsoft... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Cobalt Strike - S0154, Vshell, Adaptix C2.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aeb9ec5f0df7c45eb2cdd32",
+    "url": "https://otx.alienvault.com/pulse/6aed89b36eddd48d6b209367",
     "verification": "verified"
   },
   {
-    "title": "Binance heist: what we know, and what we see in TraderTraitor's toolkit",
-    "content": "In October 2026, attackers stole approximately $6.34 billion from Binance in one of the largest cryptocurrency thefts on record. The FBI attributed the attack to North Korea's TraderTraitor operation. The multi-stage compromise involved malicious software delivered through a fake job interview, where engineers were tricked into downloading trojanized developer tools including a weaponized... This pulse includes 54 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: FLATROOF, ROOFDECK, MacOS.Trojan.Multiverze.",
+    "title": "Email threat landscape: Q3 2026 trends and insights",
+    "content": "From July through September 2026, approximately 7.3 billion email-based phishing threats were detected, with September reaching nearly 3 billion attacks—a 41% increase from August. The quarter demonstrated significant shifts in attack techniques, including a sharp decline in QR code phishing, a recovery in CAPTCHA-gated attacks driven by SVG attachments, and persistent domain spoofing affecting... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Legal, Retail, Manufacturing. Associated malware: Agent Tesla - S0331.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aec3ce29e33d6b94efd4c0f",
+    "url": "https://otx.alienvault.com/pulse/6aeceaf8cfe0e0287c9a54a1",
     "verification": "verified"
   },
   {
-    "title": "Hackers exploited iOS and Android flaws to infect phones",
-    "content": "Hackers potentially linked to Russia's Foreign Intelligence Service exploited previously patched iOS and Android vulnerabilities to target visitors of multiple websites. The operation included impersonating america250.org, a site celebrating American independence, and a luxury UK hotel website near sensitive government institutions where Ukrainian President Zelenskyy stayed. Attackers used... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Government, Hospitality, Energy. Associated malware: DarkSword.",
+    "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
+    "content": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active since November 2025 with attacks intensifying in March 2026, primarily targeted Iraqi critical infrastructure. The operation employs a three-step attack chain exploiting legitimate... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: Energy, Government. Associated malware: ShelbyLoader V2, RuntimeBroker.dll, PsProxy.dll.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aebe661b7e5525aa39d6ba8",
+    "url": "https://otx.alienvault.com/pulse/6ac6152430b84019d1fded71",
     "verification": "verified"
   }
 ]

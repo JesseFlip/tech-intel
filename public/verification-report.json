@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 14,
+    "checked": 22,
     "items": [
       {
         "index": 0,
-        "title": "Grand Theft Auto VI Release Phishing Lures",
-        "numbers_checked": 4,
+        "title": "A Dish Served Lukewarm: The Refrigerator Botnet",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "SkyW4lker Phishing Kit: Microsoft 365 Threat to US Firms",
-        "numbers_checked": 5,
+        "title": "ARTEX: Agentic Asbestos",
+        "numbers_checked": 7,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Binance heist: what we know, and what we see in TraderTraitor's toolkit",
-        "numbers_checked": 3,
+        "title": "Email threat landscape: Q3 2026 trends and insights",
+        "numbers_checked": 8,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Hackers exploited iOS and Android flaws to infect phones",
-        "numbers_checked": 2,
+        "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
+        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -154,18 +154,90 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 14
+      "verified": 22
     },
-    "verified_at": "2026-11-05T13:57:30.225654Z",
+    "verified_at": "2026-11-06T13:42:44.506636Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-05T13:57:32.015305Z",
+  "last_updated": "2026-11-06T13:42:47.105372Z",
   "ai": {
     "feed": "ai",
-    "checked": 7,
+    "checked": 5,
     "items": [
       {
         "index": 0,
@@ -181,14 +253,14 @@
       },
       {
         "index": 2,
-        "title": "Big Tech’s big AI buildout will not end until someone stops it",
-        "numbers_checked": 0,
+        "title": "Protesters break into Microsoft data center site in Amsterdam",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-        "numbers_checked": 4,
+        "title": "OpenAI is stepping back from NDAs for data center projects",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -237,30 +309,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 5
     },
-    "verified_at": "2026-11-05T13:57:30.621797Z",
+    "verified_at": "2026-11-06T13:42:44.924805Z",
     "llm_adversary": false
   },
   "macro": {
@@ -323,7 +377,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.95,
+        "value": 4.9,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -332,7 +386,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.61,
+        "value": 4.58,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -350,7 +404,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.33999999999999986,
+        "value": 0.3200000000000003,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -362,7 +416,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-05T13:57:32.015305Z",
+    "verified_at": "2026-11-06T13:42:47.105372Z",
     "llm_adversary": false
   }
 }
