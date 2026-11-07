@@ -1,30 +1,30 @@
 [
   {
-    "title": "A Dish Served Lukewarm: The Refrigerator Botnet",
-    "content": "Exposed Dixell/Copeland XWEB PRO refrigeration controllers are being exploited as abuse infrastructure. The STRIKE Team discovered a suspected SMTP botnet comprising nine IP addresses, with three confirmed as refrigeration controllers. These devices, used in supermarkets and cold storage facilities, remain exposed on the internet with unpatched vulnerabilities, particularly CVE-2026-25085.... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Retail.",
+    "title": "Canto incognito: tracking the PoeLLM malware",
+    "content": "Since April 2026, PoeLLM malware has been actively targeting exposed AI/LLM and open-source services including LiteLLM, Ollama, Gotenberg, and Gitea, with possible Ivanti Sentry targeting. The campaign employs an unusual command-and-control mechanism where infected systems derive C2 server addresses from keywords embedded in a poem hosted on GitHub. This financially-motivated operation deploys... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: PoeLLM, XMRig, Iron.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aed32c8b1c53b811aaa8bb0",
+    "url": "https://otx.alienvault.com/pulse/6ac7794a227de27b373a9281",
     "verification": "verified"
   },
   {
-    "title": "ARTEX: Agentic Asbestos",
-    "content": "ARTEX is an open-source, LLM-driven autonomous penetration testing framework released in July 2026 that integrates AI agents with reconnaissance and exploitation capabilities. As of November 2026, 1,465 hosts run exposed ARTEX consoles globally, with approximately 815 distinct deployments. CrowdStrike linked ARTEX usage to attacks against South Korean financial institutions, while Microsoft... This pulse includes 24 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Cobalt Strike - S0154, Vshell, Adaptix C2.",
+    "title": "RMM Tools Being Distributed Through Phishing Attacks (ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, N-able)",
+    "content": "Multiple Remote Monitoring and Management (RMM) tools are being distributed through phishing campaigns involving video files and email attachments. Threat actors exploit legitimate RMM solutions like ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, and N-able to gain remote access to compromised systems while evading security detection. These tools, typically used for legitimate IT... This pulse includes 13 indicators of compromise (IOCs). Associated malware: ScreenConnect, FleetDeck, Datto.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aed89b36eddd48d6b209367",
+    "url": "https://otx.alienvault.com/pulse/6ac741ed2968234538d416fa",
     "verification": "verified"
   },
   {
-    "title": "Email threat landscape: Q3 2026 trends and insights",
-    "content": "From July through September 2026, approximately 7.3 billion email-based phishing threats were detected, with September reaching nearly 3 billion attacks—a 41% increase from August. The quarter demonstrated significant shifts in attack techniques, including a sharp decline in QR code phishing, a recovery in CAPTCHA-gated attacks driven by SVG attachments, and persistent domain spoofing affecting... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Legal, Retail, Manufacturing. Associated malware: Agent Tesla - S0331.",
+    "title": "DarkSword/Coruna Open Directory Finding",
+    "content": "Five hosts exposed the complete DarkSword/Coruna iOS exploitation platform through open directories, revealing an active commercial exploitation-as-a-service operation. The platform targets cryptocurrency wallets across 18 different applications, extracting BIP39 recovery phrases and conducting automated theft. Analysis of the production server recovered 11 victim recovery phrases, 179 device... This pulse includes 13 indicators of compromise (IOCs). Associated malware: DarkSword, Coruna, GHOSTBLADE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aeceaf8cfe0e0287c9a54a1",
+    "url": "https://otx.alienvault.com/pulse/6ac6bb9cd16a3898ced29ead",
     "verification": "verified"
   },
   {
-    "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
-    "content": "An Iranian state-aligned threat actor designated as CL-STA-1178 has been impersonating the Dubai Airports IT department to deliver trojanized coding challenges to high-value targets. The Blinder Tunnel campaign, active since November 2025 with attacks intensifying in March 2026, primarily targeted Iraqi critical infrastructure. The operation employs a three-step attack chain exploiting legitimate... This pulse includes 30 indicators of compromise (IOCs). Targeted industries: Energy, Government. Associated malware: ShelbyLoader V2, RuntimeBroker.dll, PsProxy.dll.",
+    "title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+    "content": "Armorsteal is a sophisticated Python-based malware kit that combines information stealing, cryptocurrency mining, and backdoor capabilities. Distributed through fake download pages for legitimate tools, it installs into C:\\Windows\\SystemHealth\\Update with three scheduled tasks maintaining persistence. The malware uses PyArmor obfuscation and includes sandbox evasion by checking for cloud... This pulse includes 39 indicators of compromise (IOCs). Associated malware: Armorsteal, XMRig.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac6152430b84019d1fded71",
+    "url": "https://otx.alienvault.com/pulse/6aeddff8a8cf552b829954c3",
     "verification": "verified"
   }
 ]

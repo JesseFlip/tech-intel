@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-07",
+  "timestamp": "2026-11-07T12:25:41.632518",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Canto incognito: tracking the PoeLLM malware",
+      "content": "Since April 2026, PoeLLM malware has been actively targeting exposed AI/LLM and open-source services including LiteLLM, Ollama, Gotenberg, and Gitea, with possible Ivanti Sentry targeting. The campaign employs an unusual command-and-control mechanism where infected systems derive C2 server addresses from keywords embedded in a poem hosted on GitHub. This financially-motivated operation deploys... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: PoeLLM, XMRig, Iron.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac7794a227de27b373a9281",
+      "verification": "verified"
+    },
+    {
+      "title": "RMM Tools Being Distributed Through Phishing Attacks (ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, N-able)",
+      "content": "Multiple Remote Monitoring and Management (RMM) tools are being distributed through phishing campaigns involving video files and email attachments. Threat actors exploit legitimate RMM solutions like ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, and N-able to gain remote access to compromised systems while evading security detection. These tools, typically used for legitimate IT... This pulse includes 13 indicators of compromise (IOCs). Associated malware: ScreenConnect, FleetDeck, Datto.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac741ed2968234538d416fa",
+      "verification": "verified"
+    },
+    {
+      "title": "DarkSword/Coruna Open Directory Finding",
+      "content": "Five hosts exposed the complete DarkSword/Coruna iOS exploitation platform through open directories, revealing an active commercial exploitation-as-a-service operation. The platform targets cryptocurrency wallets across 18 different applications, extracting BIP39 recovery phrases and conducting automated theft. Analysis of the production server recovered 11 victim recovery phrases, 179 device... This pulse includes 13 indicators of compromise (IOCs). Associated malware: DarkSword, Coruna, GHOSTBLADE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac6bb9cd16a3898ced29ead",
+      "verification": "verified"
+    },
+    {
+      "title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+      "content": "Armorsteal is a sophisticated Python-based malware kit that combines information stealing, cryptocurrency mining, and backdoor capabilities. Distributed through fake download pages for legitimate tools, it installs into C:\\Windows\\SystemHealth\\Update with three scheduled tasks maintaining persistence. The malware uses PyArmor obfuscation and includes sandbox evasion by checking for cloud... This pulse includes 39 indicators of compromise (IOCs). Associated malware: Armorsteal, XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6aeddff8a8cf552b829954c3",
+      "verification": "verified"
+    }
+  ]
+}

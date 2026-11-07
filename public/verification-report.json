@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 22,
+    "checked": 10,
     "items": [
       {
         "index": 0,
-        "title": "A Dish Served Lukewarm: The Refrigerator Botnet",
-        "numbers_checked": 2,
+        "title": "Canto incognito: tracking the PoeLLM malware",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "ARTEX: Agentic Asbestos",
-        "numbers_checked": 7,
+        "title": "RMM Tools Being Distributed Through Phishing Attacks (ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, N-able)",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Email threat landscape: Q3 2026 trends and insights",
-        "numbers_checked": 8,
+        "title": "DarkSword/Coruna Open Directory Finding",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Iranian State-Aligned Threat Actor Masquerading as Dubai Airports IT Department Delivering Trojanized Coding Challenges - Blinder Tunnel Campaign Targeting Iraqi Critical Infrastructure",
-        "numbers_checked": 5,
+        "title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -118,126 +118,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 22
+      "verified": 10
     },
-    "verified_at": "2026-11-06T13:42:44.506636Z",
+    "verified_at": "2026-11-07T12:25:41.631709Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-06T13:42:47.105372Z",
+  "last_updated": "2026-11-07T12:25:44.793264Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 7,
     "items": [
       {
         "index": 0,
@@ -253,13 +145,13 @@
       },
       {
         "index": 2,
-        "title": "Protesters break into Microsoft data center site in Amsterdam",
-        "numbers_checked": 2,
+        "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "OpenAI is stepping back from NDAs for data center projects",
+        "title": "China reportedly recruited AI exec to spy on Jensen Huang",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -309,12 +201,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 7
     },
-    "verified_at": "2026-11-06T13:42:44.924805Z",
+    "verified_at": "2026-11-07T12:25:42.135245Z",
     "llm_adversary": false
   },
   "macro": {
@@ -359,7 +269,7 @@
       },
       {
         "metric": "unemployment_rate",
-        "value": 4.2,
+        "value": 4.1,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -377,7 +287,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.9,
+        "value": 4.84,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -386,7 +296,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.58,
+        "value": 4.46,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -404,7 +314,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3200000000000003,
+        "value": 0.3799999999999999,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -416,7 +326,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-06T13:42:47.105372Z",
+    "verified_at": "2026-11-07T12:25:44.793264Z",
     "llm_adversary": false
   }
 }
