@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-08",
+  "timestamp": "2026-11-08T12:43:27.965446",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
+      "content": "In late September 2026, an actor deployed seven malicious npm packages masquerading as a NebulaAI software development kit to deliver a Windows remote-access trojan. The operation, tracked as NEBULA, spans four sequential burner accounts (nebulallms through nebulallms4), with api-nebula and llm-nebula remaining downloadable. Each package presents a convincing AI client facade while hiding an... This pulse includes 8 indicators of compromise (IOCs). Associated malware: KNTRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac8a46214e2077a0bfe7409",
+      "verification": "verified"
+    },
+    {
+      "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+      "content": "An unidentified threat actor, likely Chinese-speaking and financially motivated, conducted targeted attacks against South Korean financial institutions between late September and early October 2026, successfully exfiltrating data. The adversary utilized ARTEX, a Chinese-developed open-source agentic penetration testing tool, combined with large language models including DeepSeek v4.1-flash,... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: ARTEX.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac8a22f8d0ad1ea5f056ddc",
+      "verification": "verified"
+    },
+    {
+      "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
+      "content": "Beginning October 7, 2026, threat actors exploited two critical vulnerabilities in AhsayCBS backup utility (CVE-2026-105133 and CVE-2026-105134) to achieve unauthenticated remote code execution on exposed systems. The attackers chained these vulnerabilities together, first bypassing authentication and then executing code with SYSTEM privileges. Post-exploitation activities included deploying JSP... This pulse includes 8 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: XMRig.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac84a1665712fe245b07ce7",
+      "verification": "verified"
+    },
+    {
+      "title": "MATCHBOIL: New tricks, same old evil intentions",
+      "content": "ESET researchers documented the evolution of MATCHBOIL, a custom C# downloader used by Russia-aligned APT group UAC-0099. The malware downloads payloads from command-and-control servers, installs them, and establishes persistence on victim machines. Development traces back to April 2024, with continuous improvements through April 2026. Early versions used Unicode symbol obfuscation and custom... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Transportation, Manufacturing, Energy. Associated malware: MATCHBOIL, MATCHWOK, LONEPAGE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ac84a166254b974f23968a2",
+      "verification": "verified"
+    }
+  ]
+}

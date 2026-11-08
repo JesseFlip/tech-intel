@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 10,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Canto incognito: tracking the PoeLLM malware",
+        "title": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "RMM Tools Being Distributed Through Phishing Attacks (ScreenConnect, FleetDeck, Datto, SimpleHelp, JumpCloud, N-able)",
-        "numbers_checked": 1,
+        "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "DarkSword/Coruna Open Directory Finding",
+        "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
         "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Armorsteal Unpacked: Breaking Down a Python Malware Kit That Steals Data and Mines Crypto",
-        "numbers_checked": 1,
+        "title": "MATCHBOIL: New tricks, same old evil intentions",
+        "numbers_checked": 4,
         "status": "verified"
       }
     ],
@@ -118,18 +118,63 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 10
+      "verified": 15
     },
-    "verified_at": "2026-11-07T12:25:41.631709Z",
+    "verified_at": "2026-11-08T12:43:27.964583Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-07T12:25:44.793264Z",
+  "last_updated": "2026-11-08T12:43:29.447890Z",
   "ai": {
     "feed": "ai",
-    "checked": 7,
+    "checked": 5,
     "items": [
       {
         "index": 0,
@@ -145,14 +190,14 @@
       },
       {
         "index": 2,
-        "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
-        "numbers_checked": 4,
+        "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "China reportedly recruited AI exec to spy on Jensen Huang",
-        "numbers_checked": 0,
+        "title": "The US let Nvidia sell chips to an empty office in China",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -201,30 +246,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 5
     },
-    "verified_at": "2026-11-07T12:25:42.135245Z",
+    "verified_at": "2026-11-08T12:43:28.185097Z",
     "llm_adversary": false
   },
   "macro": {
@@ -326,7 +353,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-07T12:25:44.793264Z",
+    "verified_at": "2026-11-08T12:43:29.447890Z",
     "llm_adversary": false
   }
 }
