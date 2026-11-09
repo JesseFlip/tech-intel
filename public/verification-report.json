@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 15,
+    "checked": 13,
     "items": [
       {
         "index": 0,
-        "title": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
-        "numbers_checked": 3,
+        "title": "The Industry Leader in Enterprise Brand Protection",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+        "title": "ARTEX abuse expands as cybercriminals target financial sector",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Threat Actors Exploit Critical AhsayCBS Flaws to Drop Webshells and XMRig Cryptominer",
-        "numbers_checked": 5,
+        "title": "Shai-Hulud Descendant Surfaces in Malicious Ruby Gem That Steals Credentials and Poisons AI Tools",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "MATCHBOIL: New tricks, same old evil intentions",
-        "numbers_checked": 4,
+        "title": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -145,36 +145,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 15
+      "verified": 13
     },
-    "verified_at": "2026-11-08T12:43:27.964583Z",
+    "verified_at": "2026-11-09T15:07:21.224663Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-08T12:43:29.447890Z",
+  "last_updated": "2026-11-09T15:07:23.408488Z",
   "ai": {
     "feed": "ai",
-    "checked": 5,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -190,14 +172,14 @@
       },
       {
         "index": 2,
-        "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+        "title": "Jonathan Kanter is using AI to take on Big Tech",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "The US let Nvidia sell chips to an empty office in China",
-        "numbers_checked": 1,
+        "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -237,21 +219,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 5
+      "verified": 4
     },
-    "verified_at": "2026-11-08T12:43:28.185097Z",
+    "verified_at": "2026-11-09T15:07:21.616306Z",
     "llm_adversary": false
   },
   "macro": {
@@ -353,7 +326,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-08T12:43:29.447890Z",
+    "verified_at": "2026-11-09T15:07:23.408488Z",
     "llm_adversary": false
   }
 }
