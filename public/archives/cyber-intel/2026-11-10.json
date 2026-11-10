@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-10",
+  "timestamp": "2026-11-10T14:17:44.026479",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C2 Implant",
+      "content": "Between October 8 and 11, 2026, threat actors exploited authentication bypass and remote code execution vulnerabilities in AhsayCBS backup management software to compromise multiple servers. The intrusion involved deploying five distinct webshell families with varying capabilities, including command execution, file operations, and encrypted payload loaders hidden in PNG images. Attackers... This pulse includes 46 indicators of compromise (IOCs). Associated malware: XMRig, Mimikatz, NetExec.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af1ef5821afddb68d6df42b",
+      "verification": "verified"
+    },
+    {
+      "title": "Trusted by Default: Qubole Cross-Account Access Abused in the Wild",
+      "content": "A threat actor exploited IAM credentials from Qubole's AWS account (805246085872) to assume integration roles in customer environments between October 14 and October 26, 2026. The attacker used two IAM users and multiple VPN addresses to gain access, then conducted extensive reconnaissance across affected AWS accounts. Activities included enumerating storage, databases, and identity resources,... This pulse includes 7 indicators of compromise (IOCs). Associated malware: TruffleHog.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af22c7231935985c957ec55",
+      "verification": "verified"
+    },
+    {
+      "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+      "content": "In October 2026, an AI-native penetration framework called ARTEX was observed conducting attacks against AWS environments, primarily targeting financial data. ARTEX operates through LLM agents that autonomously plan and execute attacks based on operator-defined objectives. Observed activity included exploitation of compromised long-term IAM access keys to search CloudWatch logs for financial... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: ARTEX.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af22c74c56e69bb42cb8363",
+      "verification": "verified"
+    },
+    {
+      "title": "Infostealer VOLTA That Has AI Assess Stolen Information",
+      "content": "VOLTA is a Windows-based infostealer that incorporates an LLM assessment phase to evaluate stolen data. It operates through multiple phases: stealing credentials, sessions, and cryptocurrency wallets from browsers and applications; enriching data by querying external services with stolen tokens; sending bundled information to LLMs via OpenRouter to assess victim monetization value; and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: VOLTA.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af1d860f5d71db2f5f24f0e",
+      "verification": "verified"
+    }
+  ]
+}

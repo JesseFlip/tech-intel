@@ -5,26 +5,26 @@
     "items": [
       {
         "index": 0,
-        "title": "The Industry Leader in Enterprise Brand Protection",
-        "numbers_checked": 1,
+        "title": "Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C2 Implant",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "ARTEX abuse expands as cybercriminals target financial sector",
-        "numbers_checked": 3,
+        "title": "Trusted by Default: Qubole Cross-Account Access Abused in the Wild",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Shai-Hulud Descendant Surfaces in Malicious Ruby Gem That Steals Credentials and Poisons AI Tools",
-        "numbers_checked": 6,
+        "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
-        "numbers_checked": 3,
+        "title": "Infostealer VOLTA That Has AI Assess Stolen Information",
+        "numbers_checked": 1,
         "status": "verified"
       }
     ],
@@ -150,13 +150,13 @@
     "status_counts": {
       "verified": 13
     },
-    "verified_at": "2026-11-09T15:07:21.224663Z",
+    "verified_at": "2026-11-10T14:17:44.025662Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-09T15:07:23.408488Z",
+  "last_updated": "2026-11-10T14:17:45.543397Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 6,
     "items": [
       {
         "index": 0,
@@ -172,13 +172,13 @@
       },
       {
         "index": 2,
-        "title": "Jonathan Kanter is using AI to take on Big Tech",
-        "numbers_checked": 1,
+        "title": "Anthropic targets $1.4 trillion IPO",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+        "title": "Adobe is going all in on agentic AI",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -219,12 +219,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 6
     },
-    "verified_at": "2026-11-09T15:07:21.616306Z",
+    "verified_at": "2026-11-10T14:17:44.306322Z",
     "llm_adversary": false
   },
   "macro": {
@@ -233,7 +251,7 @@
     "verdicts": [
       {
         "metric": "cpi_yoy",
-        "value": 3.7172508442689933,
+        "value": 3.8186443858575143,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -251,7 +269,7 @@
       },
       {
         "metric": "cpi_value",
-        "value": 336.298,
+        "value": 337.476,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +305,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.84,
+        "value": 4.86,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +314,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.46,
+        "value": 4.51,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -314,7 +332,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.3799999999999999,
+        "value": 0.35000000000000053,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -326,7 +344,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-09T15:07:23.408488Z",
+    "verified_at": "2026-11-10T14:17:45.543397Z",
     "llm_adversary": false
   }
 }

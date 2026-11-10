@@ -1,30 +1,30 @@
 [
   {
-    "title": "The Industry Leader in Enterprise Brand Protection",
-    "content": "A sophisticated phishing campaign has been identified targeting hospitality customers through fake hotel reservation pages impersonating Booking.com and other hotel services. The operation uses personalized reservation details including hotel names, dates, prices, guest information, and contact details to enhance credibility. Two main visual templates share the same underlying codebase: one... This pulse includes 15 indicators of compromise (IOCs). Targeted industries: Hospitality.",
+    "title": "Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C2 Implant",
+    "content": "Between October 8 and 11, 2026, threat actors exploited authentication bypass and remote code execution vulnerabilities in AhsayCBS backup management software to compromise multiple servers. The intrusion involved deploying five distinct webshell families with varying capabilities, including command execution, file operations, and encrypted payload loaders hidden in PNG images. Attackers... This pulse includes 46 indicators of compromise (IOCs). Associated malware: XMRig, Mimikatz, NetExec.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af1c04bc9cb5773cc15b8bc",
+    "url": "https://otx.alienvault.com/pulse/6af1ef5821afddb68d6df42b",
     "verification": "verified"
   },
   {
-    "title": "ARTEX abuse expands as cybercriminals target financial sector",
-    "content": "In October 2026, the Cambodia-based threat actor Storm-3358 began leveraging the agentic AI offensive framework ARTEX to target financial organizations primarily in Southeast Asia and select global institutions. The group combines ARTEX with conventional automated tools to scan internet-connected systems, exploit vulnerabilities including anonymous file upload and server-side request forgery, and... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: ARTEX, WISP, vshell.",
+    "title": "Trusted by Default: Qubole Cross-Account Access Abused in the Wild",
+    "content": "A threat actor exploited IAM credentials from Qubole's AWS account (805246085872) to assume integration roles in customer environments between October 14 and October 26, 2026. The attacker used two IAM users and multiple VPN addresses to gain access, then conducted extensive reconnaissance across affected AWS accounts. Activities included enumerating storage, databases, and identity resources,... This pulse includes 7 indicators of compromise (IOCs). Associated malware: TruffleHog.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aeeb5bc2f487ae6d84ea7e9",
+    "url": "https://otx.alienvault.com/pulse/6af22c7231935985c957ec55",
     "verification": "verified"
   },
   {
-    "title": "Shai-Hulud Descendant Surfaces in Malicious Ruby Gem That Steals Credentials and Poisons AI Tools",
-    "content": "A malicious Ruby gem, strutil-core version 1.0.1, executes a 5.48 MB credential-stealing worm during installation. Published on November 1, 2026, by RubyGems account jamnajiea, the package was flagged 70 seconds after release and removed within five hours. The payload, a new build of the testmetest worm from the Miasma family descended from the Shai-Hulud toolkit, steals credentials from cloud... This pulse includes 14 indicators of compromise (IOCs). Associated malware: testmetest, Miasma, Shai-Hulud.",
+    "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
+    "content": "In October 2026, an AI-native penetration framework called ARTEX was observed conducting attacks against AWS environments, primarily targeting financial data. ARTEX operates through LLM agents that autonomously plan and execute attacks based on operator-defined objectives. Observed activity included exploitation of compromised long-term IAM access keys to search CloudWatch logs for financial... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: ARTEX.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af1bfe0945ca03e48243de3",
+    "url": "https://otx.alienvault.com/pulse/6af22c74c56e69bb42cb8363",
     "verification": "verified"
   },
   {
-    "title": "NEBULA: Seven Fake AI SDK Packages on npm Install a Windows RAT That Needs No DLL",
-    "content": "In late September 2026, an actor deployed seven malicious npm packages masquerading as a NebulaAI software development kit to deliver a Windows remote-access trojan. The operation, tracked as NEBULA, spans four sequential burner accounts (nebulallms through nebulallms4), with api-nebula and llm-nebula remaining downloadable. Each package presents a convincing AI client facade while hiding an... This pulse includes 8 indicators of compromise (IOCs). Associated malware: KNTRAT.",
+    "title": "Infostealer VOLTA That Has AI Assess Stolen Information",
+    "content": "VOLTA is a Windows-based infostealer that incorporates an LLM assessment phase to evaluate stolen data. It operates through multiple phases: stealing credentials, sessions, and cryptocurrency wallets from browsers and applications; enriching data by querying external services with stolen tokens; sending bundled information to LLMs via OpenRouter to assess victim monetization value; and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: VOLTA.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ac8a46214e2077a0bfe7409",
+    "url": "https://otx.alienvault.com/pulse/6af1d860f5d71db2f5f24f0e",
     "verification": "verified"
   }
 ]
