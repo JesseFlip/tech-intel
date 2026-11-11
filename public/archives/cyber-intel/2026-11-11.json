@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-11",
+  "timestamp": "2026-11-11T13:31:09.609745",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
+      "content": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain involves multi-stage scripts including Batch, VBS, and PowerShell, leading to Quasar RAT installation before deploying the final ransomware payload. The campaign shares significant... This pulse includes 6 indicators of compromise (IOCs). Associated malware: Funhouse, Endpoint, Quasar RAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5",
+      "verification": "verified"
+    },
+    {
+      "title": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
+      "content": "A South Korean company's DVR management software (CMS) was exploited to distribute the Wpcdoor backdoor malware. The attack chain begins when CMS.exe installs rs.win32.exe along with a malicious IPHLPAPI.DLL file that loads via DLL side-loading. This first-stage downloader retrieves WpcMon.exe and samcli.dll, which acts as a second-stage downloader executing the Wpcdoor backdoor in memory.... This pulse includes 15 indicators of compromise (IOCs). Associated malware: Wpcdoor, IPHLPAPI.DLL, QtCore4.dll.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af43b7618f6962a478a6835",
+      "verification": "verified"
+    },
+    {
+      "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+      "content": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO poisoning, and compromised websites to deliver fake verification prompts. These attacks now employ elaborate PowerShell scripts with animated progress bars to mimic legitimate security... This pulse includes 11 indicators of compromise (IOCs). Associated malware: DuskDesk, Matanbuchus, AstarionRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37",
+      "verification": "verified"
+    },
+    {
+      "title": "A New ESXi Implant Linked to Settra Ransomware",
+      "content": "GhostFrame is a previously undocumented post-exploitation framework enabling extensive control over compromised VMware ESXi environments. After root-level access is obtained, it provides a unified interface for accessing virtual machines, harvesting credentials, executing commands, and pivoting into victim networks. The framework operates from the virtualization layer, allowing attackers to... This pulse includes 4 indicators of compromise (IOCs). Associated malware: GhostFrame, VMkatz, MeshCentral.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af36e03fef8cc1180e8a7da",
+      "verification": "verified"
+    }
+  ]
+}

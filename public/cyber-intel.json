@@ -1,30 +1,30 @@
 [
   {
-    "title": "Inside an AhsayCBS Intrusion: Hidden Webshells, a CryptoMiner, and a C2 Implant",
-    "content": "Between October 8 and 11, 2026, threat actors exploited authentication bypass and remote code execution vulnerabilities in AhsayCBS backup management software to compromise multiple servers. The intrusion involved deploying five distinct webshell families with varying capabilities, including command execution, file operations, and encrypted payload loaders hidden in PNG images. Attackers... This pulse includes 46 indicators of compromise (IOCs). Associated malware: XMRig, Mimikatz, NetExec.",
+    "title": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
+    "content": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain involves multi-stage scripts including Batch, VBS, and PowerShell, leading to Quasar RAT installation before deploying the final ransomware payload. The campaign shares significant... This pulse includes 6 indicators of compromise (IOCs). Associated malware: Funhouse, Endpoint, Quasar RAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af1ef5821afddb68d6df42b",
+    "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5",
     "verification": "verified"
   },
   {
-    "title": "Trusted by Default: Qubole Cross-Account Access Abused in the Wild",
-    "content": "A threat actor exploited IAM credentials from Qubole's AWS account (805246085872) to assume integration roles in customer environments between October 14 and October 26, 2026. The attacker used two IAM users and multiple VPN addresses to gain access, then conducted extensive reconnaissance across affected AWS accounts. Activities included enumerating storage, databases, and identity resources,... This pulse includes 7 indicators of compromise (IOCs). Associated malware: TruffleHog.",
+    "title": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
+    "content": "A South Korean company's DVR management software (CMS) was exploited to distribute the Wpcdoor backdoor malware. The attack chain begins when CMS.exe installs rs.win32.exe along with a malicious IPHLPAPI.DLL file that loads via DLL side-loading. This first-stage downloader retrieves WpcMon.exe and samcli.dll, which acts as a second-stage downloader executing the Wpcdoor backdoor in memory.... This pulse includes 15 indicators of compromise (IOCs). Associated malware: Wpcdoor, IPHLPAPI.DLL, QtCore4.dll.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af22c7231935985c957ec55",
+    "url": "https://otx.alienvault.com/pulse/6af43b7618f6962a478a6835",
     "verification": "verified"
   },
   {
-    "title": "On the hunt for ARTEX: understanding agentic attacks in AWS environments",
-    "content": "In October 2026, an AI-native penetration framework called ARTEX was observed conducting attacks against AWS environments, primarily targeting financial data. ARTEX operates through LLM agents that autonomously plan and execute attacks based on operator-defined objectives. Observed activity included exploitation of compromised long-term IAM access keys to search CloudWatch logs for financial... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Finance, Technology. Associated malware: ARTEX.",
+    "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
+    "content": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO poisoning, and compromised websites to deliver fake verification prompts. These attacks now employ elaborate PowerShell scripts with animated progress bars to mimic legitimate security... This pulse includes 11 indicators of compromise (IOCs). Associated malware: DuskDesk, Matanbuchus, AstarionRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af22c74c56e69bb42cb8363",
+    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37",
     "verification": "verified"
   },
   {
-    "title": "Infostealer VOLTA That Has AI Assess Stolen Information",
-    "content": "VOLTA is a Windows-based infostealer that incorporates an LLM assessment phase to evaluate stolen data. It operates through multiple phases: stealing credentials, sessions, and cryptocurrency wallets from browsers and applications; enriching data by querying external services with stolen tokens; sending bundled information to LLMs via OpenRouter to assess victim monetization value; and... This pulse includes 4 indicators of compromise (IOCs). Associated malware: VOLTA.",
+    "title": "A New ESXi Implant Linked to Settra Ransomware",
+    "content": "GhostFrame is a previously undocumented post-exploitation framework enabling extensive control over compromised VMware ESXi environments. After root-level access is obtained, it provides a unified interface for accessing virtual machines, harvesting credentials, executing commands, and pivoting into victim networks. The framework operates from the virtualization layer, allowing attackers to... This pulse includes 4 indicators of compromise (IOCs). Associated malware: GhostFrame, VMkatz, MeshCentral.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af1d860f5d71db2f5f24f0e",
+    "url": "https://otx.alienvault.com/pulse/6af36e03fef8cc1180e8a7da",
     "verification": "verified"
   }
 ]
