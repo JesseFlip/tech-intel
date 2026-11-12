@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-12",
+  "timestamp": "2026-11-12T14:35:09.142529",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
+      "content": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration requests. This operation, dubbed GitPower, leverages legitimate development platforms like GitHub for malware distribution and data exfiltration. Attack vectors include malicious LNK... This pulse includes 131 indicators of compromise (IOCs). Targeted industries: Government.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf",
+      "verification": "verified"
+    },
+    {
+      "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+      "content": "A sophisticated command and control framework named Falcon (also known as XG or Xiàng Gē) has been identified operating entirely within browser contexts through malicious JavaScript. The framework compromises webmail portals and government web applications, enabling attackers to sideload malicious Chrome and Firefox extensions that steal passwords, emails, session cookies, and communications.... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Government, Defense, Telecommunications. Associated malware: Falcon, Antino.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af4a92c87b5f26c33791714",
+      "verification": "verified"
+    },
+    {
+      "title": "SCKit Worm Installs Rogue ScreenConnect Clients and Session Cookie Relays Across Hundreds of Endpoints",
+      "content": "On November 11, 2026, operators exploited cloud-hosted ScreenConnect panels to deploy attacker-controlled clients and the SCKit toolkit across 288 hosts in 48 organizations. ConnectWise disabled five third-party extensions as a precaution but had not identified the initial access vector. The attack involved two stages: spreading from infected endpoints to technician workstations via session... This pulse includes 29 indicators of compromise (IOCs). Associated malware: SCKit, RelayTrap.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af52586b68571a7151ac421",
+      "verification": "verified"
+    },
+    {
+      "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+      "content": "Multiple threat actors have been deploying GSocket, an open source remote access tool, on compromised Linux servers to maintain persistent access even after initial vulnerabilities are patched. The activity increased 356.2% from March through August 2026, primarily targeting web applications and hosting environments, with education and research sectors representing 30.7% of affected... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Education, Technology, Telecommunications. Associated malware: GSocket, gs-netcat.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af4e812bfab56c87bffd06e",
+      "verification": "verified"
+    }
+  ]
+}

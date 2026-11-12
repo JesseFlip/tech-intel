@@ -1,30 +1,30 @@
 [
   {
-    "title": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
-    "content": "A North Korean threat actor distributed Funhouse ransomware through malicious Korean-language documents disguised as resumes. Funhouse is a variant of the previously observed Endpoint ransomware. The attack chain involves multi-stage scripts including Batch, VBS, and PowerShell, leading to Quasar RAT installation before deploying the final ransomware payload. The campaign shares significant... This pulse includes 6 indicators of compromise (IOCs). Associated malware: Funhouse, Endpoint, Quasar RAT.",
+    "title": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
+    "content": "The Kimsuky threat group has launched spear phishing campaigns targeting Ukrainian experts in diplomacy, security, and international policy through fraudulent international conference invitations and collaboration requests. This operation, dubbed GitPower, leverages legitimate development platforms like GitHub for malware distribution and data exfiltration. Attack vectors include malicious LNK... This pulse includes 131 indicators of compromise (IOCs). Targeted industries: Government.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6accdd88406e67c287aa23a5",
+    "url": "https://otx.alienvault.com/pulse/6ace37f3bfe7f0829254f7bf",
     "verification": "verified"
   },
   {
-    "title": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
-    "content": "A South Korean company's DVR management software (CMS) was exploited to distribute the Wpcdoor backdoor malware. The attack chain begins when CMS.exe installs rs.win32.exe along with a malicious IPHLPAPI.DLL file that loads via DLL side-loading. This first-stage downloader retrieves WpcMon.exe and samcli.dll, which acts as a second-stage downloader executing the Wpcdoor backdoor in memory.... This pulse includes 15 indicators of compromise (IOCs). Associated malware: Wpcdoor, IPHLPAPI.DLL, QtCore4.dll.",
+    "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+    "content": "A sophisticated command and control framework named Falcon (also known as XG or Xiàng Gē) has been identified operating entirely within browser contexts through malicious JavaScript. The framework compromises webmail portals and government web applications, enabling attackers to sideload malicious Chrome and Firefox extensions that steal passwords, emails, session cookies, and communications.... This pulse includes 26 indicators of compromise (IOCs). Targeted industries: Government, Defense, Telecommunications. Associated malware: Falcon, Antino.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af43b7618f6962a478a6835",
+    "url": "https://otx.alienvault.com/pulse/6af4a92c87b5f26c33791714",
     "verification": "verified"
   },
   {
-    "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-    "content": "Threat actors continue to evolve ClickFix tactics, moving beyond simple clipboard-based social engineering to more sophisticated attack chains. Recent campaigns leverage malvertising through typosquatting, SEO poisoning, and compromised websites to deliver fake verification prompts. These attacks now employ elaborate PowerShell scripts with animated progress bars to mimic legitimate security... This pulse includes 11 indicators of compromise (IOCs). Associated malware: DuskDesk, Matanbuchus, AstarionRAT.",
+    "title": "SCKit Worm Installs Rogue ScreenConnect Clients and Session Cookie Relays Across Hundreds of Endpoints",
+    "content": "On November 11, 2026, operators exploited cloud-hosted ScreenConnect panels to deploy attacker-controlled clients and the SCKit toolkit across 288 hosts in 48 organizations. ConnectWise disabled five third-party extensions as a precaution but had not identified the initial access vector. The attack involved two stages: spreading from infected endpoints to technician workstations via session... This pulse includes 29 indicators of compromise (IOCs). Associated malware: SCKit, RelayTrap.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af32dd634e9e56326a25b37",
+    "url": "https://otx.alienvault.com/pulse/6af52586b68571a7151ac421",
     "verification": "verified"
   },
   {
-    "title": "A New ESXi Implant Linked to Settra Ransomware",
-    "content": "GhostFrame is a previously undocumented post-exploitation framework enabling extensive control over compromised VMware ESXi environments. After root-level access is obtained, it provides a unified interface for accessing virtual machines, harvesting credentials, executing commands, and pivoting into victim networks. The framework operates from the virtualization layer, allowing attackers to... This pulse includes 4 indicators of compromise (IOCs). Associated malware: GhostFrame, VMkatz, MeshCentral.",
+    "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+    "content": "Multiple threat actors have been deploying GSocket, an open source remote access tool, on compromised Linux servers to maintain persistent access even after initial vulnerabilities are patched. The activity increased 356.2% from March through August 2026, primarily targeting web applications and hosting environments, with education and research sectors representing 30.7% of affected... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Education, Technology, Telecommunications. Associated malware: GSocket, gs-netcat.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af36e03fef8cc1180e8a7da",
+    "url": "https://otx.alienvault.com/pulse/6af4e812bfab56c87bffd06e",
     "verification": "verified"
   }
 ]

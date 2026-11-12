@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 6,
+    "checked": 13,
     "items": [
       {
         "index": 0,
-        "title": "From Endpoint to Funhouse: Changes in Ransomware Families and Kimsuky-Related Distribution Cases",
+        "title": "Kimsuky attacks targeting Ukrainian experts in diplomacy, security, and international policy",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Analysis of Wpcdoor Attack Case Distributed Through Domestic DVR Management Software",
-        "numbers_checked": 3,
+        "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-        "numbers_checked": 1,
+        "title": "SCKit Worm Installs Rogue ScreenConnect Clients and Session Cookie Relays Across Hundreds of Endpoints",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "A New ESXi Implant Linked to Settra Ransomware",
-        "numbers_checked": 1,
+        "title": "The global socket: how threat actors are weaponizing GSocket for stealthy C2",
+        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -82,18 +82,81 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 13
     },
-    "verified_at": "2026-11-11T13:31:09.609127Z",
+    "verified_at": "2026-11-12T14:35:09.141612Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-11T13:31:11.641846Z",
+  "last_updated": "2026-11-12T14:35:11.580332Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -109,13 +172,13 @@
       },
       {
         "index": 2,
-        "title": "The US is winning the AI race. Jensen Huang could have blown it",
-        "numbers_checked": 0,
+        "title": "I reviewed the Apple HomeView, ask me anything",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "ChatGPT is getting verified AI ‘Business Agents’",
+        "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -147,12 +210,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-11-11T13:31:09.980363Z",
+    "verified_at": "2026-11-12T14:35:09.523012Z",
     "llm_adversary": false
   },
   "macro": {
@@ -254,7 +326,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-11T13:31:11.641846Z",
+    "verified_at": "2026-11-12T14:35:11.580332Z",
     "llm_adversary": false
   }
 }
