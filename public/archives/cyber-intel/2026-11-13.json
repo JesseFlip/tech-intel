@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-13",
+  "timestamp": "2026-11-13T13:53:40.842678",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
+      "content": "Ivanti has released emergency security updates after attackers exploited a chain of three zero-day vulnerabilities in Connect Secure VPN appliances to gain root-level access without authentication. The attack began on October 3, targeting an appliance running version 22.8R2.4. Two vulnerabilities are tracked as CVE-2026-104935 with a CVSS score of 8.6, involving an authentication bypass and... This pulse includes 1 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf8533a44062761084826c",
+      "verification": "verified"
+    },
+    {
+      "title": "Hirudo: From Fake Updates to Patched Banking Apps",
+      "content": "A new Android banking remote access trojan named Hirudo has been identified, combining credential theft with live remote control. It is delivered through shopping and entertainment apps that act as droppers, installing the trojan as a separate package behind fake update prompts. The malware replaces legitimate banking applications with patched versions that disable security checks from within the... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Hirudo.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf85338bff164de62a2759",
+      "verification": "verified"
+    },
+    {
+      "title": "ClingSTUN Turns Vulnerable Edge Devices Into Attacker Infrastructure",
+      "content": "An evolving Linux malware campaign deploys ClingSTUN, a back-connect proxy backdoor exploiting known vulnerabilities in Internet-facing IoT and network devices. The malware establishes persistent access and converts compromised systems into remotely controlled proxy nodes. Supporting multiple Linux architectures, ClingSTUN combines boot persistence, process termination, watchdog manipulation,... This pulse includes 89 indicators of compromise (IOCs). Associated malware: ClingSTUN, Mirai.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6acf7922d9bc17d95d27ec5c",
+      "verification": "verified"
+    },
+    {
+      "title": "Stolen webcam clips of 900+ victims feed North Korea's $400 million fake Zoom scheme",
+      "content": "North Korean state-sponsored hackers have stolen over $400 million in cryptocurrency during the past 18 months through a sophisticated social engineering operation known as FaceStealer. The attackers compromise legitimate accounts on platforms like Telegram, LinkedIn, Slack, and Discord to invite targets to fake Zoom or Teams meetings. These fraudulent calls display stolen webcam footage of... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Technology, Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af6dd7f5c46ed2857e7d678",
+      "verification": "verified"
+    }
+  ]
+}
