@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 14,
     "items": [
       {
         "index": 0,
-        "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
-        "numbers_checked": 6,
-        "status": "verified"
-      },
-      {
-        "index": 1,
-        "title": "Hirudo: From Fake Updates to Patched Banking Apps",
+        "title": "How AI Agents Turned One Exposed Endpoint into a Server Takeover",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
+        "index": 1,
+        "title": "PEERSTITCH, a Stealthy FortiGate Implant",
+        "numbers_checked": 6,
+        "status": "verified"
+      },
+      {
         "index": 2,
-        "title": "ClingSTUN Turns Vulnerable Edge Devices Into Attacker Infrastructure",
+        "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Stolen webcam clips of 900+ victims feed North Korea's $400 million fake Zoom scheme",
-        "numbers_checked": 4,
+        "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
+        "numbers_checked": 6,
         "status": "verified"
       }
     ],
@@ -136,18 +136,36 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 14
     },
-    "verified_at": "2026-11-13T13:53:40.842157Z",
+    "verified_at": "2026-11-14T12:56:31.301602Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-13T13:53:44.584041Z",
+  "last_updated": "2026-11-14T12:56:33.557079Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 6,
     "items": [
       {
         "index": 0,
@@ -163,14 +181,14 @@
       },
       {
         "index": 2,
-        "title": "Let’s talk about Jensen Huang’s many affairs!",
-        "numbers_checked": 0,
+        "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Google’s new Gemini model is better at understanding complicated questions",
-        "numbers_checked": 1,
+        "title": "Amazon has a plan to index the world’s online shopping data",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -210,12 +228,30 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 6
     },
-    "verified_at": "2026-11-13T13:53:41.280456Z",
+    "verified_at": "2026-11-14T12:56:31.703536Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +314,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 4.98,
+        "value": 5.1,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +323,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.73,
+        "value": 4.86,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +341,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.25,
+        "value": 0.23999999999999932,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +353,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-13T13:53:44.584041Z",
+    "verified_at": "2026-11-14T12:56:33.557079Z",
     "llm_adversary": false
   }
 }
