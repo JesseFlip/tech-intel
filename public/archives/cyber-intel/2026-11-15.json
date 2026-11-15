@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-15",
+  "timestamp": "2026-11-15T13:24:56.025248",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
+      "content": "Since April 2017, a Russian-language affiliate program called Hotejka, believed to be a rebrand of ROI777, has operated the Help Traffic Distribution System (TDS), delivering tech support scams to victims. The operation uses browser fingerprinting and geolocation to redirect users through compromised websites, malvertising, social media, and spam to fake Microsoft security alerts that lock... This pulse includes 15 indicators of compromise (IOCs). Associated malware: UltraViewer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad1d2421e774bf7224baf2b",
+      "verification": "verified"
+    },
+    {
+      "title": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
+      "content": "Silent Lynx, a persistent cyber espionage threat actor, has conducted targeted intrusion campaigns against government ministries, diplomatic missions, and civil society organizations across Central Asia since 2024. The group focuses on high-value public sector organizations in Commonwealth of Independent States countries, leveraging spear-phishing campaigns through compromised government email... This pulse includes 394 indicators of compromise (IOCs). Targeted industries: Government, Energy, NGO. Associated malware: Laplas, Chvost, PickleShell.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad1d090651f974e1ec049ed",
+      "verification": "verified"
+    },
+    {
+      "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+      "content": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations suggesting LLM or automated AI agent involvement. Attackers focused on Linux environments deploying web shells, custom cross-platform backdoors including SysGoRAT malware, and... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SysGoRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3",
+      "verification": "verified"
+    },
+    {
+      "title": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
+      "content": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from $150 to $800, it features credential theft, keylogging, hidden desktop takeover, ransomware capabilities, and psychological harassment functions including screamers and forced blue... This pulse includes 39 indicators of compromise (IOCs). Associated malware: KGB RAT, njRAT - S0385, Njw0rm.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8",
+      "verification": "verified"
+    }
+  ]
+}

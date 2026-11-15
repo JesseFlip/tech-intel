@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 14,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "How AI Agents Turned One Exposed Endpoint into a Server Takeover",
-        "numbers_checked": 1,
+        "title": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "PEERSTITCH, a Stealthy FortiGate Implant",
-        "numbers_checked": 6,
+        "title": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Beyond the clipboard: The evolving tradecraft of ClickFix",
-        "numbers_checked": 1,
+        "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Ivanti CVE-2026-104935: Zero-Day Chain Exploited in Operation Innovate",
+        "title": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
         "numbers_checked": 6,
         "status": "verified"
       }
@@ -154,18 +154,27 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 14
+      "verified": 15
     },
-    "verified_at": "2026-11-14T12:56:31.301602Z",
+    "verified_at": "2026-11-15T13:24:56.024309Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-14T12:56:33.557079Z",
+  "last_updated": "2026-11-15T13:24:58.363597Z",
   "ai": {
     "feed": "ai",
-    "checked": 6,
+    "checked": 7,
     "items": [
       {
         "index": 0,
@@ -181,14 +190,14 @@
       },
       {
         "index": 2,
-        "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-        "numbers_checked": 3,
+        "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Amazon has a plan to index the world’s online shopping data",
-        "numbers_checked": 0,
+        "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -246,12 +255,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 7
     },
-    "verified_at": "2026-11-14T12:56:31.703536Z",
+    "verified_at": "2026-11-15T13:24:56.457652Z",
     "llm_adversary": false
   },
   "macro": {
@@ -353,7 +371,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-14T12:56:33.557079Z",
+    "verified_at": "2026-11-15T13:24:58.363597Z",
     "llm_adversary": false
   }
 }
