@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 15,
+    "checked": 13,
     "items": [
       {
         "index": 0,
-        "title": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
+        "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
+        "title": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-        "numbers_checked": 4,
+        "title": "Analysis of NodeLinkRAT, a New North Korea-Linked RAT Abusing Public Note Services as C2",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
-        "numbers_checked": 6,
+        "title": "The Retadup USB worm is back to spread CoffeeLoader",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -145,36 +145,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 15
+      "verified": 13
     },
-    "verified_at": "2026-11-15T13:24:56.024309Z",
+    "verified_at": "2026-11-16T14:44:31.527738Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-15T13:24:58.363597Z",
+  "last_updated": "2026-11-16T14:44:33.993864Z",
   "ai": {
     "feed": "ai",
-    "checked": 7,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -190,14 +172,14 @@
       },
       {
         "index": 2,
-        "title": "The OpenAI board member who fired Sam Altman says we still can&#8217;t trust AI CEOs",
-        "numbers_checked": 1,
+        "title": "The Nvidia scandal isn’t slowing down",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-        "numbers_checked": 3,
+        "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -228,48 +210,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 7
+      "verified": 3
     },
-    "verified_at": "2026-11-15T13:24:56.457652Z",
+    "verified_at": "2026-11-16T14:44:32.052696Z",
     "llm_adversary": false
   },
   "macro": {
@@ -371,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-15T13:24:58.363597Z",
+    "verified_at": "2026-11-16T14:44:33.993864Z",
     "llm_adversary": false
   }
 }

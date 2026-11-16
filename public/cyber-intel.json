@@ -1,30 +1,30 @@
 [
   {
-    "title": "Inside Help TDS: Hotejka, Cloudflare Pages and Predictive Detection",
-    "content": "Since April 2017, a Russian-language affiliate program called Hotejka, believed to be a rebrand of ROI777, has operated the Help Traffic Distribution System (TDS), delivering tech support scams to victims. The operation uses browser fingerprinting and geolocation to redirect users through compromised websites, malvertising, social media, and spam to fake Microsoft security alerts that lock... This pulse includes 15 indicators of compromise (IOCs). Associated malware: UltraViewer.",
+    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+    "content": "Beginning November 11, 2026, threat actors gained unauthorized access to cloud-hosted ConnectWise ScreenConnect instances belonging to managed service providers. The attackers abuse ScreenConnect, a legitimate remote-support application, to install unauthorized remote-access clients and deploy SCKit, a malicious worm, on customer-managed endpoints. The toolkit establishes persistence through... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: SCKit, RelayTrap.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad1d2421e774bf7224baf2b",
+    "url": "https://otx.alienvault.com/pulse/6af7941347ca65a70dfca476",
     "verification": "verified"
   },
   {
-    "title": "BREAK THE SILENCE: Tracking Silent Lynx Through Exposed Infrastructure",
-    "content": "Silent Lynx, a persistent cyber espionage threat actor, has conducted targeted intrusion campaigns against government ministries, diplomatic missions, and civil society organizations across Central Asia since 2024. The group focuses on high-value public sector organizations in Commonwealth of Independent States countries, leveraging spear-phishing campaigns through compromised government email... This pulse includes 394 indicators of compromise (IOCs). Targeted industries: Government, Energy, NGO. Associated malware: Laplas, Chvost, PickleShell.",
+    "title": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
+    "content": "WardenStealer is a Rust-based Windows infostealer first observed in November 2026 that specializes in stealing credentials, authentication tokens, cookies, API keys, and local AI application files targeting platforms like ChatGPT, Claude, Codex, GitHub Copilot, and Cursor. Distributed through ClickFix lures, malicious advertisements, cracked software, and fake game cheats, it enables session... This pulse includes 75 indicators of compromise (IOCs). Associated malware: WardenStealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad1d090651f974e1ec049ed",
+    "url": "https://otx.alienvault.com/pulse/6afabb0c724e4715eb97f1c1",
     "verification": "verified"
   },
   {
-    "title": "AI-Powered Espionage Campaign Targets Government Linux Infrastructure",
-    "content": "An espionage campaign tracked as CL-UNK-1211 targeted government entities and state-affiliated infrastructure between October 2025 and April 2026, utilizing AI-generated payloads containing conversational annotations suggesting LLM or automated AI agent involvement. Attackers focused on Linux environments deploying web shells, custom cross-platform backdoors including SysGoRAT malware, and... This pulse includes 21 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: SysGoRAT.",
+    "title": "Analysis of NodeLinkRAT, a New North Korea-Linked RAT Abusing Public Note Services as C2",
+    "content": "Between September 12 and 18, 2026, a threat actor impersonating a South Korean National Assembly aide conducted spearphishing attacks against seminar attendees using honorarium payment forms as lures. The attacker deliberately omitted attachments in initial emails to elicit victim replies, then delivered malicious LNK files through webmail. The multistage fileless attack chain involved obfuscated... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: NodeLinkRAT, XenoRAT.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad187349cefc9d2193e5cc3",
+    "url": "https://otx.alienvault.com/pulse/6afab9d57e1e0bda6f30aa7e",
     "verification": "verified"
   },
   {
-    "title": "KGB RAT: A Fully Undetectable Windows Trojan Built to Spy, Steal, and Terrorize",
-    "content": "KGB RAT is a Windows Remote Access Trojan actively promoted on underground forums since late 2025, marketed deceptively as a legitimate administration tool. Sold through a Malware-as-a-Service model with pricing from $150 to $800, it features credential theft, keylogging, hidden desktop takeover, ransomware capabilities, and psychological harassment functions including screamers and forced blue... This pulse includes 39 indicators of compromise (IOCs). Associated malware: KGB RAT, njRAT - S0385, Njw0rm.",
+    "title": "The Retadup USB worm is back to spread CoffeeLoader",
+    "content": "In August 2026, a new CoffeeLoader malware variant was identified, utilizing an NSIS-based installer that drops a patched 7z.dll file containing malicious shellcode. This version employs the Armoury packer, which has been updated to use OpenGL instead of OpenCL for GPU-based decryption. The malware establishes persistence through registry modifications and downloads its main payload from... This pulse includes 19 indicators of compromise (IOCs). Associated malware: CoffeeLoader, Retadup, SmokeLoader.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad1023b92a010044f3dcbc8",
+    "url": "https://otx.alienvault.com/pulse/6afab4565b7b300512430168",
     "verification": "verified"
   }
 ]

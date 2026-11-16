@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-16",
+  "timestamp": "2026-11-16T14:44:31.528418",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+      "content": "Beginning November 11, 2026, threat actors gained unauthorized access to cloud-hosted ConnectWise ScreenConnect instances belonging to managed service providers. The attackers abuse ScreenConnect, a legitimate remote-support application, to install unauthorized remote-access clients and deploy SCKit, a malicious worm, on customer-managed endpoints. The toolkit establishes persistence through... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: SCKit, RelayTrap.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6af7941347ca65a70dfca476",
+      "verification": "verified"
+    },
+    {
+      "title": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
+      "content": "WardenStealer is a Rust-based Windows infostealer first observed in November 2026 that specializes in stealing credentials, authentication tokens, cookies, API keys, and local AI application files targeting platforms like ChatGPT, Claude, Codex, GitHub Copilot, and Cursor. Distributed through ClickFix lures, malicious advertisements, cracked software, and fake game cheats, it enables session... This pulse includes 75 indicators of compromise (IOCs). Associated malware: WardenStealer.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afabb0c724e4715eb97f1c1",
+      "verification": "verified"
+    },
+    {
+      "title": "Analysis of NodeLinkRAT, a New North Korea-Linked RAT Abusing Public Note Services as C2",
+      "content": "Between September 12 and 18, 2026, a threat actor impersonating a South Korean National Assembly aide conducted spearphishing attacks against seminar attendees using honorarium payment forms as lures. The attacker deliberately omitted attachments in initial emails to elicit victim replies, then delivered malicious LNK files through webmail. The multistage fileless attack chain involved obfuscated... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: NodeLinkRAT, XenoRAT.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afab9d57e1e0bda6f30aa7e",
+      "verification": "verified"
+    },
+    {
+      "title": "The Retadup USB worm is back to spread CoffeeLoader",
+      "content": "In August 2026, a new CoffeeLoader malware variant was identified, utilizing an NSIS-based installer that drops a patched 7z.dll file containing malicious shellcode. This version employs the Armoury packer, which has been updated to use OpenGL instead of OpenCL for GPU-based decryption. The malware establishes persistence through registry modifications and downloads its main payload from... This pulse includes 19 indicators of compromise (IOCs). Associated malware: CoffeeLoader, Retadup, SmokeLoader.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afab4565b7b300512430168",
+      "verification": "verified"
+    }
+  ]
+}
