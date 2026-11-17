@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-17",
+  "timestamp": "2026-11-17T15:28:18.073387",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Operation ShadowCloud: initial infection and the GitDoor backdoor",
+      "content": "A sophisticated cyber intrusion campaign dubbed Operation ShadowCloud has been identified targeting government entities across Asia and Africa. Adversaries deploy two novel backdoors, GitDoor and GraphDoor, through the legitimate MeshAgent utility. These implants conceal command-and-control communications by leveraging cloud platforms including Microsoft SharePoint, GitHub, and Ably messaging... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GitDoor, GraphDoor, MeshAgent.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afc3385bd07f5708d823e2b",
+      "verification": "verified"
+    },
+    {
+      "title": "World's Largest Brands Infected With Malware Via Optimizely",
+      "content": "On 16 November 2026, malicious JavaScript was distributed to 178 organizations through the Optimizely Web experimentation platform, affecting major sites including Zoom, BBC, CNN, Salesforce, GitLab, IKEA, and HSBC. The multi-purpose malware swapped cryptocurrency wallet addresses, skimmed payment cards, stole cookies and screenshots, and deployed Coruna and DarkSword iOS exploit kits targeting... This pulse includes 40 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Retail. Associated malware: Coruna, DarkSword.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afc33d9e7e1114ef258bdbf",
+      "verification": "verified"
+    },
+    {
+      "title": "XaocMail ClickFix Campaign Drops Phantom53 and HavoX Across Latin America, Asia, and Europe",
+      "content": "A Russian-speaking threat actor operates a sophisticated multi-stage campaign utilizing XaocMail phishing platform, Phantom53 DNS-over-HTTPS command-and-control framework, and Havoc post-exploitation toolkit. The operation leverages Cloudflare Workers infrastructure and ClickFix social engineering lures to deliver malicious MSI payloads. Phantom53 implements stealthy beaconing through public... This pulse includes 84 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Education. Associated malware: XaocMail, Phantom53, HavoX.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afc3457e63a03d90d550932",
+      "verification": "verified"
+    },
+    {
+      "title": "Lotuslite V2: The Evolution of Mustang Panda's .NET Backdoor",
+      "content": "This analysis identifies Lotuslite V2 as a .NET successor to LOTUSLITE malware, attributed to Mustang Panda (Earth Preta). The campaign targets Thailand through a public Zoho WorkDrive link delivering an assessment-themed ZIP archive. The infection chain leverages a signed PDFgear executable for DLL side-loading, establishes registry persistence, and initiates TCP connections to... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Lotuslite V2, LOTUSLITE.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afc35110b4de5ee65835e87",
+      "verification": "verified"
+    }
+  ]
+}

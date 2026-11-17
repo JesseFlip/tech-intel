@@ -1,29 +1,29 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 13,
+    "checked": 11,
     "items": [
       {
         "index": 0,
-        "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
-        "numbers_checked": 3,
+        "title": "Operation ShadowCloud: initial infection and the GitDoor backdoor",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
-        "numbers_checked": 2,
+        "title": "World's Largest Brands Infected With Malware Via Optimizely",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Analysis of NodeLinkRAT, a New North Korea-Linked RAT Abusing Public Note Services as C2",
-        "numbers_checked": 5,
+        "title": "XaocMail ClickFix Campaign Drops Phantom53 and HavoX Across Latin America, Asia, and Europe",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "The Retadup USB worm is back to spread CoffeeLoader",
+        "title": "Lotuslite V2: The Evolution of Mustang Panda's .NET Backdoor",
         "numbers_checked": 3,
         "status": "verified"
       }
@@ -127,36 +127,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 13
+      "verified": 11
     },
-    "verified_at": "2026-11-16T14:44:31.527738Z",
+    "verified_at": "2026-11-17T15:28:18.072721Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-16T14:44:33.993864Z",
+  "last_updated": "2026-11-17T15:28:20.517593Z",
   "ai": {
     "feed": "ai",
-    "checked": 3,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -172,13 +154,13 @@
       },
       {
         "index": 2,
-        "title": "The Nvidia scandal isn’t slowing down",
-        "numbers_checked": 0,
+        "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Apple’s new study looks to improve the effectiveness of AI health tools",
+        "title": "California sues OpenAI over rogue AI hacking incidents",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -210,12 +192,21 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:ai",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 3
+      "verified": 4
     },
-    "verified_at": "2026-11-16T14:44:32.052696Z",
+    "verified_at": "2026-11-17T15:28:18.457933Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +269,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.1,
+        "value": 5.15,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +278,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.86,
+        "value": 4.88,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +296,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.23999999999999932,
+        "value": 0.27000000000000046,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +308,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-16T14:44:33.993864Z",
+    "verified_at": "2026-11-17T15:28:20.517593Z",
     "llm_adversary": false
   }
 }

@@ -1,30 +1,30 @@
 [
   {
-    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
-    "content": "Beginning November 11, 2026, threat actors gained unauthorized access to cloud-hosted ConnectWise ScreenConnect instances belonging to managed service providers. The attackers abuse ScreenConnect, a legitimate remote-support application, to install unauthorized remote-access clients and deploy SCKit, a malicious worm, on customer-managed endpoints. The toolkit establishes persistence through... This pulse includes 48 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: SCKit, RelayTrap.",
+    "title": "Operation ShadowCloud: initial infection and the GitDoor backdoor",
+    "content": "A sophisticated cyber intrusion campaign dubbed Operation ShadowCloud has been identified targeting government entities across Asia and Africa. Adversaries deploy two novel backdoors, GitDoor and GraphDoor, through the legitimate MeshAgent utility. These implants conceal command-and-control communications by leveraging cloud platforms including Microsoft SharePoint, GitHub, and Ably messaging... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GitDoor, GraphDoor, MeshAgent.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6af7941347ca65a70dfca476",
+    "url": "https://otx.alienvault.com/pulse/6afc3385bd07f5708d823e2b",
     "verification": "verified"
   },
   {
-    "title": "WardenStealer Malware: Turning AI Access into an Underground Commodity",
-    "content": "WardenStealer is a Rust-based Windows infostealer first observed in November 2026 that specializes in stealing credentials, authentication tokens, cookies, API keys, and local AI application files targeting platforms like ChatGPT, Claude, Codex, GitHub Copilot, and Cursor. Distributed through ClickFix lures, malicious advertisements, cracked software, and fake game cheats, it enables session... This pulse includes 75 indicators of compromise (IOCs). Associated malware: WardenStealer.",
+    "title": "World's Largest Brands Infected With Malware Via Optimizely",
+    "content": "On 16 November 2026, malicious JavaScript was distributed to 178 organizations through the Optimizely Web experimentation platform, affecting major sites including Zoom, BBC, CNN, Salesforce, GitLab, IKEA, and HSBC. The multi-purpose malware swapped cryptocurrency wallet addresses, skimmed payment cards, stole cookies and screenshots, and deployed Coruna and DarkSword iOS exploit kits targeting... This pulse includes 40 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Retail. Associated malware: Coruna, DarkSword.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afabb0c724e4715eb97f1c1",
+    "url": "https://otx.alienvault.com/pulse/6afc33d9e7e1114ef258bdbf",
     "verification": "verified"
   },
   {
-    "title": "Analysis of NodeLinkRAT, a New North Korea-Linked RAT Abusing Public Note Services as C2",
-    "content": "Between September 12 and 18, 2026, a threat actor impersonating a South Korean National Assembly aide conducted spearphishing attacks against seminar attendees using honorarium payment forms as lures. The attacker deliberately omitted attachments in initial emails to elicit victim replies, then delivered malicious LNK files through webmail. The multistage fileless attack chain involved obfuscated... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: NodeLinkRAT, XenoRAT.",
+    "title": "XaocMail ClickFix Campaign Drops Phantom53 and HavoX Across Latin America, Asia, and Europe",
+    "content": "A Russian-speaking threat actor operates a sophisticated multi-stage campaign utilizing XaocMail phishing platform, Phantom53 DNS-over-HTTPS command-and-control framework, and Havoc post-exploitation toolkit. The operation leverages Cloudflare Workers infrastructure and ClickFix social engineering lures to deliver malicious MSI payloads. Phantom53 implements stealthy beaconing through public... This pulse includes 84 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Education. Associated malware: XaocMail, Phantom53, HavoX.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afab9d57e1e0bda6f30aa7e",
+    "url": "https://otx.alienvault.com/pulse/6afc3457e63a03d90d550932",
     "verification": "verified"
   },
   {
-    "title": "The Retadup USB worm is back to spread CoffeeLoader",
-    "content": "In August 2026, a new CoffeeLoader malware variant was identified, utilizing an NSIS-based installer that drops a patched 7z.dll file containing malicious shellcode. This version employs the Armoury packer, which has been updated to use OpenGL instead of OpenCL for GPU-based decryption. The malware establishes persistence through registry modifications and downloads its main payload from... This pulse includes 19 indicators of compromise (IOCs). Associated malware: CoffeeLoader, Retadup, SmokeLoader.",
+    "title": "Lotuslite V2: The Evolution of Mustang Panda's .NET Backdoor",
+    "content": "This analysis identifies Lotuslite V2 as a .NET successor to LOTUSLITE malware, attributed to Mustang Panda (Earth Preta). The campaign targets Thailand through a public Zoho WorkDrive link delivering an assessment-themed ZIP archive. The infection chain leverages a signed PDFgear executable for DLL side-loading, establishes registry persistence, and initiates TCP connections to... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Lotuslite V2, LOTUSLITE.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afab4565b7b300512430168",
+    "url": "https://otx.alienvault.com/pulse/6afc35110b4de5ee65835e87",
     "verification": "verified"
   }
 ]
