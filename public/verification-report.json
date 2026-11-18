@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 11,
+    "checked": 15,
     "items": [
       {
         "index": 0,
-        "title": "Operation ShadowCloud: initial infection and the GitDoor backdoor",
-        "numbers_checked": 1,
+        "title": "MCH and Caishen: supply chain poisoning pushes iOS exploits",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "World's Largest Brands Infected With Malware Via Optimizely",
-        "numbers_checked": 4,
+        "title": "URGENT: iOS Exploits Are Being Actively Deployed via Poisoned JavaScript on BBC, Zoom, CNN and Other Major Websites",
+        "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "XaocMail ClickFix Campaign Drops Phantom53 and HavoX Across Latin America, Asia, and Europe",
+        "title": "US Logistics Cyber Threats: 3 Campaigns & Defense",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Lotuslite V2: The Evolution of Mustang Panda's .NET Backdoor",
-        "numbers_checked": 3,
+        "title": "agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
+        "numbers_checked": 7,
         "status": "verified"
       }
     ],
@@ -127,18 +127,54 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 11
+      "verified": 15
     },
-    "verified_at": "2026-11-17T15:28:18.072721Z",
+    "verified_at": "2026-11-18T15:03:40.305450Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-17T15:28:20.517593Z",
+  "last_updated": "2026-11-18T15:03:41.755756Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -154,13 +190,13 @@
       },
       {
         "index": 2,
-        "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-        "numbers_checked": 1,
+        "title": "Will Wright’s next game uses AI to map your memories",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "California sues OpenAI over rogue AI hacking incidents",
+        "title": "Nvidia isn’t selling any more AI chips to China",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -192,21 +228,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 3
     },
-    "verified_at": "2026-11-17T15:28:18.457933Z",
+    "verified_at": "2026-11-18T15:03:40.522857Z",
     "llm_adversary": false
   },
   "macro": {
@@ -269,7 +296,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.15,
+        "value": 5.12,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -278,7 +305,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.88,
+        "value": 4.83,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +323,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.27000000000000046,
+        "value": 0.29000000000000004,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -308,7 +335,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-17T15:28:20.517593Z",
+    "verified_at": "2026-11-18T15:03:41.755756Z",
     "llm_adversary": false
   }
 }

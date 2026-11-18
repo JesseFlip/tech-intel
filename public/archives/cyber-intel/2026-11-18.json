@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-18",
+  "timestamp": "2026-11-18T15:03:40.306739",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "MCH and Caishen: supply chain poisoning pushes iOS exploits",
+      "content": "On November 16, 2026, compromised third-party scripts delivered card skimmers and cryptocurrency clippers to visitors of major websites including BBC, Zoom, and CNN. An unauthorized party exploited a vulnerability in Optimizely's Experimentation product to inject malicious JavaScript, though other libraries like Kissmetrics, StorifyMe, and minute-ly were also affected. The campaign utilized an... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Media, Technology, Government. Associated malware: Caishen, Coruna, Darksword.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afd5ef41efb879b09a69ff7",
+      "verification": "verified"
+    },
+    {
+      "title": "URGENT: iOS Exploits Are Being Actively Deployed via Poisoned JavaScript on BBC, Zoom, CNN and Other Major Websites",
+      "content": "Research reveals that threat actors have compromised third-party JavaScript providers including Optimizely, Kissmetrics, StorifyMe, and Minute-ly to deliver iOS exploits through at least 21 major websites. The attack routes Mobile Safari users to Coruna and DarkSword exploit-kit infrastructure without any user interaction. Affected sites span multiple sectors including BBC, CNN, Fox News, Zoom,... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Media, Technology, Finance. Associated malware: Coruna, DarkSword.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afcabb1c963ba9d1ae92e1a",
+      "verification": "verified"
+    },
+    {
+      "title": "US Logistics Cyber Threats: 3 Campaigns & Defense",
+      "content": "Three distinct campaigns are actively targeting the US trucking and logistics sector through fraudulent business portals and malicious documents. HelloFriends uses fake FMCSA carrier verification portals to harvest credentials, SSNs, EINs, and fuel card information through phishing emails. NodeRemote distributes backdoors disguised as broker onboarding documents, establishing persistent access... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Transportation. Associated malware: NodeRemote, CastleRAT, NightshadeC2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afd5c42c6e50b8c437fe592",
+      "verification": "verified"
+    },
+    {
+      "title": "agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
+      "content": "On November 17, 2026, two malicious versions (1.26.1 and 1.26.2) of Microsoft's agent-framework Python package were published to PyPI for approximately 50 minutes before removal. The compromised packages deployed credential stealers through Python .pth files that executed automatically on interpreter startup. The malware targeted Azure and CI/CD environments, extracting environment variables... This pulse includes 6 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afd5d540e49984e613c22ce",
+      "verification": "verified"
+    }
+  ]
+}

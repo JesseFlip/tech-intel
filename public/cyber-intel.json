@@ -1,30 +1,30 @@
 [
   {
-    "title": "Operation ShadowCloud: initial infection and the GitDoor backdoor",
-    "content": "A sophisticated cyber intrusion campaign dubbed Operation ShadowCloud has been identified targeting government entities across Asia and Africa. Adversaries deploy two novel backdoors, GitDoor and GraphDoor, through the legitimate MeshAgent utility. These implants conceal command-and-control communications by leveraging cloud platforms including Microsoft SharePoint, GitHub, and Ably messaging... This pulse includes 19 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: GitDoor, GraphDoor, MeshAgent.",
+    "title": "MCH and Caishen: supply chain poisoning pushes iOS exploits",
+    "content": "On November 16, 2026, compromised third-party scripts delivered card skimmers and cryptocurrency clippers to visitors of major websites including BBC, Zoom, and CNN. An unauthorized party exploited a vulnerability in Optimizely's Experimentation product to inject malicious JavaScript, though other libraries like Kissmetrics, StorifyMe, and minute-ly were also affected. The campaign utilized an... This pulse includes 23 indicators of compromise (IOCs). Targeted industries: Media, Technology, Government. Associated malware: Caishen, Coruna, Darksword.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afc3385bd07f5708d823e2b",
+    "url": "https://otx.alienvault.com/pulse/6afd5ef41efb879b09a69ff7",
     "verification": "verified"
   },
   {
-    "title": "World's Largest Brands Infected With Malware Via Optimizely",
-    "content": "On 16 November 2026, malicious JavaScript was distributed to 178 organizations through the Optimizely Web experimentation platform, affecting major sites including Zoom, BBC, CNN, Salesforce, GitLab, IKEA, and HSBC. The multi-purpose malware swapped cryptocurrency wallet addresses, skimmed payment cards, stole cookies and screenshots, and deployed Coruna and DarkSword iOS exploit kits targeting... This pulse includes 40 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Retail. Associated malware: Coruna, DarkSword.",
+    "title": "URGENT: iOS Exploits Are Being Actively Deployed via Poisoned JavaScript on BBC, Zoom, CNN and Other Major Websites",
+    "content": "Research reveals that threat actors have compromised third-party JavaScript providers including Optimizely, Kissmetrics, StorifyMe, and Minute-ly to deliver iOS exploits through at least 21 major websites. The attack routes Mobile Safari users to Coruna and DarkSword exploit-kit infrastructure without any user interaction. Affected sites span multiple sectors including BBC, CNN, Fox News, Zoom,... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Media, Technology, Finance. Associated malware: Coruna, DarkSword.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afc33d9e7e1114ef258bdbf",
+    "url": "https://otx.alienvault.com/pulse/6afcabb1c963ba9d1ae92e1a",
     "verification": "verified"
   },
   {
-    "title": "XaocMail ClickFix Campaign Drops Phantom53 and HavoX Across Latin America, Asia, and Europe",
-    "content": "A Russian-speaking threat actor operates a sophisticated multi-stage campaign utilizing XaocMail phishing platform, Phantom53 DNS-over-HTTPS command-and-control framework, and Havoc post-exploitation toolkit. The operation leverages Cloudflare Workers infrastructure and ClickFix social engineering lures to deliver malicious MSI payloads. Phantom53 implements stealthy beaconing through public... This pulse includes 84 indicators of compromise (IOCs). Targeted industries: Technology, Finance, Education. Associated malware: XaocMail, Phantom53, HavoX.",
+    "title": "US Logistics Cyber Threats: 3 Campaigns & Defense",
+    "content": "Three distinct campaigns are actively targeting the US trucking and logistics sector through fraudulent business portals and malicious documents. HelloFriends uses fake FMCSA carrier verification portals to harvest credentials, SSNs, EINs, and fuel card information through phishing emails. NodeRemote distributes backdoors disguised as broker onboarding documents, establishing persistent access... This pulse includes 9 indicators of compromise (IOCs). Targeted industries: Transportation. Associated malware: NodeRemote, CastleRAT, NightshadeC2.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afc3457e63a03d90d550932",
+    "url": "https://otx.alienvault.com/pulse/6afd5c42c6e50b8c437fe592",
     "verification": "verified"
   },
   {
-    "title": "Lotuslite V2: The Evolution of Mustang Panda's .NET Backdoor",
-    "content": "This analysis identifies Lotuslite V2 as a .NET successor to LOTUSLITE malware, attributed to Mustang Panda (Earth Preta). The campaign targets Thailand through a public Zoho WorkDrive link delivering an assessment-themed ZIP archive. The infection chain leverages a signed PDFgear executable for DLL side-loading, establishes registry persistence, and initiates TCP connections to... This pulse includes 10 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Lotuslite V2, LOTUSLITE.",
+    "title": "agent-framework Compromised: Credential Stealer Targets Azure and CI Pipelines",
+    "content": "On November 17, 2026, two malicious versions (1.26.1 and 1.26.2) of Microsoft's agent-framework Python package were published to PyPI for approximately 50 minutes before removal. The compromised packages deployed credential stealers through Python .pth files that executed automatically on interpreter startup. The malware targeted Azure and CI/CD environments, extracting environment variables... This pulse includes 6 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afc35110b4de5ee65835e87",
+    "url": "https://otx.alienvault.com/pulse/6afd5d540e49984e613c22ce",
     "verification": "verified"
   }
 ]
