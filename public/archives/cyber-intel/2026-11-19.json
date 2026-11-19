@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-19",
+  "timestamp": "2026-11-19T15:13:36.030560",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Active Exploitation of CVE-2026-110936 in Siemens Software Center",
+      "content": "A DLL side-loading vulnerability in Software Center version 3.5.8.7 is being actively exploited by attackers. The threat actors distribute a genuine, digitally signed copy of the application alongside malicious DLL files through unofficial channels. When executed, the vulnerable version loads the attacker-supplied DLLs without validation, enabling malicious code execution. The attack vector... This pulse includes 4 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad77e2e717e0153aa2fda49",
+      "verification": "verified"
+    },
+    {
+      "title": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
+      "content": "An attacker exploited CyberPower PowerPanel Business (PPB), a UPS management software, to execute malicious code on a Windows domain controller. The threat actor uploaded custom scripts through the web console's file-upload endpoint on TCP port 3052, leveraging PPB's legitimate feature that runs scripts during power events. These scripts executed with SYSTEM privileges through the trusted... This pulse includes 1 indicators of compromise (IOCs). Associated malware: MSIL.Killav!gen1.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afda8f8ad54682e30c1bb10",
+      "verification": "verified"
+    },
+    {
+      "title": "GravityRAT Mobile Cyber-Campaign Targets Defense Personnel",
+      "content": "An active cyber-surveillance campaign has been uncovered deploying GravityRAT malware against defense industry and military personnel, primarily targeting individuals from India seeking positions at foreign defense contractors. The campaign utilizes fake recruitment portals and software utility websites that mimic legitimate services to distribute malicious payloads. These sites display logos of... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Defense, Aerospace. Associated malware: GravityRAT - S0237, HeavyLift.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afda8f9f5dd55f9f13c0cd0",
+      "verification": "verified"
+    },
+    {
+      "title": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands",
+      "content": "An attacker exploited a vulnerability in Optimizely's Web Experimentation platform on November 16, 2026, compromising 188 JavaScript snippets across 178 organizations including BBC, CNN, Zoom, GitLab, IKEA, and HSBC. The exploit targeted the optional Project JavaScript field in Optimizely's A/B testing service, allowing malicious code injection through trusted infrastructure. Visitors to affected... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Media, Technology, Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6afdaa416a4121d2f40898b5",
+      "verification": "verified"
+    }
+  ]
+}
