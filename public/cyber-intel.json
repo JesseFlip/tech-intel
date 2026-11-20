@@ -1,30 +1,30 @@
 [
   {
-    "title": "Active Exploitation of CVE-2026-110936 in Siemens Software Center",
-    "content": "A DLL side-loading vulnerability in Software Center version 3.5.8.7 is being actively exploited by attackers. The threat actors distribute a genuine, digitally signed copy of the application alongside malicious DLL files through unofficial channels. When executed, the vulnerable version loads the attacker-supplied DLLs without validation, enabling malicious code execution. The attack vector... This pulse includes 4 indicators of compromise (IOCs).",
+    "title": "Uncovered and Disrupted BADBOX 3.0, the Largest Ad Fraud Operation by Bid Volume Ever Publicly Disclosed",
+    "content": "BADBOX 3.0 represents the largest ad fraud operation ever disclosed, generating approximately 40 billion bid requests daily and comprising over 4% of all connected TV traffic. The operation primarily targets low-cost consumer devices infected with backdoors delivering fraud modules linked to TXCZ, a Chinese electronics manufacturer. These modules render invisible video ads while impersonating... This pulse includes 12 indicators of compromise (IOCs). Associated malware: BADBOX.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad77e2e717e0153aa2fda49",
+    "url": "https://otx.alienvault.com/pulse/6b0043f873dc92a1ab3560c9",
     "verification": "verified"
   },
   {
-    "title": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
-    "content": "An attacker exploited CyberPower PowerPanel Business (PPB), a UPS management software, to execute malicious code on a Windows domain controller. The threat actor uploaded custom scripts through the web console's file-upload endpoint on TCP port 3052, leveraging PPB's legitimate feature that runs scripts during power events. These scripts executed with SYSTEM privileges through the trusted... This pulse includes 1 indicators of compromise (IOCs). Associated malware: MSIL.Killav!gen1.",
+    "title": "Device Code Phishing in Microsoft 365: Attack Analysis",
+    "content": "In November 2026, a resurgence of device-code phishing campaigns targeted Microsoft 365 accounts using payment-themed emails and fake SharePoint workspaces. Attackers delivered obfuscated HTML and SVG attachments that redirected victims through verification gates to counterfeit document-sharing pages. These lures instructed recipients to enter attacker-supplied codes into genuine Microsoft... This pulse includes 12 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afda8f8ad54682e30c1bb10",
+    "url": "https://otx.alienvault.com/pulse/6b00423946b48f044785f9d8",
     "verification": "verified"
   },
   {
-    "title": "GravityRAT Mobile Cyber-Campaign Targets Defense Personnel",
-    "content": "An active cyber-surveillance campaign has been uncovered deploying GravityRAT malware against defense industry and military personnel, primarily targeting individuals from India seeking positions at foreign defense contractors. The campaign utilizes fake recruitment portals and software utility websites that mimic legitimate services to distribute malicious payloads. These sites display logos of... This pulse includes 28 indicators of compromise (IOCs). Targeted industries: Defense, Aerospace. Associated malware: GravityRAT - S0237, HeavyLift.",
+    "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
+    "content": "A financially motivated threat group designated UAT-12643 has been discovered operating malicious infrastructure targeting cryptocurrency holders, gaming platform users, and VoIP software operators. The actor deploys multiple payloads including the Overlord RAT, Python-based Good Game infostealer, and a multi-cryptocurrency clipboard hijacker. The Overlord RAT employs an innovative... This pulse includes 18 indicators of compromise (IOCs). Associated malware: Good Game, Overlord.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afda8f9f5dd55f9f13c0cd0",
+    "url": "https://otx.alienvault.com/pulse/6b0041b6f254e5321e03a189",
     "verification": "verified"
   },
   {
-    "title": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands",
-    "content": "An attacker exploited a vulnerability in Optimizely's Web Experimentation platform on November 16, 2026, compromising 188 JavaScript snippets across 178 organizations including BBC, CNN, Zoom, GitLab, IKEA, and HSBC. The exploit targeted the optional Project JavaScript field in Optimizely's A/B testing service, allowing malicious code injection through trusted infrastructure. Visitors to affected... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Media, Technology, Finance.",
+    "title": "N0N Ransomware Group: Victims, Leak Site, TTPs & IOCs",
+    "content": "N0N is a financially motivated cyber extortion group that emerged in September 2026, employing data theft and extortion tactics without using traditional encryption methods. The group leverages compromised credentials obtained from third-party infostealer campaigns to infiltrate corporate networks. Once inside, they exfiltrate sensitive information including Active Directory mappings and legal... This pulse includes 33 indicators of compromise (IOCs). Targeted industries: Healthcare, Retail, Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6afdaa416a4121d2f40898b5",
+    "url": "https://otx.alienvault.com/pulse/6b00038798ea9ab49aa7e331",
     "verification": "verified"
   }
 ]

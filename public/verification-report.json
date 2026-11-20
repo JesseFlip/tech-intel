@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 14,
+    "checked": 12,
     "items": [
       {
         "index": 0,
-        "title": "Active Exploitation of CVE-2026-110936 in Siemens Software Center",
+        "title": "Uncovered and Disrupted BADBOX 3.0, the Largest Ad Fraud Operation by Bid Volume Ever Publicly Disclosed",
         "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Behind the Power Outage: Unmasking a New Intrusion Vector in Enterprise Infrastructure Tools",
+        "title": "Device Code Phishing in Microsoft 365: Attack Analysis",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "GravityRAT Mobile Cyber-Campaign Targets Defense Personnel",
+        "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
         "numbers_checked": 2,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands",
-        "numbers_checked": 5,
+        "title": "N0N Ransomware Group: Victims, Leak Site, TTPs & IOCs",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -136,36 +136,18 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 14
+      "verified": 12
     },
-    "verified_at": "2026-11-19T15:13:36.029746Z",
+    "verified_at": "2026-11-20T14:51:59.006706Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-19T15:13:37.636628Z",
+  "last_updated": "2026-11-20T14:52:01.514153Z",
   "ai": {
     "feed": "ai",
-    "checked": 6,
+    "checked": 4,
     "items": [
       {
         "index": 0,
@@ -181,14 +163,14 @@
       },
       {
         "index": 2,
-        "title": "With the biggest IPO of all time, Anthropic’s ‘good guy’ reputation is on the line",
+        "title": "The week everything fell apart",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "I let Apple’s always-listening AI summarize my life for two weeks",
-        "numbers_checked": 2,
+        "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+        "numbers_checked": 0,
         "status": "verified"
       }
     ],
@@ -228,30 +210,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 6
+      "verified": 4
     },
-    "verified_at": "2026-11-19T15:13:36.410176Z",
+    "verified_at": "2026-11-20T14:51:59.210366Z",
     "llm_adversary": false
   },
   "macro": {
@@ -314,7 +278,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.1,
+        "value": 5.07,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -341,7 +305,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.2999999999999998,
+        "value": 0.27000000000000046,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -353,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-19T15:13:37.636628Z",
+    "verified_at": "2026-11-20T14:52:01.514153Z",
     "llm_adversary": false
   }
 }
