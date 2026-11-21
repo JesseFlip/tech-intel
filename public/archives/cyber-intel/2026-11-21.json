@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-21",
+  "timestamp": "2026-11-21T14:11:03.356778",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
+      "content": "Two critical PHP remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, both rated CVSS v4.0 9.2, leaked before their scheduled patch on October 21, 2026. The flaws involve out-of-memory corruption in PHP core through multipart/form-data parsing, exploitable via session.upload_progress without authentication. Scanning began approximately 20 minutes after the patch release,... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Retail, Finance, Technology.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+      "verification": "verified"
+    },
+    {
+      "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+      "content": "Between July and September 2026, a sophisticated campaign targeted Microsoft 365 accounts through adversary-in-the-middle attacks and token replay techniques. The operation captured sign-in sessions via AiTM relays and replayed stolen tokens from IP addresses controlled by German hosting provider 1337 Services GmbH. Over ten weeks, 79 organizations were compromised with 497 successful sign-ins... This pulse includes 1 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ada1e572ffb7473cf202754",
+      "verification": "verified"
+    },
+    {
+      "title": "Inside SiriusQT: A Seriously Skilled RAT",
+      "content": "SiriusQT is a Windows Remote Access Trojan advertised on dark web forums since April 2026, offering capabilities beyond remote administration including HVNC, credential theft, cryptocurrency wallet collection, clipboard monitoring, keylogging, process injection, and persistence mechanisms. Distributed via Malware-as-a-Service by a reseller named GhostKernel, at least 30 users purchased licenses... This pulse includes 505 indicators of compromise (IOCs). Associated malware: SiriusQT, UpCrypter, Remcos.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ada1e5699d69ce1b1fa9660",
+      "verification": "verified"
+    },
+    {
+      "title": "INC and The Gentlemen Ransomware: Exposed AI Infrastructure",
+      "content": "Threat researchers discovered an AI-driven intrusion ecosystem operated by affiliates of INC Ransomware and The Gentlemen Ransomware groups through seven exposed command-and-control servers. The operators integrated commercial AI models via OpenCode and OpenRouter, logging over 8,000 messages across 133 sessions with recorded spending exceeding $23,000. They exploited edge devices at scale... This pulse includes 62 indicators of compromise (IOCs). Targeted industries: Manufacturing, Healthcare, Energy. Associated malware: INC Ransomware, Phantom, Ghost C2.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ad8db024c84442cd0085496",
+      "verification": "verified"
+    }
+  ]
+}

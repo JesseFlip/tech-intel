@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 12,
+    "checked": 23,
     "items": [
       {
         "index": 0,
-        "title": "Uncovered and Disrupted BADBOX 3.0, the Largest Ad Fraud Operation by Bid Volume Ever Publicly Disclosed",
-        "numbers_checked": 4,
+        "title": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
+        "numbers_checked": 9,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "Device Code Phishing in Microsoft 365: Attack Analysis",
-        "numbers_checked": 3,
+        "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
+        "numbers_checked": 6,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
-        "numbers_checked": 2,
+        "title": "Inside SiriusQT: A Seriously Skilled RAT",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "N0N Ransomware Group: Victims, Leak Site, TTPs & IOCs",
-        "numbers_checked": 3,
+        "title": "INC and The Gentlemen Ransomware: Exposed AI Infrastructure",
+        "numbers_checked": 5,
         "status": "verified"
       }
     ],
@@ -136,15 +136,114 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 12
+      "verified": 23
     },
-    "verified_at": "2026-11-20T14:51:59.006706Z",
+    "verified_at": "2026-11-21T14:11:03.355650Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-20T14:52:01.514153Z",
+  "last_updated": "2026-11-21T14:11:05.986675Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -163,13 +262,13 @@
       },
       {
         "index": 2,
-        "title": "The week everything fell apart",
+        "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+        "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -215,7 +314,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-11-20T14:51:59.210366Z",
+    "verified_at": "2026-11-21T14:11:03.940961Z",
     "llm_adversary": false
   },
   "macro": {
@@ -278,7 +377,7 @@
       },
       {
         "metric": "treasury_10y",
-        "value": 5.07,
+        "value": 5.04,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -287,7 +386,7 @@
       },
       {
         "metric": "treasury_2y",
-        "value": 4.8,
+        "value": 4.76,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -296,7 +395,7 @@
       },
       {
         "metric": "consumer_sentiment",
-        "value": 48.1,
+        "value": 48.0,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -305,7 +404,7 @@
       },
       {
         "metric": "yield_spread",
-        "value": 0.27000000000000046,
+        "value": 0.28000000000000025,
         "status": "verified",
         "checks": [
           "ok within range / recompute"
@@ -317,7 +416,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-20T14:52:01.514153Z",
+    "verified_at": "2026-11-21T14:11:05.986675Z",
     "llm_adversary": false
   }
 }
