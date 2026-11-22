@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 23,
+    "checked": 9,
     "items": [
       {
         "index": 0,
-        "title": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
-        "numbers_checked": 9,
+        "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
+        "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
-        "numbers_checked": 6,
+        "title": "2026 Year End Phishing Lures",
+        "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "Inside SiriusQT: A Seriously Skilled RAT",
+        "title": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
         "numbers_checked": 3,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "INC and The Gentlemen Ransomware: Exposed AI Infrastructure",
-        "numbers_checked": 5,
+        "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
+        "numbers_checked": 2,
         "status": "verified"
       }
     ],
@@ -109,141 +109,15 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
-      },
-      {
-        "metric": "text:cyber",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 23
+      "verified": 9
     },
-    "verified_at": "2026-11-21T14:11:03.355650Z",
+    "verified_at": "2026-11-22T14:00:15.149212Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-21T14:11:05.986675Z",
+  "last_updated": "2026-11-22T14:00:27.169681Z",
   "ai": {
     "feed": "ai",
     "checked": 4,
@@ -262,13 +136,13 @@
       },
       {
         "index": 2,
-        "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+        "title": "The vibe-coding revolution is coming to all the gadgets",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+        "title": "The UN fails to agree on rules regulating ‘killer robots’",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -314,7 +188,7 @@
     "status_counts": {
       "verified": 4
     },
-    "verified_at": "2026-11-21T14:11:03.940961Z",
+    "verified_at": "2026-11-22T14:00:15.561754Z",
     "llm_adversary": false
   },
   "macro": {
@@ -416,7 +290,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-21T14:11:05.986675Z",
+    "verified_at": "2026-11-22T14:00:27.169681Z",
     "llm_adversary": false
   }
 }

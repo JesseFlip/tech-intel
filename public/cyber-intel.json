@@ -1,30 +1,30 @@
 [
   {
-    "title": "Hunting Leaked PHP2Shell RCE Across Open Directories (CVE-2026-109618, CVE-2026-109619)",
-    "content": "Two critical PHP remote code execution vulnerabilities, CVE-2026-109618 and CVE-2026-109619, both rated CVSS v4.0 9.2, leaked before their scheduled patch on October 21, 2026. The flaws involve out-of-memory corruption in PHP core through multipart/form-data parsing, exploitable via session.upload_progress without authentication. Scanning began approximately 20 minutes after the patch release,... This pulse includes 7 indicators of compromise (IOCs). Targeted industries: Retail, Finance, Technology.",
+    "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
+    "content": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise Read Only role can exploit this flaw to access privileged internal functionality, potentially compromising the confidentiality, integrity, and availability of the orchestrator and... This pulse includes 1 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada1e58491e58bb903b7604",
+    "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917",
     "verification": "verified"
   },
   {
-    "title": "M365 Token Spray and Replay Campaign Compromises Business Email Accounts",
-    "content": "Between July and September 2026, a sophisticated campaign targeted Microsoft 365 accounts through adversary-in-the-middle attacks and token replay techniques. The operation captured sign-in sessions via AiTM relays and replayed stolen tokens from IP addresses controlled by German hosting provider 1337 Services GmbH. Over ten weeks, 79 organizations were compromised with 497 successful sign-ins... This pulse includes 1 indicators of compromise (IOCs).",
+    "title": "2026 Year End Phishing Lures",
+    "content": "As organizations approach year-end and fiscal close periods, employees face increased administrative activity in finance, HR, and IT departments. This heightened legitimate communication creates ideal cover for phishing campaigns. Attackers exploit year-end business processes by impersonating compensation adjustments, Q4 financial documents, access reviews, invoice follow-ups, and benefits... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Telecommunications.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada1e572ffb7473cf202754",
+    "url": "https://otx.alienvault.com/pulse/6ada5f2001908e1c7f2a85b3",
     "verification": "verified"
   },
   {
-    "title": "Inside SiriusQT: A Seriously Skilled RAT",
-    "content": "SiriusQT is a Windows Remote Access Trojan advertised on dark web forums since April 2026, offering capabilities beyond remote administration including HVNC, credential theft, cryptocurrency wallet collection, clipboard monitoring, keylogging, process injection, and persistence mechanisms. Distributed via Malware-as-a-Service by a reseller named GhostKernel, at least 30 users purchased licenses... This pulse includes 505 indicators of compromise (IOCs). Associated malware: SiriusQT, UpCrypter, Remcos.",
+    "title": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
+    "content": "Throughout October 2026, an actor utilizing ARTEX, an autonomous AI penetration-testing agent, targeted multiple IT and software vendors with attacks focused on identity providers including Okta, Entra, and Cognito. The activity overlaps with Storm-0940, a Chinese-state aligned actor involved in supply-chain attacks. Observed methodologies included mapping applications through JavaScript bundles... Targeted industries: Technology. Associated malware: ARTEX.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada1e5699d69ce1b1fa9660",
+    "url": "https://otx.alienvault.com/pulse/6ada5f1fcf9561726fe676ad",
     "verification": "verified"
   },
   {
-    "title": "INC and The Gentlemen Ransomware: Exposed AI Infrastructure",
-    "content": "Threat researchers discovered an AI-driven intrusion ecosystem operated by affiliates of INC Ransomware and The Gentlemen Ransomware groups through seven exposed command-and-control servers. The operators integrated commercial AI models via OpenCode and OpenRouter, logging over 8,000 messages across 133 sessions with recorded spending exceeding $23,000. They exploited edge devices at scale... This pulse includes 62 indicators of compromise (IOCs). Targeted industries: Manufacturing, Healthcare, Energy. Associated malware: INC Ransomware, Phantom, Ghost C2.",
+    "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
+    "content": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software installation commands were presented with malicious PowerShell scripts that deployed Python-based malware protected by Pyarmor. The malware consists of three main components: a remote... This pulse includes 26 indicators of compromise (IOCs). Associated malware: Armorsteal.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ad8db024c84442cd0085496",
+    "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6",
     "verification": "verified"
   }
 ]
