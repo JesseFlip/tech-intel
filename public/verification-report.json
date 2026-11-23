@@ -1,30 +1,30 @@
 {
   "cyber": {
     "feed": "cyber",
-    "checked": 9,
+    "checked": 13,
     "items": [
       {
         "index": 0,
-        "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
+        "title": "Vmcloudoor: a stealthy backdoor targeting the Chinese cloud",
         "numbers_checked": 1,
         "status": "verified"
       },
       {
         "index": 1,
-        "title": "2026 Year End Phishing Lures",
-        "numbers_checked": 3,
+        "title": "MoldyRoost: A Malvertising Machine Built to Deliver iOS Exploits",
+        "numbers_checked": 4,
         "status": "verified"
       },
       {
         "index": 2,
-        "title": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
-        "numbers_checked": 3,
+        "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
+        "numbers_checked": 5,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
-        "numbers_checked": 2,
+        "title": "RevStealer Malware: A Hidden Data Heist Behind the Promise of Free AI",
+        "numbers_checked": 3,
         "status": "verified"
       }
     ],
@@ -109,18 +109,54 @@
           "ok present in source text"
         ],
         "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
+      },
+      {
+        "metric": "text:cyber",
+        "value": null,
+        "status": "verified",
+        "checks": [
+          "ok present in source text"
+        ],
+        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 9
+      "verified": 13
     },
-    "verified_at": "2026-11-22T14:00:15.149212Z",
+    "verified_at": "2026-11-23T17:20:31.241594Z",
     "llm_adversary": false
   },
-  "last_updated": "2026-11-22T14:00:27.169681Z",
+  "last_updated": "2026-11-23T17:20:33.090340Z",
   "ai": {
     "feed": "ai",
-    "checked": 4,
+    "checked": 3,
     "items": [
       {
         "index": 0,
@@ -136,13 +172,13 @@
       },
       {
         "index": 2,
-        "title": "The vibe-coding revolution is coming to all the gadgets",
-        "numbers_checked": 1,
+        "title": "Tech leaders are celebrating Jensen Huang’s return",
+        "numbers_checked": 0,
         "status": "verified"
       },
       {
         "index": 3,
-        "title": "The UN fails to agree on rules regulating ‘killer robots’",
+        "title": "Jensen Huang is back as Nvidia’s CEO",
         "numbers_checked": 0,
         "status": "verified"
       }
@@ -174,21 +210,12 @@
           "ok present in source text"
         ],
         "notes": ""
-      },
-      {
-        "metric": "text:ai",
-        "value": null,
-        "status": "verified",
-        "checks": [
-          "ok present in source text"
-        ],
-        "notes": ""
       }
     ],
     "status_counts": {
-      "verified": 4
+      "verified": 3
     },
-    "verified_at": "2026-11-22T14:00:15.561754Z",
+    "verified_at": "2026-11-23T17:20:31.439423Z",
     "llm_adversary": false
   },
   "macro": {
@@ -290,7 +317,7 @@
     "status_counts": {
       "verified": 10
     },
-    "verified_at": "2026-11-22T14:00:27.169681Z",
+    "verified_at": "2026-11-23T17:20:33.090340Z",
     "llm_adversary": false
   }
 }

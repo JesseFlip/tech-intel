@@ -1,30 +1,30 @@
 [
   {
-    "title": "VeloCloud Orchestrator SQL Injection Vulnerability",
-    "content": "VeloCloud Orchestrator (VCO) on-premises versions contain a critical SQL injection vulnerability that allows authenticated users with minimal privileges to escalate to superuser operator access. Any user with Enterprise Read Only role can exploit this flaw to access privileged internal functionality, potentially compromising the confidentiality, integrity, and availability of the orchestrator and... This pulse includes 1 indicators of compromise (IOCs).",
+    "title": "Vmcloudoor: a stealthy backdoor targeting the Chinese cloud",
+    "content": "A sophisticated Linux implant called Vmcloudoor has been discovered targeting virtual machines hosted on Chinese cloud platforms, specifically Alibaba, Tencent, and Huawei. The backdoor disguises itself by mimicking legitimate cloud service processes and adapts its concealment profile based on the detected environment. It establishes command-and-control communications through Alibaba Cloud... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Vmcloudoor.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6adb52fde8bfb072942ad917",
+    "url": "https://otx.alienvault.com/pulse/6b046fe32e04752522fe3aed",
     "verification": "verified"
   },
   {
-    "title": "2026 Year End Phishing Lures",
-    "content": "As organizations approach year-end and fiscal close periods, employees face increased administrative activity in finance, HR, and IT departments. This heightened legitimate communication creates ideal cover for phishing campaigns. Attackers exploit year-end business processes by impersonating compensation adjustments, Q4 financial documents, access reviews, invoice follow-ups, and benefits... This pulse includes 14 indicators of compromise (IOCs). Targeted industries: Finance, Technology, Telecommunications.",
+    "title": "MoldyRoost: A Malvertising Machine Built to Deliver iOS Exploits",
+    "content": "MoldyRoost represents a large-scale malvertising operation delivering nation-state-grade iPhone exploit chains through programmatic advertising. Between May and November 2026, over 480 ad domains across six sub-clusters targeted 47 countries, with particular focus on Hong Kong, Japan, Singapore, the UK, and Turkey. The operation deploys four exploit kits (Coruna, DarkSword, SilkPath, and... This pulse includes 505 indicators of compromise (IOCs). Associated malware: Coruna, DarkSword, SilkPath.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada5f2001908e1c7f2a85b3",
+    "url": "https://otx.alienvault.com/pulse/6b0470884a0f9cab17aa31ff",
     "verification": "verified"
   },
   {
-    "title": "ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors",
-    "content": "Throughout October 2026, an actor utilizing ARTEX, an autonomous AI penetration-testing agent, targeted multiple IT and software vendors with attacks focused on identity providers including Okta, Entra, and Cognito. The activity overlaps with Storm-0940, a Chinese-state aligned actor involved in supply-chain attacks. Observed methodologies included mapping applications through JavaScript bundles... Targeted industries: Technology. Associated malware: ARTEX.",
+    "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
+    "content": "Brazilian banking malware operation REF9334 has been deploying KREMLIN toolkit since May 2025, targeting Brazilian financial institutions through malicious browser extensions. The operation uses multi-stage JavaScript loaders, custom C++ installers, and exploits Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs. Infrastructure leverages Ethereum... This pulse includes 357 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Virus:DOS/Kremlin, Trojan:Win32/DoublePulsar, Remcos - S0332.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada5f1fcf9561726fe676ad",
+    "url": "https://otx.alienvault.com/pulse/6aaa6f52c8d835e24adb63f7",
     "verification": "verified"
   },
   {
-    "title": "SEO Poisoning Campaign Delivers New Armorsteal Malware",
-    "content": "In September 2026, an SEO poisoning campaign distributed Armorsteal malware through fake websites impersonating Chocolatey package manager and Microsoft Activation Scripts (MAS) tool. Victims searching for software installation commands were presented with malicious PowerShell scripts that deployed Python-based malware protected by Pyarmor. The malware consists of three main components: a remote... This pulse includes 26 indicators of compromise (IOCs). Associated malware: Armorsteal.",
+    "title": "RevStealer Malware: A Hidden Data Heist Behind the Promise of Free AI",
+    "content": "RevStealer is an infostealer first identified in September 2026 targeting Windows systems through trojanized Electron applications disguised as legitimate software, particularly a fake Claude Opus 5 Free Desktop lure. Distributed via GitHub repositories and game-cheat sites, the malware employs sophisticated evasion techniques including anti-debugging, anti-sandbox, anti-VM capabilities, and... This pulse includes 66 indicators of compromise (IOCs). Associated malware: RevStealer.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ada6051fb91aa7551af4ba6",
+    "url": "https://otx.alienvault.com/pulse/6b0470a2fa16d437c0e84abf",
     "verification": "verified"
   }
 ]
