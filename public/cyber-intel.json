@@ -1,30 +1,30 @@
 [
   {
+    "title": "An Active Intrusion Campaign Against Check Point Security Management Servers",
+    "content": "An active intrusion campaign targeting Check Point Security Management Servers has been identified, impacting at least 22 organizations globally between October 17th and November 2nd, 2026. Tracked as GreyNoise Threat 13 (GT13), the campaign exploited multiple vulnerabilities including Check Point SmartConsole authentication bypass and Rejetto HFS server flaws. The adversary utilized 99 IP... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance, Energy, Government. Associated malware: ZULT.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6b0570fe5ce90c0db1b3cf42",
+    "verification": "verified"
+  },
+  {
+    "title": "Python, Re-Skinned, Keeping the Steal: Braodo's Latest Python Loader and Obfuscation",
+    "content": "Attackers have evolved the Braodo Stealer campaign to use sophisticated obfuscation techniques and GitHub-hosted payloads. The malware employs varied social-engineering lures themed around travel, medical records, weddings, and automotive topics. The loader uses batch scripts with large junk-code blocks and modified ABOBUS obfuscation to evade detection. Braodo delivers self-contained Python... This pulse includes 25 indicators of compromise (IOCs). Associated malware: Braodo Stealer.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6b05322836d8c5aba9340d1d",
+    "verification": "verified"
+  },
+  {
+    "title": "Agentic Attacks in the Wild: ARTEX & Offensive AI Frameworks",
+    "content": "Between late September and November 2026, cloud environments experienced a surge in automated intrusions driven by agentic offensive frameworks, particularly ARTEX and its variants including Cairn, CyberStrikeAI, and HexStrike. These attacks leverage AI-driven automation to conduct noisy, vector-agnostic campaigns that spray credentials, probe endpoints, and abuse multiple access methods... This pulse includes 42 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ARTEX, Cairn, CyberStrikeAI.",
+    "linkText": "View on AlienVault OTX →",
+    "url": "https://otx.alienvault.com/pulse/6b047274d961f9811fa48f1c",
+    "verification": "verified"
+  },
+  {
     "title": "Vmcloudoor: a stealthy backdoor targeting the Chinese cloud",
     "content": "A sophisticated Linux implant called Vmcloudoor has been discovered targeting virtual machines hosted on Chinese cloud platforms, specifically Alibaba, Tencent, and Huawei. The backdoor disguises itself by mimicking legitimate cloud service processes and adapts its concealment profile based on the detected environment. It establishes command-and-control communications through Alibaba Cloud... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Vmcloudoor.",
     "linkText": "View on AlienVault OTX →",
     "url": "https://otx.alienvault.com/pulse/6b046fe32e04752522fe3aed",
-    "verification": "verified"
-  },
-  {
-    "title": "MoldyRoost: A Malvertising Machine Built to Deliver iOS Exploits",
-    "content": "MoldyRoost represents a large-scale malvertising operation delivering nation-state-grade iPhone exploit chains through programmatic advertising. Between May and November 2026, over 480 ad domains across six sub-clusters targeted 47 countries, with particular focus on Hong Kong, Japan, Singapore, the UK, and Turkey. The operation deploys four exploit kits (Coruna, DarkSword, SilkPath, and... This pulse includes 505 indicators of compromise (IOCs). Associated malware: Coruna, DarkSword, SilkPath.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b0470884a0f9cab17aa31ff",
-    "verification": "verified"
-  },
-  {
-    "title": "The extension you never installed: KREMLIN forges Chrome's own integrity checks to steal banking sessions",
-    "content": "Brazilian banking malware operation REF9334 has been deploying KREMLIN toolkit since May 2025, targeting Brazilian financial institutions through malicious browser extensions. The operation uses multi-stage JavaScript loaders, custom C++ installers, and exploits Chromium integrity mechanisms by manipulating Secure Preferences and regenerating required HMACs. Infrastructure leverages Ethereum... This pulse includes 357 indicators of compromise (IOCs). Targeted industries: Finance. Associated malware: Virus:DOS/Kremlin, Trojan:Win32/DoublePulsar, Remcos - S0332.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6aaa6f52c8d835e24adb63f7",
-    "verification": "verified"
-  },
-  {
-    "title": "RevStealer Malware: A Hidden Data Heist Behind the Promise of Free AI",
-    "content": "RevStealer is an infostealer first identified in September 2026 targeting Windows systems through trojanized Electron applications disguised as legitimate software, particularly a fake Claude Opus 5 Free Desktop lure. Distributed via GitHub repositories and game-cheat sites, the malware employs sophisticated evasion techniques including anti-debugging, anti-sandbox, anti-VM capabilities, and... This pulse includes 66 indicators of compromise (IOCs). Associated malware: RevStealer.",
-    "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b0470a2fa16d437c0e84abf",
     "verification": "verified"
   }
 ]
