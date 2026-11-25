@@ -1,30 +1,30 @@
 [
   {
-    "title": "An Active Intrusion Campaign Against Check Point Security Management Servers",
-    "content": "An active intrusion campaign targeting Check Point Security Management Servers has been identified, impacting at least 22 organizations globally between October 17th and November 2nd, 2026. Tracked as GreyNoise Threat 13 (GT13), the campaign exploited multiple vulnerabilities including Check Point SmartConsole authentication bypass and Rejetto HFS server flaws. The adversary utilized 99 IP... This pulse includes 17 indicators of compromise (IOCs). Targeted industries: Finance, Energy, Government. Associated malware: ZULT.",
+    "title": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
+    "content": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to use compiled native addons that decrypt hidden payloads at runtime, evading detection in CI environments through extensive anti-analysis checks. Attackers deployed polymorphic... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Shai-Hulud, Miasma.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b0570fe5ce90c0db1b3cf42",
+    "url": "https://otx.alienvault.com/pulse/6adf5e8931168a2a5042c62f",
     "verification": "verified"
   },
   {
-    "title": "Python, Re-Skinned, Keeping the Steal: Braodo's Latest Python Loader and Obfuscation",
-    "content": "Attackers have evolved the Braodo Stealer campaign to use sophisticated obfuscation techniques and GitHub-hosted payloads. The malware employs varied social-engineering lures themed around travel, medical records, weddings, and automotive topics. The loader uses batch scripts with large junk-code blocks and modified ABOBUS obfuscation to evade detection. Braodo delivers self-contained Python... This pulse includes 25 indicators of compromise (IOCs). Associated malware: Braodo Stealer.",
+    "title": "ShinyHunters-Associated Vishing Group Linked to New INCEPTION Data Leak Site",
+    "content": "A threat cluster designated O-UNC-053, previously linked to the ShinyHunters extortion crew, appears to have rebranded under the name INCEPTION. The group conducts voice phishing attacks to harvest credentials and bypass multi-factor authentication through social engineering tactics. Active since March 2026, the cluster targets multiple sectors including technology, healthcare, finance, and... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Healthcare, Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b05322836d8c5aba9340d1d",
+    "url": "https://otx.alienvault.com/pulse/6b06d19082ce9f6140be59eb",
     "verification": "verified"
   },
   {
-    "title": "Agentic Attacks in the Wild: ARTEX & Offensive AI Frameworks",
-    "content": "Between late September and November 2026, cloud environments experienced a surge in automated intrusions driven by agentic offensive frameworks, particularly ARTEX and its variants including Cairn, CyberStrikeAI, and HexStrike. These attacks leverage AI-driven automation to conduct noisy, vector-agnostic campaigns that spray credentials, probe endpoints, and abuse multiple access methods... This pulse includes 42 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: ARTEX, Cairn, CyberStrikeAI.",
+    "title": "Volant Manticore: Flying Under the Radar",
+    "content": "An Iran-nexus threat group named Volant Manticore has been conducting espionage operations since at least September 2025, with links to the Ministry of Intelligence and Security (MOIS). The group shares tooling and tradecraft with MuddyWater but operates independently with custom implants including KuboShell backdoor and the Homa Framework. Cyprus represents the primary target focus, with... This pulse includes 106 indicators of compromise (IOCs). Targeted industries: Telecommunications, Transportation, Healthcare. Associated malware: KuboShell, Homa Framework, MuddyC2Go.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b047274d961f9811fa48f1c",
+    "url": "https://otx.alienvault.com/pulse/6b05b53f25f012a58e23b63c",
     "verification": "verified"
   },
   {
-    "title": "Vmcloudoor: a stealthy backdoor targeting the Chinese cloud",
-    "content": "A sophisticated Linux implant called Vmcloudoor has been discovered targeting virtual machines hosted on Chinese cloud platforms, specifically Alibaba, Tencent, and Huawei. The backdoor disguises itself by mimicking legitimate cloud service processes and adapts its concealment profile based on the detected environment. It establishes command-and-control communications through Alibaba Cloud... This pulse includes 5 indicators of compromise (IOCs). Targeted industries: Technology. Associated malware: Vmcloudoor.",
+    "title": "Vinci RAT Delivered Through a Malicious Microsoft Store App",
+    "content": "In early November 2026, investigators discovered an intrusion initiated through redirection to a fake snipping tool website, leading to installation of a malicious application called Setup Assistant from the Microsoft Store. This Electron-based application, published by ETPS Ltd and Microsoft-signed, functioned as a heavily obfuscated backdoor maintaining C2 communication and monitoring the... This pulse includes 28 indicators of compromise (IOCs). Associated malware: Vinci RAT, Setup Assistant.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b046fe32e04752522fe3aed",
+    "url": "https://otx.alienvault.com/pulse/6b06b3aba5af3b81ce75b529",
     "verification": "verified"
   }
 ]
