@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-26",
+  "timestamp": "2026-11-26T16:21:12.776263",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "Automated Subversion and Attempted Takeover of AI Pentesting Harnesses",
+      "content": "Unprotected Cairn AI intrusion harnesses are being systematically compromised by unknown actors through automated campaigns that began around October 20, 2026. Attackers insert malicious tasks that manipulate agents to compromise the host systems, involving profiling installations, stealing secrets including AI model API keys, downloading Poseidon malware, and installing unauthorized SSH keys.... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Poseidon.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae0cd70485894a6eeb2bad8",
+      "verification": "verified"
+    },
+    {
+      "title": "Camera Management Software Compromise Leads to Malware Deployment",
+      "content": "Attackers compromised camera management software (CMS.exe) to gain initial access to multiple organizational environments. Following compromise, adversaries deployed rs.win32.exe into user AppData directories and leveraged DLL sideloading by placing the legitimate Windows binary WpcMon.exe alongside malicious DLLs (IPHLPAPI.DLL and samcli.dll) in non-standard locations. These modified DLLs, based... This pulse includes 3 indicators of compromise (IOCs). Associated malware: rs.win32.exe.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae0cc28c4875a80ccd6b804",
+      "verification": "verified"
+    },
+    {
+      "title": "Signed by Microsoft and Mozilla: a Brazilian kit that hands your logged-in browser to an operator",
+      "content": "HardwareInfo.msi is a Windows installer that quietly sets up a browser-hijacking kit aimed at Brazilian users. It does not install a program you would recognise. Instead, it drops a private copy of Python plus a renamed genuine Windows program, which is used to load a fake system DLL signed by a Dutch company. The real logic lives in a compiled Python module, also signed. That module closes your... This pulse includes 18 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6b083c2336ec691637c68ca0",
+      "verification": "verified"
+    },
+    {
+      "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+      "content": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry, some private exploits have been shared that work against various targets. Telemetry shows a 67% decrease in exposed vulnerable machines and a 47.9% reduction in significantly affected... This pulse includes 6 indicators of compromise (IOCs).",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e",
+      "verification": "verified"
+    }
+  ]
+}

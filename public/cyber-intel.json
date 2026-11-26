@@ -1,30 +1,30 @@
 [
   {
-    "title": "Beyond testmetest: Native Addon Camouflage and 42 Armed GitHub Repositories Reveal a Hidden npm Publisher",
-    "content": "Security researchers identified a sophisticated supply chain attack campaign involving 42 compromised GitHub repositories across 11 legitimate owners connected to the testmetest npm operation. The campaign evolved to use compiled native addons that decrypt hidden payloads at runtime, evading detection in CI environments through extensive anti-analysis checks. Attackers deployed polymorphic... This pulse includes 11 indicators of compromise (IOCs). Associated malware: Shai-Hulud, Miasma.",
+    "title": "Automated Subversion and Attempted Takeover of AI Pentesting Harnesses",
+    "content": "Unprotected Cairn AI intrusion harnesses are being systematically compromised by unknown actors through automated campaigns that began around October 20, 2026. Attackers insert malicious tasks that manipulate agents to compromise the host systems, involving profiling installations, stealing secrets including AI model API keys, downloading Poseidon malware, and installing unauthorized SSH keys.... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Poseidon.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6adf5e8931168a2a5042c62f",
+    "url": "https://otx.alienvault.com/pulse/6ae0cd70485894a6eeb2bad8",
     "verification": "verified"
   },
   {
-    "title": "ShinyHunters-Associated Vishing Group Linked to New INCEPTION Data Leak Site",
-    "content": "A threat cluster designated O-UNC-053, previously linked to the ShinyHunters extortion crew, appears to have rebranded under the name INCEPTION. The group conducts voice phishing attacks to harvest credentials and bypass multi-factor authentication through social engineering tactics. Active since March 2026, the cluster targets multiple sectors including technology, healthcare, finance, and... This pulse includes 11 indicators of compromise (IOCs). Targeted industries: Technology, Healthcare, Finance.",
+    "title": "Camera Management Software Compromise Leads to Malware Deployment",
+    "content": "Attackers compromised camera management software (CMS.exe) to gain initial access to multiple organizational environments. Following compromise, adversaries deployed rs.win32.exe into user AppData directories and leveraged DLL sideloading by placing the legitimate Windows binary WpcMon.exe alongside malicious DLLs (IPHLPAPI.DLL and samcli.dll) in non-standard locations. These modified DLLs, based... This pulse includes 3 indicators of compromise (IOCs). Associated malware: rs.win32.exe.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b06d19082ce9f6140be59eb",
+    "url": "https://otx.alienvault.com/pulse/6ae0cc28c4875a80ccd6b804",
     "verification": "verified"
   },
   {
-    "title": "Volant Manticore: Flying Under the Radar",
-    "content": "An Iran-nexus threat group named Volant Manticore has been conducting espionage operations since at least September 2025, with links to the Ministry of Intelligence and Security (MOIS). The group shares tooling and tradecraft with MuddyWater but operates independently with custom implants including KuboShell backdoor and the Homa Framework. Cyprus represents the primary target focus, with... This pulse includes 106 indicators of compromise (IOCs). Targeted industries: Telecommunications, Transportation, Healthcare. Associated malware: KuboShell, Homa Framework, MuddyC2Go.",
+    "title": "Signed by Microsoft and Mozilla: a Brazilian kit that hands your logged-in browser to an operator",
+    "content": "HardwareInfo.msi is a Windows installer that quietly sets up a browser-hijacking kit aimed at Brazilian users. It does not install a program you would recognise. Instead, it drops a private copy of Python plus a renamed genuine Windows program, which is used to load a fake system DLL signed by a Dutch company. The real logic lives in a compiled Python module, also signed. That module closes your... This pulse includes 18 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b05b53f25f012a58e23b63c",
+    "url": "https://otx.alienvault.com/pulse/6b083c2336ec691637c68ca0",
     "verification": "verified"
   },
   {
-    "title": "Vinci RAT Delivered Through a Malicious Microsoft Store App",
-    "content": "In early November 2026, investigators discovered an intrusion initiated through redirection to a fake snipping tool website, leading to installation of a malicious application called Setup Assistant from the Microsoft Store. This Electron-based application, published by ETPS Ltd and Microsoft-signed, functioned as a heavily obfuscated backdoor maintaining C2 communication and monitoring the... This pulse includes 28 indicators of compromise (IOCs). Associated malware: Vinci RAT, Setup Assistant.",
+    "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
+    "content": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry, some private exploits have been shared that work against various targets. Telemetry shows a 67% decrease in exposed vulnerable machines and a 47.9% reduction in significantly affected... This pulse includes 6 indicators of compromise (IOCs).",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b06b3aba5af3b81ce75b529",
+    "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e",
     "verification": "verified"
   }
 ]
