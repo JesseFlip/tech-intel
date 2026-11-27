@@ -1,30 +1,30 @@
 [
   {
-    "title": "Automated Subversion and Attempted Takeover of AI Pentesting Harnesses",
-    "content": "Unprotected Cairn AI intrusion harnesses are being systematically compromised by unknown actors through automated campaigns that began around October 20, 2026. Attackers insert malicious tasks that manipulate agents to compromise the host systems, involving profiling installations, stealing secrets including AI model API keys, downloading Poseidon malware, and installing unauthorized SSH keys.... This pulse includes 4 indicators of compromise (IOCs). Associated malware: Poseidon.",
+    "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+    "content": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent environment with over $7,000 in paid LLM API usage. The investigation identified at least 23 victim organizations across 14 countries spanning multiple sectors. Every documented... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Retail, Technology, Education. Associated malware: n0n.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae0cd70485894a6eeb2bad8",
+    "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0",
     "verification": "verified"
   },
   {
-    "title": "Camera Management Software Compromise Leads to Malware Deployment",
-    "content": "Attackers compromised camera management software (CMS.exe) to gain initial access to multiple organizational environments. Following compromise, adversaries deployed rs.win32.exe into user AppData directories and leveraged DLL sideloading by placing the legitimate Windows binary WpcMon.exe alongside malicious DLLs (IPHLPAPI.DLL and samcli.dll) in non-standard locations. These modified DLLs, based... This pulse includes 3 indicators of compromise (IOCs). Associated malware: rs.win32.exe.",
+    "title": "PHP2Shell Weaponized After Japanese Real Estate Extortion",
+    "content": "An exposed staging server at 96.126.130.81 revealed an operator's extortion campaign targeting Japanese real estate websites between October 9-11, 2026, followed by PHP2Shell exploitation tooling. The operator, using the handle kkkkevin777, compromised one Japanese real estate services company and pivoted to nearly 20 related sites through shared hosting credentials. Stolen data included 16,061... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Real Estate, Finance.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae0cc28c4875a80ccd6b804",
+    "url": "https://otx.alienvault.com/pulse/6ae20c8b7eea709e876863db",
     "verification": "verified"
   },
   {
-    "title": "Signed by Microsoft and Mozilla: a Brazilian kit that hands your logged-in browser to an operator",
-    "content": "HardwareInfo.msi is a Windows installer that quietly sets up a browser-hijacking kit aimed at Brazilian users. It does not install a program you would recognise. Instead, it drops a private copy of Python plus a renamed genuine Windows program, which is used to load a fake system DLL signed by a Dutch company. The real logic lives in a compiled Python module, also signed. That module closes your... This pulse includes 18 indicators of compromise (IOCs).",
+    "title": "68 GB Stolen From a Philippine Government Agency's Overseas-Employment Databases, Exposed by the Operator's Own Open Directory",
+    "content": "An unidentified operator exfiltrated 68.837 GiB of database backups from a Philippine government agency managing overseas employment and migrant workers on 6 September 2026. The theft involved 27 SQL Server backups containing case-management systems including POEA and OFW variants. The operator inadvertently exposed their staging infrastructure via an open HTTP directory on a UpCloud VPS in... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Wrqsnx, GodPotato.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6b083c2336ec691637c68ca0",
+    "url": "https://otx.alienvault.com/pulse/6ae205cefd1c69f6a9b3116d",
     "verification": "verified"
   },
   {
-    "title": "PHP2Shell: Exploitation Attempts and Remediation Trends",
-    "content": "Wiz Research has been monitoring exploitation attempts targeting two critical PHP vulnerabilities since their public disclosure on October 21, 2026. While no successful attacks have been observed in their telemetry, some private exploits have been shared that work against various targets. Telemetry shows a 67% decrease in exposed vulnerable machines and a 47.9% reduction in significantly affected... This pulse includes 6 indicators of compromise (IOCs).",
+    "title": "PolinRider Malware Force-Pushed Into AsyncAPI, CircuitVerse and Open Food Facts Pull Requests",
+    "content": "On October 19, 2026, the GitHub account Eternity0207 force-pushed malicious commits containing obfuscated PolinRider malware loaders into open pull requests across AsyncAPI Generator, CircuitVerse, and Open Food Facts. The loader was hidden in configuration files and fake font files, designed to steal credentials from developer machines and propagate itself. CircuitVerse's CI executed the... This pulse includes 16 indicators of compromise (IOCs). Associated malware: PolinRider.",
     "linkText": "View on AlienVault OTX →",
-    "url": "https://otx.alienvault.com/pulse/6ae0b1549b888d367073448e",
+    "url": "https://otx.alienvault.com/pulse/6b087f709c81241d08ab4b97",
     "verification": "verified"
   }
 ]

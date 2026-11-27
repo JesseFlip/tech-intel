@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-27",
+  "timestamp": "2026-11-27T16:05:54.390407",
+  "category": "cyber",
+  "items": [
+    {
+      "title": "n0n Ransomware: Inside an AI-Assisted Extortion Operation",
+      "content": "In September 2026, an exposed staging server revealed the complete operational workspace of a n0n ransomware operator, including breach tools, encryptor source code, extortion infrastructure, and an AI coding agent environment with over $7,000 in paid LLM API usage. The investigation identified at least 23 victim organizations across 14 countries spanning multiple sectors. Every documented... This pulse includes 1 indicators of compromise (IOCs). Targeted industries: Retail, Technology, Education. Associated malware: n0n.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae20c8c345d85127b06d6d0",
+      "verification": "verified"
+    },
+    {
+      "title": "PHP2Shell Weaponized After Japanese Real Estate Extortion",
+      "content": "An exposed staging server at 96.126.130.81 revealed an operator's extortion campaign targeting Japanese real estate websites between October 9-11, 2026, followed by PHP2Shell exploitation tooling. The operator, using the handle kkkkevin777, compromised one Japanese real estate services company and pivoted to nearly 20 related sites through shared hosting credentials. Stolen data included 16,061... This pulse includes 2 indicators of compromise (IOCs). Targeted industries: Real Estate, Finance.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae20c8b7eea709e876863db",
+      "verification": "verified"
+    },
+    {
+      "title": "68 GB Stolen From a Philippine Government Agency's Overseas-Employment Databases, Exposed by the Operator's Own Open Directory",
+      "content": "An unidentified operator exfiltrated 68.837 GiB of database backups from a Philippine government agency managing overseas employment and migrant workers on 6 September 2026. The theft involved 27 SQL Server backups containing case-management systems including POEA and OFW variants. The operator inadvertently exposed their staging infrastructure via an open HTTP directory on a UpCloud VPS in... This pulse includes 13 indicators of compromise (IOCs). Targeted industries: Government. Associated malware: Wrqsnx, GodPotato.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6ae205cefd1c69f6a9b3116d",
+      "verification": "verified"
+    },
+    {
+      "title": "PolinRider Malware Force-Pushed Into AsyncAPI, CircuitVerse and Open Food Facts Pull Requests",
+      "content": "On October 19, 2026, the GitHub account Eternity0207 force-pushed malicious commits containing obfuscated PolinRider malware loaders into open pull requests across AsyncAPI Generator, CircuitVerse, and Open Food Facts. The loader was hidden in configuration files and fake font files, designed to steal credentials from developer machines and propagate itself. CircuitVerse's CI executed the... This pulse includes 16 indicators of compromise (IOCs). Associated malware: PolinRider.",
+      "linkText": "View on AlienVault OTX →",
+      "url": "https://otx.alienvault.com/pulse/6b087f709c81241d08ab4b97",
+      "verification": "verified"
+    }
+  ]
+}
